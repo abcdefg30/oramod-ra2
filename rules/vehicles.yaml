@@ -1,0 +1,78 @@
+AMCV:
+	Inherits: ^Vehicle
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 110
+		Prerequisites: ~vehicles.allies
+		Hotkey: b
+	Valued:
+		Cost: 3000
+	Tooltip:
+		Name: Allied Mobile Construction Vehicle
+		Description: Deploys into an Allied Construction Yard.
+	Selectable:
+		Priority: 3
+	Health:
+		HP: 1000
+	Armor:
+		Type: Heavy
+	SelfHealing:
+		Step: 5
+		Ticks: 10
+		HealIfBelow: 100%
+	Mobile:
+		Speed: 80
+		ROT: 5
+		Crushes: wall, crate, infantry
+	RevealsShroud:
+		Range: 4c0
+	MustBeDestroyed:
+	BaseBuilding:
+	Transforms:
+		IntoActor: gacnst
+		Offset: -1,-1
+		Facing: 96
+		TransformSounds: facbld1.aud
+		NoTransformSounds:
+	RenderSprites:
+	RenderVoxels:
+	WithVoxelBody:
+
+SMCV:
+	Inherits: ^Vehicle
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 110
+		Owner: soviets
+		Prerequisites: ~vehicles.soviets
+		Hotkey: b
+	Valued:
+		Cost: 3000
+	Tooltip:
+		Name: Soviet Mobile Construction Vehicle
+		Description: Deploys into a Soviet Construction Yard.
+	Selectable:
+		Priority: 3
+		Bounds: 64,58
+	Health:
+		HP: 1000
+	Armor:
+		Type: Heavy
+	Mobile:
+		Speed: 85
+		ROT: 8
+		WaitAverage: 0
+		Crushes: wall, crate, infantry
+	RevealsShroud:
+		Range: 4c0
+	MustBeDestroyed:
+	BaseBuilding:
+	Transforms:
+		IntoActor: nacnst
+		Offset: -1,-1
+		Facing: 96
+		TransformSounds: facbld1.aud
+		NoTransformSounds:
+	RenderSprites:
+	RenderVoxels:
+	WithVoxelBody:
