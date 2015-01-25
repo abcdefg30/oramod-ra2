@@ -47,7 +47,6 @@ GAPOWR:
 		Queue: Building
 		BuildPaletteOrder: 10
 		Prerequisites: ~structures.allies
-		Hotkey: p
 	Selectable:
 		Bounds: 64,64
 	Valued:
@@ -78,7 +77,6 @@ GAPILE:
 		Queue: Building
 		BuildPaletteOrder: 20
 		Prerequisites: anypower, ~structures.allies
-		Hotkey: b
 	Selectable:
 		Bounds: 96,64
 	Valued:
@@ -119,7 +117,6 @@ GAREFN:
 		Queue: Building
 		BuildPaletteOrder: 30
 		Prerequisites: anypower, ~structures.allies
-		Hotkey: r
 	Selectable:
 		Bounds: 164,100
 	Valued:
@@ -209,7 +206,6 @@ NAPOWR:
 		Queue: Building
 		BuildPaletteOrder: 10
 		Prerequisites: ~structures.soviets
-		Hotkey: q
 	Valued:
 		Cost: 800
 	Tooltip:
@@ -238,7 +234,6 @@ NAHAND:
 		Queue: Building
 		BuildPaletteOrder: 20
 		Prerequisites: anypower, ~structures.soviets
-		Hotkey: h
 	Valued:
 		Cost: 300
 	Tooltip:
@@ -276,7 +271,6 @@ NAREFN:
 		Queue: Building
 		BuildPaletteOrder: 30
 		Prerequisites: anypower, ~structures.soviets
-		Hotkey: r
 	Selectable:
 		Bounds: 164,100
 	Valued:
