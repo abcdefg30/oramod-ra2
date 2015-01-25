@@ -15,10 +15,6 @@ AMCV:
 		HP: 1000
 	Armor:
 		Type: Heavy
-	SelfHealing:
-		Step: 5
-		Ticks: 10
-		HealIfBelow: 100%
 	Mobile:
 		Speed: 80
 		ROT: 5
