@@ -8,8 +8,8 @@ AMCV:
 	Valued:
 		Cost: 3000
 	Tooltip:
-		Name: Allied Mobile Construction Vehicle
-		Description: Deploys into an Allied Construction Yard.
+		Name: Mobile Construction Vehicle
+		Description: Deploys into a Construction Yard.
 	Selectable:
 		Priority: 3
 	Health:
@@ -49,8 +49,8 @@ SMCV:
 	Valued:
 		Cost: 3000
 	Tooltip:
-		Name: Soviet Mobile Construction Vehicle
-		Description: Deploys into a Soviet Construction Yard.
+		Name: Mobile Construction Vehicle
+		Description: Deploys into a Construction Yard.
 	Selectable:
 		Priority: 3
 		Bounds: 64,58
