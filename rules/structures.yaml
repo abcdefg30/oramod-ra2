@@ -37,7 +37,6 @@ GACNST:
 		PauseOnLowPower: true
 	WithBuildingPlacedOverlay:
 	ProvidesCustomPrerequisite:
-		Race: allies
 		Prerequisite: structures.allies
 	Power:
 		Amount: 0
@@ -48,7 +47,6 @@ GAPOWR:
 		Queue: Building
 		BuildPaletteOrder: 10
 		Prerequisites: ~structures.allies
-		Owner: allies
 		Hotkey: p
 	Selectable:
 		Bounds: 64,64
@@ -80,7 +78,6 @@ GAPILE:
 		Queue: Building
 		BuildPaletteOrder: 20
 		Prerequisites: anypower, ~structures.allies
-		Owner: allies
 		Hotkey: b
 	Selectable:
 		Bounds: 96,64
@@ -122,7 +119,6 @@ GAREFN:
 		Queue: Building
 		BuildPaletteOrder: 30
 		Prerequisites: anypower, ~structures.allies
-		Owner: allies
 		Hotkey: r
 	Selectable:
 		Bounds: 164,100
@@ -176,7 +172,6 @@ NACNST:
 	Selectable:
 		Bounds: 164,128
 	ProvidesCustomPrerequisite:
-		Race: soviets
 		Prerequisite: structures.soviets
 	Health:
 		HP: 1000
@@ -214,7 +209,6 @@ NAPOWR:
 		Queue: Building
 		BuildPaletteOrder: 10
 		Prerequisites: ~structures.soviets
-		Owner: soviets
 		Hotkey: q
 	Valued:
 		Cost: 800
@@ -244,7 +238,6 @@ NAHAND:
 		Queue: Building
 		BuildPaletteOrder: 20
 		Prerequisites: anypower, ~structures.soviets
-		Owner: soviets
 		Hotkey: h
 	Valued:
 		Cost: 300
@@ -283,7 +276,6 @@ NAREFN:
 		Queue: Building
 		BuildPaletteOrder: 30
 		Prerequisites: anypower, ~structures.soviets
-		Owner: soviets
 		Hotkey: r
 	Selectable:
 		Bounds: 164,100
