@@ -26,7 +26,7 @@
 	GivesExperience:
 	CaptureNotification:
 	EditorAppearance:
-		RelativeToTopLeft: yes
+		RelativeToTopLeft: true
 	ShakeOnDeath:
 	ProximityCaptor:
 		Types: Building
@@ -73,8 +73,8 @@
 		TargetTypes: Ground
 	RenderBuildingWall:
 	EditorAppearance:
-		RelativeToTopLeft: yes
-		UseTerrainPalette: yes
+		RelativeToTopLeft: true
+		UseTerrainPalette: true
 	AutoTargetIgnore:
 	ProximityCaptor:
 		Types: Wall
@@ -95,7 +95,7 @@
 		Range: 4c0
 	Mobile:
 		Crushes: crate
-		SharesCell: yes
+		SharesCell: true
 		TerrainSpeeds:
 			Clear: 100
 			Rough: 100
@@ -238,7 +238,7 @@
 
 ^Aircraft:
 	AppearsOnRadar:
-		UseLocation: yes
+		UseLocation: true
 	TargetableAircraft:
 		TargetTypes: Air
 		GroundedTargetTypes: Ground
@@ -249,7 +249,7 @@
 	Helicopter:
 		RepairBuildings:
 		RearmBuildings:
-		LandWhenIdle: no
+		LandWhenIdle: false
 	Buildable:
 		Queue: Aircraft
 	HiddenUnderFog:
