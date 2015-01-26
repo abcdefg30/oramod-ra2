@@ -1,7 +1,3 @@
-#
-#	ALLIED STRUCTURES
-#
-
 GACNST:
 	Inherits: ^Building
 	Buildable:
@@ -25,7 +21,7 @@ GACNST:
 	Production:
 		Produces: Building,Defense
 	Tooltip:
-		Name: Allied Construction Yard
+		Name: Construction Yard
 		Description: Builds base structures.
 	BaseBuilding:
 	Transforms:
@@ -41,7 +37,6 @@ GACNST:
 		PauseOnLowPower: true
 	WithBuildingPlacedOverlay:
 	ProvidesCustomPrerequisite:
-		Race: allies
 		Prerequisite: structures.allies
 	Power:
 		Amount: 0
@@ -52,15 +47,13 @@ GAPOWR:
 		Queue: Building
 		BuildPaletteOrder: 10
 		Prerequisites: ~structures.allies
-		Owner: allies
-		Hotkey: p
 	Selectable:
 		Bounds: 64,64
 	Valued:
 		Cost: 800
 	Tooltip:
 		Name: Power Plant
-		Description: Provides 200+ base power.
+		Description: Provides power for other structures.
 	ProvidesCustomPrerequisite:
 		Prerequisite: anypower
 	Building:
@@ -84,14 +77,12 @@ GAPILE:
 		Queue: Building
 		BuildPaletteOrder: 20
 		Prerequisites: anypower, ~structures.allies
-		Owner: allies
-		Hotkey: b
 	Selectable:
 		Bounds: 96,64
 	Valued:
 		Cost: 500
 	Tooltip:
-		Name: Allied Barracks
+		Name: Barracks
 		Description: Trains infantry.
 	ProvidesCustomPrerequisite:
 		Prerequisite: barracks
@@ -126,14 +117,12 @@ GAREFN:
 		Queue: Building
 		BuildPaletteOrder: 30
 		Prerequisites: anypower, ~structures.allies
-		Owner: allies
-		Hotkey: r
 	Selectable:
 		Bounds: 164,100
 	Valued:
 		Cost: 2000
 	Tooltip:
-		Name: Allied Ore Refinery
+		Name: Ore Refinery
 		Description: Processes ore into credits.
 	ProvidesCustomPrerequisite:
 		Prerequisite: proc
@@ -167,10 +156,6 @@ GAREFN:
 	Power:
 		Amount: -50
 
-#
-#	SOVIET STRUCTURES
-#
-
 NACNST:
 	Inherits: ^Building
 	Buildable:
@@ -184,7 +169,6 @@ NACNST:
 	Selectable:
 		Bounds: 164,128
 	ProvidesCustomPrerequisite:
-		Race: soviets
 		Prerequisite: structures.soviets
 	Health:
 		HP: 1000
@@ -197,7 +181,7 @@ NACNST:
 	Production:
 		Produces: Building,Defense
 	Tooltip:
-		Name: Soviet Construction Yard
+		Name: Construction Yard
 		Description: Builds base structures.
 	BaseBuilding:
 	Transforms:
@@ -222,12 +206,10 @@ NAPOWR:
 		Queue: Building
 		BuildPaletteOrder: 10
 		Prerequisites: ~structures.soviets
-		Owner: soviets
-		Hotkey: q
 	Valued:
 		Cost: 800
 	Tooltip:
-		Name: Soviet Power Plant
+		Name: Tesla Reactor
 		Description: Provides power for other structures
 	ProvidesCustomPrerequisite:
 		Prerequisite: anypower
@@ -252,12 +234,10 @@ NAHAND:
 		Queue: Building
 		BuildPaletteOrder: 20
 		Prerequisites: anypower, ~structures.soviets
-		Owner: soviets
-		Hotkey: h
 	Valued:
 		Cost: 300
 	Tooltip:
-		Name: Soviet Barracks
+		Name: Barracks
 		Description: Produces infantry
 	ProvidesCustomPrerequisite:
 		Prerequisite: barracks
@@ -291,14 +271,12 @@ NAREFN:
 		Queue: Building
 		BuildPaletteOrder: 30
 		Prerequisites: anypower, ~structures.soviets
-		Owner: soviets
-		Hotkey: r
 	Selectable:
 		Bounds: 164,100
 	Valued:
 		Cost: 2000
 	Tooltip:
-		Name: Soviet Ore Refinery
+		Name: Ore Refinery
 		Description: Processes ore into credits.
 	ProvidesCustomPrerequisite:
 		Prerequisite: proc
@@ -331,10 +309,6 @@ NAREFN:
 		Sequence: idle-drill
 	Power:
 		Amount: -50
-
-#
-#	COMMON STUFF
-#
 
 ANYPOWER:
 	Tooltip:

@@ -4,22 +4,17 @@ AMCV:
 		Queue: Vehicle
 		BuildPaletteOrder: 110
 		Prerequisites: ~vehicles.allies
-		Hotkey: b
 	Valued:
 		Cost: 3000
 	Tooltip:
-		Name: Allied Mobile Construction Vehicle
-		Description: Deploys into an Allied Construction Yard.
+		Name: Mobile Construction Vehicle
+		Description: Deploys into a Construction Yard.
 	Selectable:
 		Priority: 3
 	Health:
 		HP: 1000
 	Armor:
 		Type: Heavy
-	SelfHealing:
-		Step: 5
-		Ticks: 10
-		HealIfBelow: 100%
 	Mobile:
 		Speed: 80
 		ROT: 5
@@ -27,6 +22,7 @@ AMCV:
 	RevealsShroud:
 		Range: 4c0
 	MustBeDestroyed:
+		RequiredForShortGame: true
 	BaseBuilding:
 	Transforms:
 		IntoActor: gacnst
@@ -43,14 +39,12 @@ SMCV:
 	Buildable:
 		Queue: Vehicle
 		BuildPaletteOrder: 110
-		Owner: soviets
 		Prerequisites: ~vehicles.soviets
-		Hotkey: b
 	Valued:
 		Cost: 3000
 	Tooltip:
-		Name: Soviet Mobile Construction Vehicle
-		Description: Deploys into a Soviet Construction Yard.
+		Name: Mobile Construction Vehicle
+		Description: Deploys into a Construction Yard.
 	Selectable:
 		Priority: 3
 		Bounds: 64,58
@@ -66,6 +60,7 @@ SMCV:
 	RevealsShroud:
 		Range: 4c0
 	MustBeDestroyed:
+		RequiredForShortGame: true
 	BaseBuilding:
 	Transforms:
 		IntoActor: nacnst
