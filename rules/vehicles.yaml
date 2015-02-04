@@ -11,6 +11,7 @@ AMCV:
 		Description: Deploys into a Construction Yard.
 	Selectable:
 		Priority: 3
+		Bounds: 68, 56, 0, -7
 	Health:
 		HP: 1000
 	Armor:
@@ -47,7 +48,7 @@ SMCV:
 		Description: Deploys into a Construction Yard.
 	Selectable:
 		Priority: 3
-		Bounds: 64,58
+		Bounds: 64, 52, 0, -6
 	Health:
 		HP: 1000
 	Armor:
