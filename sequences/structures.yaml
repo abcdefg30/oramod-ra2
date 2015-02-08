@@ -261,7 +261,7 @@ narefn:
 		Offset: -15,-50,0
 	idle-drill: ngrefnl1
 		Start: 0
-		Length: 6
+		Length: 3
 		Tick: 1500
 		Offset: -15,-50,0
 	idle-bib: ngrefnbb
