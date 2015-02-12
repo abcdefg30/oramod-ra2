@@ -28,8 +28,14 @@ Player:
 		LowPowerSlowdown: 3
 		SpeedUp: true
 		RequireOwner: false
-	ClassicProductionQueue@Air:
-		Type: Air
+	ClassicProductionQueue@Aircraft:
+		Type: Aircraft
+		BuildSpeed: .4
+		LowPowerSlowdown: 3
+		SpeedUp: true
+		RequireOwner: false
+	ClassicProductionQueue@Ship:
+		Type: Ship
 		BuildSpeed: .4
 		LowPowerSlowdown: 3
 		SpeedUp: true

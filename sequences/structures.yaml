@@ -173,32 +173,40 @@ nahand:
 	idle: nghand
 		Start: 0
 		ShadowStart: 3
+		Offset: 0, -25
 	damaged-idle: nghand
 		Start: 1
 		ShadowStart: 4
+		Offset: 0, -25
 	critical-idle: nghand
 		Start: 2
 		ShadowStart: 5
+		Offset: 0, -25
 	production-light: nghand_a
 		Start: 0
 		Length: 5
 		Tick: 150
+		Offset: 0, -25
 	damaged-production-light: nghand_a
 		Start: 5
 		Length: 5
 		Tick: 150
+		Offset: 0, -25
 	idle-lights: nghand_b
 		Start: 0
 		Length: 8
 		Tick: 200
+		Offset: 0, -25
 	damaged-idle-lights: nghand_b
 		Start: 8
 		Length: 8
 		Tick: 200
+		Offset: 0, -25
 	make: nthandmk
 		Start: 0
 		Length: 15
 		ShadowStart: 15
+		Offset: 0, -25
 	icon: handicon
 		Start: 0
 
@@ -253,7 +261,7 @@ narefn:
 		Offset: -15,-50,0
 	idle-drill: ngrefnl1
 		Start: 0
-		Length: 6
+		Length: 3
 		Tick: 1500
 		Offset: -15,-50,0
 	idle-bib: ngrefnbb
