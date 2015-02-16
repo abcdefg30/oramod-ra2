@@ -1,0 +1,142 @@
+engineer:
+	stand:
+		Start: 0
+		Facings: 8
+	run:
+		Start: 8
+		Length: 6
+		Facings: 8
+		Tick: 100
+	# stand -> prone transition
+	liedown: # does this work?
+		Start: 66
+		Length: 2
+		Facings: 8
+	# prone -> stand transition
+	standup: # does this work?
+		Start: 114
+		Length: 2
+		Facings: 8
+	prone-stand:
+		Start: 87
+		Length: 7
+		Facings: 8
+	prone-run:
+		Start: 87
+		Length: 7
+		Facings: 8
+		Tick: 100
+	idle1:
+		Start: 57
+		Length: 14
+		Tick: 120
+	idle2:
+		Start: 72
+		Length: 14
+		Tick: 120
+	cheer:
+		Start: 245
+		Length: 8
+		Tick: 120
+	die1:
+		Start: 135
+		Length: 8
+		Tick: 80
+	# Todo: add other die sequences
+	icon: engnicon
+		Start: 0
+
+dog:
+	stand:
+		Start: 0
+		Facings: 8
+	run:
+		Start: 8
+		Length: 6
+		Facings: 8
+		Tick: 80
+	idle1:
+		Start: 57
+		Length: 14
+		Tick: 120
+	idle2:
+		Start: 72
+		Length: 14
+		Tick: 120
+	die1:
+		Start: 87
+		Length: 14
+	die2:
+		Start: 102
+		Length: 14
+	die3:
+		Start: 117
+		Length: 14
+	die4: # todo
+		Start: 242
+		Length: 9
+	die5: # todo
+		Start: 251
+		Length: 14
+	die6: electdog # todo
+		Start: 0
+		Length: *
+	die-crushed: corpse1 # todo
+		Start: 0
+		Length: 6
+		Tick: 1600
+		ZOffset: -511
+	shoot: dogp
+		Start: 0
+		Length: 4
+		Facings: 8
+	icon: dogicon
+		Start: 0
+
+adog:
+	stand:
+		Start: 0
+		Facings: 8
+	run:
+		Start: 8
+		Length: 6
+		Facings: 8
+		Tick: 80
+	idle1:
+		Start: 57
+		Length: 14
+		Tick: 120
+	idle2:
+		Start: 72
+		Length: 14
+		Tick: 120
+	die1:
+		Start: 87
+		Length: 14
+	die2:
+		Start: 102
+		Length: 14
+	die3:
+		Start: 117
+		Length: 14
+	die4: # todo
+		Start: 242
+		Length: 9
+	die5: # todo
+		Start: 251
+		Length: 14
+	die6: electdog # todo
+		Start: 0
+		Length: *
+	die-crushed: corpse1 # todo
+		Start: 0
+		Length: 6
+		Tick: 1600
+		ZOffset: -511
+	shoot: adogp
+		Start: 0
+		Length: 4
+		Facings: 8
+	icon: adogicon
+		Start: 0
+

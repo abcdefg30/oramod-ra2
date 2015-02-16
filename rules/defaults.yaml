@@ -107,7 +107,7 @@
 	Selectable:
 		Voice: Infantry
 	TargetableUnit:
-		TargetTypes: Ground
+		TargetTypes: Ground, Infantry
 	RenderInfantry:
 	AutoTarget:
 	AttackMove:
@@ -128,8 +128,6 @@
 	GivesBounty:
 	Crushable:
 		CrushSound: squish6.aud
-	SpawnViceroid:
-		ViceroidActor: vissml
 	UpdatesPlayerStatistics:
 	CombatDebugOverlay:
 	Guard:
