@@ -9,7 +9,8 @@ World:
 		Widget: INGAME_ROOT
 	MenuPaletteEffect:
 	BuildingInfluence:
-	ChooseBuildTabOnSelect:
+	ProductionQueueFromSelection:
+		ProductionPaletteWidget: PRODUCTION_PALETTE
 	PaletteFromFile@player:
 		Name: player
 		Filename: unittem.pal
@@ -87,7 +88,7 @@ World:
 		Race: allies
 	Country@1:
 		Name: Soviets
-		Race: soviets
+		Race: soviet
 	DomainIndex:
 	ResourceLayer:
 	ResourceClaimLayer:
@@ -117,7 +118,7 @@ World:
 		Races: allies
 		BaseActor: amcv
 	MPStartUnits@SMCV:
-		Races: soviets
+		Races: soviet
 		BaseActor: smcv
 	MPStartLocations:
 	SpawnMPUnits:
