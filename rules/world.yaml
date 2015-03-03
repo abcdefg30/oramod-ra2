@@ -89,6 +89,9 @@ World:
 	Country@1:
 		Name: Soviets
 		Race: soviet
+	Country@2:
+		Name: America
+		Race: america
 	DomainIndex:
 	ResourceLayer:
 	ResourceClaimLayer:
@@ -115,7 +118,7 @@ World:
 	SpawnMapActors:
 	CreateMPPlayers:
 	MPStartUnits@AMCV:
-		Races: allies
+		Races: allies, america
 		BaseActor: amcv
 	MPStartUnits@SMCV:
 		Races: soviet

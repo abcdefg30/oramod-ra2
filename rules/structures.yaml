@@ -38,6 +38,9 @@ GACNST:
 	WithBuildingPlacedOverlay:
 	ProvidesCustomPrerequisite:
 		Prerequisite: structures.allies
+	ProvidesCustomPrerequisite@america:
+		Prerequisite: structures.america
+		Race: america
 	Power:
 		Amount: 0
 

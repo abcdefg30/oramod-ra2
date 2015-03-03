@@ -24,3 +24,6 @@ Metrics:
 	SpawnColor: 255,255,255
 	SpawnContrastColor: 0,0,0
 	SpawnLabelOffset: 0,1
+	RaceSuffix-allies: allies
+	RaceSuffix-america: allies
+	RaceSuffix-soviet: soviet
