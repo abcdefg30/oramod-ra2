@@ -9,7 +9,7 @@
 	Building:
 		Dimensions: 1,1
 		Footprint: x
-		BuildSounds: place2.aud
+		BuildSounds: uplace.wav
 		Adjacent: 2
 		TerrainTypes: Clear, Road
 	GivesBuildableArea:
@@ -56,7 +56,7 @@
 	Building:
 		Dimensions: 1,1
 		Footprint: x
-		BuildSounds: place2.aud
+		BuildSounds: uplace.wav
 		Adjacent: 8
 		TerrainTypes: Clear, Road
 	SoundOnDamageTransition:

@@ -157,10 +157,16 @@ Fiend:
 		Zapped: FIEND1
 
 Vehicle:
+	Prefixes: 
+		allies: vgra
+		soviet: vgrs
+	Variants: 
+		allies: .wav
+		soviet: .wav
 	Voices:
-		Select: 25-I000, 25-I002, 25-I004, 25-I006
-		Move: 25-I012, 25-I014, 25-I016, 25-I018, 25-I022
-		Attack: 25-I014, 25-I022, 25-I024, 25-I026
+		Select: sea, seb, sec, sed, see
+		Move: moa, mob, moc, mod, moe, mof
+		Attack: ata, atb, atc, atd, ate
 
 Mech:
 	Voices:
