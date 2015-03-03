@@ -44,7 +44,7 @@ Packages:
 	snow.mix:CRC32
 	tem.mix:CRC32
 	temperat.mix:CRC32
-#	theme.mix:CRC32
+	theme.mix:CRC32
 	urb.mix:CRC32
 	urban.mix:CRC32
 
