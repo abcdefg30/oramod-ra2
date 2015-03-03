@@ -91,6 +91,57 @@ gapile:
 	icon: brrkicon
 		Start: 0
 
+gaairc:
+	idle: ggairc
+		Start: 0
+		Length: 1
+		Offset: -19, -40
+	damaged-idle: ggairc
+		Start: 1
+		Length: 2
+		Offset: -19, -40
+	idle-top: gaairc_c
+		Start: 0
+		Length: 16
+		ShadowStart: 16
+		Offset: -19, -40
+		Tick: 320
+	idle-bottom: ggaircbb
+		Start: 0
+		Length: 1
+		Offset: -19, -40
+	damage-idle-bottom: ggaircbb
+		Start: 1
+		Length: 1
+		Offset: -19, -40
+	idle-dish: ggairc_a
+		Start: 0
+		Length: 4
+		Tick: 120
+		Offset: -19, -40
+	damaged-idle-dish: ggairc_a
+		Start: 5
+		Length: 4
+		Tick: 120
+		Offset: -19, -40
+	idle-mid: ggairc_b
+		Start: 0
+		Length: 6
+		Tick: 120
+		Offset: -19, -40
+	damage-idle-mid: ggairc_b
+		Start: 7
+		Length: 6
+		Tick: 120
+		Offset: -19, -40
+	make: gtaircmk
+		Start: 0
+		Length: 24
+		ShadowStart: 25
+		Offset: -19, -40
+	icon: heliicon
+		Start: 0
+
 gaweap:
 	idle: ggweap_2
 		Start: 0
