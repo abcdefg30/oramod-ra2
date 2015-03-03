@@ -39,3 +39,10 @@ Reference links:
 * [RA2 Allied units](http://cnc.wikia.com/wiki/Allied_Units_and_Structures_Summary#Great_World_War_III_.28Red_Alert_2.29)
 * [RA2 Soviet units](http://cnc.wikia.com/wiki/Soviet_Units_and_Structures_Summary#Great_World_War_III_.28Red_Alert_2.29)
 
+
+##Work In Progress:
+* [allied-structures branch](https://github.com/Phrohdoh/oramod-ra2/commits/american-structures)
+
+##OpenRA PRs to watch/review:
+* [Unit audio](https://github.com/OpenRA/OpenRA/pull/7573)
+
