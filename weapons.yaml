@@ -177,18 +177,18 @@ Sniper:
 			Heavy: 0
 			Concrete: 0
 
-Tiberium:
-	ReloadDelay: 16
+DogJaw:
+	ValidTargets: Infantry
+	ReloadDelay: 10
+	Range: 3c0
+	Report: DOGATTACK.AUD
 	Warhead@1Dam: SpreadDamage
-		Spread: 42
-		Damage: 2
-		DeathType: 6
-		PreventProne: yes
-
-TiberiumHeal:
-	ReloadDelay: 16
-	Warhead@1Dam: SpreadDamage
-		Spread: 42
-		Damage: -2
-		DeathType: 6
-		PreventProne: yes
+		Spread: 213
+		Damage: 100
+		DeathType: 1
+		ValidTargets: Infantry
+		Versus:
+			Wood: 0
+			Light: 0
+			Heavy: 0
+			Concrete: 0
