@@ -40,12 +40,12 @@ Cursors:
 			Length: 12
 		default:
 			Start: 0
-			x: -26
-			y: -20
+			X: -16
+			Y: -12
 		default-minimap:
 			Start: 1
-			x: -26
-			y: -20
+			X: -16
+			Y: -12
 		generic-blocked:
 			Start: 9
 		generic-blocked-minimap:
