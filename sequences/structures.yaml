@@ -131,6 +131,26 @@ gaweap:
 	icon: gwepicon
 		Start: 0
 
+gadept:
+	idle: ggdept
+		Start: 0
+		ShadowStart: 3
+		Offset: 0, -45
+	idle-arm: ggdept_d
+		Start: 0
+		ShadowStart: 2
+		Offset: 0, -45
+	bib: ggdeptbb
+		Start: 0
+		ShadowStart: 3
+		Offset: 0, -45
+	make: gtdeptmk
+		Start: 0
+		ShadowStart: 25
+		Offset: 0, -45
+	icon: fixicon
+		Start: 0
+
 nacnst:
 	idle: nacnst
 		Start: 0
