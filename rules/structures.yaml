@@ -41,6 +41,18 @@ GACNST:
 	ProvidesCustomPrerequisite@america:
 		Prerequisite: structures.america
 		Race: america
+	ProvidesCustomPrerequisite@germany:
+		Prerequisite: structures.germany
+		Race: germany
+	ProvidesCustomPrerequisite@england:
+		Prerequisite: structures.england
+		Race: england
+	ProvidesCustomPrerequisite@france:
+		Prerequisite: structures.france
+		Race: france
+	ProvidesCustomPrerequisite@korea:
+		Prerequisite: structures.korea
+		Race: korea
 	Power:
 		Amount: 0
 
@@ -171,8 +183,20 @@ NACNST:
 		Dimensions: 4,4
 	Selectable:
 		Bounds: 220, 180, 0, -35
-	ProvidesCustomPrerequisite:
+	ProvidesCustomPrerequisite@soviets:
 		Prerequisite: structures.soviets
+	ProvidesCustomPrerequisite@cuba:
+		Prerequisite: structures.cuba
+		Race: cuba
+	ProvidesCustomPrerequisite@libya:
+		Prerequisite: structures.libya
+		Race: libya
+	ProvidesCustomPrerequisite@iraq:
+		Prerequisite: structures.iraq
+		Race: iraq
+	ProvidesCustomPrerequisite@russia:
+		Prerequisite: structures.russia
+		Race: russia
 	Health:
 		HP: 1000
 	Armor:

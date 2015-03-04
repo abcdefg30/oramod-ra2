@@ -26,4 +26,12 @@ Metrics:
 	SpawnLabelOffset: 0,1
 	RaceSuffix-allies: allies
 	RaceSuffix-america: allies
-	RaceSuffix-soviet: soviet
+	RaceSuffix-korea: allies
+	RaceSuffix-france: allies
+	RaceSuffix-germany: allies
+	RaceSuffix-england: allies
+	RaceSuffix-soviets: soviets
+	RaceSuffix-libya: soviets
+	RaceSuffix-cuba: soviets
+	RaceSuffix-iraq: soviets
+	RaceSuffix-russia: soviets

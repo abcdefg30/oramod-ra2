@@ -83,15 +83,39 @@ World:
 	VoxelNormalsPalette@normals:
 		Name: normals
 		Type: RedAlert2
-	Country@0:
+	Country@allies:
 		Name: Allies
 		Race: allies
-	Country@1:
+	Country@soviets:
 		Name: Soviets
-		Race: soviet
-	Country@2:
+		Race: soviets
+	Country@1:
 		Name: America
 		Race: america
+	Country@2:
+		Name: Germany
+		Race: germany
+	Country@3:
+		Name: England
+		Race: england
+	Country@4:
+		Name: France
+		Race: france
+	Country@5:
+		Name: Korea
+		Race: korea
+	Country@6:
+		Name: Cuba
+		Race: cuba
+	Country@7:
+		Name: Libya
+		Race: libya
+	Country@8:
+		Name: Iraq
+		Race: iraq
+	Country@9:
+		Name: Russia
+		Race: russia
 	DomainIndex:
 	ResourceLayer:
 	ResourceClaimLayer:
@@ -118,10 +142,10 @@ World:
 	SpawnMapActors:
 	CreateMPPlayers:
 	MPStartUnits@AMCV:
-		Races: allies, america
+		Races: allies, america, germany, england, france, korea
 		BaseActor: amcv
 	MPStartUnits@SMCV:
-		Races: soviet
+		Races: soviets, cuba, libya, iraq, russia
 		BaseActor: smcv
 	MPStartLocations:
 	SpawnMPUnits:
