@@ -43,3 +43,8 @@ Reference links:
 ##OpenRA PRs to watch/review:
 * [Unit audio](https://github.com/OpenRA/OpenRA/pull/7573)
 
+##Development Notes:
+* `mk` anims are in isotemp.mix (or isosno.. etc)
+* `gg`/`ng` anims are in generic.mix
+* `icon`s are in cameo.mix
+
