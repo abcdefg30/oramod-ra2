@@ -92,30 +92,39 @@ World:
 	Country@1:
 		Name: America
 		Race: america
+		Side: Allies
 	Country@2:
 		Name: Germany
 		Race: germany
+		Side: Allies
 	Country@3:
 		Name: England
 		Race: england
+		Side: Allies
 	Country@4:
 		Name: France
 		Race: france
+		Side: Allies
 	Country@5:
 		Name: Korea
 		Race: korea
+		Side: Allies
 	Country@6:
 		Name: Cuba
 		Race: cuba
+		Side: Soviets
 	Country@7:
 		Name: Libya
 		Race: libya
+		Side: Soviets
 	Country@8:
 		Name: Iraq
 		Race: iraq
+		Side: Soviets
 	Country@9:
 		Name: Russia
 		Race: russia
+		Side: Soviets
 	DomainIndex:
 	ResourceLayer:
 	ResourceClaimLayer:
