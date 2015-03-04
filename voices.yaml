@@ -42,7 +42,7 @@ DogVoice:
 	Voices:
 		Select: idogsela
 		Move: idogmova
-		Attack: idogatta, idogatca, idogmova#move sound?
+		Attack: idogatca, idogmova # move sound?
 #		Feedback: idogfea, idogfeb, idogfec
 		Die: idogdiea
 		# CrushSound = InfantrySquish
@@ -58,10 +58,10 @@ Spy:
 		Zapped: ELECTRO1
 
 Vehicle:
-	Prefixes: 
+	Prefixes:
 		allies: vgra
 		soviet: vgrs
-	Variants: 
+	Variants:
 		allies: .wav
 		soviet: .wav
 	Voices:

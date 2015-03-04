@@ -181,7 +181,7 @@ DogJaw:
 	ValidTargets: Infantry
 	ReloadDelay: 10
 	Range: 3c0
-	Report: DOGATTACK.AUD
+	Report: DOGATTACK.AUD, IDOGATTA.AUD
 	Warhead@1Dam: SpreadDamage
 		Spread: 213
 		Damage: 100
