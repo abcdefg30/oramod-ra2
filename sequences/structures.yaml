@@ -91,6 +91,46 @@ gapile:
 	icon: brrkicon
 		Start: 0
 
+gaweap:
+	idle: ggweap_2
+		Start: 0
+		ShadowStart: 2
+		Offset: -30, -60
+	idle-door: ggweap_1
+		Start: 0
+		ShadowStart: 2
+		Offset: -30, -60
+	idle-ramp: ggweapbb
+		Start: 0
+		ShadowStart: 2
+		Offset: -30, -60
+	damaged-idle: ggweap
+		Start: 2
+		ShadowStart: 5
+		Offset: -30, -60
+	idle-flag: ggweap_a
+		Start: 0
+		Length: 14
+		ShadowStart: 31
+		Offset: -30, -60
+	damaged-idle-flag: ggweap_a
+		Start: 15
+		Length: 14
+		ShadowStart: 45
+		Offset: -30, -60
+	overlay-fan: ggweap_b
+		Start: 0
+		Length: 5
+		ShadowStart: 6
+		Offset: -30, -60
+	make: gtweapmk
+		Start: 0
+		Length: 24
+		ShadowStart: 25
+		Offset: -30, -60
+	icon: gwepicon
+		Start: 0
+
 nacnst:
 	idle: nacnst
 		Start: 0

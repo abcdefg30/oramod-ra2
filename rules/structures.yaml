@@ -171,6 +171,50 @@ GAREFN:
 	Power:
 		Amount: -50
 
+GAWEAP:
+	Inherits: ^Building
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 40
+		Prerequisites: garefn, gapile, ~structures.allies
+	Selectable:
+		Bounds: 176, 150, 0, -20
+	Valued:
+		Cost: 2000
+	Tooltip:
+		Name: War Factory
+		Description: Produces vehicles.
+	ProvidesCustomPrerequisite:
+		Prerequisite: factory
+	ProvidesCustomPrerequisite@allies:
+		Prerequisite: vehicles.allies
+	Building:
+		Footprint: xxxxx xxxxx xxxxx
+		Dimensions: 5,3
+	Health:
+		HP: 1000
+	Armor:
+		Type: Wood
+	RevealsShroud:
+		Range: 4c0
+	RallyPoint:
+	Exit@1:
+		ExitCell: 5,1
+	Production:
+		Produces: Vehicles
+	PrimaryBuilding:
+	ProductionBar:
+	WithIdleOverlay@flag:
+		Sequence: idle-flag
+	WithIdleOverlay@door:
+		Sequence: idle-door
+	WithIdleOverlay@fan:
+		Sequence: overlay-fan
+	WithIdleOverlay@ramp:
+		Sequence: idle-ramp
+	Power:
+		Amount: -25
+
 NACNST:
 	Inherits: ^Building
 	Buildable:
