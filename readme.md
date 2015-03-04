@@ -36,8 +36,9 @@ By `done` I mean proper art (offsets and frames) and complete rules (as much as 
 After all actors are in the game we can focus on support powers / superweapons.
 
 Reference links:
-* [RA2 Allied units](http://cnc.wikia.com/wiki/Allied_Units_and_Structures_Summary#Great_World_War_III_.28Red_Alert_2.29)
-* [RA2 Soviet units](http://cnc.wikia.com/wiki/Soviet_Units_and_Structures_Summary#Great_World_War_III_.28Red_Alert_2.29)
+* [Allied units](http://cnc.wikia.com/wiki/Allied_Units_and_Structures_Summary#Great_World_War_III_.28Red_Alert_2.29)
+* [Soviet units](http://cnc.wikia.com/wiki/Soviet_Units_and_Structures_Summary#Great_World_War_III_.28Red_Alert_2.29)
+* [Icons](http://xhp.xwis.net/ra2_icons/)
 
 ##OpenRA PRs to watch/review:
 * [Unit audio](https://github.com/OpenRA/OpenRA/pull/7573)
