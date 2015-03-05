@@ -197,9 +197,37 @@ gadept:
 		Offset: 0, -45
 	make: gtdeptmk
 		Start: 0
+		Length: 25
 		ShadowStart: 25
 		Offset: 0, -45
 	icon: fixicon
+		Start: 0
+
+gatech:
+	idle: ggtech
+		Start: 0
+		ShadowStart: 3
+		Offset: -15, -35
+	damaged-idle: ggtech
+		Start: 1
+		ShadowStart: 4
+		Offset: -15, -35
+	idle-lights: ggtech_a
+		Start: 0
+		Length: 12
+		ShadowStart: 24
+		Offset: -15, -35
+	damaged-idle-ights: ggtech_a
+		Start: 12
+		Length: 12
+		ShadowStart: 36
+		Offset: -15, -35
+	make: gttechmk
+		Start: 0
+		Length: 25
+		ShadowStart: 25
+		Offset: -15, -35
+	icon: techicon
 		Start: 0
 
 nacnst:
