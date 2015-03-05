@@ -139,8 +139,6 @@ GAREFN:
 	Tooltip:
 		Name: Ore Refinery
 		Description: Processes ore into credits.
-	ProvidesCustomPrerequisite:
-		Prerequisite: proc
 	Building:
 		Footprint: xxx= xxx= xxx=
 		Dimensions: 4,3
@@ -171,11 +169,83 @@ GAREFN:
 	Power:
 		Amount: -50
 
-GAWEAP:
+GAAIRC:
 	Inherits: ^Building
 	Buildable:
 		Queue: Building
 		BuildPaletteOrder: 40
+		Prerequisites: garefn, ~structures.allies, ~!structures.america
+	Valued:
+		Cost: 1000
+	Tooltip:
+		Name: Airforce Command Headquarters
+		Description: Provides radar\nSupports 4 aircraft.
+	ProvidesCustomPrerequisite:
+		Prerequisite: radar
+	Building:
+		Footprint: xxx xxx
+		Dimensions: 3,2
+	Selectable:
+		Bounds: 142, 150, -3, -42
+	Health:
+		HP: 600
+	Armor:
+		Type: Steel
+	RequiresPower:
+	CanPowerDown:
+	ProvidesRadar:
+	RevealsShroud:
+		Range: 10c0
+	WithIdleOverlay@TOP:
+		Sequence: idle-top
+		PauseOnLowPower: true
+	WithIdleOverlay@BOTTOM:
+		Sequence: idle-bottom
+		PauseOnLowPower: true
+	WithIdleOverlay@MID:
+		Sequence: idle-mid
+		PauseOnLowPower: true
+	WithIdleOverlay@DISH:
+		Sequence: idle-dish
+		PauseOnLowPower: true
+	TargetableBuilding:
+		TargetTypes: Ground, C4, SpyInfiltrate
+	Power:
+		Amount: -50
+	Reservable: # TODO: Support Multiple
+	Exit@1:
+		SpawnOffset: -350,350,0
+		MoveIntoWorld: false
+	Exit@2:
+		SpawnOffset: 600,220,0
+		MoveIntoWorld: false
+	Exit@3:
+		SpawnOffset: 200,820,0
+		MoveIntoWorld: false
+	Exit@4:
+		SpawnOffset: 200,-300,0 # TODO: Unit is rendered below the structure
+		MoveIntoWorld: false
+	Production:
+		Produces: Aircraft
+	ProductionBar:
+	PrimaryBuilding:
+# TODO: Infiltrate -> reset vision
+
+AMRADR:
+	Inherits: GAAIRC
+	Tooltip:
+		Name: American Airforce Command Headquarters
+	Buildable:
+		Prerequisites: garefn, ~structures.america
+	RenderBuilding:
+		Image: gaairc
+#	ParatroopersPower: # TODO
+
+GAWEAP:
+	Inherits: ^Building
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 50
 		Prerequisites: garefn, gapile, ~structures.allies
 	Selectable:
 		Bounds: 176, 150, 0, -20
@@ -217,7 +287,7 @@ GADEPT:
 	Inherits: ^Building
 	Buildable:
 		Queue: Building
-		BuildPaletteOrder: 50
+		BuildPaletteOrder: 60
 		Prerequisites: gaweap, ~structures.allies
 	Selectable:
 		Bounds: 130, 100, -25, 0
@@ -388,8 +458,6 @@ NAREFN:
 	Tooltip:
 		Name: Ore Refinery
 		Description: Processes ore into credits.
-	ProvidesCustomPrerequisite:
-		Prerequisite: proc
 	Building:
 		Footprint: xxx= xxx= xxx=
 		Dimensions: 4,3
