@@ -1,4 +1,4 @@
-![soviet-screenshot](http://i.imgur.com/SARBdKq.png)
+![soviet-screenshot](http://i.imgur.com/o7DDO6V.png)
 
 ##Roadmap:
 
@@ -47,4 +47,3 @@ Reference links:
 * `mk` anims are in isotemp.mix (or isosno.. etc)
 * `gg`/`ng` anims are in generic.mix
 * `icon`s are in cameo.mix
-
