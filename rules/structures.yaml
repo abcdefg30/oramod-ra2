@@ -317,6 +317,33 @@ GADEPT:
 	Power:
 		Amount: -25
 
+GATECH:
+	Inherits: ^Building
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 70
+		Prerequisites: gaairc, gaweap, ~structures.allies
+	Selectable:
+		Bounds: 96, 98, -2, -24
+	Valued:
+		Cost: 2000
+	Tooltip:
+		Name: Battle Lab
+		Description: Allows deployment of advanced units.
+	Building:
+		Footprint: xx xx xx
+		Dimensions: 3,2
+	Health:
+		HP: 500
+	Armor:
+		Type: Wood
+	RevealsShroud:
+		Range: 6c0
+	WithIdleOverlay@lights:
+		Sequence: idle-lights
+	Power:
+		Amount: -100
+
 NACNST:
 	Inherits: ^Building
 	Buildable:
