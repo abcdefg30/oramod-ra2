@@ -197,6 +197,7 @@ gadept:
 		Offset: 0, -45
 	make: gtdeptmk
 		Start: 0
+		Length: 25
 		ShadowStart: 25
 		Offset: 0, -45
 	icon: fixicon
