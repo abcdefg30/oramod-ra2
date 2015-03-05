@@ -139,8 +139,6 @@ GAREFN:
 	Tooltip:
 		Name: Ore Refinery
 		Description: Processes ore into credits.
-	ProvidesCustomPrerequisite:
-		Prerequisite: proc
 	Building:
 		Footprint: xxx= xxx= xxx=
 		Dimensions: 4,3
@@ -176,7 +174,7 @@ GAAIRC:
 	Buildable:
 		Queue: Building
 		BuildPaletteOrder: 40
-		Prerequisites: proc, ~structures.allies, ~!structures.america
+		Prerequisites: garefn, ~structures.allies, ~!structures.america
 	Valued:
 		Cost: 1000
 	Tooltip:
@@ -238,7 +236,7 @@ AMRADR:
 	Tooltip:
 		Name: American Airforce Command Headquarters
 	Buildable:
-		Prerequisites: proc, ~structures.america
+		Prerequisites: garefn, ~structures.america
 	RenderBuilding:
 		Image: gaairc
 #	ParatroopersPower: # TODO
@@ -460,8 +458,6 @@ NAREFN:
 	Tooltip:
 		Name: Ore Refinery
 		Description: Processes ore into credits.
-	ProvidesCustomPrerequisite:
-		Prerequisite: proc
 	Building:
 		Footprint: xxx= xxx= xxx=
 		Dimensions: 4,3
