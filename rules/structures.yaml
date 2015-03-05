@@ -371,6 +371,34 @@ GAOREP:
 		Amount: -200
 # TODO: Increase income by 25%
 
+GASPYSAT:
+	Inherits: ^Building
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 90
+		Prerequisites: gatech, ~structures.allies
+	Selectable:
+		Bounds: 96, 98, -4, -30
+	Valued:
+		Cost: 1500
+	Tooltip:
+		Name: Spy Satellite Uplink
+		Description: Reveals the entire battlefield.
+	Building:
+		Footprint: xx xx
+		Dimensions: 2,2
+	Health:
+		HP: 1000
+	Armor:
+		Type: Wood
+	RevealsShroud:
+		Range: 5c0
+	WithIdleOverlay@dish:
+		Sequence: idle-dish
+		PauseOnLowPower: true
+	Power:
+		Amount: -100
+
 NACNST:
 	Inherits: ^Building
 	Buildable:

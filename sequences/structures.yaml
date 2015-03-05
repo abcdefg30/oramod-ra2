@@ -247,6 +247,36 @@ gaorep:
 	icon: gorep
 		Start: 0
 
+gaspysat:
+	idle: ggspst
+		Start: 0
+		ShadowStart: 3
+		Tick: 180
+		Offset: 0, -30
+	damaged-idle: ggspst
+		Start: 1
+		ShadowStart: 4
+		Tick: 180
+		Offset: 0, -30
+	idle-dish: ggspst_a
+		Start: 0
+		Length: 16
+		Tick: 180
+		Offset: 0, -30
+	damaged-idle-dish: ggspst_a
+		Start: 15
+		Length: 16
+		Tick: 180
+		Offset: 0, -30
+	make: gtspstmk
+		Start: 0
+		Length: 25
+		ShadowStart: 25
+		Tick: 90
+		Offset: 0, -30
+	icon: asaticon
+		Start: 0
+
 nacnst:
 	idle: nacnst
 		Start: 0
