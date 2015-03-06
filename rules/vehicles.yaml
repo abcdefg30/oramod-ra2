@@ -1,4 +1,4 @@
-AMCV:
+amcv:
 	Inherits: ^Vehicle
 	Buildable:
 		Queue: Vehicle
@@ -35,7 +35,7 @@ AMCV:
 	RenderVoxels:
 	WithVoxelBody:
 
-SMCV:
+smcv:
 	Inherits: ^Vehicle
 	Buildable:
 		Queue: Vehicle
@@ -72,3 +72,4 @@ SMCV:
 	RenderSprites:
 	RenderVoxels:
 	WithVoxelBody:
+

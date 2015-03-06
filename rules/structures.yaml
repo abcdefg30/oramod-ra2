@@ -1,4 +1,4 @@
-GACNST:
+gacnst:
 	Inherits: ^Building
 	Buildable:
 		Queue: Building
@@ -56,7 +56,7 @@ GACNST:
 	Power:
 		Amount: 0
 
-GAPOWR:
+gapowr:
 	Inherits: ^Building
 	Buildable:
 		Queue: Building
@@ -86,7 +86,7 @@ GAPOWR:
 		Amount: 200
 	ScalePowerWithHealth:
 
-GAPILE:
+gapile:
 	Inherits: ^Building
 	Buildable:
 		Queue: Building
@@ -126,7 +126,7 @@ GAPILE:
 	Power:
 		Amount: -10
 
-GAREFN:
+garefn:
 	Inherits: ^Building
 	Buildable:
 		Queue: Building
@@ -169,7 +169,7 @@ GAREFN:
 	Power:
 		Amount: -50
 
-GAAIRC:
+gaairc:
 	Inherits: ^Building
 	Buildable:
 		Queue: Building
@@ -231,8 +231,8 @@ GAAIRC:
 	PrimaryBuilding:
 # TODO: Infiltrate -> reset vision
 
-AMRADR:
-	Inherits: GAAIRC
+amradr:
+	Inherits: gaairc
 	Tooltip:
 		Name: American Airforce Command Headquarters
 	Buildable:
@@ -241,7 +241,7 @@ AMRADR:
 		Image: gaairc
 #	ParatroopersPower: # TODO
 
-GAWEAP:
+gaweap:
 	Inherits: ^Building
 	Buildable:
 		Queue: Building
@@ -283,7 +283,7 @@ GAWEAP:
 	WithIdleOverlay@ramp:
 		Sequence: idle-ramp
 
-GADEPT:
+gadept:
 	Inherits: ^Building
 	Buildable:
 		Queue: Building
@@ -317,7 +317,7 @@ GADEPT:
 	Power:
 		Amount: -25
 
-GATECH:
+gatech:
 	Inherits: ^Building
 	Buildable:
 		Queue: Building
@@ -344,7 +344,7 @@ GATECH:
 	Power:
 		Amount: -100
 
-GAOREP:
+gaorep:
 	Inherits: ^Building
 	Buildable:
 		Queue: Building
@@ -371,7 +371,7 @@ GAOREP:
 		Amount: -200
 # TODO: Increase income by 25%
 
-GASPYSAT:
+gaspysat:
 	Inherits: ^Building
 	Buildable:
 		Queue: Building
@@ -399,7 +399,7 @@ GASPYSAT:
 	Power:
 		Amount: -100
 
-NACNST:
+nacnst:
 	Inherits: ^Building
 	Buildable:
 		Queue: Building
@@ -455,7 +455,7 @@ NACNST:
 	Power:
 		Amount: 0
 
-NAPOWR:
+napowr:
 	Inherits: ^Building
 	Buildable:
 		Queue: Building
@@ -485,7 +485,7 @@ NAPOWR:
 		Amount: 100
 	ScalePowerWithHealth:
 
-NAHAND:
+nahand:
 	Inherits: ^Building
 	Buildable:
 		Queue: Building
@@ -527,7 +527,7 @@ NAHAND:
 		Amount: -20
 	UpgradeManager:
 
-NAREFN:
+narefn:
 	Inherits: ^Building
 	Buildable:
 		Queue: Building
@@ -570,27 +570,27 @@ NAREFN:
 	Power:
 		Amount: -50
 
-ANYPOWER:
+anypower:
 	Tooltip:
 		Name: Power Plant
 		Description: Power Plant
 
-BARRACKS:
+barracks:
 	Tooltip:
 		Name: Infantry Production
 		Description: Infantry Production
 
-FACTORY:
+factory:
 	Tooltip:
 		Name: Vehicle Production
 		Description: Vehicle Production
 
-RADAR:
+radar:
 	Tooltip:
 		Name: Radar
 		Description: Radar
 
-TECH:
+tech:
 	Tooltip:
 		Name: Tech Center
 		Description: Tech Center
