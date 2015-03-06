@@ -153,6 +153,22 @@ World:
 	MPStartUnits@AMCV:
 		Races: allies, america, germany, england, france, korea
 		BaseActor: amcv
+	MPStartUnits@lightallies:
+		Class: light
+		ClassName: Light
+		Races: allies, america, germany, england, france, korea
+		BaseActor: amcv
+		SupportActors: dog,dog,dog,engineer,engineer
+		InnerSupportRadius: 3
+		OuterSupportRadius: 5
+	MPStartUnits@lightsoviets:
+		Class: light
+		CLassName: Light
+		Races: soviets, cuba, libya, iraq, russia
+		BaseActor: smcv
+		SupportActors: dog,dog,dog,engineer,engineer
+		InnerSupportRadius: 3
+		OuterSupportRadius: 5
 	MPStartUnits@SMCV:
 		Races: soviets, cuba, libya, iraq, russia
 		BaseActor: smcv
