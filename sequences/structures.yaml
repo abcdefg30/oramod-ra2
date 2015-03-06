@@ -230,6 +230,23 @@ gatech:
 	icon: techicon
 		Start: 0
 
+gaorep:
+	idle: ggorep
+		Start: 0
+		ShadowStart: 3
+		Offset: 0, -45
+	damaged-idle: ggorep
+		Start: 1
+		ShadowStart: 4
+		Offset: 0, -45
+	make: gtorepmk
+		Start: 0
+		Length: 25
+		ShadowStart: 25
+		Offset: 0, -45
+	icon: gorep
+		Start: 0
+
 nacnst:
 	idle: nacnst
 		Start: 0

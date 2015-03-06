@@ -344,6 +344,33 @@ GATECH:
 	Power:
 		Amount: -100
 
+GAOREP:
+	Inherits: ^Building
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 80
+		Prerequisites: garefn, gatech, ~structures.allies
+		BuildLimit: 1
+	Selectable:
+		Bounds: 134, 102, -10, -21
+	Valued:
+		Cost: 2500
+	Tooltip:
+		Name: Allied Ore Processor
+		Description: Refines all forms of income by 25%.
+	Building:
+		Footprint: xxx xxx xxx
+		Dimensions: 3,3
+	Health:
+		HP: 900
+	Armor:
+		Type: Wood
+	RevealsShroud:
+		Range: 5c0
+	Power:
+		Amount: -200
+# TODO: Increase income by 25%
+
 NACNST:
 	Inherits: ^Building
 	Buildable:
