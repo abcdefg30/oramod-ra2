@@ -229,7 +229,7 @@ gaairc:
 		Produces: Aircraft
 	ProductionBar:
 	PrimaryBuilding:
-# TODO: Infiltrate -> reset vision
+	InfiltrateForExploration:
 
 amradr:
 	Inherits: gaairc
