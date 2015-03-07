@@ -472,7 +472,7 @@ napowr:
 		Footprint: xxx xxx
 		Dimensions: 3,2
 	Selectable:
-		Bounds: 126, 94, 18, 20
+		Bounds: 126, 94, 2, -11
 	Health:
 		HP: 750
 	Armor:
