@@ -248,7 +248,7 @@ gaweap:
 		BuildPaletteOrder: 50
 		Prerequisites: garefn, gapile, ~structures.allies
 	Selectable:
-		Bounds: 176, 150, 0, -20
+		Bounds: 212, 158, -7, -28
 	Valued:
 		Cost: 2000
 	Tooltip:
@@ -290,7 +290,7 @@ gadept:
 		BuildPaletteOrder: 60
 		Prerequisites: gaweap, ~structures.allies
 	Selectable:
-		Bounds: 130, 100, -25, 0
+		Bounds: 140, 92, -20, -20
 	Valued:
 		Cost: 800
 	Tooltip:
@@ -324,7 +324,7 @@ gatech:
 		BuildPaletteOrder: 70
 		Prerequisites: gaairc, gaweap, ~structures.allies
 	Selectable:
-		Bounds: 96, 98, -2, -24
+		Bounds: 122, 216, 0, -75
 	Valued:
 		Cost: 2000
 	Tooltip:
