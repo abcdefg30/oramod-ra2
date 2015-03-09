@@ -2,11 +2,10 @@ Metadata:
 	Title: Red Alert 2
 	Description: The Soviet Union is back!\nThis time to conquer the United States...
 	Version: {DEV_VERSION}
-	Author: Phrohdoh
+	Author: Phrohdoh and the RA2 team
 
 Folders:
 	.
-# Red Alert 2
 	./mods/ra2
 	./mods/ra2/bits
 	./mods/ra2/bits/cameos
@@ -23,7 +22,6 @@ MapFolders:
 	~^maps/ra2: User
 
 Packages:
-# Red Alert 2
 	audio.mix:CRC32
 	cache.mix:CRC32
 	cameo.mix:CRC32
@@ -38,8 +36,6 @@ Packages:
 	neutral.mix:CRC32
 	sidec01.mix:CRC32
 	sidec02.mix:CRC32
-	sidenc01.mix:CRC32
-	sidenc02.mix:CRC32
 	sno.mix:CRC32
 	snow.mix:CRC32
 	tem.mix:CRC32
@@ -47,8 +43,6 @@ Packages:
 	theme.mix:CRC32
 	urb.mix:CRC32
 	urban.mix:CRC32
-
-PackageContents:
 
 Rules:
 	./mods/ra2/rules/misc.yaml
@@ -144,14 +138,12 @@ SubCells:
 Music:
 	./mods/ra2/music.yaml
 
-Movies:
-
 Translations:
 	./mods/ra2/languages/english.yaml
 
 LoadScreen: LogoStripeLoadScreen
 	Image: ./mods/ra2/uibits/loadscreen.png
-	Text: Loading...
+	Text: Carving wooden nickels..., Preparing paratroopers..., Welcoming you to Texas...
 
 ContentInstaller:
 
