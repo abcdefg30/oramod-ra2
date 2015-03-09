@@ -399,6 +399,37 @@ gaspysat:
 	Power:
 		Amount: -100
 
+gagap:
+	Inherits: ^Building
+	Valued:
+		Cost: 1000
+	Tooltip:
+		Name: Gap Generator
+		Description: Obscures the enemy's view with shroud.\nRequires power to operate.
+	Buildable:
+		Queue: Defense
+		BuildPaletteOrder: 100
+		Prerequisites: ~gatech, ~structures.allies
+	Selectable:
+		Bounds: 50, 114, -16, -38
+	Building:
+		Footprint: _ x
+		Dimensions: 1,2
+	RequiresPower:
+	Health:
+		HP: 600
+	Armor:
+		Type: Wood
+	RevealsShroud:
+		Range: 5c0
+	CreatesShroud:
+		Range: 10c0 # Does only create 5c0 because of the sight range
+	RenderShroudCircle: # TODO: Animated one (Radar like)
+	Power:
+		Amount: -100
+	MustBeDestroyed:
+		RequiredForShortGame: false
+
 gaweat:
 	Inherits: ^Building
 	Buildable:
