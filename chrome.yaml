@@ -470,20 +470,20 @@ strategic: strategic.png
 
 flags: buttons.png
 	america: 00, 00, 45, 21
-	germany: 00, 22, 45, 21
-	england: 00, 44, 45, 21
-	france:  00, 66, 45, 21
-	korea:   00, 88, 45, 21
-	cuba:    46, 00, 45, 21
-	libya:   46, 22, 45, 21
-	iraq:    46, 44, 45, 21
-	russia:  46, 66, 45, 21
-	random:  46, 88, 45, 21
-	spectator: 46, 88, 45, 21
+	germany: 00, 21, 45, 21
+	england: 00, 42, 45, 21
+	france:  00, 63, 45, 21
+	korea:   00, 84, 45, 21
+	cuba:    45, 00, 45, 21
+	libya:   45, 21, 45, 21
+	iraq:    45, 42, 45, 21
+	russia:  45, 63, 45, 21
+	random:  45, 84, 45, 21
+	spectator: 45, 84, 45, 21
 
 # placeholder
 	allies:  00, 00, 45, 21
-	soviets: 46, 66, 45, 21
+	soviets: 45, 63, 45, 21
 
 music: musicplayer.png
 	pause: 0,0,25,25
