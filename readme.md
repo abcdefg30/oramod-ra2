@@ -40,10 +40,16 @@ Reference links:
 * [Soviet units](http://cnc.wikia.com/wiki/Soviet_Units_and_Structures_Summary#Great_World_War_III_.28Red_Alert_2.29)
 * [Icons](http://xhp.xwis.net/ra2_icons/)
 
-##OpenRA PRs to watch/review:
+##OpenRA stuff to watch/review:
 * [Unit audio](https://github.com/OpenRA/OpenRA/pull/7573)
+* [ts-snow](https://github.com/pchote/openra/tree/ts-snow) (WIP branch by @pchote)
 
 ##Development Notes:
 * `mk` anims are in isotemp.mix (or isosno.. etc)
 * `gg`/`ng` anims are in generic.mix
 * `icon`s are in cameo.mix
+
+Tile indices:
+*  0 = Clear
+* 12 = Transition
+* 13 = Slopes or Slopes/Pavement

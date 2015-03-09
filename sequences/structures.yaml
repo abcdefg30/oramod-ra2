@@ -3,35 +3,42 @@ gacnst:
 		Start: 0
 		ShadowStart: 3
 		Offset: 0,-55,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gacnstmk
 		Start: 0
 		Length: 28
 		ShadowStart: 0
 		Offset: 0,-55,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: ggcnst
 		Start: 1
 		ShadowStart: 4
 		Offset: 0,-55,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-fans: ggcnst_a
 		Start: 0
 		Length: 6
 		Tick: 150
 		Offset: 0,-55,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-fans: ggcnst_a
 		Start: 5
 		Length: 6
 		Tick: 150
 		Offset: 0,-55,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	crane-overlay: ggcnst_b
 		Start: 0
 		Length: 20
 		Tick: 150
 		Offset: 0,-55,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-crane-overlay: ggcnst_b
 		Start: 20
 		Length: 20
 		Tick: 150
 		Offset: 0,-55,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: cnsticon
 		Start: 0
 
@@ -40,27 +47,32 @@ gapowr:
 		Start: 0
 		ShadowStart: 3
 		Offset: 0,-30,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: gtpowr
 		Start: 1
 		ShadowStart: 4
 		Offset: 0,-30,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-glow: ggpowr_a
 		Start: 0
 		Length: 8
 		ShadowStart: 16
 		Tick: 150
 		Offset: 0,-30,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-glow: ggpowr_a
 		Start: 8
 		Length: 8
 		ShadowStart: 24
 		Tick: 150
 		Offset: 0,-30,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gtpowrmk
 		Start: 0
 		Length: 25
 		ShadowStart: 0
 		Offset: 0,-30,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: powricon
 		Start: 0
 
@@ -69,25 +81,30 @@ gapile:
 		Start: 0
 		ShadowStart: 3
 		Offset: -15,-38,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: ggpile
 		Start: 1
 		ShadowStart: 4
 		Offset: -15,-38,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-flag: ggpile_a
 		Start:0
 		Length: 16
 		ShadowStart: 32
 		Offset: -15,-38,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-flag: ggpile_a
 		Start:16
 		Length: 16
 		ShadowStart: 48
 		Offset: -15,-38,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gtpilemk
 		Start: 0
 		Length: 25
 		ShadowStart: 0
 		Offset: -15,-38,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: brrkicon
 		Start: 0
 
@@ -96,49 +113,59 @@ gaairc:
 		Start: 0
 		Length: 1
 		Offset: -19, -40
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: ggairc
 		Start: 1
 		Length: 2
 		Offset: -19, -40
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-top: gaairc_c
 		Start: 0
 		Length: 16
 		ShadowStart: 16
 		Offset: -19, -40
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 		Tick: 320
 	idle-bottom: ggaircbb
 		Start: 0
 		Length: 1
 		Offset: -19, -40
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damage-idle-bottom: ggaircbb
 		Start: 1
 		Length: 1
 		Offset: -19, -40
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-dish: ggairc_a
 		Start: 0
 		Length: 4
 		Tick: 120
 		Offset: -19, -40
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-dish: ggairc_a
 		Start: 5
 		Length: 4
 		Tick: 120
 		Offset: -19, -40
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-mid: ggairc_b
 		Start: 0
 		Length: 6
 		Tick: 120
 		Offset: -19, -40
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damage-idle-mid: ggairc_b
 		Start: 7
 		Length: 6
 		Tick: 120
 		Offset: -19, -40
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gtaircmk
 		Start: 0
 		Length: 24
 		ShadowStart: 25
 		Offset: -19, -40
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: heliicon
 		Start: 0
 
@@ -147,38 +174,46 @@ gaweap:
 		Start: 0
 		ShadowStart: 2
 		Offset: -30, -60
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-door: ggweap_1
 		Start: 0
 		ShadowStart: 2
 		Offset: -30, -60
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-ramp: ggweapbb
 		Start: 0
 		ShadowStart: 2
 		Offset: -30, -60
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: ggweap
 		Start: 2
 		ShadowStart: 5
 		Offset: -30, -60
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-flag: ggweap_a
 		Start: 0
 		Length: 14
 		ShadowStart: 31
 		Offset: -30, -60
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-flag: ggweap_a
 		Start: 15
 		Length: 14
 		ShadowStart: 45
 		Offset: -30, -60
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	overlay-fan: ggweap_b
 		Start: 0
 		Length: 5
 		ShadowStart: 6
 		Offset: -30, -60
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gtweapmk
 		Start: 0
 		Length: 24
 		ShadowStart: 25
 		Offset: -30, -60
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: gwepicon
 		Start: 0
 
@@ -187,19 +222,23 @@ gadept:
 		Start: 0
 		ShadowStart: 3
 		Offset: 0, -45
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-arm: ggdept_d
 		Start: 0
 		ShadowStart: 2
 		Offset: 0, -45
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	bib: ggdeptbb
 		Start: 0
 		ShadowStart: 3
 		Offset: 0, -45
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gtdeptmk
 		Start: 0
 		Length: 25
 		ShadowStart: 25
 		Offset: 0, -45
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: fixicon
 		Start: 0
 
@@ -208,25 +247,30 @@ gatech:
 		Start: 0
 		ShadowStart: 3
 		Offset: -15, -35
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: ggtech
 		Start: 1
 		ShadowStart: 4
 		Offset: -15, -35
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-lights: ggtech_a
 		Start: 0
 		Length: 12
 		ShadowStart: 24
 		Offset: -15, -35
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-ights: ggtech_a
 		Start: 12
 		Length: 12
 		ShadowStart: 36
 		Offset: -15, -35
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gttechmk
 		Start: 0
 		Length: 25
 		ShadowStart: 25
 		Offset: -15, -35
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: techicon
 		Start: 0
 
@@ -235,15 +279,18 @@ gaorep:
 		Start: 0
 		ShadowStart: 3
 		Offset: 0, -45
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: ggorep
 		Start: 1
 		ShadowStart: 4
 		Offset: 0, -45
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gtorepmk
 		Start: 0
 		Length: 25
 		ShadowStart: 25
 		Offset: 0, -45
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: gorep
 		Start: 0
 
@@ -253,27 +300,32 @@ gaspysat:
 		ShadowStart: 3
 		Tick: 180
 		Offset: 0, -30
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: ggspst
 		Start: 1
 		ShadowStart: 4
 		Tick: 180
 		Offset: 0, -30
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-dish: ggspst_a
 		Start: 0
 		Length: 16
 		Tick: 180
 		Offset: 0, -30
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-dish: ggspst_a
 		Start: 15
 		Length: 16
 		Tick: 180
 		Offset: 0, -30
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gtspstmk
 		Start: 0
 		Length: 25
 		ShadowStart: 25
 		Tick: 90
 		Offset: 0, -30
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: asaticon
 		Start: 0
 
@@ -282,47 +334,56 @@ nacnst:
 		Start: 0
 		ShadowStart: 3
 		Offset: 0,-55,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: ngcnst
 		Start: 1
 		ShadowStart: 4
 		Offset: 0,-55,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: ntcnstmk
 		Start: 0
 		Length: 31
 		ShadowStart: 31
 		Offset: 0,-55,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-top: ngcnst_a
 		Start: 0
 		Length: 11
 		Tick: 200
 		Offset: 0,-45,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-top: ngcnst_a
 		Start: 11
 		Length: 11
 		Tick: 150
 		Offset: 0,-55,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-side: ngcnst_c
 		Start: 0
 		Length: 1
 		ShadowStart: 4
 		Tick: 150
 		Offset: 0,-55,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-side: ngcnst_c
 		Start: 1
 		Length: 1
 		ShadowStart: 5
 		Tick: 150
 		Offset: 0,-55,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	crane-overlay: ngcnst_b
 		Start: 0
 		Length: 21
 		Tick: 150
 		Offset: 0,-55,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-crane-overlay: ngcnst_b
 		Start: 21
 		Length: 21
 		Tick: 150
 		Offset: 0,-55,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: facticon
 		Start: 0
 
@@ -331,34 +392,41 @@ napowr:
 		Start: 0
 		ShadowStart: 3
 		Offset: -15, -30
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: ngpowr
 		Start: 1
 		ShadowStart: 4
 		Offset: -15, -30
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	critical-idle: ngpowr
 		Start: 2
 		ShadowStart: 5
 		Offset: -15, -30
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-lights: ngpowr_a
 		Start: 0
 		Length: 9
 		Tick: 150
 		Offset: -15, -30
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-lights: ngpowr_a
 		Start: 9
 		Length: 9
 		Tick: 150
 		Offset: -15, -30
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	critical-idle-lights: ngpowr_a
 		Start: 9
 		Length: 9
 		Tick: 150
 		Offset: -15, -30
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: ntpowrmk
 		Start: 0
 		Length: 19
 		ShadowStart: 19
 		Offset: -15, -30
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: npwricon
 		Start: 0
 
@@ -367,39 +435,47 @@ nahand:
 		Start: 0
 		ShadowStart: 3
 		Offset: 0, -25
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: nghand
 		Start: 1
 		ShadowStart: 4
 		Offset: 0, -25
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	critical-idle: nghand
 		Start: 2
 		ShadowStart: 5
 		Offset: 0, -25
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	production-light: nghand_a
 		Start: 0
 		Length: 5
 		Tick: 150
 		Offset: 0, -25
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-production-light: nghand_a
 		Start: 5
 		Length: 5
 		Tick: 150
 		Offset: 0, -25
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-lights: nghand_b
 		Start: 0
 		Length: 8
 		Tick: 200
 		Offset: 0, -25
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-lights: nghand_b
 		Start: 8
 		Length: 8
 		Tick: 200
 		Offset: 0, -25
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: nthandmk
 		Start: 0
 		Length: 15
 		ShadowStart: 15
 		Offset: 0, -25
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: handicon
 		Start: 0
 
@@ -408,33 +484,40 @@ garefn:
 		Start: 0
 		ShadowStart: 3
 		Offset: -15,-50,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: ggrefn
 		Start: 1
 		ShadowStart: 4
 		Offset: -15,-50,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gurefnmk
 		Start: 0
 		Length: 25
 		ShadowStart: 0
 		Offset: -15,-50,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-drill: ggrefnl1
 		Start: 0
 		Length: 6
 		Tick: 1500
 		Offset: -15,-50,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-bib: ggrefnbb
 		Start: 0
 		ShadowStart: 2
 		Offset: -15,-50,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-bib: ggrefnbb
 		Start: 1
 		ShadowStart: 3
 		Offset: -15,-50,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	docking-overlay: ggrefnor
 		Start: 0
 		Length: 20
 		ShadowStart: 20
 		Offset: -15,-50,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: reficon
 		Start: 0
 
@@ -443,32 +526,39 @@ narefn:
 		Start: 0
 		ShadowStart: 3
 		Offset: -15,-50,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: ngrefn
 		Start: 1
 		ShadowStart: 4
 		Offset: -15,-50,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: ntrefnmk
 		Start: 0
 		Length: 25
 		ShadowStart: 0
 		Offset: -15,-50,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-drill: ngrefnl1
 		Start: 0
 		Length: 3
 		Tick: 1500
 		Offset: -15,-50,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-bib: ngrefnbb
 		Start: 0
 		ShadowStart: 2
 		Offset: -15,-50,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-bib: ngrefnbb
 		Start: 1
 		ShadowStart: 3
 		Offset: -15,-50,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	docking-overlay: ngrefnor
 		Start: 0
 		Length: 20
 		ShadowStart: 20
 		Offset: -15,-50,0
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: nreficon
 		Start: 0

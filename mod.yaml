@@ -128,6 +128,7 @@ Notifications:
 
 TileSets:
 	./mods/ra2/tilesets/temperat.yaml
+	./mods/ra2/tilesets/snow.yaml
 
 TileSize: 60,30
 TileShape: Diamond
@@ -190,3 +191,9 @@ Fonts:
 SupportsMapsFrom: ra2
 
 SpriteFormats: ShpTS, TmpTS, ShpTD
+
+# TODO: pchote/ts-snow
+#SpriteSequenceFormat: TSSpriteSequence
+#	TilesetCodes:
+#		SNOW: a
+#		TEMPERAT: t
