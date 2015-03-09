@@ -1,4 +1,4 @@
-![soviet-screenshot](http://i.imgur.com/o7DDO6V.png)
+![screenshot](http://i.imgur.com/HxQWvXw.png)
 
 ##Roadmap:
 
@@ -28,11 +28,6 @@ Actors:
 * Naval
 * Special Units (including infiltration unlocks)
 
-For example:
-All American structures should be done first.
-Many of these are generic Allied structures which is fine.
-By `done` I mean proper art (offsets and frames) and complete rules (as much as the engine allows).
-
 After all actors are in the game we can focus on support powers / superweapons.
 
 Reference links:
@@ -49,7 +44,24 @@ Reference links:
 * `gg`/`ng` anims are in generic.mix
 * `icon`s are in cameo.mix
 
-Tile indices:
-*  0 = Clear
-* 12 = Transition
-* 13 = Slopes or Slopes/Pavement
+Tile type indices:
+* 00 = Clear
+* 01 = Ice
+* 02 = Unknown
+* 03 = Unknown
+* 04 = Unknown
+* 05 = Tunnel
+* 06 = Railroad
+* 07 = Rock
+* 08 = Unknown
+* 09 = Water
+* 10 = Beach
+* 11 = Road
+* 12 = Some LAT Transitions
+* 13 = Mostly Slopes
+* 14 = Rough
+* 15 = Cliff
+
+Wall, Tiberium, and Weeds are somewhere in this list,
+  even though they are overlays and not tiletypes,
+  because they affect actor movement speed.
