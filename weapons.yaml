@@ -53,7 +53,7 @@ Minigun:
 M60:
 	ReloadDelay: 20
 	Range: 4c0
-	Report: INFGUN3.AUD
+	Report: igiat1a.wav, igiat1b.wav, igiat1c.wav
 	Projectile: Bullet
 		Speed: 1c682
 	Warhead@1Dam: SpreadDamage
