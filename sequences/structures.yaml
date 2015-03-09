@@ -330,28 +330,35 @@ napowr:
 	idle: ngpowr
 		Start: 0
 		ShadowStart: 3
+		Offset: -15, -30
 	damaged-idle: ngpowr
 		Start: 1
 		ShadowStart: 4
+		Offset: -15, -30
 	critical-idle: ngpowr
 		Start: 2
 		ShadowStart: 5
+		Offset: -15, -30
 	idle-lights: ngpowr_a
 		Start: 0
 		Length: 9
 		Tick: 150
+		Offset: -15, -30
 	damaged-idle-lights: ngpowr_a
 		Start: 9
 		Length: 9
 		Tick: 150
+		Offset: -15, -30
 	critical-idle-lights: ngpowr_a
 		Start: 9
 		Length: 9
 		Tick: 150
+		Offset: -15, -30
 	make: ntpowrmk
 		Start: 0
 		Length: 19
 		ShadowStart: 19
+		Offset: -15, -30
 	icon: npwricon
 		Start: 0
 
