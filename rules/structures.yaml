@@ -19,7 +19,7 @@ gacnst:
 	Valued:
 		Cost: 2500
 	Production:
-		Produces: Building,Defense
+		Produces: Building,Support
 	Tooltip:
 		Name: Construction Yard
 		Description: Builds base structures.
@@ -30,8 +30,8 @@ gacnst:
 		Facing: 96
 	ProductionBar@Building:
 		ProductionType: Building
-	ProductionBar@Defense:
-		ProductionType: Defense
+	ProductionBar@Support:
+		ProductionType: Support
 	WithIdleOverlay@FANS:
 		Sequence: idle-fans
 		PauseOnLowPower: true
@@ -407,7 +407,7 @@ gagap:
 		Name: Gap Generator
 		Description: Obscures the enemy's view with shroud.\nRequires power to operate.
 	Buildable:
-		Queue: Defense
+		Queue: Support
 		BuildPaletteOrder: 100
 		Prerequisites: ~gatech, ~structures.allies
 	Selectable:
@@ -533,7 +533,7 @@ nacnst:
 	Valued:
 		Cost: 2500
 	Production:
-		Produces: Building,Defense
+		Produces: Building,Support
 	Tooltip:
 		Name: Construction Yard
 		Description: Builds base structures.
@@ -544,8 +544,8 @@ nacnst:
 		Facing: 96
 	ProductionBar@Building:
 		ProductionType: Building
-	ProductionBar@Defense:
-		ProductionType: Defense
+	ProductionBar@Support:
+		ProductionType: Support
 	WithIdleOverlay@TOP:
 		Sequence: idle-top
 	WithIdleOverlay@SIDE:
