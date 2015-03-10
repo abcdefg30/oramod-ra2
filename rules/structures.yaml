@@ -433,9 +433,9 @@ gagap:
 gaweat:
 	Inherits: ^Building
 	Buildable:
-		Queue: Building
+		Queue: Support
 		BuildPaletteOrder: 110
-		Prerequisites: gatech, ~structures.allies
+		Prerequisites: ~gatech, ~structures.allies
 	Selectable:
 		Bounds: 96, 98, -4, -30
 	Valued:
@@ -460,7 +460,7 @@ gaweat:
 gacsph:
 	Inherits: ^Building
 	Buildable:
-		Queue: Building
+		Queue: Support
 		BuildPaletteOrder: 120
 		Prerequisites: ~gatech, ~structures.allies
 	Selectable:
