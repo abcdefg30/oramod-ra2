@@ -43,6 +43,7 @@ Packages:
 	theme.mix:CRC32
 	urb.mix:CRC32
 	urban.mix:CRC32
+	audio.bag:CRC32
 
 Rules:
 	./mods/ra2/rules/misc.yaml

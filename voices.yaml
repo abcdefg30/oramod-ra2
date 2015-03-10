@@ -1,10 +1,16 @@
 Infantry:
-	Voices:
-		Select: 15-I000, 15-I004, 15-I012, 15-I048
-		Move: 15-I018, 15-I024, 15-I044
-		Attack: 15-I044, 15-I050, 15-I044, 15-I046
-#		Feedback: 15-I058, 15-I064 # TODO
-		Die: DEDMAN1, DEDMAN3, DEDMAN4, DEDMAN5, DEDMAN6
+	Prefixes:
+		allies: igi
+		soviets: icon
+	Variants:
+		allies: .wav
+		soviets: .wav
+	Voices:	
+		Select: sea, seb, sec, sed, see, sef
+		Move: moa, mob, moc, mod, moe
+		Attack: ata, atb, atc, atd, ate, atf
+		Feedback: fea, feb
+		Die: dia, dib, dic, did, die
 		Burned: DEDMAN2
 		Zapped: ELECTRO1
 
