@@ -148,6 +148,7 @@ World:
 		Type: Crater
 		Sequence: craters
 	PathfinderDebugOverlay:
+	TerrainGeometryOverlay:
 	SpawnMapActors:
 	CreateMPPlayers:
 	MPStartUnits@AMCV:
