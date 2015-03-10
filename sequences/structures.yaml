@@ -349,6 +349,31 @@ gaweat:
 	icon: wethicon
 		Start: 0
 
+gacsph:
+	idle: ggcsph
+		Start: 0
+		ShadowStart: 3
+		Offset: -15, -50
+	damaged-idle: ggcsph
+		Start: 1
+		ShadowStart: 4
+		Offset: -15, -50
+	idle-dome: ggcsph_e
+		Start: 0
+		ShadowStart: 2
+		Offset: -15, -50
+	damaged-idle-dome: ggcsph_e
+		Start: 1
+		ShadowStart: 3
+		Offset: -15, -50
+	make: gtcsphmk
+		Start: 0
+		Length: 25
+		ShadowStart: 25
+		Offset: -15, -50
+	icon: csphicon
+		Start: 0
+
 nacnst:
 	idle: nacnst
 		Start: 0

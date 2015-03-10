@@ -426,6 +426,47 @@ gaweat:
 # TODO: Lightning superpower -- 10m cooldown
 # TODO: Reset SW timer on infiltrate
 
+gacsph:
+	Inherits: ^Building
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 120
+		Prerequisites: ~gatech, ~structures.allies
+	Selectable:
+		Bounds: 176, 150, 0, -20
+	Valued:
+		Cost: 2500
+	Tooltip:
+		Name: Chronosphere
+		Description: Allows teleporting units in a 3x3 array.
+	Building:
+		Footprint: xxx xxx xxx xxx
+		Dimensions: 4,3
+	Health:
+		HP: 750
+	Armor:
+		Type: Concrete
+	RevealsShroud:
+		Range: 5c0
+	Power:
+		Amount: -200
+	WithIdleOverlay:
+		Sequence: idle-dome
+	# ChronoshiftPower:
+	#	OrderName: Chronoshift
+		# TODO: find this: Icon: chroicon
+	#	ChargeTime: 300
+	#	Description: Chronoshift
+	#	LongDesc: Teleports a group of units across\nthe map.
+		# TODO: SelectTargetSound: slcttgt1.aud
+		# TODO: InsufficientPowerSound: nopowr1.aud
+		# TODO: BeginChargeSound: chrochr1.aud
+		# TODO: EndChargeSound: chrordy1.aud
+		# TODO: Was it timed? Duration: 20
+		# TODO: not all cargo types died: KillCargo: true
+	#	DisplayRadarPing: false
+		# TODO: Support rectangle selection, not radius-only: Range: 3x3
+
 nacnst:
 	Inherits: ^Building
 	Buildable:
