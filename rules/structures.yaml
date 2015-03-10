@@ -174,7 +174,7 @@ gaairc:
 	Buildable:
 		Queue: Building
 		BuildPaletteOrder: 40
-		Prerequisites: garefn, ~structures.allies, ~!structures.america
+		Prerequisites: ~garefn, ~structures.allies, ~!structures.america
 	Valued:
 		Cost: 1000
 	Tooltip:
@@ -236,7 +236,7 @@ amradr:
 	Tooltip:
 		Name: American Airforce Command Headquarters
 	Buildable:
-		Prerequisites: garefn, ~structures.america
+		Prerequisites: ~garefn, ~structures.america
 	RenderBuilding:
 		Image: gaairc
 #	ParatroopersPower: # TODO
@@ -246,7 +246,7 @@ gaweap:
 	Buildable:
 		Queue: Building
 		BuildPaletteOrder: 50
-		Prerequisites: garefn, gapile, ~structures.allies
+		Prerequisites: garefn, ~gapile, ~structures.allies
 	Selectable:
 		Bounds: 212, 158, -7, -28
 	Valued:
@@ -288,7 +288,7 @@ gadept:
 	Buildable:
 		Queue: Building
 		BuildPaletteOrder: 60
-		Prerequisites: gaweap, ~structures.allies
+		Prerequisites: ~gaweap, ~structures.allies
 	Selectable:
 		Bounds: 140, 92, -20, -20
 	Valued:
@@ -322,7 +322,7 @@ gatech:
 	Buildable:
 		Queue: Building
 		BuildPaletteOrder: 70
-		Prerequisites: gaairc, gaweap, ~structures.allies
+		Prerequisites: ~gaairc, ~gaweap, ~structures.allies
 	Selectable:
 		Bounds: 122, 216, 0, -75
 	Valued:
@@ -349,7 +349,7 @@ gaorep:
 	Buildable:
 		Queue: Building
 		BuildPaletteOrder: 80
-		Prerequisites: garefn, gatech, ~structures.allies
+		Prerequisites: garefn, ~gatech, ~structures.allies
 		BuildLimit: 1
 	Selectable:
 		Bounds: 134, 102, -10, -21
@@ -376,7 +376,7 @@ gaspysat:
 	Buildable:
 		Queue: Building
 		BuildPaletteOrder: 90
-		Prerequisites: gatech, ~structures.allies
+		Prerequisites: ~gatech, ~structures.allies
 	Selectable:
 		Bounds: 96, 98, -4, -30
 	Valued:
