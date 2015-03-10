@@ -329,6 +329,26 @@ gaspysat:
 	icon: asaticon
 		Start: 0
 
+gaweat:
+	idle: ggweth
+		Start: 0
+		ShadowStart: 3
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+		Offset: 0, -45
+	damaged-idle: ggweth
+		Start: 1
+		ShadowStart: 4
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+		Offset: 0, -45
+	make: guwethmk
+		Start: 0
+		Length: 25
+		ShadowStart: 25
+		# Don't use UseTilesetCode, the make anim only exist in isourb.mix
+		Offset: 0, -45
+	icon: wethicon
+		Start: 0
+
 nacnst:
 	idle: nacnst
 		Start: 0

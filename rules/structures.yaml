@@ -399,6 +399,33 @@ gaspysat:
 	Power:
 		Amount: -100
 
+gaweat:
+	Inherits: ^Building
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 110
+		Prerequisites: gatech, ~structures.allies
+	Selectable:
+		Bounds: 96, 98, -4, -30
+	Valued:
+		Cost: 5000
+	Tooltip:
+		Name: Weather Controller
+		Description: Play God with deadly weather!
+	Building:
+		Footprint: xxx xxx xxx
+		Dimensions: 3,3
+	Health:
+		HP: 1000
+	Armor:
+		Type: Concrete
+	RevealsShroud:
+		Range: 5c0
+	Power:
+		Amount: -200
+# TODO: Lightning superpower -- 10m cooldown
+# TODO: Reset SW timer on infiltrate
+
 nacnst:
 	Inherits: ^Building
 	Buildable:
