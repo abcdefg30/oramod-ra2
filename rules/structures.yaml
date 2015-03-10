@@ -19,7 +19,7 @@ gacnst:
 	Valued:
 		Cost: 2500
 	Production:
-		Produces: Building,Defense
+		Produces: Building,Support
 	Tooltip:
 		Name: Construction Yard
 		Description: Builds base structures.
@@ -30,8 +30,8 @@ gacnst:
 		Facing: 96
 	ProductionBar@Building:
 		ProductionType: Building
-	ProductionBar@Defense:
-		ProductionType: Defense
+	ProductionBar@Support:
+		ProductionType: Support
 	WithIdleOverlay@FANS:
 		Sequence: idle-fans
 		PauseOnLowPower: true
@@ -399,12 +399,43 @@ gaspysat:
 	Power:
 		Amount: -100
 
+gagap:
+	Inherits: ^Building
+	Valued:
+		Cost: 1000
+	Tooltip:
+		Name: Gap Generator
+		Description: Obscures the enemy's view with shroud.\nRequires power to operate.
+	Buildable:
+		Queue: Support
+		BuildPaletteOrder: 100
+		Prerequisites: ~gatech, ~structures.allies
+	Selectable:
+		Bounds: 50, 114, -16, -38
+	Building:
+		Footprint: _ x
+		Dimensions: 1,2
+	RequiresPower:
+	Health:
+		HP: 600
+	Armor:
+		Type: Wood
+	RevealsShroud:
+		Range: 5c0
+	CreatesShroud:
+		Range: 10c0 # Does only create 5c0 because of the sight range
+	RenderShroudCircle: # TODO: Animated one (Radar like)
+	Power:
+		Amount: -100
+	MustBeDestroyed:
+		RequiredForShortGame: false
+
 gaweat:
 	Inherits: ^Building
 	Buildable:
-		Queue: Building
+		Queue: Support
 		BuildPaletteOrder: 110
-		Prerequisites: gatech, ~structures.allies
+		Prerequisites: ~gatech, ~structures.allies
 	Selectable:
 		Bounds: 96, 98, -4, -30
 	Valued:
@@ -429,7 +460,7 @@ gaweat:
 gacsph:
 	Inherits: ^Building
 	Buildable:
-		Queue: Building
+		Queue: Support
 		BuildPaletteOrder: 120
 		Prerequisites: ~gatech, ~structures.allies
 	Selectable:
@@ -502,7 +533,7 @@ nacnst:
 	Valued:
 		Cost: 2500
 	Production:
-		Produces: Building,Defense
+		Produces: Building,Support
 	Tooltip:
 		Name: Construction Yard
 		Description: Builds base structures.
@@ -513,8 +544,8 @@ nacnst:
 		Facing: 96
 	ProductionBar@Building:
 		ProductionType: Building
-	ProductionBar@Defense:
-		ProductionType: Defense
+	ProductionBar@Support:
+		ProductionType: Support
 	WithIdleOverlay@TOP:
 		Sequence: idle-top
 	WithIdleOverlay@SIDE:

@@ -267,16 +267,16 @@ Container@PLAYER_WIDGETS:
 									X: 6
 									Y: 6
 									ImageCollection: production-icons
-						ProductionTypeButton@DEFENSE:
+						ProductionTypeButton@SUPPORT:
 							Logic: AddRaceSuffixLogic
 							Y: 31
 							Width: 28
 							Height: 28
 							VisualHeight: 0
 							Background: sidebar-button
-							TooltipText: Defense
+							TooltipText: Support
 							TooltipContainer: TOOLTIP_CONTAINER
-							ProductionGroup: Defense
+							ProductionGroup: Support
 							HotkeyName: ProductionTypeDefenseKey
 							Children:
 								Image@ICON:

@@ -8,8 +8,8 @@ Player:
 		ReadyAudio: ConstructionComplete
 		SpeedUp: true
 		RequireOwner: false
-	ClassicProductionQueue@Defense:
-		Type: Defense
+	ClassicProductionQueue@Support:
+		Type: Support
 		BuildSpeed: .4
 		LowPowerSlowdown: 3
 		QueuedAudio: Building

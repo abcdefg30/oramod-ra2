@@ -64,6 +64,10 @@ dog:
 		IdleAnimations: idle1,idle2
 		RaceImages:
 			soviet: dog
+			cuba: dog
+			libya: dog
+			iraq: dog
+			russia: dog
 	IgnoresDisguise:
 	DetectCloaked:
 		Range: 5
