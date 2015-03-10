@@ -140,3 +140,42 @@ adog:
 	icon: adogicon
 		Start: 0
 
+e1:
+	stand: gi
+		Start: 0
+		Facings: 8
+	run: gi
+		Start: 8
+		Length: 6
+		Facings: 8
+		Tick: 120
+	idle1: gi
+		Start: 56
+		Length: 15
+		Tick: 100
+	idle2: gi
+		Start: 71
+		Length: 15
+		Tick: 100
+	prone-run:
+		Start: 86
+		Length: 6
+		Facings: 8
+		Tick: 100
+	die1: gi
+		Start: 134
+		Length: 14
+	die2: gi
+		Start: 149
+		Length: 14
+	die-crushed: corpse1
+		Start: 0
+		Length: 6
+		ZOffset: -511
+	shoot: gi
+		Start: 164
+		Length: 6
+		Facings: 8
+		Tick: 80
+	icon: giicon
+		Start: 0

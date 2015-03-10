@@ -43,6 +43,9 @@ Reference links:
 * `mk` anims are in isotemp.mix (or isosno.. etc)
 * `gg`/`ng` anims are in generic.mix
 * `icon`s are in cameo.mix
+* infantry are in conquer.mix
+
+Sequence 'Tick' properties are the number of milliseconds per frame.
 
 Tile type indices:
 * 00 = Clear

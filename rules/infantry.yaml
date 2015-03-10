@@ -38,10 +38,9 @@ dog:
 	Buildable:
 		Queue: Infantry
 		BuildPaletteOrder: 50
+		Prerequisites: ~barracks
 	Valued:
 		Cost: 200
-	CustomSellValue:
-		Value: 50
 	Tooltip:
 		Name: Attack Dog
 		Description: Anti-infantry unit.\nCan detect cloaked units and spies.\n  Strong vs Infantry\n  Weak vs Vehicles
@@ -74,3 +73,31 @@ dog:
 # ImmuneToRadiation=no
 # ImmuneToPsionics=yes
 # IFVMode=0
+
+e1:
+	Inherits: ^Infantry
+	Buildable:
+		Queue: Infantry
+		Prerequisites: ~gapile
+		BuildPaletteOrder: 10
+	Valued:
+		Cost: 200
+	Tooltip:
+		Name: G.I.
+		Description: Basic foot-soldier.
+	Selectable:
+		Bounds: 20, 30, 0, -11
+	Health:
+		HP: 125
+	Mobile:
+		Speed: 31
+	Passenger:
+		PipType: Green
+	RevealsShroud:
+		Range: 5c0
+	AttackFrontal:
+	Armament@primary:
+		Weapon: M60
+	# TODO: Armament@deployed (para)
+	RenderInfantry:
+		IdleAnimations: idle1, idle2
