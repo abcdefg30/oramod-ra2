@@ -21,6 +21,8 @@
 	WithBuildingExplosion:
 	RepairableBuilding:
 	EngineerRepairable:
+	EmitInfantryOnSell:
+		ActorTypes: e1, e1, e1
 	MustBeDestroyed:
 		RequiredForShortGame: true
 	GivesExperience:
@@ -147,6 +149,7 @@
 	WithDeathAnimation:
 	UpgradeManager:
 	MustBeDestroyed:
+# TODO: Soylet (for grinding in cloning vats and YR)
 
 ^CivilianInfantry:
 	Inherits: ^Infantry
@@ -233,6 +236,7 @@
 	GainsStatUpgrades:
 	UpgradeManager:
 	MustBeDestroyed:
+# TODO: Soylet (for grinding)
 
 ^Aircraft:
 	AppearsOnRadar:
