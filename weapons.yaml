@@ -74,13 +74,13 @@ M60E:
 		ValidImpactTypes: Water
 
 M1Carbine:
-	ReloadDelay: 20
+	ReloadDelay: 25
 	Range: 4c0
 	Report: INFGUN3.AUD
 	Projectile: Bullet
 		Speed: 1c682
 	Warhead@1Dam: SpreadDamage
-		Spread: 128
+		Spread: 64
 		Damage: 15
 		DeathType: 1
 		ProneModifier: 70

@@ -29,6 +29,7 @@ Player:
 			gatech: 1%
 		UnitsToBuild:
 			e1: 90%
+			e2: 90%
 			dog: 5%
 			engineer: 5%
 		SquadSize: 5

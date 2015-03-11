@@ -157,7 +157,7 @@ e1:
 		Start: 71
 		Length: 15
 		Tick: 100
-	prone-run:
+	prone-run: gi
 		Start: 86
 		Length: 6
 		Facings: 8
@@ -178,4 +178,45 @@ e1:
 		Facings: 8
 		Tick: 80
 	icon: giicon
+		Start: 0
+
+e2:
+	stand: cons
+		Start: 0
+		Facings: 8
+	run: cons
+		Start: 8
+		Length: 6
+		Facings: 8
+		Tick: 120
+	idle1: cons
+		Start: 56
+		Length: 15
+		Tick: 100
+	idle2: cons
+		Start: 71
+		Length: 15
+		Tick: 100
+	prone-run: cons
+		Start: 86
+		Length: 6
+		Facings: 8
+		Tick: 100
+	die1: cons
+		Start: 134
+		Length: 14
+	die2: cons
+		Start: 149
+		Length: 14
+	die-crushed: corpse1
+		Start: 0
+		Length: 6
+		Facings: 8
+		Tick: 80
+	shoot: cons
+		Start: 164
+		Length: 6
+		Facings: 8
+		Tick: 80
+	icon: e2icon
 		Start: 0

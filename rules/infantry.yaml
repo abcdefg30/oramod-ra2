@@ -98,6 +98,35 @@ e1:
 	AttackFrontal:
 	Armament@primary:
 		Weapon: M60
+	# TODO: Armament@elite (M60E)
 	# TODO: Armament@deployed (para)
 	RenderInfantry:
 		IdleAnimations: idle1, idle2
+
+e2:
+	Inherits: ^Infantry
+	Buildable:
+		Queue: Infantry
+		Prerequisites: ~nahand
+		BuildPaletteOrder: 10
+	Valued:
+		Cost: 100
+	Tooltip:
+		Name: Conscript
+		Description: Basic foot-soldier.
+	Selectable:
+		Bounds: 20, 30, 0, -11
+	Health:
+		HP: 125
+	Mobile:
+		Speed: 34
+	Passenger:
+		PipType: Green
+	RevealsShroud:
+		Range: 5c0
+	AttackFrontal:
+	Armament@primary:
+		Weapon: M1Carbine
+	# TODO: Armament@elite
+	RenderInfantry:
+		IdleAnimation:
