@@ -285,6 +285,20 @@ gaorep:
 		ShadowStart: 4
 		Offset: 0, -45
 		# UseTilsetCode: true # TODO: pchote/ts-snow
+	idle-glow: ggorep_a
+		Start: 0
+		Length: 8
+		ShadowStart: 16
+		Tick: 180
+		Offset: 0, -45
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	damaged-idle-glow: ggorep_a
+		Start: 8
+		Length: 8
+		ShadowStart: 24
+		Tick: 180
+		Offset: 0, -45
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gtorepmk
 		Start: 0
 		Length: 25

@@ -371,6 +371,8 @@ gaorep:
 		Type: Wood
 	RevealsShroud:
 		Range: 5c0
+	WithIdleOverlay@glow:
+		Sequence: idle-glow
 	Power:
 		Amount: -200
 # TODO: Increase income by 25%
