@@ -57,7 +57,7 @@ M60:
 	Projectile: Bullet
 		Speed: 1c682
 	Warhead@1Dam: SpreadDamage
-		Spread: 128
+		Spread: 64
 		Damage: 20
 		DeathType: 1
 		ProneModifier: 70
@@ -76,11 +76,11 @@ M60:
 M60E:
 	ReloadDelay: 20
 	Range: 4c0
-	Report: INFGUN3.AUD
+	Report: igiat1a.wav, igiat1b.wav, igiat1c.wav
 	Projectile: Bullet
 		Speed: 1c682
 	Warhead@1Dam: SpreadDamage
-		Spread: 128
+		Spread: 64
 		Damage: 25
 		DeathType: 1
 		ProneModifier: 70
