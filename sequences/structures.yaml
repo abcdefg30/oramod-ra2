@@ -606,3 +606,36 @@ narefn:
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: nreficon
 		Start: 0
+
+naradr:
+	idle: ngradr
+		Start: 0
+		ShadowStart: 3
+		Offset: 0, -25
+	damaged-idle: ngradr
+		Start: 1
+		ShadowStart: 4
+		Offset: 0, -25
+	critical-idle: ngradr
+		Start: 2
+		ShadowStart: 5
+		Offset: 0, -25
+	idle-dish: ngradr_a
+		Start: 0
+		ShadowStart: 92
+		Length: 45
+		Tick: 150
+		Offset: 0, -25
+	damaged-idle-dish: ngradr_a
+		Start: 46
+		ShadowStart: 138
+		Length: 45
+		Tick: 150
+		Offset: 0, -25
+	make: ntradrmk
+		Start: 0
+		Length: 30
+		ShadowStart: 30
+		Offset: 0, -25
+	icon: nradicon
+		Start: 0

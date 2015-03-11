@@ -670,6 +670,42 @@ narefn:
 	Power:
 		Amount: -50
 
+naradr:
+	Inherits: ^Building
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 40
+		Prerequisites: anypower, ~narefn, ~structures.soviets
+	Valued:
+		Cost: 1000
+	Tooltip:
+		Name: Radar Tower
+		Description: Provides radar.
+	ProvidesCustomPrerequisite:
+		Prerequisite: radar
+	Building:
+		Footprint: xx xx
+		Dimensions: 2,2
+	Selectable:
+		Bounds: 95, 130, 0, -35
+	Health:
+		HP: 1000
+	Armor:
+		Type: Wood
+	RequiresPower:
+	CanPowerDown:
+	ProvidesRadar:
+	RevealsShroud:
+		Range: 10c0
+	WithIdleOverlay@DISH:
+		Sequence: idle-dish
+		PauseOnLowPower: true
+	TargetableBuilding:
+		TargetTypes: Ground, C4, SpyInfiltrate
+	InfiltrateForExploration:
+	Power:
+		Amount: -50
+
 anypower:
 	Tooltip:
 		Name: Power Plant
