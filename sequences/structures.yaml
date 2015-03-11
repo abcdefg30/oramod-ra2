@@ -459,41 +459,41 @@ napowr:
 	idle: ngpowr
 		Start: 0
 		ShadowStart: 3
-		Offset: -15, -30
+		Offset: -15, -37
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: ngpowr
 		Start: 1
 		ShadowStart: 4
-		Offset: -15, -30
+		Offset: -15, -37
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	critical-idle: ngpowr
 		Start: 2
 		ShadowStart: 5
-		Offset: -15, -30
+		Offset: -15, -37
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-lights: ngpowr_a
 		Start: 0
 		Length: 9
 		Tick: 150
-		Offset: -15, -30
+		Offset: -15, -37
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-lights: ngpowr_a
 		Start: 9
 		Length: 9
 		Tick: 150
-		Offset: -15, -30
+		Offset: -15, -37
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	critical-idle-lights: ngpowr_a
 		Start: 9
 		Length: 9
 		Tick: 150
-		Offset: -15, -30
+		Offset: -15, -37
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: ntpowrmk
 		Start: 0
-		Length: 19
-		ShadowStart: 19
-		Offset: -15, -30
+		Length: 26
+		ShadowStart: 26
+		Offset: -15, -37
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: npwricon
 		Start: 0
@@ -502,47 +502,23 @@ nahand:
 	idle: nghand
 		Start: 0
 		ShadowStart: 3
-		Offset: 0, -25
+		Offset: 1, -31
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: nghand
 		Start: 1
 		ShadowStart: 4
-		Offset: 0, -25
+		Offset: 1, -31
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	critical-idle: nghand
 		Start: 2
 		ShadowStart: 5
-		Offset: 0, -25
-		# UseTilsetCode: true # TODO: pchote/ts-snow
-	production-light: nghand_a
-		Start: 0
-		Length: 5
-		Tick: 150
-		Offset: 0, -25
-		# UseTilsetCode: true # TODO: pchote/ts-snow
-	damaged-production-light: nghand_a
-		Start: 5
-		Length: 5
-		Tick: 150
-		Offset: 0, -25
-		# UseTilsetCode: true # TODO: pchote/ts-snow
-	idle-lights: nghand_b
-		Start: 0
-		Length: 8
-		Tick: 200
-		Offset: 0, -25
-		# UseTilsetCode: true # TODO: pchote/ts-snow
-	damaged-idle-lights: nghand_b
-		Start: 8
-		Length: 8
-		Tick: 200
-		Offset: 0, -25
+		Offset: 1, -31
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: nthandmk
 		Start: 0
-		Length: 15
-		ShadowStart: 15
-		Offset: 0, -25
+		Length: 24
+		ShadowStart: 24
+		Offset: 1, -31
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: handicon
 		Start: 0
@@ -593,40 +569,40 @@ narefn:
 	idle: ngrefn
 		Start: 0
 		ShadowStart: 3
-		Offset: -15, -50
+		Offset: -13, -50
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: ngrefn
 		Start: 1
 		ShadowStart: 4
-		Offset: -15, -50
+		Offset: -13, -50
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: ntrefnmk
 		Start: 0
 		Length: 25
 		ShadowStart: 0
-		Offset: -15, -50
+		Offset: -13, -50
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-drill: ngrefnl1
 		Start: 0
 		Length: 3
 		Tick: 1500
-		Offset: -15, -50
+		Offset: -13, -50
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-bib: ngrefnbb
 		Start: 0
 		ShadowStart: 2
-		Offset: -15, -50
+		Offset: -13, -50
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-bib: ngrefnbb
 		Start: 1
 		ShadowStart: 3
-		Offset: -15, -50
+		Offset: -13, -50
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	docking-overlay: ngrefnor
 		Start: 0
 		Length: 20
 		ShadowStart: 20
-		Offset: -15, -50
+		Offset: -13, -50
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: nreficon
 		Start: 0
