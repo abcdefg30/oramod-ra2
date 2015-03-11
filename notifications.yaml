@@ -1,10 +1,10 @@
 Speech:
 	Prefixes: 
 		allies: ceva
-		soviet: csof
+		soviets: csof
 	Variants: 
 		allies: .wav
-		soviet: .wav
+		soviets: .wav
 	Notifications:	
 		Repairing: 057
 		LowPower: 053

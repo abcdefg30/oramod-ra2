@@ -11,7 +11,7 @@ UnitExplode:
 			Heavy: 25
 	Warhead@2Eff: CreateEffect
 		Explosion: large_twlt
-		ImpactSound: expnew09.aud
+		ImpactSound: vgendiea.wav, vgendieb.wav, vgendiec.wav, vgendied.wav, vgendiee.wav, vgendief.wav
 
 UnitExplodeSmall:
 	Warhead@1Dam: SpreadDamage

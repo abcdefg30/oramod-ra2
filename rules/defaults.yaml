@@ -15,8 +15,10 @@
 	GivesBuildableArea:
 	Capturable:
 	SoundOnDamageTransition:
-		DamagedSound: expnew01.aud
-		DestroyedSound: crmble2.aud
+		DamagedSound: gdamag1a.wav
+		# TODO: Due to an engine limitation, only one sound can be defined. Others are: gdamag1b.wav, gdamag1c.wav, gdamag1d.wav, gdamag1e.wav
+		DestroyedSound: bgendiea.wav
+		# TODO: Due to an engine limitation, only one sound can be defined. Others are: bgendieb.wav, bgendiec.wav, bgendied.wav, bgendiee.wav, bgendief.wav
 	RenderBuilding:
 	WithBuildingExplosion:
 	RepairableBuilding:
@@ -129,7 +131,7 @@
 		Types: Infantry
 	GivesBounty:
 	Crushable:
-		CrushSound: squish6.aud
+		CrushSound: igensqua.wav
 	UpdatesPlayerStatistics:
 	CombatDebugOverlay:
 	Guard:
