@@ -27,29 +27,6 @@ UnitExplodeSmall:
 		Explosion: medium_brnl
 		ImpactSound: expnew13.aud
 
-Minigun:
-	ReloadDelay: 21
-	Range: 4c0
-	Report: INFGUN3.AUD
-	Projectile: Bullet
-		Speed: 1c682
-	Warhead@1Dam: SpreadDamage
-		Spread: 128
-		Damage: 12
-		DeathType: 1
-		ProneModifier: 70
-		Versus:
-			Wood: 60
-			Light: 40
-			Heavy: 25
-			Concrete: 10
-	Warhead@2Eff: CreateEffect
-		Explosion: piff
-		InvalidImpactTypes: Water
-	Warhead@3EffWater: CreateEffect
-		Explosion: water_piffs
-		ValidImpactTypes: Water
-
 M60:
 	ReloadDelay: 20
 	Range: 4c0
