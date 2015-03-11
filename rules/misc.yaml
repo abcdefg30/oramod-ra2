@@ -10,3 +10,16 @@ waypoint:
 	RenderEditorOnly:
 	BodyOrientation:
 
+^amcv.colorpicker:
+	Inherits: amcv
+	Mobile:
+		InitialFacing: 160
+	Turreted:
+		InitialFacing: 160
+	RenderSprites:
+		Image: amcv
+		StandAnimations: idle
+		Palette: colorpicker
+	RenderVoxels:
+		Image: amcv
+		Palette: colorpicker
