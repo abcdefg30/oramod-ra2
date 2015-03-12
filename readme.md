@@ -69,3 +69,6 @@ Tile type indices:
 Wall, Tiberium, and Weeds are somewhere in this list,
   even though they are overlays and not tiletypes,
   because they affect actor movement speed.
+
+[Tileset/map importer code](https://gist.github.com/Phrohdoh/2e91bed36624d160d437).
+

@@ -168,10 +168,9 @@ e1:
 	die2: gi
 		Start: 149
 		Length: 14
-	die-crushed: corpse1
+	die-crushed: death_c
 		Start: 0
-		Length: 6
-		ZOffset: -511
+		Length: 4
 	shoot: gi
 		Start: 164
 		Length: 6
@@ -208,10 +207,9 @@ e2:
 	die2: cons
 		Start: 149
 		Length: 14
-	die-crushed: corpse1
+	die-crushed: death_c
 		Start: 0
-		Length: 6
-		Facings: 8
+		Length: 4
 		Tick: 80
 	shoot: cons
 		Start: 164

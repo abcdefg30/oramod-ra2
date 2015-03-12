@@ -5,6 +5,9 @@ overlay:
 	build-valid-snow: place
 		Start: 0
 		Offset: 0, -15
+	build-valid-urban: place
+		Start: 0
+		Offset: 0, -15
 	build-invalid: place
 		Start: 1
 		Offset: 0, -15

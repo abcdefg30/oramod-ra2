@@ -130,6 +130,7 @@ Notifications:
 TileSets:
 	./mods/ra2/tilesets/temperat.yaml
 	./mods/ra2/tilesets/snow.yaml
+	./mods/ra2/tilesets/urban.yaml
 
 TileSize: 60,30
 TileShape: Diamond

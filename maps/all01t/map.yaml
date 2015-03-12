@@ -8,7 +8,7 @@ Description: Describe your map here
 
 Author: Westwood Studios
 
-Tileset: TEMPERAT
+Tileset: URBAN
 
 MapSize: 50,128
 
@@ -27,7 +27,7 @@ Players:
 		Name: Neutral
 		OwnsWorld: True
 		NonCombatant: True
-		Race: allies
+		Race: america
 	PlayerReference@Multi0:
 		Name: Multi0
 		Playable: True
@@ -71,7 +71,7 @@ Players:
 	PlayerReference@Creeps:
 		Name: Creeps
 		NonCombatant: True
-		Race: allies
+		Race: america
 		Enemies: Multi0, Multi1, Multi2, Multi3, Multi4, Multi5, Multi6, Multi7
 
 Actors:
@@ -145,312 +145,502 @@ Actors:
 		Owner: Neutral
 		Health: 1
 		Facing: 96
-	Actor14: napowr
+	Actor14: naweap
+		Location: 82,27
+		Owner: Neutral
+		Health: 1
+		Facing: 96
+	Actor15: naweap
+		Location: 82,32
+		Owner: Neutral
+		Health: 1
+		Facing: 96
+	Actor16: naradr
+		Location: 95,25
+		Owner: Neutral
+		Health: 1
+		Facing: 96
+	Actor17: napowr
 		Location: 90,27
 		Owner: Neutral
 		Health: 1
 		Facing: 96
-	Actor15: mpspawn
-		Location: 61,21
+	Actor18: e1
+		Location: 57,18
 		Owner: Neutral
-	Actor16: mpspawn
-		Location: 61,40
+		Health: 1
+		Facing: 100
+	Actor19: e1
+		Location: 63,17
 		Owner: Neutral
-	Actor17: mpspawn
-		Location: 23,-11
+		Health: 1
+		Facing: 100
+	Actor20: e1
+		Location: 64,25
 		Owner: Neutral
-	Actor18: mpspawn
-		Location: 62,16
+		Health: 1
+		Facing: 98
+	Actor21: e1
+		Location: 59,16
 		Owner: Neutral
-	Actor19: mpspawn
-		Location: 73,-7
+		Health: 1
+		Facing: 99
+	Actor22: e2
+		Location: 84,9
 		Owner: Neutral
-	Actor20: mpspawn
-		Location: 80,18
+		Health: 1
+		Facing: 98
+	Actor23: e2
+		Location: 81,8
 		Owner: Neutral
-	Actor21: mpspawn
-		Location: 23,-14
+		Health: 1
+		Facing: 100
+	Actor24: e2
+		Location: 90,16
 		Owner: Neutral
-	Actor22: mpspawn
-		Location: 21,-1
+		Health: 1
+		Facing: 98
+	Actor25: e2
+		Location: 94,16
 		Owner: Neutral
-	Actor23: waypoint
-		Location: 80,17
+		Health: 1
+		Facing: 98
+	Actor26: e2
+		Location: 96,20
 		Owner: Neutral
-	Actor24: waypoint
-		Location: 75,46
+		Health: 1
+		Facing: 100
+	Actor27: e2
+		Location: 89,20
 		Owner: Neutral
-	Actor25: waypoint
-		Location: 68,-7
+		Health: 1
+		Facing: 98
+	Actor28: e2
+		Location: 92,10
 		Owner: Neutral
-	Actor26: waypoint
-		Location: 75,-7
+		Health: 1
+		Facing: 98
+	Actor29: e2
+		Location: 92,9
 		Owner: Neutral
-	Actor27: waypoint
-		Location: 76,13
+		Health: 1
+		Facing: 98
+	Actor30: e2
+		Location: 93,9
 		Owner: Neutral
-	Actor28: waypoint
-		Location: 68,-17
+		Health: 1
+		Facing: 98
+	Actor31: e2
+		Location: 86,11
 		Owner: Neutral
-	Actor29: waypoint
-		Location: 75,-17
+		Health: 1
+		Facing: 99
+	Actor32: e1
+		Location: 65,19
 		Owner: Neutral
-	Actor30: waypoint
-		Location: 83,-15
+		Health: 1
+		Facing: 98
+	Actor33: e1
+		Location: 59,24
 		Owner: Neutral
-	Actor31: waypoint
-		Location: 73,-12
+		Health: 1
+		Facing: 98
+	Actor34: e1
+		Location: 61,16
 		Owner: Neutral
-	Actor32: waypoint
-		Location: 38,-11
+		Health: 1
+		Facing: 99
+	Actor35: e1
+		Location: 65,23
 		Owner: Neutral
-	Actor33: waypoint
-		Location: 56,42
+		Health: 1
+		Facing: 100
+	Actor36: e1
+		Location: 66,21
 		Owner: Neutral
-	Actor34: waypoint
-		Location: 61,50
-		Owner: Neutral
-	Actor35: waypoint
-		Location: 62,19
-		Owner: Neutral
-	Actor36: waypoint
-		Location: 21,12
-		Owner: Neutral
-	Actor37: waypoint
-		Location: 46,21
-		Owner: Neutral
-	Actor38: waypoint
-		Location: 48,25
-		Owner: Neutral
-	Actor39: waypoint
-		Location: 48,16
-		Owner: Neutral
-	Actor40: waypoint
-		Location: 38,-14
-		Owner: Neutral
-	Actor41: waypoint
-		Location: 57,16
-		Owner: Neutral
-	Actor42: waypoint
-		Location: 63,32
-		Owner: Neutral
-	Actor43: waypoint
-		Location: 56,-32
-		Owner: Neutral
-	Actor44: waypoint
-		Location: 61,-11
-		Owner: Neutral
-	Actor45: waypoint
-		Location: 61,-31
-		Owner: Neutral
-	Actor46: waypoint
-		Location: 61,-13
-		Owner: Neutral
-	Actor47: waypoint
-		Location: 95,21
-		Owner: Neutral
-	Actor48: waypoint
-		Location: 59,29
-		Owner: Neutral
-	Actor49: waypoint
-		Location: 61,15
-		Owner: Neutral
-	Actor50: waypoint
-		Location: 81,1
-		Owner: Neutral
-	Actor51: waypoint
-		Location: 59,49
-		Owner: Neutral
-	Actor52: waypoint
-		Location: 32,-2
-		Owner: Neutral
-	Actor53: waypoint
-		Location: 36,32
-		Owner: Neutral
-	Actor54: waypoint
-		Location: 74,35
-		Owner: Neutral
-	Actor55: waypoint
-		Location: 78,19
-		Owner: Neutral
-	Actor56: waypoint
-		Location: 38,32
-		Owner: Neutral
-	Actor57: waypoint
-		Location: 39,2
-		Owner: Neutral
-	Actor58: waypoint
-		Location: 37,32
-		Owner: Neutral
-	Actor59: waypoint
-		Location: 61,-37
-		Owner: Neutral
-	Actor60: waypoint
-		Location: 33,11
-		Owner: Neutral
-	Actor61: waypoint
-		Location: 56,-10
-		Owner: Neutral
-	Actor62: waypoint
-		Location: 85,11
-		Owner: Neutral
-	Actor63: waypoint
-		Location: 62,26
-		Owner: Neutral
-	Actor64: waypoint
-		Location: 63,24
-		Owner: Neutral
-	Actor65: waypoint
-		Location: 62,58
-		Owner: Neutral
-	Actor66: waypoint
-		Location: 76,8
-		Owner: Neutral
-	Actor67: waypoint
-		Location: 66,3
-		Owner: Neutral
-	Actor68: waypoint
-		Location: 63,25
-		Owner: Neutral
-	Actor69: waypoint
+		Health: 1
+		Facing: 99
+	Actor37: e1
 		Location: 57,21
 		Owner: Neutral
-	Actor70: waypoint
-		Location: 63,16
+		Health: 1
+		Facing: 100
+	Actor38: e1
+		Location: 30,9
 		Owner: Neutral
-	Actor71: waypoint
-		Location: 78,-3
-		Owner: Neutral
-	Actor72: waypoint
-		Location: 55,-7
-		Owner: Neutral
-	Actor73: waypoint
-		Location: 57,-11
-		Owner: Neutral
-	Actor74: waypoint
-		Location: 82,-3
-		Owner: Neutral
-	Actor75: waypoint
-		Location: 55,-18
-		Owner: Neutral
-	Actor76: waypoint
-		Location: 57,-13
-		Owner: Neutral
-	Actor77: waypoint
-		Location: 39,32
-		Owner: Neutral
-	Actor78: waypoint
+		Health: 1
+		Facing: 100
+	Actor39: e1
 		Location: 31,9
 		Owner: Neutral
+		Health: 1
+		Facing: 98
+	Actor40: e2
+		Location: 84,14
+		Owner: Neutral
+		Health: 1
+		Facing: 98
+	Actor41: e2
+		Location: 82,18
+		Owner: Neutral
+		Health: 1
+		Facing: 98
+	Actor42: e2
+		Location: 82,18
+		Owner: Neutral
+		Health: 1
+		Facing: 99
+	Actor43: e2
+		Location: 87,24
+		Owner: Neutral
+		Health: 1
+		Facing: 100
+	Actor44: e2
+		Location: 87,31
+		Owner: Neutral
+		Health: 1
+		Facing: 98
+	Actor45: e2
+		Location: 98,23
+		Owner: Neutral
+		Health: 1
+		Facing: 100
+	Actor46: e2
+		Location: 101,19
+		Owner: Neutral
+		Health: 1
+		Facing: 100
+	Actor47: e2
+		Location: 89,17
+		Owner: Neutral
+		Health: 1
+		Facing: 98
+	Actor48: e2
+		Location: 32,-6
+		Owner: Neutral
+		Health: 1
+		Facing: 99
+	Actor49: e2
+		Location: 40,-17
+		Owner: Neutral
+		Health: 1
+		Facing: 98
+	Actor50: e2
+		Location: 39,-19
+		Owner: Neutral
+		Health: 1
+		Facing: 99
+	Actor51: e2
+		Location: 40,-18
+		Owner: Neutral
+		Health: 1
+		Facing: 98
+	Actor52: e1
+		Location: 61,25
+		Owner: Neutral
+		Health: 1
+		Facing: 98
+	Actor53: mpspawn
+		Location: 61,21
+		Owner: Neutral
+	Actor54: mpspawn
+		Location: 61,40
+		Owner: Neutral
+	Actor55: mpspawn
+		Location: 23,-11
+		Owner: Neutral
+	Actor56: mpspawn
+		Location: 62,16
+		Owner: Neutral
+	Actor57: mpspawn
+		Location: 73,-7
+		Owner: Neutral
+	Actor58: mpspawn
+		Location: 80,18
+		Owner: Neutral
+	Actor59: mpspawn
+		Location: 23,-14
+		Owner: Neutral
+	Actor60: mpspawn
+		Location: 21,-1
+		Owner: Neutral
+	Actor61: waypoint
+		Location: 80,17
+		Owner: Neutral
+	Actor62: waypoint
+		Location: 75,46
+		Owner: Neutral
+	Actor63: waypoint
+		Location: 68,-7
+		Owner: Neutral
+	Actor64: waypoint
+		Location: 75,-7
+		Owner: Neutral
+	Actor65: waypoint
+		Location: 76,13
+		Owner: Neutral
+	Actor66: waypoint
+		Location: 68,-17
+		Owner: Neutral
+	Actor67: waypoint
+		Location: 75,-17
+		Owner: Neutral
+	Actor68: waypoint
+		Location: 83,-15
+		Owner: Neutral
+	Actor69: waypoint
+		Location: 73,-12
+		Owner: Neutral
+	Actor70: waypoint
+		Location: 38,-11
+		Owner: Neutral
+	Actor71: waypoint
+		Location: 56,42
+		Owner: Neutral
+	Actor72: waypoint
+		Location: 61,50
+		Owner: Neutral
+	Actor73: waypoint
+		Location: 62,19
+		Owner: Neutral
+	Actor74: waypoint
+		Location: 21,12
+		Owner: Neutral
+	Actor75: waypoint
+		Location: 46,21
+		Owner: Neutral
+	Actor76: waypoint
+		Location: 48,25
+		Owner: Neutral
+	Actor77: waypoint
+		Location: 48,16
+		Owner: Neutral
+	Actor78: waypoint
+		Location: 38,-14
+		Owner: Neutral
 	Actor79: waypoint
-		Location: 32,1
+		Location: 57,16
 		Owner: Neutral
 	Actor80: waypoint
-		Location: 23,8
+		Location: 63,32
 		Owner: Neutral
 	Actor81: waypoint
-		Location: 31,23
+		Location: 56,-32
 		Owner: Neutral
 	Actor82: waypoint
-		Location: 31,10
+		Location: 61,-11
 		Owner: Neutral
 	Actor83: waypoint
-		Location: 33,19
+		Location: 61,-31
 		Owner: Neutral
 	Actor84: waypoint
-		Location: 33,12
+		Location: 61,-13
 		Owner: Neutral
 	Actor85: waypoint
-		Location: 33,18
+		Location: 95,21
 		Owner: Neutral
 	Actor86: waypoint
-		Location: 31,19
+		Location: 59,29
 		Owner: Neutral
 	Actor87: waypoint
-		Location: 31,17
+		Location: 61,15
 		Owner: Neutral
 	Actor88: waypoint
-		Location: 58,-11
+		Location: 81,1
 		Owner: Neutral
 	Actor89: waypoint
-		Location: 49,46
+		Location: 59,49
 		Owner: Neutral
 	Actor90: waypoint
-		Location: 59,36
+		Location: 32,-2
 		Owner: Neutral
 	Actor91: waypoint
-		Location: 32,-22
+		Location: 36,32
 		Owner: Neutral
 	Actor92: waypoint
-		Location: 64,36
+		Location: 74,35
 		Owner: Neutral
 	Actor93: waypoint
-		Location: 28,27
+		Location: 78,19
 		Owner: Neutral
 	Actor94: waypoint
-		Location: 81,2
+		Location: 38,32
 		Owner: Neutral
 	Actor95: waypoint
-		Location: 61,9
+		Location: 39,2
 		Owner: Neutral
 	Actor96: waypoint
-		Location: 106,8
+		Location: 37,32
 		Owner: Neutral
 	Actor97: waypoint
-		Location: 76,18
+		Location: 61,-37
 		Owner: Neutral
 	Actor98: waypoint
-		Location: 15,-7
+		Location: 33,11
 		Owner: Neutral
 	Actor99: waypoint
-		Location: 91,-7
+		Location: 56,-10
 		Owner: Neutral
 	Actor100: waypoint
-		Location: 81,46
+		Location: 85,11
 		Owner: Neutral
 	Actor101: waypoint
-		Location: 81,-17
+		Location: 62,26
 		Owner: Neutral
 	Actor102: waypoint
-		Location: 24,-17
+		Location: 63,24
 		Owner: Neutral
 	Actor103: waypoint
-		Location: 36,35
+		Location: 62,58
 		Owner: Neutral
 	Actor104: waypoint
-		Location: 92,35
+		Location: 76,8
 		Owner: Neutral
 	Actor105: waypoint
-		Location: 23,23
+		Location: 66,3
 		Owner: Neutral
 	Actor106: waypoint
-		Location: 32,23
+		Location: 63,25
 		Owner: Neutral
 	Actor107: waypoint
-		Location: 32,-7
+		Location: 57,21
 		Owner: Neutral
 	Actor108: waypoint
-		Location: 96,6
+		Location: 63,16
 		Owner: Neutral
 	Actor109: waypoint
-		Location: 91,6
+		Location: 78,-3
 		Owner: Neutral
 	Actor110: waypoint
-		Location: 86,6
+		Location: 55,-7
 		Owner: Neutral
 	Actor111: waypoint
-		Location: 89,-4
+		Location: 57,-11
 		Owner: Neutral
 	Actor112: waypoint
-		Location: 15,-6
+		Location: 82,-3
 		Owner: Neutral
 	Actor113: waypoint
-		Location: 57,22
+		Location: 55,-18
 		Owner: Neutral
 	Actor114: waypoint
-		Location: 57,22
+		Location: 57,-13
 		Owner: Neutral
 	Actor115: waypoint
+		Location: 39,32
+		Owner: Neutral
+	Actor116: waypoint
+		Location: 31,9
+		Owner: Neutral
+	Actor117: waypoint
+		Location: 32,1
+		Owner: Neutral
+	Actor118: waypoint
+		Location: 23,8
+		Owner: Neutral
+	Actor119: waypoint
+		Location: 31,23
+		Owner: Neutral
+	Actor120: waypoint
+		Location: 31,10
+		Owner: Neutral
+	Actor121: waypoint
+		Location: 33,19
+		Owner: Neutral
+	Actor122: waypoint
+		Location: 33,12
+		Owner: Neutral
+	Actor123: waypoint
+		Location: 33,18
+		Owner: Neutral
+	Actor124: waypoint
+		Location: 31,19
+		Owner: Neutral
+	Actor125: waypoint
+		Location: 31,17
+		Owner: Neutral
+	Actor126: waypoint
+		Location: 58,-11
+		Owner: Neutral
+	Actor127: waypoint
+		Location: 49,46
+		Owner: Neutral
+	Actor128: waypoint
+		Location: 59,36
+		Owner: Neutral
+	Actor129: waypoint
+		Location: 32,-22
+		Owner: Neutral
+	Actor130: waypoint
+		Location: 64,36
+		Owner: Neutral
+	Actor131: waypoint
+		Location: 28,27
+		Owner: Neutral
+	Actor132: waypoint
+		Location: 81,2
+		Owner: Neutral
+	Actor133: waypoint
+		Location: 61,9
+		Owner: Neutral
+	Actor134: waypoint
+		Location: 106,8
+		Owner: Neutral
+	Actor135: waypoint
+		Location: 76,18
+		Owner: Neutral
+	Actor136: waypoint
+		Location: 15,-7
+		Owner: Neutral
+	Actor137: waypoint
+		Location: 91,-7
+		Owner: Neutral
+	Actor138: waypoint
+		Location: 81,46
+		Owner: Neutral
+	Actor139: waypoint
+		Location: 81,-17
+		Owner: Neutral
+	Actor140: waypoint
+		Location: 24,-17
+		Owner: Neutral
+	Actor141: waypoint
+		Location: 36,35
+		Owner: Neutral
+	Actor142: waypoint
+		Location: 92,35
+		Owner: Neutral
+	Actor143: waypoint
+		Location: 23,23
+		Owner: Neutral
+	Actor144: waypoint
+		Location: 32,23
+		Owner: Neutral
+	Actor145: waypoint
+		Location: 32,-7
+		Owner: Neutral
+	Actor146: waypoint
+		Location: 96,6
+		Owner: Neutral
+	Actor147: waypoint
+		Location: 91,6
+		Owner: Neutral
+	Actor148: waypoint
+		Location: 86,6
+		Owner: Neutral
+	Actor149: waypoint
+		Location: 89,-4
+		Owner: Neutral
+	Actor150: waypoint
+		Location: 15,-6
+		Owner: Neutral
+	Actor151: waypoint
+		Location: 57,22
+		Owner: Neutral
+	Actor152: waypoint
+		Location: 57,22
+		Owner: Neutral
+	Actor153: waypoint
 		Location: 57,-6
 		Owner: Neutral
 
