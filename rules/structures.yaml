@@ -787,7 +787,7 @@ nanrct:
 	Buildable:
 		Queue: Building
 		BuildPaletteOrder: 150
-		Prerequisites: ~structures.soviets
+		Prerequisites: ~natech, ~structures.soviets
 	Valued:
 		Cost: 1000
 	Tooltip:
@@ -811,7 +811,32 @@ nanrct:
 	Power:
 		Amount: 2000
 	ScalePowerWithHealth:
-		
+
+natech:
+	Inherits: ^Building
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 160
+		Prerequisites: ~naweap, ~naradr, ~structures.soviets
+	Valued:
+		Cost: 2000
+	Tooltip:
+		Name: Battle Lab
+		Description: Allows deployment of advanced units.
+	Building:
+		Footprint: xxx xxx xxx
+		Dimensions: 3,3
+	Selectable:
+		Bounds: 148, 167, -2, -47
+	Health:
+		HP: 500
+	Armor:
+		Type: Wood
+	RevealsShroud:
+		Range: 6c0
+	Power:
+		Amount: -100
+	
 anypower:
 	Tooltip:
 		Name: Power Plant

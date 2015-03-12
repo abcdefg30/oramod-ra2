@@ -780,3 +780,28 @@ nanrct:
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: nrcticon
 		Start: 0
+
+natech:
+	idle: ngtech
+		Start: 0
+		ShadowStart: 3
+		Offset: 0, -45
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	damaged-idle: ngtech
+		Start: 1
+		ShadowStart: 4
+		Offset: 0, -45
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	critical-idle: ngtech
+		Start: 2
+		ShadowStart: 5
+		Offset: 0, -45
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	make: nttechmk
+		Start: 0
+		Length: 25
+		ShadowStart: 25
+		Offset: 0, -45
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	icon: ntchicon
+		Start: 0
