@@ -70,5 +70,5 @@ Wall, Tiberium, and Weeds are somewhere in this list,
   even though they are overlays and not tiletypes,
   because they affect actor movement speed.
 
-[Tileset/map importer code](https://gist.github.com/Phrohdoh/2e91bed36624d160d437).
+[Tutorial: Converting Westwood maps (TS/RA2) to OpenRA](https://gist.github.com/Phrohdoh/ab2524fe46b05b029d4b).
 
