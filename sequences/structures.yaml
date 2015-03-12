@@ -4,10 +4,10 @@ gacnst:
 		ShadowStart: 3
 		Offset: 3, -60
 		# UseTilsetCode: true # TODO: pchote/ts-snow
-	make: gacnstmk
+	make: gtcnstmk
 		Start: 0
-		Length: 28
-		ShadowStart: 0
+		Length: 29
+		ShadowStart: 29
 		Offset: 3, -60
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: ggcnst
@@ -70,7 +70,7 @@ gapowr:
 	make: gtpowrmk
 		Start: 0
 		Length: 25
-		ShadowStart: 0
+		ShadowStart: 25
 		Offset: 0, -31
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: powricon
@@ -102,7 +102,7 @@ gapile:
 	make: gtpilemk
 		Start: 0
 		Length: 25
-		ShadowStart: 0
+		ShadowStart: 25
 		Offset: -15, -38
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: brrkicon
@@ -122,7 +122,7 @@ garefn:
 	make: gurefnmk
 		Start: 0
 		Length: 25
-		ShadowStart: 0
+		ShadowStart: 25
 		Offset: -12, -52
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-drill: ggrefnl1
@@ -592,8 +592,8 @@ narefn:
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: ntrefnmk
 		Start: 0
-		Length: 25
-		ShadowStart: 0
+		Length: 26
+		ShadowStart: 26
 		Offset: -13, -53
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-drill: ngrefnl1
@@ -701,40 +701,40 @@ nadept:
 	idle: ngdept
 		Start: 0
 		ShadowStart: 3
-		Offset: -15, -45
+		Offset: -15, -53
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: ngdept
 		Start: 2
 		ShadowStart: 4
-		Offset: -15, -45
+		Offset: -15, -53
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-crane: ngdept_b
 		Start: 0
 		Length: 10
 		ShadowStart: 20
-		Offset: -15, -45
+		Offset: -15, -53
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-crane: ngdept_d
 		Start: 10
 		Length: 10
 		ShadowStart: 29
-		Offset: -15, -45
+		Offset: -15, -53
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	bib: ngdeptbb
 		Start: 0
 		ShadowStart: 3
-		Offset: -15, -45
+		Offset: -15, -53
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-bib: ngdeptbb
 		Start: 1
 		ShadowStart: 2
-		Offset: -15, -45
+		Offset: -15, -53
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: ntdeptmk
 		Start: 0
 		Length: 25
 		ShadowStart: 25
-		Offset: -15, -45
+		Offset: -15, -53
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: rfixicon
 		Start: 0
