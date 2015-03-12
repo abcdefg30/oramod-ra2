@@ -481,10 +481,6 @@ flags: buttons.png
 	random:  45, 84, 45, 21
 	spectator: 45, 84, 45, 21
 
-# placeholder
-	allies:  00, 00, 45, 21
-	soviets: 45, 63, 45, 21
-
 music: musicplayer.png
 	pause: 0,0,25,25
 	stop: 28,0,25,25

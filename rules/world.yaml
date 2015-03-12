@@ -83,12 +83,6 @@ World:
 	VoxelNormalsPalette@normals:
 		Name: normals
 		Type: RedAlert2
-	Country@allies:
-		Name: Allies
-		Race: allies
-	Country@soviets:
-		Name: Soviets
-		Race: soviets
 	Country@1:
 		Name: America
 		Race: america
