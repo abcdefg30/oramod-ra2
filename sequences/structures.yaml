@@ -108,6 +108,48 @@ gapile:
 	icon: brrkicon
 		Start: 0
 
+garefn:
+	idle: ggrefn
+		Start: 0
+		ShadowStart: 3
+		Offset: -15, -50
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	damaged-idle: ggrefn
+		Start: 1
+		ShadowStart: 4
+		Offset: -15, -50
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	make: gurefnmk
+		Start: 0
+		Length: 25
+		ShadowStart: 0
+		Offset: -15, -50
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	idle-drill: ggrefnl1
+		Start: 0
+		Length: 6
+		Tick: 1500
+		Offset: -15, -50
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	idle-bib: ggrefnbb
+		Start: 0
+		ShadowStart: 2
+		Offset: -15, -50
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	damaged-idle-bib: ggrefnbb
+		Start: 1
+		ShadowStart: 3
+		Offset: -15, -50
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	docking-overlay: ggrefnor
+		Start: 0
+		Length: 20
+		ShadowStart: 20
+		Offset: -15, -50
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	icon: reficon
+		Start: 0
+
 gaairc:
 	idle: ggairc
 		Start: 0
@@ -537,48 +579,6 @@ nahand:
 	icon: handicon
 		Start: 0
 
-garefn:
-	idle: ggrefn
-		Start: 0
-		ShadowStart: 3
-		Offset: -15, -50
-		# UseTilsetCode: true # TODO: pchote/ts-snow
-	damaged-idle: ggrefn
-		Start: 1
-		ShadowStart: 4
-		Offset: -15, -50
-		# UseTilsetCode: true # TODO: pchote/ts-snow
-	make: gurefnmk
-		Start: 0
-		Length: 25
-		ShadowStart: 0
-		Offset: -15, -50
-		# UseTilsetCode: true # TODO: pchote/ts-snow
-	idle-drill: ggrefnl1
-		Start: 0
-		Length: 6
-		Tick: 1500
-		Offset: -15, -50
-		# UseTilsetCode: true # TODO: pchote/ts-snow
-	idle-bib: ggrefnbb
-		Start: 0
-		ShadowStart: 2
-		Offset: -15, -50
-		# UseTilsetCode: true # TODO: pchote/ts-snow
-	damaged-idle-bib: ggrefnbb
-		Start: 1
-		ShadowStart: 3
-		Offset: -15, -50
-		# UseTilsetCode: true # TODO: pchote/ts-snow
-	docking-overlay: ggrefnor
-		Start: 0
-		Length: 20
-		ShadowStart: 20
-		Offset: -15, -50
-		# UseTilsetCode: true # TODO: pchote/ts-snow
-	icon: reficon
-		Start: 0
-
 narefn:
 	idle: ngrefn
 		Start: 0
@@ -652,4 +652,47 @@ naradr:
 		ShadowStart: 30
 		Offset: 0, -25
 	icon: nradicon
+		Start: 0
+
+naweap:
+	idle: ngweap
+		Start: 0
+		ShadowStart: 3
+		Offset: -30, -60
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	damaged-idle: ngweap
+		Start: 2
+		ShadowStart: 4
+		Offset: -30, -60
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	idle-ramp: ngweapbb
+		Start: 0
+		ShadowStart: 3
+		Offset: -30, -60
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	damaged-idle-ramp:
+		Start: 1
+		ShadowStart: 4
+		Offset: -30, -60
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	idle-lights: ngweap_a
+		Start: 0
+		Length: 13
+		ShadowStart: 13
+		Tick: 150
+		Offset: -30, -60
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	damaged-idle-lights: ngweap_a # doesn't have damage frames
+		Start: 0
+		Length: 13
+		ShadowStart: 13
+		Tick: 150
+		Offset: -30, -60
+	make: ntweapmk
+		Start: 0
+		Length: 24
+		ShadowStart: 25
+		Offset: -30, -60
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	icon: nwepicon
 		Start: 0
