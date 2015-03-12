@@ -748,6 +748,40 @@ naweap:
 	Power:
 		Amount: -25
 
+nadept:
+	Inherits: ^Building
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 60
+		Prerequisites: ~naweap, ~structures.soviets
+	Selectable:
+		Bounds: 170, 150, -6, -30
+	Valued:
+		Cost: 800
+	Tooltip:
+		Name: Service Depot
+		Description: Repairs vehicles and removes Terror Drones (for a price).
+	Building:
+		Footprint: x=== x=== x===
+		Dimensions: 4,3
+	Health:
+		HP: 1200
+	Armor:
+		Type: Wood
+	RevealsShroud:
+		Range: 5c0
+	Reservable:
+	RallyPoint:
+	RepairsUnits:
+		Interval: 10
+	WithIdleOverlay@arm:
+		Sequence: idle-crane
+	WithIdleOverlay@bib:
+		Sequence: bib
+	WithRepairAnimation:
+	Power:
+		Amount: -25
+
 anypower:
 	Tooltip:
 		Name: Power Plant

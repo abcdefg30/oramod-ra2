@@ -696,3 +696,45 @@ naweap:
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: nwepicon
 		Start: 0
+
+nadept:
+	idle: ngdept
+		Start: 0
+		ShadowStart: 3
+		Offset: 0, -45
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	damaged-idle: ngdept
+		Start: 2
+		ShadowStart: 4
+		Offset: 0, -45
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	idle-crane: ngdept_b
+		Start: 0
+		Length: 10
+		ShadowStart: 20
+		Offset: 0, -45
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	damaged-idle-crane: ngdept_d
+		Start: 10
+		Length: 10
+		ShadowStart: 29
+		Offset: 0, -45
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	bib: ngdeptbb
+		Start: 0
+		ShadowStart: 3
+		Offset: 0, -45
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	damaged-bib: ngdeptbb
+		Start: 1
+		ShadowStart: 2
+		Offset: 0, -45
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	make: ntdeptmk
+		Start: 0
+		Length: 25
+		ShadowStart: 25
+		Offset: 0, -45
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	icon: rfixicon
+		Start: 0
