@@ -805,3 +805,31 @@ natech:
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: ntchicon
 		Start: 0
+
+naclon:
+	idle: ngclon_a
+		Start: 0
+		Length: 11
+		ShadowStart: 22
+		Offset: 0, -30
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	damaged-idle: ngclon_a
+		Start: 11
+		Length: 11
+		ShadowStart: 33
+		Offset: 0, -30
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	critical-idle: ngclon_a
+		Start: 11
+		Length: 11
+		ShadowStart: 33
+		Offset: 0, -30
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	make: ntclonmk
+		Start: 0
+		Length: 25
+		ShadowStart: 25
+		Offset: 0, -30
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	icon: clonicon
+		Start: 0

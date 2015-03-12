@@ -151,6 +151,8 @@
 	WithDeathAnimation:
 	UpgradeManager:
 	MustBeDestroyed:
+	Cloneable:
+		Types: infantry
 # TODO: Soylet (for grinding in cloning vats and YR)
 
 ^CivilianInfantry:

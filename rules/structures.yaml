@@ -836,7 +836,43 @@ natech:
 		Range: 6c0
 	Power:
 		Amount: -100
-	
+
+naclon:
+	Inherits: ^Building
+	Buildable:
+		Queue: Support
+		BuildPaletteOrder:	40
+		Prerequisites: ~natech, ~structures.soviets
+		BuildLimit: 1
+	Valued:
+		Cost: 2500
+	Tooltip:
+		Name: Cloning Vat
+		Description: Clones most trained infantry.
+	Building:
+		Footprint: xx xx
+		Dimensions: 2, 2
+	Selectable:
+		Bounds: 95, 130, 0, -35
+	Health:
+		HP: 1000
+	Armor:
+		Type: Wood
+	RevealsShroud:
+		Range: 5c0
+	Power:
+		Amount: -200
+	Exit@1:
+		SpawnOffset: -280,280,0
+		ExitCell: 0,2
+	Exit@2:
+		SpawnOffset: 410,140,0
+		ExitCell: 2,0
+	Production:
+	RallyPoint:
+	ClonesProducedUnits:
+		CloneableTypes: infantry
+
 anypower:
 	Tooltip:
 		Name: Power Plant
