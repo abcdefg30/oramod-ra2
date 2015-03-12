@@ -83,6 +83,21 @@ World:
 	VoxelNormalsPalette@normals:
 		Name: normals
 		Type: RedAlert2
+	Country@random:
+		Name: Random
+		Race: Random
+		RandomRaceMembers: random-allies, random-soviets
+		Side: Randoms
+	Country@allies:
+		Name: Allies
+		Race: random-allies
+		RandomRaceMembers: america, germany, england, france, korea
+		Side: Randoms
+	Country@soviets:
+		Name: Soviets
+		Race: random-soviets
+		RandomRaceMembers: cuba, libya, iraq, russia
+		Side: Randoms
 	Country@1:
 		Name: America
 		Race: america
