@@ -218,5 +218,10 @@ e2:
 		Length: 6
 		Facings: 8
 		Tick: 80
+	prone-shoot: cons
+		Start: 212
+		Length: 6
+		Facings: 8
+		Tick: 80
 	icon: e2icon
 		Start: 0
