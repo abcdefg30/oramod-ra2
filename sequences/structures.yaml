@@ -833,3 +833,40 @@ naclon:
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: clonicon
 		Start: 0
+
+napsis:
+	idle: ngpsis
+		Start: 0
+		ShadowStart: 3
+		Offset: 1, -30
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	damaged-idle: ngpsis
+		Start: 1
+		ShadowStart: 4
+		Offset: 1, -30
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	critical-idle: ngpsis
+		Start: 2
+		ShadowStart: 5
+		Offset: 1, -30
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	idle-spin: ngpsis_a
+		Start: 0
+		Length: 40
+		Tick: 150
+		Offset: 1, -30
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	damaged-idle-spin: ngpsis_a
+		Start: 39
+		Length: 40
+		Tick: 150
+		Offset: 1, -30
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	make: ntpsismk
+		Start: 0
+		Length: 24
+		ShadowStart: 24
+		Offset: 1, -30
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	icon: psisicon
+		Start: 0

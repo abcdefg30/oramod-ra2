@@ -873,6 +873,37 @@ naclon:
 	ClonesProducedUnits:
 		CloneableTypes: infantry
 
+napsis:
+	Inherits: ^Building
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 160
+		Prerequisites: ~natech, ~structures.soviets
+	Valued:
+		Cost: 2000
+	Tooltip:
+		Name: Psychic Sensor
+		Description: Detects enemy units and strikepoints
+	Building:
+		Footprint: xx xx
+		Dimensions: 2,2
+	Selectable:
+		Bounds: 82, 150, -1, -55
+	Health:
+		HP: 750
+	Armor:
+		Type: Wood
+	RevealsShroud:
+		Range: 10c0
+	RenderDetectionCircle:
+	DetectCloaked:
+		Range: 6
+	WithIdleOverlay@spin:
+		Sequence: idle-spin
+		PauseOnLowPower: true
+	Power:
+		Amount: -100
+		
 anypower:
 	Tooltip:
 		Name: Power Plant
