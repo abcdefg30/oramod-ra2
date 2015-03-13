@@ -903,7 +903,33 @@ napsis:
 		PauseOnLowPower: true
 	Power:
 		Amount: -100
-		
+
+# TODO: ngmisl.shp is not a valid shp
+# namisl:
+# 	Inherits: ^Building
+# 	Buildable:
+# 		Queue: Support
+# 		BuildPaletteOrder: 50
+# 		Prerequisites: ~natech, ~structures.soviets
+# 	Valued:
+# 		Cost: 5000
+# 	Tooltip:
+# 		Name: Nuclear Missile Silo
+# 		Description: Houses a nuclear warhead.
+# 	Building:
+# 		Footprint: xxx xxx xxx
+# 		Dimensions: 3, 3
+# 	Selectable:
+# 		Bounds: 82, 150, -1, -55
+# 	Health:
+# 		HP: 1000
+# 	Armor:
+# 		Type: Concrete
+# 	RevealsShroud:
+# 		Range: 4c0
+# 	Power:
+# 		Amount: -200
+
 anypower:
 	Tooltip:
 		Name: Power Plant
