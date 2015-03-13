@@ -974,3 +974,56 @@ nawall:
 		Offset: 0, -12
 	icon: nwalicon
 		Start: 0
+
+gapill:
+	idle: ggpill
+		Start: 0
+		ShadowStart: 3
+		Offset: 0, -15
+	damaged-idle: ggpill
+		Start: 1
+		ShadowStart: 4
+		Offset: 0, -15
+	critical-idle: ggpill
+		Start: 2
+		ShadowStart: 5
+		Offset: 0, -15
+	muzzle0: mgun-n
+		Start: 0
+		Length: *
+		Offset: 0, -15
+	muzzle1: mgun-nw
+		Start: 0
+		Length: *
+		Offset: 0, -15
+	muzzle2: mgun-w
+		Start: 0
+		Length: *
+		Offset: 0, -15
+	muzzle3: mgun-sw
+		Start: 0
+		Length: *
+		Offset: 0, -15
+	muzzle4: mgun-s
+		Start: 0
+		Length: *
+		Offset: 0, -15
+	muzzle5: mgun-se
+		Start: 0
+		Length: *
+		Offset: 0, -15
+	muzzle6: mgun-e
+		Start: 0
+		Length: *
+		Offset: 0, -15
+	muzzle7: mgun-ne
+		Start: 0
+		Length: *
+		Offset: 0, -15
+	make: gtpillmk
+		Start: 0
+		Length: 8
+		ShadowStart: 8
+		Offset: 0, -15
+	icon: pillicon
+		Start: 0

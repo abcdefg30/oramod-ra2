@@ -1040,6 +1040,39 @@ nawall:
 	Armor:
 		Type: Concrete
 
+gapill:
+	Inherits: ^Building
+	Buildable:
+		Queue: Support
+		BuildPaletteOrder: 20
+		Prerequisites: ~barracks, ~structures.allies
+	Valued:
+		Cost: 500
+	Tooltip:
+		Name: Pill Box
+		Description: Automated anti-infantry defense.
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Health:
+		HP: 400
+	Armor:
+		Type: Steel
+	RevealsShroud:
+		Range: 7c0
+	Selectable:
+		# TODO: Bounds:
+	Armament: # TODO: convert and use the correct weapon
+		Weapon: M60
+		LocalOffset: 768,85,512
+		MuzzleSequence: muzzle # TODO: this isn't rendered?
+		MuzzleSplitFacings: 8
+	AttackTurreted:
+	Turreted:
+		ROT: 255
+	BodyOrientation:
+		QuantizedFacings: 8
+
 anypower:
 	Tooltip:
 		Name: Power Plant
