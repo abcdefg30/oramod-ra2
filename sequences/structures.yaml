@@ -883,3 +883,24 @@ napsis:
 # 		Start: 0
 # 	icon: msslicon
 # 		Start: 0
+
+nairon:
+	idle: ngiron
+		Start: 0
+		ShadowStart: 3
+		Offset: 0, -45
+	damaged-idle: ngiron
+		Start: 1
+		ShadowStart: 4
+		Offset: 0, -45
+	critical-idle: ngiron
+		Start: 2
+		ShadowStart: 5
+		Offset: 0, -45
+	make: ntironmk
+		Start: 0
+		Length: 25
+		ShadowStart: 25
+		Offset: 0, -45
+	icon: ironicon
+		Start: 0

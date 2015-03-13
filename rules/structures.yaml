@@ -930,6 +930,33 @@ napsis:
 # 	Power:
 # 		Amount: -200
 
+nairon:
+	Inherits: ^Building
+	Buildable:
+		Queue: Support
+		BuildPaletteOrder: 60
+		Prerequisites: ~natech, ~structures.soviets
+		BuildLimit: 1
+	Valued:
+		Cost: 2500
+	Tooltip:
+		Name: Iron Curtain Device
+		Description: Grants invulnerability to armored units.\nFries fleshy units.
+	Building:
+		Footprint: xxx xxx xxx
+		Dimensions: 3, 3
+	Selectable:
+		Bounds: 148, 167, -2, -47
+	Health:
+		HP: 750
+	Armor:
+		Type: Concrete
+	RevealsShroud:
+		Range: 4c0
+	Power:
+		Amount: -200
+# TODO: Iron Curtain ability
+
 anypower:
 	Tooltip:
 		Name: Power Plant
