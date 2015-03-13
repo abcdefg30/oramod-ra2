@@ -904,3 +904,73 @@ nairon:
 		Offset: 0, -45
 	icon: ironicon
 		Start: 0
+
+cafncb:
+	idle: ctfncb
+		Start: 0
+		Length: 16
+		ShadowStart: 32
+		Offset: 0, -12
+	damaged-idle: ctfncb
+		Start: 16
+		Length: 16
+		ShadowStart: 48
+		Offset: 0, -12
+	icon: wallicon
+		Start: 0
+
+cafncw:
+	idle: ctfncw
+		Start: 0
+		Length: 16
+		ShadowStart: 32
+		Offset: 0, -12
+	damaged-idle: ctfncw
+		Start: 16
+		Length: 16
+		ShadowStart: 48
+		Offset: 0, -12
+	icon: wallicon
+		Start: 0
+
+gasand:
+	idle: gtsand
+		Start: 0
+		Length: 16
+		ShadowStart: 32
+		Offset: 0, -12
+	damaged-idle: gtsand
+		Start: 16
+		Length: 16
+		ShadowStart: 48
+		Offset: 0, -12
+	icon: wallicon
+		Start: 0
+
+gawall:
+	idle: gtwall
+		Start: 0
+		Length: 16
+		ShadowStart: 32
+		Offset: 0, -12
+	damaged-idle: gtwall
+		Start: 16
+		Length: 16
+		ShadowStart: 48
+		Offset: 0, -12
+	icon: wallicon
+		Start: 0
+
+nawall:
+	idle: ntwall
+		Start: 0
+		Length: 16
+		ShadowStart: 32
+		Offset: 0, -12
+	damaged-idle: ntwall
+		Start: 16
+		Length: 16
+		ShadowStart: 48
+		Offset: 0, -12
+	icon: nwalicon
+		Start: 0

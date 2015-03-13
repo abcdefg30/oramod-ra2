@@ -61,33 +61,33 @@
 		Dimensions: 1,1
 		Footprint: x
 		BuildSounds: uplace.wav
-		Adjacent: 8
+		Adjacent: 7
 		TerrainTypes: Clear, Road
-	SoundOnDamageTransition:
-		DamagedSound: expnew01.aud
-		DestroyedSound: crmble2.aud
 	Crushable:
 		CrushClasses: wall
+	BlocksBullets:
 	LineBuild:
-		Range: 6
+		Range: 8
 		NodeTypes: wall
 	LineBuildNode:
 		Types: wall
 	TargetableBuilding:
-		TargetTypes: Ground
+		TargetTypes: Ground, Wall, C4
 	RenderBuildingWall:
+		Type: wall
+	GivesExperience:
 	EditorAppearance:
-		RelativeToTopLeft: true
-		UseTerrainPalette: true
+		RelativeToTopLeft: yes
+		UseTerrainPalette: yes
 	AutoTargetIgnore:
 	ProximityCaptor:
 		Types: Wall
 	Sellable:
+		SellSounds: cashturn.aud
 	UpdatesPlayerStatistics:
 	BodyOrientation:
 	Demolishable:
 	ScriptTriggers:
-	BlocksBullets:
 
 ^Infantry:
 	AppearsOnRadar:

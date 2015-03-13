@@ -957,6 +957,89 @@ nairon:
 		Amount: -200
 # TODO: Iron Curtain ability
 
+cafncb:
+	Inherits: ^Wall
+	Valued:
+		Cost: 25
+	Tooltip:
+		Name: Black Fence
+		Description: Fence.\nCrushable by vehicles.
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Health:
+		HP: 100
+	Armor:
+		Type: Wood
+
+cafncw:
+	Inherits: ^Wall
+	Valued:
+		Cost: 25
+	Tooltip:
+		Name: White Fence
+		Description: Fence.\nCrushable by vehicles.
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Health:
+		HP: 100
+	Armor:
+		Type: Wood
+
+gasand:
+	Inherits: ^Wall
+	Valued:
+		Cost: 25
+	Tooltip:
+		Name: Sandbags
+		Description: Fence.\nCrushable by vehicles.
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Health:
+		HP: 100
+	Armor:
+		Type: Wood
+
+gawall:
+	Inherits: ^Wall
+	Buildable:
+		Queue: Support
+		BuildPaletteOrder: 10
+		Prerequisites: ~barracks, ~structures.allies
+	Valued:
+		Cost: 100
+	Tooltip:
+		Name: Allied Wall
+		Description: Light wall.\nCrushable by vehicles.
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Health:
+		HP: 300
+	Armor:
+		Type: Concrete
+
+nawall:
+	Inherits: ^Wall
+	Buildable:
+		Queue: Support
+		BuildPaletteOrder: 10
+		Prerequisites: ~barracks, ~structures.soviets
+	Valued:
+		Cost: 100
+	Tooltip:
+		Name: Soviet Wall
+		Description: Light wall.\nCrushable by vehicles.
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Health:
+		HP: 300
+	Armor:
+		Type: Concrete
+
 anypower:
 	Tooltip:
 		Name: Power Plant
