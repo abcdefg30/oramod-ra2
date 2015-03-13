@@ -2,13 +2,13 @@ MapFormat: 7
 
 RequiresMod: ra2
 
-Title: ra2-arctic-circle
+Title: arctic-circle
 
 Description: Describe your map here
 
 Author: Westwood Studios
 
-Tileset: TEMPERAT
+Tileset: SNOW
 
 MapSize: 155,166
 
@@ -27,7 +27,7 @@ Players:
 		Name: Neutral
 		OwnsWorld: True
 		NonCombatant: True
-		Race: allies
+		Race: Random
 	PlayerReference@Multi0:
 		Name: Multi0
 		Playable: True
@@ -71,7 +71,7 @@ Players:
 	PlayerReference@Creeps:
 		Name: Creeps
 		NonCombatant: True
-		Race: allies
+		Race: Random
 		Enemies: Multi0, Multi1, Multi2, Multi3, Multi4, Multi5, Multi6, Multi7
 
 Actors:
