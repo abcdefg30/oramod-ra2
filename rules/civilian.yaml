@@ -1,0 +1,59 @@
+# Pentagon A
+cawa2a:
+	Inherits: ^Building
+	Valued:
+		Cost: 2000
+	Building:
+		Footprint: xxxx xxxx xxxx xxxx
+		Dimensions: 4, 4
+	Health:
+		HP: 600
+	Armor:
+		Type: Concrete
+	RevealsShroud:
+		Range: 6c0
+
+# Pentagon B
+cawa2b:
+	Inherits: ^Building
+	Valued:
+		Cost: 2000
+	Building:
+		Footprint: xxxx xxxx xxxx xxxx
+		Dimensions: 4, 4
+	Health:
+		HP: 600
+	Armor:
+		Type: Concrete
+	RevealsShroud:
+		Range: 6c0
+
+# Pentagon C
+cawa2c:
+	Inherits: ^Building
+	Valued:
+		Cost: 2000
+	Building:
+		Footprint: xxxx xxxx xxxx xxxx
+		Dimensions: 4, 4
+	Health:
+		HP: 600
+	Armor:
+		Type: Concrete
+	RevealsShroud:
+		Range: 6c0
+
+# Pentagon D
+cawa2d:
+	Inherits: ^Building
+	Valued:
+		Cost: 2000
+	Building:
+		Footprint: xxxx xxxx xxxx xxxx
+		Dimensions: 4, 4
+	Health:
+		HP: 600
+	Armor:
+		Type: Concrete
+	RevealsShroud:
+		Range: 6c0

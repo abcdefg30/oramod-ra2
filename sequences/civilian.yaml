@@ -1,0 +1,39 @@
+cawa2a:
+	idle: cuwa2a
+		Start: 0
+		ShadowStart: 4
+		Offset: 0, -45
+	damaged-idle: cuwa2a
+		Start: 1
+		ShadowStart: 5
+		Offset: 0, -45
+
+cawa2b:
+	idle: cuwa2b
+		Start: 0
+		ShadowStart: 4
+		Offset: 0, -45
+	damaged-idle: cuwa2b
+		Start: 1
+		ShadowStart: 5
+		Offset: 0, -45
+
+cawa2c:
+	idle: cuwa2c
+		Start: 0
+		ShadowStart: 4
+		Offset: 0, -45
+	damaged-idle: cuwa2c
+		Start: 1
+		ShadowStart: 5
+		Offset: 0, -45
+
+cawa2d:
+	idle: cuwa2d
+		Start: 0
+		ShadowStart: 4
+		Offset: 0, -45
+	damaged-idle: cuwa2d
+		Start: 1
+		ShadowStart: 5
+		Offset: 0, -45
