@@ -847,7 +847,7 @@ naclon:
 	Valued:
 		Cost: 2500
 	Tooltip:
-		Name: Cloning Vat
+		Name: Cloning Vats
 		Description: Clones most trained infantry.
 	Building:
 		Footprint: xx xx
