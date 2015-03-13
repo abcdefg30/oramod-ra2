@@ -277,3 +277,33 @@
 	GainsStatUpgrades:
 	UpgradeManager:
 	MustBeDestroyed:
+	
+^OreDrill:
+	Tooltip:
+		Name: Ore Drill
+	RenderBuilding:
+		Palette: player
+	Building:
+		Footprint: x
+		Dimensions: 1,1
+	AppearsOnRadar:
+	RadarColorFromTerrain:
+		Terrain: Tiberium
+	BodyOrientation:
+	FrozenUnderFog:
+		StartsRevealed: true
+	SeedsResource:
+		ResourceType: Tiberium
+		Interval: 55
+	WithActiveAnimation:
+	
+^Tree:
+	RenderBuilding:
+		Palette: terrain
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	AppearsOnRadar:
+	BodyOrientation:
+	Tooltip:
+		Name: Tree
