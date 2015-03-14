@@ -6,7 +6,6 @@ gacnst:
 		Prerequisites: ~disabled
 	Building:
 		Footprint: xxxx xxxx xxxx xxxx
-		BuildSounds: facbld1.aud
 		Dimensions: 4,4
 	Selectable:
 		Bounds: 220, 155, 0, -20
@@ -85,6 +84,8 @@ gapowr:
 	Power:
 		Amount: 200
 	ScalePowerWithHealth:
+	SoundOnDamageTransition:
+		DestroyedSounds: bpowdiea.wav, bpowdieb.wav
 
 gapile:
 	Inherits: ^Building
@@ -313,6 +314,7 @@ gadept:
 	RallyPoint:
 	RepairsUnits:
 		Interval: 10
+		FinishRepairingNotification: UnitRepaired
 	WithIdleOverlay@arm:
 		Sequence: idle-arm
 	WithIdleOverlay@bib:
@@ -512,7 +514,6 @@ nacnst:
 		Prerequisites: ~disabled
 	Building:
 		Footprint: xxxx xxxx xxxx xxxx
-		BuildSounds: facbld1.aud
 		Dimensions: 4,4
 	Selectable:
 		Bounds: 220, 180, 0, -35
@@ -587,7 +588,9 @@ napowr:
 	Power:
 		Amount: 100
 	ScalePowerWithHealth:
-
+	SoundOnDamageTransition:
+		DestroyedSounds: bpowdiea.wav, bpowdieb.wav
+		
 nahand:
 	Inherits: ^Building
 	Buildable:
@@ -774,6 +777,7 @@ nadept:
 	RallyPoint:
 	RepairsUnits:
 		Interval: 10
+		FinishRepairingNotification: UnitRepaired
 	WithIdleOverlay@arm:
 		Sequence: idle-crane
 	WithIdleOverlay@bib:
@@ -811,6 +815,8 @@ nanrct:
 	Power:
 		Amount: 2000
 	ScalePowerWithHealth:
+    SoundOnDamageTransition:
+		DestroyedSounds: bpowdiea.wav, bpowdieb.wav
 
 natech:
 	Inherits: ^Building

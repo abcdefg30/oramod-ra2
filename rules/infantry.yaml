@@ -10,8 +10,9 @@ engineer:
 		Name: Engineer
 		Description: Captures enemy structures.\n  Strong vs Nothing\n  Weak vs Everything
 	Selectable:
-		Voice: EngineerVoice
 		Bounds: 20, 30, 0, -11
+		# TODO: what do we do with soviet engineers?
+		Voice: AlliedEngineerVoice
 	Health:
 		HP: 75
 	Mobile:
@@ -86,6 +87,7 @@ e1:
 		Name: G.I.
 		Description: Basic foot-soldier.
 	Selectable:
+		Voice: GIVoice
 		Bounds: 20, 30, 0, -11
 	Health:
 		HP: 125
@@ -115,6 +117,7 @@ e2:
 		Name: Conscript
 		Description: Basic foot-soldier.
 	Selectable:
+		Voice: ConscriptVoice
 		Bounds: 20, 30, 0, -11
 	Health:
 		HP: 125

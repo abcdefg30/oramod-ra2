@@ -1,100 +1,339 @@
-Infantry:
-	Prefixes:
-		allies: igi
-		soviets: icon
-	Variants:
-		allies: .wav
-		soviets: .wav
-	Voices:	
-		Select: sea, seb, sec, sed, see, sef
-		Move: moa, mob, moc, mod, moe
-		Attack: ata, atb, atc, atd, ate, atf
-		Feedback: fea, feb
-		Die: dia, dib, dic, did, die
-		Burned: DEDMAN2
-		Zapped: ELECTRO1
-
-Rocket:
-	Voices:
-		Select: 15-I000, 15-I032, 15-I048
-		Move: 15-I008, 15-I014, 15-I026
-		Attack: 15-I008, 15-I014, 15-I026, 15-I050, 15-I060
-#		Feedback: 15-I058, 15-I064 #TODO
-		Die: DEDMAN1, DEDMAN3, DEDMAN4, DEDMAN5, DEDMAN6
-		Burned: DEDMAN2
-		Zapped: ELECTRO1
-
-Medic:
-	Voices:
-		Select: 20-I000, 20-I004, 20-I006
-		Move: 20-I008, 20-I010, 20-I012
-		Attack: 20-I016, 20-I018, 20-I020
-		Die: DEDMAN1, DEDMAN3, DEDMAN4, DEDMAN5, DEDMAN6
-		Burned: DEDMAN2
-		Zapped: ELECTRO1
-
-EngineerVoice:
+AlliedEngineerVoice:
+	DefaultVariant: .wav
 	Voices:
 		Select: ienasea, ienaseb, ienasec, ienased
 		Move: ienamoa, ienamob, ienamoc
 		Attack: ienaata, ienaatb, ienaatc
-#		Feedback: ienafea, ienafeb, ienafec
+		Feedback: ienafea, ienafeb, ienafec
 		Die: ienadia, ienadib, ienadic, ienadid
-		Burned: DEDMAN2
-		Zapped: ELECTRO1
+		Zapped: igenzapa
 		# [EngAllPowerDown] Sounds = ienapow
 
+SovietEngineerVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: ienssea, iensseb, ienssec
+		Move: iensmoa, iensmob, iensmoc
+		Attack: iensata, iensatb
+		Feedback: iensfea, iensfeb, iensfec
+		Die: iensdia, iensdib, iensdic
+		Zapped: igenzapa
+		# [EngAllPowerDown] Sounds = ienspow
+
+AlliedVehicleVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: vgrasea, vgraseb, vgrasec, vgrased, vgrasee
+		Move: vgramoa, vgramob, vgramoc, vgramod, vgramoe, vgramof
+		Attack: vgraata, vgraatb, vgraatc, vgraatd, vgraate
+
+SovietVehicleVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: vgrssea, vgrsseb, vgrssec
+		Move: vgrsmoa, vgrsmob, vgrsmoc
+		Attack: vgrsata, vgrsatb, vgrsatc, vgrsatd
+
+AlliedNavalVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: vwaasea, vwaaseb, vwaasec, vwaased
+		Move: vwaamoa, vwaamob, vwaamoc, vwaamod, vwaamoe
+		Attack: vwaaata, vwaaatb, vwaaatc
+
+SovietNavalVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: vwassea, vwasseb, vwassec
+		Move: vwasmoa, vwasmob, vwasmoc, vwasmod
+		Attack: vwasata, vwasatb, vwasatc
+
+GIVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: igisea, igiseb, igisec, igised, igisee, igisef
+		Move: igimoa, igimob, igimoc, igimod, igimoe
+		Attack: igiata, igiatb, igiatc, igiatd, igiate, igiatf
+		Feedback: igifea, igifeb
+		Die: igidia, igidib, igidic, igidid, igidie
+		Zapped: igenzapa
+
+ConscriptVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: iconsea, iconseb, iconsec
+		Move: iconmoa, iconmob, iconmoc, iconmod
+		Attack: iconata, iconatb, iconatc, iconatd
+		Feedback: iconfea, iconfeb, iconfec
+		Die: icondia, icondib, icondic, icondid, icondie
+		Zapped: igenzapa
+
 DogVoice:
+	DefaultVariant: .wav
 	Voices:
 		Select: idogsela
 		Move: idogmova
 		Attack: idogatca, idogmova # move sound?
-#		Feedback: idogfea, idogfeb, idogfec
+		Feedback: idogfea, idogfeb, idogfec
 		Die: idogdiea
-		# CrushSound = InfantrySquish
+		Zapped: igenzapa
 
-Spy:
+RocketeerVoice:
+	DefaultVariant: .wav
 	Voices:
-		Select: 21-I000, 21-I002, 21-I004
-		Move: 21-I010, 21-I012, 21-I016
-		Attack: 21-I010, 21-I012, 21-I022
-#		Feedback: 21-I000, 21-I002 # TODO
-		Die: DEDMAN1, DEDMAN3, DEDMAN4, DEDMAN5, DEDMAN6
-		Burned: DEDMAN2
-		Zapped: ELECTRO1
+		Select: irocsea, irocseb, irocsec, irocsed, irocsee, irocsef, irocseg
+		Move: irocmoa, irocmob, irocmoc, irocmod, irocmoe, irocmof
+		Attack: irocata, irocatb, irocatc, irocatd, irocate
+		Feedback: irocfea, irocfeb, irocfec
+		Die: irocdiea
+		Zapped: igenzapa
 
-Vehicle:
-	Prefixes:
-		allies: vgra
-		soviet: vgrs
-	Variants:
-		allies: .wav
-		soviet: .wav
+SpyVoice:
+	DefaultVariant: .wav
 	Voices:
-		Select: sea, seb, sec, sed, see
-		Move: moa, mob, moc, mod, moe, mof
-		Attack: ata, atb, atc, atd, ate
+		Select: ispysea, ispyseb, ispysec, ispysed
+		Move: ispymoa, ispymob, ispymoc, ispymod, ispymoe
+		Attack: ispyata, ispyatb, ispyatc, ispyatd
+		Feedback: ispyfea, ispyfeb
+		Die: ispydia, ispydib, ispydic
+		Zapped: igenzapa
 
-Heli:
+ChronoLegionnaireVoice:
+	DefaultVariant: .wav
 	Voices:
-		Select: 30-I000, 30-I002, 30-I004, 30-I006
-		Move: 30-I014, 30-I016, 30-I018, 30-I022
-		Attack: 30-I022, 30-I030, 30-I034, 30-I036
+		Select: ichrsea
+		Move: ichrseb, ichrsec, ichrsed, ichrsee
+		Attack: ichrata, ichratb, ichratc, ichratd
+		Feedback: ichrfea, ichrfeb, ichrfec
+		Die: ichrdia, ichrdib, ichrdic	
+		Zapped: igenzapa
 
-Civilian:
+SniperVoice:
+	DefaultVariant: .wav
 	Voices:
-		Select:
-		Move:
-		Attack:
-		Die: DEDMAN1, DEDMAN3, DEDMAN4, DEDMAN5, DEDMAN6
-		Burned: DEDMAN2
-		Zapped: ELECTRO1
+		Select: isnisea, isniseb, isnisec, isnised
+		Move: isnimoa, isnimob, isnimoc, isnimod, isnimoe
+		Attack: isniata, isniatb, isniatc
+		Feedback: isnifea, isnifeb, isnifec
+		Die: isnidia, isnidib, isnidic
+		Zapped: igenzapa
 
-CivilianFemale: # can be used for female mutant as well
+SealVoice:
+	DefaultVariant: .wav
 	Voices:
-		Select:
-		Move:
-		Attack:
-		Die: DEDGIRL1, DEDGIRL2, DEDGIRL4
-		Burned: DEDGIRL3
-		Zapped: ELECTRO1
+		Select: iseasea, iseaseb, iseasec, iseased
+		Move: iseamoa, iseamob, iseamoc
+		Attack: iseaata, iseaatb, iseaatc
+		Die: iseadia, iseadib, iseadic
+		Zapped: igenzapa
+
+TanyaVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: itansea, itanseb, itansec, itansed, itansee
+		Move: itanmoa, itanmob, itanmoc, itanmod, itanmoe, itanmof
+		Attack: itanata, itanatb, itanatc, itanatd
+		Die: itandia, itandib, itandic
+		Zapped: igenzapa
+
+DolphinVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: vdolsela, vdolselb
+		Move: vdolmova, vdolmovb
+		Attack: vdolatca, vdolatcb, vdolatcc
+		Die: vdoldiea, vdoldieb
+
+HarrierVoice:
+	DefaultVariant: .wav
+	Voiced:
+		Select: vintsea, vintseb, vintsec, vintsed
+		Move: vintmoa, vintmob, vintmoc, vintmod
+		Attack: vintata, vintatb, vintatc, vintatd, vintate
+		Die: vintdia, vintdib, vintdic
+
+BlackEagleVoice:
+	DefaultVariant: .wav
+	Voiced:
+		Select: vblesea, vbleseb, vblesec, vblesed, vblesef
+		Move: vblemoa, vblemob, vblemoc
+		Attack: vbleata, vbleatb, vbleatc
+		Die: vbledia, vbledib, vbledic, vbledid, vbledie
+
+NighthawkVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: vblhsea, vblhseb, vblhsec, vblhsed
+		Move: vblhmoa, vblhmob, vblhmoc, vblhmod
+		Attack: vblhata, vblhatb, vblhatc, vblhatd
+		Die: vblhdia, vblhdib, vblhdic
+
+FlakTrooperVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: iflasea, iflaseb, iflasec, iflased
+		Move: iflamoa, iflamob, iflamoc, iflamod
+		Attack: iflaata, iflaatb, iflaatc, iflaatd
+		Feedback: iflafea, iflafeb, iflafec, iflafed
+		Die: ifladia, ifladib, ifladic, ifladid, ifladie
+		Zapped: igenzapa
+
+TeslaTrooperVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: itessea, itesseb, itessec, itessed, itessee
+		Move: itesmoa, itesmob, itesmoc, itesmod, itesmoe, itesmof
+		Attack: itesata, itesatb, itesatc, itesatd, itesate
+		Feedback: itesfea, itesfeb, itesfec
+		Die: itesdia, itesdib, itesdic, itesdid
+		Zapped: igenzapa
+
+CrazyIvanVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: icrasea, icraseb, icrasec, icrased, icrasee, icrasef, icraseg
+		Move: icramoa, icramob, icramoc, icramod, icramoe, icramof
+		Attack: icraata, icraatb, icraatc, icraatd, icraate
+		Die: icradia, icradib
+		Zapped: igenzapa
+
+DesolatorVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: idessea, idesseb, idessec, idessed, idessee
+		Move: idesmoa, idesmob, idesmoc, idesmod, idesmoe
+		Attack: idesata, idesatb, idesatc, idesatd, idesate, idesatf
+		Die: idesdia, idesdib, idesdic
+		Zapped: igenzapa
+
+TerroristVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: itersea, iterseb, itersec
+		Move: itermoa, itermob, itermoc
+		Attack: iterata, iteratb, iteratc, iteratd
+		Feedback: iterfea, iterfeb, iterfec
+		Die: iterdia, iterdib, iterdic
+		Zapped: igenzapa
+
+YuriVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: iyursea, iyurseb, iyursec, iyursed, iyursee
+		Move: iyurmoa, iyurmob, iyurmoc, iyurmod
+		Attack: iyurata, iyuratb, iyuratc, iyuratd, iyurate
+		Die: iyurdia, iyurdib, iyurdic
+		Zapped: igenzapa
+
+KirovVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: vkirsea, vkirseb, vkirsec, vkirsed
+		Move: vkirmoa, vkirmob, vkirmoc
+		Attack: vkirata, vkiratb, vkiratc, vkiratd
+		Feedback: vkirfea, vkirfeb, vkirfec
+		Die: vkirdia, vkirdib, vkirdic, vkirdid
+
+DemolitionTruckVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: vdemsea, vdemseb, vdemsec
+		Move: vdemmoa, vdemmob, vdemmoc, vdemsed
+		Attack: vdemata, vdematb, vdematc, vdematd, vdemate
+
+TerrorDroneVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: vtersela, vterselb
+		Move: vtermova
+		Attack: vteratta
+		Die: vterdiea, vterdieb
+
+GiantSquidVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: vsqusela
+		Move: vsqumova, vsqumovb
+		Attack: vsquat1a
+		Die: vsqudiea
+
+AlligatorVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: galisela, galiselb
+		Move: galimova, galimovb
+		Attack: galiatta, galiattb
+		Feedback: galifeaa, galifeab
+		Die: galidiea
+
+BearVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: gbeasela, gbeaselb
+		Move: gbeamova, gbeamovb, gbeamovc
+		Feedback: gbeafeaa, gbeafeab
+		Die: gbeadiea, gbeadieb
+
+CarVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: gcarsela
+
+ChimpanzeeVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: gchisela, gchiselb
+		Move: gchimova, gchimovb
+		Attack: gchiata, gchiatb, gchiatc
+		Feedback: gchifeaa, gchifeab
+		Die: gchidiea, gchidieb
+
+CivilianAlliedMaleVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: iciasea, iciaseb, iciasec
+		Move: iciamoa, iciamob, iciamoc
+		Attack: iciaata, iciaatb, iciaatc
+		Feedback: iciafea, iciafeb, iciafec
+		Die: iciadia, iciadib, iciadic, iciadid
+		Zapped: igenzapa
+
+CivilianSovietMalevVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: icissea, icisseb, icissec, icissed
+		Move: icismoa, icismob, icismoc
+		Attack: icisata, icisatb, icisatc
+		Feedback: icisfea, icisfeb, icisfec
+		Die: icisdia, icisdib, icisdic
+		Zapped: igenzapa
+
+CivilianAlliedFemaleVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: icfasea, icfaseb, icfasec, icfased
+		Move: icfamoa, icfamob, icfamoc, icfamod
+		Attack: icfaata, icfaatb, icfaatc, icfaatd
+		Feedback: icfafea, icfafeb, icfafec
+		Die: icfadia, icfadib, icfadic
+		Zapped: igenzapa
+
+CivilianSovietFemaleVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: icfssea, icfsseb, icfssec, icfssed, icfssee
+		Move: icfsmoa, icfsmob, icfsmoc, icfsmod
+		Attack: icfsata, icfsatb, icfsatc, icfsatd
+		Feedback: icfsfea, icfsfeb
+		Die: icfsdia, icfsdib, icfsdic
+		Zapped: igenzapa
+
+CivilianTexanVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: ictesea, icteseb, ictesec, ictesed
+		Move: ictemoa, ictemob, ictemoc, ictemod
+		Attack: icteata, icteatb, icteatc, icteatd
+		Feedback: ictefea, ictefeb, ictefec
+		Die: ictedia, ictedib, ictedic
+		Zapped: igenzapa
