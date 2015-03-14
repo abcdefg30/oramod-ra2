@@ -119,41 +119,6 @@ M1CarbineE:
 		Explosion: water_piffs
 		ValidImpactTypes: Water
 
-Heal:
-	ReloadDelay: 80
-	Range: 2c849
-	Report: HEALER1.AUD
-	Projectile: Bullet
-		Speed: 1c682
-	Warhead@1Dam: SpreadDamage
-		Spread: 213
-		Damage: -50
-		DeathType: 1
-		ProneModifier: 100
-		Versus:
-			Wood: 0
-			Light: 0
-			Heavy: 0
-			Concrete: 0
-
-Sniper:
-	ReloadDelay: 60
-	Range: 6c768
-	Report: SILENCER.AUD
-	Projectile: Bullet
-		Speed: 1c682
-	Warhead@1Dam: SpreadDamage
-		Spread: 42
-		Damage: 150
-		DeathType: 1
-		ProneModifier: 100
-		Versus:
-			None: 100
-			Wood: 0
-			Light: 0
-			Heavy: 0
-			Concrete: 0
-
 DogJaw:
 	ValidTargets: Infantry
 	ReloadDelay: 10
@@ -169,3 +134,29 @@ DogJaw:
 			Light: 0
 			Heavy: 0
 			Concrete: 0
+
+RedEye2:
+	ReloadDelay: 60
+	Range: 12c0
+	MinRange: 1c0
+	ValidTargets: Air
+	Projectile: Missile
+		Speed: 100
+		Arm: 3
+		High: true
+		Shadow: true
+		Image: DRAGON
+		RangeLimit: 50
+		CloseEnough: 256
+		LockOnProbability: 80
+	Warhead@1Dam: SpreadDamage
+		Spread: 128
+		Damage: 75
+		DeathType: 2
+		ValidTargets: Air
+		Versus:
+			None: 25
+			Wood: 65
+			Light: 75
+			Heavy: 100
+			Concrete: 60

@@ -1073,6 +1073,36 @@ gapill:
 	BodyOrientation:
 		QuantizedFacings: 8
 
+nasam:
+	Inherits: ^Building
+	Buildable:
+		Queue: Support
+		BuildPaletteOrder: 30
+		Prerequisites: ~barracks, ~structures.allies
+	Valued:
+		Cost: 1000
+	Tooltip:
+		Name: Patriot Missile System
+		Description: Automated anti-aircraft defense.
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Health:
+		HP: 900
+	Armor:
+		Type: Steel
+	RevealsShroud:
+		Range: 7c0
+	Selectable:
+		# TODO: Bounds:
+	Armament: # TODO: convert and use the correct weapon, uses sam.vxl
+		Weapon: M60
+	AttackTurreted:
+	Turreted:
+		ROT: 255
+	BodyOrientation:
+		QuantizedFacings: 8
+
 anypower:
 	Tooltip:
 		Name: Power Plant

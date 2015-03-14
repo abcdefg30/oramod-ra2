@@ -1027,3 +1027,20 @@ gapill:
 		Offset: 0, -15
 	icon: pillicon
 		Start: 0
+
+nasam:
+	idle: ngsam
+		Start: 0
+		ShadowStart: 3
+	damaged-idle: ngsam
+		Start: 1
+		ShadowStart: 4
+	critical-idle: ngsam
+		Start: 2
+		ShadowStart: 5
+	icon: samicon
+		Start: 0
+	make: ntsammk
+		Start: 0
+		Length: 8
+		ShadowStart: 8
