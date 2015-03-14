@@ -55,6 +55,45 @@
 	# 	Upgrade: invulnerability
 	UpgradeManager:
 
+^CivBuilding:
+	Inherits: ^Building
+	-GivesBuildableArea:
+	-Capturable:
+	-MustBeDestroyed:
+	-GivesExperience:
+	-CaptureNotification:
+	-Sellable:
+	-GivesBounty:
+	-UpdatesPlayerStatistics:
+	-CombatDebugOverlay:
+	-WithMakeAnimation:
+	Health:
+		HP: 900
+	Armor:
+		Type: Wood
+	RevealsShroud:
+		Range: 4c0
+	Tooltip:
+		Name: Civilian Building
+		
+^TechBuilding:
+	Inherits: ^Building
+	-MustBeDestroyed:
+	-GivesExperience:
+	-Sellable:
+	-GivesBounty:
+	-UpdatesPlayerStatistics:
+	-CombatDebugOverlay:
+	-WithMakeAnimation:
+	Health:
+		HP: 900
+	Armor:
+		Type: Wood
+	RevealsShroud:
+		Range: 4c0
+	Tooltip:
+		Description: Tech Building
+		
 ^Wall:
 	AppearsOnRadar:
 	Building:

@@ -1,6 +1,236 @@
+cawash01:
+	Inherits: ^CivBuilding
+	Selectable:
+		#Bounds: TODO
+	Building:
+		Footprint: xxxx xxxx xxxx xxxx
+		Dimensions: 4, 4
+	Tooltip:
+		Name: White House
+	Health:
+		HP: 1000
+	Armor:
+		Type: Concrete
+	RevealsShroud:
+		Range: 6c0
+		
+# Wash Building 3
+cawash03:
+	Inherits: ^CivBuilding
+	Selectable:
+		#Bounds: TODO
+	Building:
+		Footprint: xxxx xxxx xxxx
+		Dimensions: 4, 3
+	Health:
+		HP: 1000
+	Armor:
+		Type: Steel
+	RevealsShroud:
+		Range: 6c0
+		
+		
+cawash04:
+	Inherits: ^CivBuilding
+	Selectable:
+		#Bounds: TODO
+	Building:
+		Footprint: xxxx xxxx xxxx xxxx
+		Dimensions: 4, 4
+	Health:
+		HP: 1000
+	Armor:
+		Type: Steel
+	RevealsShroud:
+		Range: 6c0
+
+cawash05:
+	Inherits: ^CivBuilding
+	Selectable:
+		#Bounds: TODO
+	Building:
+		Footprint: xxxx xxxx
+		Dimensions: 4, 2
+	Health:
+		HP: 1000
+	Armor:
+		Type: Steel
+	RevealsShroud:
+		Range: 6c0
+		
+cawash07:
+	Inherits: ^CivBuilding
+	Selectable:
+		#Bounds: TODO
+	Building:
+		Footprint: xxx xxx xxx
+		Dimensions: 3, 3
+	Health:
+		HP: 1000
+	Armor:
+		Type: Steel
+	RevealsShroud:
+		Range: 6c0
+		
+cawash09:
+	Inherits: ^CivBuilding
+	Selectable:
+		#Bounds: TODO
+	Building:
+		Footprint: xxx xxx xxx
+		Dimensions: 3, 3
+	Health:
+		HP: 1000
+	Armor:
+		Type: Steel
+	RevealsShroud:
+		Range: 6c0
+		
+cawash10:
+	Inherits: ^CivBuilding
+	Selectable:
+		#Bounds: TODO
+	Building:
+		Footprint: xxxx xxxx xxxx xxxx
+		Dimensions: 4, 4
+	Health:
+		HP: 1000
+	Armor:
+		Type: Steel
+	RevealsShroud:
+		Range: 6c0
+		
+cawash11:
+	Inherits: ^CivBuilding
+	Selectable:
+		#Bounds: TODO
+	Building:
+		Footprint: xxxx xxxx xxxx xxxx
+		Dimensions: 4, 4
+	Health:
+		HP: 1000
+	Armor:
+		Type: Steel
+	RevealsShroud:
+		Range: 6c0
+		
+cawash13:
+	Inherits: ^CivBuilding
+	Selectable:
+		#Bounds: TODO
+	Building:
+		Footprint: xxxx xxxx xxxx
+		Dimensions: 3, 4
+	Health:
+		HP: 1000
+	Armor:
+		Type: Steel
+	RevealsShroud:
+		Range: 6c0
+		
+cawash14:
+	Inherits: ^CivBuilding
+	Selectable:
+		#Bounds: TODO
+	Building:
+		Footprint: xxx xxx xxx
+		Dimensions: 3, 3
+	Tooltip:
+		Name: Jefferson Memorial
+	Health:
+		HP: 1000
+	Armor:
+		Type: Concrete
+		
+canewy01:
+	Inherits: ^CivBuilding
+	Selectable:
+		#Bounds: TODO
+	Building:
+		Footprint: xxxx xxxx xxxx xxxx
+		Dimensions: 4, 4
+	Health:
+		HP: 1000
+	Armor:
+		Type: Steel
+	RevealsShroud:
+		Range: 4c0
+		
+cawsh12:
+	Inherits: ^CivBuilding
+	Selectable:
+		#Bounds: TODO
+	Building:
+		Footprint: xxx xxx xxx
+		Dimensions: 3, 3
+	Tooltip:
+		Name: Washington Monument
+	Health:
+		HP: 1000
+	Armor:
+		Type: Concrete
+	RevealsShroud:
+		Range: 6c0
+	Turreted:
+		ROT: 255
+	BodyOrientation:
+		QuantizedFacings: 8
+	Cargo:
+		Types: Infantry
+		MaxWeight: 5
+		PipCount: 5
+	AttackGarrisoned:
+		Armaments: M1Carbine
+		PortOffsets: 384,0,128, 224,-341,128, -224,-341,128, -384,0,128, -224,341,128, 224,341,128
+		PortYaws: 0, 176, 341, 512, 682, 853
+		PortCones: 86, 86, 86, 86, 86, 86
+	
+caarmy01:
+	Inherits: ^CivBuilding
+	Selectable:
+		#Bounds: TODO
+	Building:
+		Footprint: xxx xxx
+		Dimensions: 3, 2
+	Tooltip:
+		Name: Army Tent
+	Health:
+		HP: 200
+	Armor:
+		Type: Wood
+	RevealsShroud:
+		Range: 6c0
+
+caoild:
+	Inherits: ^TechBuilding
+	Selectable:
+		#Bounds: TODO
+	Building:
+		Footprint: xx xx
+		Dimensions: 2, 2
+	ExternalCapturable:
+	ExternalCapturableBar:
+	EngineerRepairable:
+	CashTrickler:
+		Period: 100
+		Amount: 20
+		CaptureAmount: 1000
+	Tooltip:
+		Name: Tech Oil Derrick
+	Health:
+		HP: 1000
+	RevealsShroud:
+		Range: 4c0
+	Armor:
+		Type: Steel
+	WithIdleOverlay@pump:
+		Sequence: idle-pump
+
 # Pentagon A
 cawa2a:
-	Inherits: ^Building
+	Inherits: ^CivBuilding
+	Selectable:
+		#Bounds: TODO
 	Valued:
 		Cost: 2000
 	Building:
@@ -15,7 +245,9 @@ cawa2a:
 
 # Pentagon B
 cawa2b:
-	Inherits: ^Building
+	Inherits: ^CivBuilding
+	Selectable:
+		#Bounds: TODO
 	Valued:
 		Cost: 2000
 	Building:
@@ -30,7 +262,9 @@ cawa2b:
 
 # Pentagon C
 cawa2c:
-	Inherits: ^Building
+	Inherits: ^CivBuilding
+	Selectable:
+		#Bounds: TODO
 	Valued:
 		Cost: 2000
 	Building:
@@ -45,7 +279,9 @@ cawa2c:
 
 # Pentagon D
 cawa2d:
-	Inherits: ^Building
+	Inherits: ^CivBuilding
+	Selectable:
+		#Bounds: TODO
 	Valued:
 		Cost: 2000
 	Building:
@@ -57,3 +293,162 @@ cawa2d:
 		Type: Concrete
 	RevealsShroud:
 		Range: 6c0
+
+cafarm01:
+	Inherits: ^CivBuilding
+	Selectable:
+		#Bounds: TODO
+	Building:
+		Footprint: xx xx
+		Dimensions: 2, 2
+	Tooltip:
+		Name: Farm
+	Health:
+		HP: 400
+	Armor:
+		Type: Wood
+	RevealsShroud:
+		Range: 4c0
+
+cafarm02:
+	Inherits: ^CivBuilding
+	Selectable:
+		#Bounds: TODO
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Tooltip:
+		Name: Farm Silo
+	Health:
+		HP: 400
+	Armor:
+		Type: Wood
+
+causfgl:
+	Inherits: ^CivBuilding
+	Selectable:
+		#Bounds: TODO
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Tooltip:
+		Name: US Flag
+	Health:
+		HP: 20
+	Armor:
+		Type: Steel
+	RevealsShroud:
+		Range: 6c0
+
+#Anything civilian that is not a building
+camisc01:
+	Inherits: ^CivBuilding
+	Selectable:
+		#Bounds: TODO
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Tooltip:
+		Name: Barrels
+	Health:
+		HP: 5
+	Armor:
+		Type: Concrete
+
+camisc02:
+	Inherits: ^CivBuilding
+	Selectable:
+		#Bounds: TODO
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Tooltip:
+		Name: Barrel
+	Health:
+		HP: 5
+	Armor:
+		Type: Concrete
+
+camisc03:
+	Inherits: ^CivBuilding
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Tooltip:
+		Name: Harvard's Office
+	Health:
+		HP: 100
+	Armor:
+		Type: Concrete
+
+camisc04:
+	Inherits: ^CivBuilding
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Tooltip:
+		Name: Mail Box
+	Health:
+		HP: 10
+	Armor:
+		Type: Concrete
+
+# casin01s: #MISSING FROM RA2 FILES
+	# Inherits: ^CivBuilding
+	# Building:
+		# Footprint: x
+		# Dimensions: 1, 1
+	# Tooltip:
+		# Name: Stop!
+	# Health:
+		# HP: 5
+	# Armor:
+		# Type: Concrete
+
+# casin01n: #MISSING FROM RA2 FILES
+	# Inherits: ^CivBuilding
+	# Building:
+		# Footprint: x
+		# Dimensions: 1, 1
+	# Tooltip:
+		# Name: Stop!
+	# Health:
+		# HP: 5
+	# Armor:
+		# Type: Concrete
+
+calit01e:
+	Inherits: ^CivBuilding
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Tooltip:
+		Name: Light
+	Health:
+		HP: 50	
+	Armor:
+		Type: Steel
+
+calit01w:
+	Inherits: ^CivBuilding
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Tooltip:
+		Name: Light
+	Health:
+		HP: 50
+	Armor:
+		Type: Steel
+
+capol01w:
+	Inherits: ^CivBuilding
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Tooltip:
+		Name: Telephone Pole
+	Health:
+		HP: 20
+	Armor:
+		Type: Concrete
