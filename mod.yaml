@@ -197,6 +197,8 @@ SupportsMapsFrom: ra2
 
 SpriteFormats: ShpTS, TmpTS, ShpTD
 
+SpriteSequenceFormat: DefaultSpriteSequence
+
 # TODO: pchote/ts-snow
 #SpriteSequenceFormat: TSSpriteSequence
 #	TilesetCodes:
