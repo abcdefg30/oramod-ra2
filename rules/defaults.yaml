@@ -23,8 +23,12 @@
 	WithBuildingExplosion:
 	RepairableBuilding:
 	EngineerRepairable:
-	EmitInfantryOnSell:
+	EmitInfantryOnSell@allies:
 		ActorTypes: e1, e1, e1
+		Races: america, germany, england, france, korea
+	EmitInfantryOnSell@soviets:
+		ActorTypes: e2, e2, e2, e2
+		Races: cuba, libya, iraq, russia
 	MustBeDestroyed:
 		RequiredForShortGame: true
 	GivesExperience:
@@ -316,7 +320,7 @@
 	GainsStatUpgrades:
 	UpgradeManager:
 	MustBeDestroyed:
-	
+
 ^OreDrill:
 	Tooltip:
 		Name: Ore Drill
@@ -335,7 +339,7 @@
 		ResourceType: Tiberium
 		Interval: 55
 	WithActiveAnimation:
-	
+
 ^Tree:
 	RenderBuilding:
 		Palette: terrain
