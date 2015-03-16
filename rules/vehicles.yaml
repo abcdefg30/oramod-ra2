@@ -31,7 +31,7 @@ amcv:
 		Offset: -1,-1
 		Facing: 96
 		TransformSounds: uplace.wav
-		NoTransformNotification: NoBuild
+		NoTransformNotification: BuildingCannotPlaceAudio
 	RenderSprites:
 	RenderVoxels:
 	WithVoxelBody:
@@ -70,7 +70,7 @@ smcv:
 		Offset: -1,-1
 		Facing: 96
 		TransformSounds: uplace.wav
-		NoTransformNotification: NoBuild
+		NoTransformNotification: BuildingCannotPlaceAudio
 	RenderSprites:
 	RenderVoxels:
 	WithVoxelBody:

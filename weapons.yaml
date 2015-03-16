@@ -76,7 +76,7 @@ M60E:
 M1Carbine:
 	ReloadDelay: 25
 	Range: 4c0
-	Report: INFGUN3.AUD
+	Report: iconatta.wav, iconattb.wav, iconattc.wav, iconattd.wav, iconatte.wav
 	Projectile: Bullet
 		Speed: 1c682
 	Warhead@1Dam: SpreadDamage
@@ -99,7 +99,7 @@ M1Carbine:
 M1CarbineE:
 	ReloadDelay: 20
 	Range: 5c0
-	Report: INFGUN3.AUD
+	Report: iconatta.wav, iconattb.wav, iconattc.wav, iconattd.wav, iconatte.wav
 	Projectile: Bullet
 		Speed: 1c682
 	Warhead@1Dam: SpreadDamage
@@ -123,7 +123,7 @@ DogJaw:
 	ValidTargets: Infantry
 	ReloadDelay: 10
 	Range: 3c0
-	Report: DOGATTACK.AUD, IDOGATTA.AUD
+	Report: idogatta.wav, idogatca.wav
 	Warhead@1Dam: SpreadDamage
 		Spread: 213
 		Damage: 100
