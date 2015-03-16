@@ -10,6 +10,7 @@ amcv:
 		Name: Mobile Construction Vehicle
 		Description: Deploys into a Construction Yard.
 	Selectable:
+		Voice: AlliedVehicleVoice
 		Priority: 3
 		Bounds: 68, 56, 0, -7
 	Health:
@@ -29,8 +30,8 @@ amcv:
 		IntoActor: gacnst
 		Offset: -1,-1
 		Facing: 96
-		TransformSounds: facbld1.aud
-		NoTransformSounds:
+		TransformSounds: uplace.wav
+		NoTransformNotification: NoBuild
 	RenderSprites:
 	RenderVoxels:
 	WithVoxelBody:
@@ -47,6 +48,7 @@ smcv:
 		Name: Mobile Construction Vehicle
 		Description: Deploys into a Construction Yard.
 	Selectable:
+		Voice: SovietVehicleVoice
 		Priority: 3
 		Bounds: 64, 52, 0, -6
 	Health:
@@ -67,8 +69,8 @@ smcv:
 		IntoActor: nacnst
 		Offset: -1,-1
 		Facing: 96
-		TransformSounds: facbld1.aud
-		NoTransformSounds:
+		TransformSounds: uplace.wav
+		NoTransformNotification: NoBuild
 	RenderSprites:
 	RenderVoxels:
 	WithVoxelBody:
