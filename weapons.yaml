@@ -262,3 +262,32 @@ opcoilbolt: # when overcharged by 3 Tesla Troopers
 			Wood: 50
 			Steel: 50
 			Concrete: 50
+
+20mmrapid:
+	ReloadDelay: 20
+	Range: 5c512
+	MinRange: 0c256 # defaulted
+	Report: vwaratta.wav, vwarattb.wav
+	Projectile: Bullet
+		Speed: 1c682
+	Warhead@1Dam: SpreadDamage
+		Spread: 64
+		Damage: 30
+		DeathType: 1
+		ProneModifier: 70
+		Versus:
+			None: 100
+			Flak: 80
+			Plate: 70
+			Light: 50
+			Medium: 20
+			Heavy: 20
+			Wood: 20
+			Steel: 15
+			Concrete: 10
+	Warhead@2Eff: CreateEffect
+		Explosion: piff
+		InvalidImpactTypes: Water
+	Warhead@3EffWater: CreateEffect
+		Explosion: water_piffs
+		ValidImpactTypes: Water

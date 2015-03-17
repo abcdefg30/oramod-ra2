@@ -151,21 +151,22 @@ garefn:
 		Range: 6c0
 	TiberianSunRefinery:
 		DockOffset: 3,1
+		ShowTicks: True
+		TickLifetime: 30
+		TickVelocity: 1
+		TickRate: 10
+		DockAngle: 160
 	StoresResources:
 		PipColor: Yellow
-		PipCount: 15
-		Capacity: 3000
+		PipCount: 0
+		Capacity: 999999
 	CustomSellValue:
 		Value: 300
-	# FreeActor: # vxl/hva loading isn't laid out too well
-	# 	Actor: CMIN
-	# 	InitialActivity: FindResources
-	# 	SpawnOffset: -1,0
-	# 	Facing: 64
-	# Workaround due to lack of harvester:
-	CashTrickler:
-		Period: 200
-		Amount: 100
+	FreeActor:
+		Actor: cmin
+	 	InitialActivity: FindResources
+	 	SpawnOffset: 3,1
+	 	Facing: 160
 	WithDockingOverlay:
 	WithIdleOverlay@BIB:
 		Sequence: idle-bib
@@ -654,19 +655,22 @@ narefn:
 		Range: 6c0
 	TiberianSunRefinery:
 		DockOffset: 3,1
+		ShowTicks: True
+		TickLifetime: 30
+		TickVelocity: 1
+		TickRate: 10
+		DockAngle: 160
 	StoresResources:
 		PipColor: Yellow
-		PipCount: 15
-		Capacity: 3000
-	# FreeActor: # vxl/hva loading isn't laid out too well
-	# 	Actor: CMIN
-	# 	InitialActivity: FindResources
-	# 	SpawnOffset: -1,0
-	# 	Facing: 64
-	# Workaround due to lack of harvester:
-	CashTrickler:
-		Period: 200
-		Amount: 100
+		PipCount: 0
+		Capacity: 999999
+	CustomSellValue:
+		Value: 300
+	FreeActor:
+		Actor: harv
+	 	InitialActivity: FindResources
+	 	SpawnOffset: 3,1
+	 	Facing: 160
 	WithDockingOverlay:
 	WithIdleOverlay@BIB:
 		Sequence: idle-bib

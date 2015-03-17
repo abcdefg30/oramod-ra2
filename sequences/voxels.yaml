@@ -9,6 +9,7 @@ smcv:
 	idle: smcv
 
 harv:
+	turret: harvtur
 	idle:
 	unload: horv
 

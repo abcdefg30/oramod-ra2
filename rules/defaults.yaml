@@ -204,6 +204,7 @@
 	WithDeathAnimation:
 	UpgradeManager:
 	MustBeDestroyed:
+		RequiredForShortGame: true
 	Cloneable:
 		Types: infantry
 # TODO: Soylet (for grinding in cloning vats and YR)
@@ -236,6 +237,7 @@
 	ScaredyCat:
 	WithDeathAnimation:
 	MustBeDestroyed:
+		RequiredForShortGame: true
 
 ^Vehicle:
 	AppearsOnRadar:
@@ -286,6 +288,7 @@
 		Weapon: UnitExplodeSmall
 		EmptyWeapon: UnitExplodeSmall
 	RenderVoxels:
+		Scale: 11.7
 		LightPitch: 170
 		LightYaw: -150
 		LightAmbientColor: 0,0,0,0,0,0
@@ -293,6 +296,7 @@
 	GainsStatUpgrades:
 	UpgradeManager:
 	MustBeDestroyed:
+		RequiredForShortGame: true
 # TODO: Soylet (for grinding)
 
 ^Aircraft:
@@ -330,6 +334,7 @@
 	GainsStatUpgrades:
 	UpgradeManager:
 	MustBeDestroyed:
+		RequiredForShortGame: true
 
 ^OreDrill:
 	Tooltip:
