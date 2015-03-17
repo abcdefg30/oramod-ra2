@@ -7,7 +7,8 @@ AlliedEngineerVoice:
 		Feedback: ienafea, ienafeb, ienafec
 		Die: ienadia, ienadib, ienadic, ienadid
 		Zapped: igenzapa
-		# [EngAllPowerDown] Sounds = ienapow
+		Burned: ienadia #gotta put something as temp else game crashes
+		# [EngAllPowerDown] Sounds = ienapow		
 
 SovietEngineerVoice:
 	DefaultVariant: .wav
@@ -18,6 +19,7 @@ SovietEngineerVoice:
 		Feedback: iensfea, iensfeb, iensfec
 		Die: iensdia, iensdib, iensdic
 		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes
 		# [EngAllPowerDown] Sounds = ienspow
 
 AlliedVehicleVoice:
@@ -26,6 +28,7 @@ AlliedVehicleVoice:
 		Select: vgrasea, vgraseb, vgrasec, vgrased, vgrasee
 		Move: vgramoa, vgramob, vgramoc, vgramod, vgramoe, vgramof
 		Attack: vgraata, vgraatb, vgraatc, vgraatd, vgraate
+		Burned: ienadia #gotta put something as temp else game crashes
 
 SovietVehicleVoice:
 	DefaultVariant: .wav
@@ -33,6 +36,7 @@ SovietVehicleVoice:
 		Select: vgrssea, vgrsseb, vgrssec
 		Move: vgrsmoa, vgrsmob, vgrsmoc
 		Attack: vgrsata, vgrsatb, vgrsatc, vgrsatd
+		Burned: ienadia #gotta put something as temp else game crashes
 
 AlliedNavalVoice:
 	DefaultVariant: .wav
@@ -40,6 +44,7 @@ AlliedNavalVoice:
 		Select: vwaasea, vwaaseb, vwaasec, vwaased
 		Move: vwaamoa, vwaamob, vwaamoc, vwaamod, vwaamoe
 		Attack: vwaaata, vwaaatb, vwaaatc
+		Burned: ienadia #gotta put something as temp else game crashes
 
 SovietNavalVoice:
 	DefaultVariant: .wav
@@ -47,6 +52,7 @@ SovietNavalVoice:
 		Select: vwassea, vwasseb, vwassec
 		Move: vwasmoa, vwasmob, vwasmoc, vwasmod
 		Attack: vwasata, vwasatb, vwasatc
+		Burned: ienadia #gotta put something as temp else game crashes
 
 GIVoice:
 	DefaultVariant: .wav
@@ -57,6 +63,7 @@ GIVoice:
 		Feedback: igifea, igifeb
 		Die: igidia, igidib, igidic, igidid, igidie
 		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes
 
 ConscriptVoice:
 	DefaultVariant: .wav
@@ -67,6 +74,7 @@ ConscriptVoice:
 		Feedback: iconfea, iconfeb, iconfec
 		Die: icondia, icondib, icondic, icondid, icondie
 		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes
 
 DogVoice:
 	DefaultVariant: .wav
@@ -77,6 +85,7 @@ DogVoice:
 		Feedback: idogfea, idogfeb, idogfec
 		Die: idogdiea
 		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes
 
 RocketeerVoice:
 	DefaultVariant: .wav
@@ -87,6 +96,7 @@ RocketeerVoice:
 		Feedback: irocfea, irocfeb, irocfec
 		Die: irocdiea
 		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes
 
 SpyVoice:
 	DefaultVariant: .wav
@@ -97,6 +107,7 @@ SpyVoice:
 		Feedback: ispyfea, ispyfeb
 		Die: ispydia, ispydib, ispydic
 		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes
 
 ChronoLegionnaireVoice:
 	DefaultVariant: .wav
@@ -107,6 +118,7 @@ ChronoLegionnaireVoice:
 		Feedback: ichrfea, ichrfeb, ichrfec
 		Die: ichrdia, ichrdib, ichrdic	
 		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes
 
 SniperVoice:
 	DefaultVariant: .wav
@@ -117,6 +129,7 @@ SniperVoice:
 		Feedback: isnifea, isnifeb, isnifec
 		Die: isnidia, isnidib, isnidic
 		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes
 
 SealVoice:
 	DefaultVariant: .wav
@@ -126,6 +139,7 @@ SealVoice:
 		Attack: iseaata, iseaatb, iseaatc
 		Die: iseadia, iseadib, iseadic
 		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes
 
 TanyaVoice:
 	DefaultVariant: .wav
@@ -135,6 +149,7 @@ TanyaVoice:
 		Attack: itanata, itanatb, itanatc, itanatd
 		Die: itandia, itandib, itandic
 		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes
 
 DolphinVoice:
 	DefaultVariant: .wav
@@ -143,6 +158,7 @@ DolphinVoice:
 		Move: vdolmova, vdolmovb
 		Attack: vdolatca, vdolatcb, vdolatcc
 		Die: vdoldiea, vdoldieb
+		Burned: ienadia #gotta put something as temp else game crashes
 
 HarrierVoice:
 	DefaultVariant: .wav
@@ -151,6 +167,7 @@ HarrierVoice:
 		Move: vintmoa, vintmob, vintmoc, vintmod
 		Attack: vintata, vintatb, vintatc, vintatd, vintate
 		Die: vintdia, vintdib, vintdic
+		Burned: ienadia #gotta put something as temp else game crashes
 
 BlackEagleVoice:
 	DefaultVariant: .wav
@@ -159,6 +176,7 @@ BlackEagleVoice:
 		Move: vblemoa, vblemob, vblemoc
 		Attack: vbleata, vbleatb, vbleatc
 		Die: vbledia, vbledib, vbledic, vbledid, vbledie
+		Burned: ienadia #gotta put something as temp else game crashes
 
 NighthawkVoice:
 	DefaultVariant: .wav
@@ -167,6 +185,7 @@ NighthawkVoice:
 		Move: vblhmoa, vblhmob, vblhmoc, vblhmod
 		Attack: vblhata, vblhatb, vblhatc, vblhatd
 		Die: vblhdia, vblhdib, vblhdic
+		Burned: ienadia #gotta put something as temp else game crashes
 
 FlakTrooperVoice:
 	DefaultVariant: .wav
@@ -177,6 +196,7 @@ FlakTrooperVoice:
 		Feedback: iflafea, iflafeb, iflafec, iflafed
 		Die: ifladia, ifladib, ifladic, ifladid, ifladie
 		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes
 
 TeslaTrooperVoice:
 	DefaultVariant: .wav
@@ -187,6 +207,7 @@ TeslaTrooperVoice:
 		Feedback: itesfea, itesfeb, itesfec
 		Die: itesdia, itesdib, itesdic, itesdid
 		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes
 
 CrazyIvanVoice:
 	DefaultVariant: .wav
@@ -196,6 +217,7 @@ CrazyIvanVoice:
 		Attack: icraata, icraatb, icraatc, icraatd, icraate
 		Die: icradia, icradib
 		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes
 
 DesolatorVoice:
 	DefaultVariant: .wav
@@ -205,6 +227,7 @@ DesolatorVoice:
 		Attack: idesata, idesatb, idesatc, idesatd, idesate, idesatf
 		Die: idesdia, idesdib, idesdic
 		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes
 
 TerroristVoice:
 	DefaultVariant: .wav
@@ -215,6 +238,7 @@ TerroristVoice:
 		Feedback: iterfea, iterfeb, iterfec
 		Die: iterdia, iterdib, iterdic
 		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes
 
 YuriVoice:
 	DefaultVariant: .wav
@@ -224,6 +248,7 @@ YuriVoice:
 		Attack: iyurata, iyuratb, iyuratc, iyuratd, iyurate
 		Die: iyurdia, iyurdib, iyurdic
 		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes
 
 KirovVoice:
 	DefaultVariant: .wav
@@ -233,13 +258,16 @@ KirovVoice:
 		Attack: vkirata, vkiratb, vkiratc, vkiratd
 		Feedback: vkirfea, vkirfeb, vkirfec
 		Die: vkirdia, vkirdib, vkirdic, vkirdid
+		Burned: ienadia #gotta put something as temp else game crashes
 
 DemolitionTruckVoice:
 	DefaultVariant: .wav
 	Voices:
-		Select: vdemsea, vdemseb, vdemsec
+		Select: vdemsea, vdemseb, vdemsec, vdemsed
 		Move: vdemmoa, vdemmob, vdemmoc, vdemsed
 		Attack: vdemata, vdematb, vdematc, vdematd, vdemate
+		Build: vdemsea
+		Burned: ienadia #gotta put something as temp else game crashes
 
 TerrorDroneVoice:
 	DefaultVariant: .wav
@@ -248,6 +276,7 @@ TerrorDroneVoice:
 		Move: vtermova
 		Attack: vteratta
 		Die: vterdiea, vterdieb
+		Burned: ienadia #gotta put something as temp else game crashes
 
 GiantSquidVoice:
 	DefaultVariant: .wav
@@ -256,6 +285,7 @@ GiantSquidVoice:
 		Move: vsqumova, vsqumovb
 		Attack: vsquat1a
 		Die: vsqudiea
+		Burned: ienadia #gotta put something as temp else game crashes
 
 AlligatorVoice:
 	DefaultVariant: .wav
@@ -265,6 +295,7 @@ AlligatorVoice:
 		Attack: galiatta, galiattb
 		Feedback: galifeaa, galifeab
 		Die: galidiea
+		Burned: ienadia #gotta put something as temp else game crashes
 
 BearVoice:
 	DefaultVariant: .wav
@@ -273,11 +304,13 @@ BearVoice:
 		Move: gbeamova, gbeamovb, gbeamovc
 		Feedback: gbeafeaa, gbeafeab
 		Die: gbeadiea, gbeadieb
+		Burned: ienadia #gotta put something as temp else game crashes
 
 CarVoice:
 	DefaultVariant: .wav
 	Voices:
 		Select: gcarsela
+		Burned: ienadia #gotta put something as temp else game crashes
 
 ChimpanzeeVoice:
 	DefaultVariant: .wav
@@ -287,6 +320,7 @@ ChimpanzeeVoice:
 		Attack: gchiata, gchiatb, gchiatc
 		Feedback: gchifeaa, gchifeab
 		Die: gchidiea, gchidieb
+		Burned: ienadia #gotta put something as temp else game crashes
 
 CivilianAlliedMaleVoice:
 	DefaultVariant: .wav
@@ -297,6 +331,7 @@ CivilianAlliedMaleVoice:
 		Feedback: iciafea, iciafeb, iciafec
 		Die: iciadia, iciadib, iciadic, iciadid
 		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes
 
 CivilianSovietMalevVoice:
 	DefaultVariant: .wav
@@ -307,6 +342,7 @@ CivilianSovietMalevVoice:
 		Feedback: icisfea, icisfeb, icisfec
 		Die: icisdia, icisdib, icisdic
 		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes
 
 CivilianAlliedFemaleVoice:
 	DefaultVariant: .wav
@@ -317,6 +353,7 @@ CivilianAlliedFemaleVoice:
 		Feedback: icfafea, icfafeb, icfafec
 		Die: icfadia, icfadib, icfadic
 		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes
 
 CivilianSovietFemaleVoice:
 	DefaultVariant: .wav
@@ -327,6 +364,7 @@ CivilianSovietFemaleVoice:
 		Feedback: icfsfea, icfsfeb
 		Die: icfsdia, icfsdib, icfsdic
 		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes
 
 CivilianTexanVoice:
 	DefaultVariant: .wav
@@ -337,3 +375,4 @@ CivilianTexanVoice:
 		Feedback: ictefea, ictefeb, ictefec
 		Die: ictedia, ictedib, ictedic
 		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes

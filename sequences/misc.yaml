@@ -250,7 +250,12 @@ explosion:
 	large_grey_explosion: xgrymed2
 		Start: 0
 		Length: *
-
+	nuke_explosion: nukeanim
+		Start: 0
+		Length: *
+	demotruck_explosion: demtexp
+		Start: 0
+		Length: *
 discus:
 	idle:
 		Start: 0
@@ -294,6 +299,14 @@ smoke_m:
 		Start: 0
 		Length: *
 
+litning:
+	bright:
+		Start: 0
+		Length: 4
+	dim:
+		Start: 4
+		Length: 4
+		
 moveflsh:
 	idle: ring
 		Start: 0

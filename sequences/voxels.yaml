@@ -9,6 +9,7 @@ smcv:
 	idle: smcv
 
 harv:
+	turret: harvtur
 	idle:
 	unload: horv
 
@@ -171,3 +172,12 @@ sonic:
 
 dpod:
 	idle:
+	
+nasam:
+	turret: sam
+	
+zep:
+	idle:
+	
+dtruck:
+	idle: trucka

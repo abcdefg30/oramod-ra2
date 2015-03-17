@@ -370,7 +370,7 @@ gaspysat:
 		Offset: 0, -31
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-dish: ggspst_a
-		Start: 15
+		Start: 16
 		Length: 16
 		Tick: 180
 		Offset: 0, -31
@@ -454,7 +454,7 @@ gacsph:
 		Start: 0
 
 nacnst:
-	idle: nacnst
+	idle: ngcnst
 		Start: 0
 		ShadowStart: 3
 		Offset: 4, -58
@@ -474,7 +474,7 @@ nacnst:
 		Start: 0
 		Length: 11
 		Tick: 200
-		Offset: 4, -48
+		Offset: 4, -58
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-top: ngcnst_a
 		Start: 11
@@ -496,13 +496,13 @@ nacnst:
 		Tick: 150
 		Offset: 4, -58
 		# UseTilsetCode: true # TODO: pchote/ts-snow
-	crane-overlay: ngcnst_b
+	build: ngcnst_b
 		Start: 0
 		Length: 21
 		Tick: 150
 		Offset: 4, -58
 		# UseTilsetCode: true # TODO: pchote/ts-snow
-	damaged-crane-overlay: ngcnst_b
+	damaged-build: ngcnst_b
 		Start: 21
 		Length: 21
 		Tick: 150
@@ -761,7 +761,7 @@ nanrct:
 		Offset: -12, -56
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-lights: ngnrct_a
-		Start: 10
+		Start: 11
 		Length: 11
 		Tick: 150
 		Offset: -12, -56
@@ -855,12 +855,14 @@ napsis:
 		Length: 40
 		Tick: 150
 		Offset: 1, -30
+		ShadowStart: 80
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-spin: ngpsis_a
 		Start: 39
 		Length: 40
 		Tick: 150
 		Offset: 1, -30
+		ShadowStart: 120
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: ntpsismk
 		Start: 0
@@ -1032,15 +1034,48 @@ nasam:
 	idle: ngsam
 		Start: 0
 		ShadowStart: 3
+		ZOffset: -512
+		Offset: 0, -15
 	damaged-idle: ngsam
 		Start: 1
 		ShadowStart: 4
+		ZOffset: -512
+		Offset: 0, -15
 	critical-idle: ngsam
 		Start: 2
 		ShadowStart: 5
+		Offset: 0, -15
 	icon: samicon
 		Start: 0
 	make: ntsammk
 		Start: 0
 		Length: 8
 		ShadowStart: 8
+		Offset: 0, -15
+
+tesla:
+	idle: ngtsla_a
+		Start: 0
+		Length: 10
+		Offset: 0, -15		
+	damaged-idle: ngtsla_a
+		Start: 10
+		Length: 10
+		Offset: 0, -15
+	active: ngtsla_b
+		Start: 0
+		Length: 10
+		Tick: 100
+		Offset: 0, -15
+	damaged-active: ngtsla_b
+		Start: 10
+		Length: 10
+		Tick: 100
+		Offset: 0, -15
+	icon: tslaicon
+		Start: 0
+	make: nttslamk
+		Start: 0
+		Length: 25
+		ShadowStart: 25
+		Offset: 0, -15

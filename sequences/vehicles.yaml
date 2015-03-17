@@ -3,5 +3,25 @@ amcv:
 		Start: 0
 
 smcv:
-	icon: mcvicon
+	icon: smcvicon
+		Start: 0
+
+dtruck:
+	icon: trkaicon
+	Start: 0
+	
+cmin:
+	harvest: oregath
+		Start: 0
+		Length: 15
+		Facings: 8
+	icon: ahrvicon
+		Start: 0
+
+harv:
+	harvest: oregath
+		Start: 0
+		Length: 15
+		Facings: 8
+	icon: harvicon
 		Start: 0

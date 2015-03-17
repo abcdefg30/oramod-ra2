@@ -151,21 +151,22 @@ garefn:
 		Range: 6c0
 	TiberianSunRefinery:
 		DockOffset: 3,1
+		ShowTicks: True
+		TickLifetime: 30
+		TickVelocity: 1
+		TickRate: 10
+		DockAngle: 160
 	StoresResources:
 		PipColor: Yellow
-		PipCount: 15
-		Capacity: 3000
+		PipCount: 0
+		Capacity: 999999
 	CustomSellValue:
 		Value: 300
-	# FreeActor: # vxl/hva loading isn't laid out too well
-	# 	Actor: CMIN
-	# 	InitialActivity: FindResources
-	# 	SpawnOffset: -1,0
-	# 	Facing: 64
-	# Workaround due to lack of harvester:
-	CashTrickler:
-		Period: 200
-		Amount: 100
+	FreeActor:
+		Actor: cmin
+	 	InitialActivity: FindResources
+	 	SpawnOffset: 3,1
+	 	Facing: 160
 	WithDockingOverlay:
 	WithIdleOverlay@BIB:
 		Sequence: idle-bib
@@ -214,7 +215,7 @@ gaairc:
 		Sequence: idle-dish
 		PauseOnLowPower: true
 	TargetableBuilding:
-		TargetTypes: Ground, C4, SpyInfiltrate
+		TargetTypes: Ground, C4, SpyInfiltrate, DetonateAttack
 	Power:
 		Amount: -50
 	Reservable: # TODO: Support Multiple
@@ -276,7 +277,7 @@ gaweap:
 	Exit@1:
 		ExitCell: 5,1
 	Production:
-		Produces: Vehicles
+		Produces: Vehicle
 	PrimaryBuilding:
 	ProductionBar:
 	WithIdleOverlay@flag:
@@ -557,7 +558,7 @@ nacnst:
 		Sequence: idle-top
 	WithIdleOverlay@SIDE:
 		Sequence: idle-side
-	WithBuildingPlacedOverlay:
+	WithBuildingPlacedAnimation:
 
 napowr:
 	Inherits: ^Building
@@ -654,19 +655,22 @@ narefn:
 		Range: 6c0
 	TiberianSunRefinery:
 		DockOffset: 3,1
+		ShowTicks: True
+		TickLifetime: 30
+		TickVelocity: 1
+		TickRate: 10
+		DockAngle: 160
 	StoresResources:
 		PipColor: Yellow
-		PipCount: 15
-		Capacity: 3000
-	# FreeActor: # vxl/hva loading isn't laid out too well
-	# 	Actor: CMIN
-	# 	InitialActivity: FindResources
-	# 	SpawnOffset: -1,0
-	# 	Facing: 64
-	# Workaround due to lack of harvester:
-	CashTrickler:
-		Period: 200
-		Amount: 100
+		PipCount: 0
+		Capacity: 999999
+	CustomSellValue:
+		Value: 300
+	FreeActor:
+		Actor: harv
+	 	InitialActivity: FindResources
+	 	SpawnOffset: 3,1
+	 	Facing: 160
 	WithDockingOverlay:
 	WithIdleOverlay@BIB:
 		Sequence: idle-bib
@@ -706,7 +710,7 @@ naradr:
 		Sequence: idle-dish
 		PauseOnLowPower: true
 	TargetableBuilding:
-		TargetTypes: Ground, C4, SpyInfiltrate
+		TargetTypes: Ground, C4, SpyInfiltrate, DetonateAttack
 	InfiltrateForExploration:
 	Power:
 		Amount: -50
@@ -741,7 +745,7 @@ naweap:
 	Exit@1:
 		ExitCell: 5,1
 	Production:
-		Produces: Vehicles
+		Produces: Vehicle
 	PrimaryBuilding:
 	ProductionBar:
 	WithIdleOverlay@lights:
@@ -1080,7 +1084,7 @@ gapill:
 		QuantizedFacings: 8
 
 nasam:
-	Inherits: ^Building
+	Inherits: ^Defense
 	Buildable:
 		Queue: Support
 		BuildPaletteOrder: 30
@@ -1100,14 +1104,57 @@ nasam:
 	RevealsShroud:
 		Range: 7c0
 	Selectable:
-		# TODO: Bounds:
+		Bounds: 46, 62, 0, -20
+	Turreted:
+		ROT: 10
+		InitialFacing: 220
+		Offset: 900,0,0
+	AttackTurreted:
 	Armament: # TODO: convert and use the correct weapon, uses sam.vxl
 		Weapon: M60
-	AttackTurreted:
-	Turreted:
-		ROT: 255
 	BodyOrientation:
 		QuantizedFacings: 8
+	RenderVoxels:
+	WithVoxelTurret:
+	AutoTarget:
+
+tesla:
+	Inherits: ^Building
+	Buildable:
+		Queue: Support
+		BuildPaletteOrder: 30
+		Prerequisites: ~naradr, ~structures.soviets
+	Valued:
+		Cost: 1500
+	Tooltip:
+		Name: Tesla Coil
+		Description: Tesla Coil
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Health:
+		HP: 600
+	Armor:
+		Type: Steel
+	RevealsShroud:
+		Range: 8c0
+	Selectable:
+		Bounds: 44, 88, -2, -33
+	RenderBuildingCharge:
+		ChargeAudio: tslachg2.aud
+	Armament:
+		Weapon: CoilBolt
+		LocalOffset: 0,0,2200
+	AttackCharge:
+		MaxCharges: 3
+		ReloadTime: 120
+	AutoTarget:
+	-RenderBuilding:
+	RequiresPower:
+	CanPowerDown:
+	DisabledOverlay:
+	Power:
+		Amount: -75
 
 anypower:
 	Tooltip:
