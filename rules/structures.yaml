@@ -557,7 +557,7 @@ nacnst:
 		Sequence: idle-top
 	WithIdleOverlay@SIDE:
 		Sequence: idle-side
-	WithBuildingPlacedOverlay:
+	WithBuildingPlacedAnimation:
 
 napowr:
 	Inherits: ^Building
@@ -1113,6 +1113,44 @@ nasam:
 	RenderVoxels:
 	WithVoxelTurret:
 	AutoTarget:
+
+tesla:
+	Inherits: ^Building
+	Buildable:
+		Queue: Support
+		BuildPaletteOrder: 30
+		Prerequisites: ~naradr, ~structures.soviets
+	Valued:
+		Cost: 1500
+	Tooltip:
+		Name: Tesla Coil
+		Description: Tesla Coil
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Health:
+		HP: 600
+	Armor:
+		Type: Steel
+	RevealsShroud:
+		Range: 8c0
+	Selectable:
+		Bounds: 44, 88, -2, -33
+	RenderBuildingCharge:
+		ChargeAudio: tslachg2.aud
+	Armament:
+		Weapon: CoilBolt
+		LocalOffset: 0,0,2200
+	AttackCharge:
+		MaxCharges: 3
+		ReloadTime: 120
+	AutoTarget:
+	-RenderBuilding:
+	RequiresPower:
+	CanPowerDown:
+	DisabledOverlay:
+	Power:
+		Amount: -75
 
 anypower:
 	Tooltip:

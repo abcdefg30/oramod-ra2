@@ -3,7 +3,7 @@ amcv:
 		Start: 0
 
 smcv:
-	icon: mcvicon
+	icon: smcvicon
 		Start: 0
 
 dtruck:

@@ -42,6 +42,10 @@ engineer:
 		Start: 135
 		Length: 8
 		Tick: 80
+	die6: electro
+		Start: 0
+		Length: *
+		Tick: 120
 	# Todo: add other die sequences
 	icon: engnicon
 		Start: 0
@@ -78,9 +82,9 @@ dog:
 	die5: # todo
 		Start: 251
 		Length: 14
-	die6: electdog # todo
-		Start: 0
-		Length: *
+	die6: # todo: copy of die1; art is missing
+		Start: 87
+		Length: 14
 	die-crushed: corpse1 # todo
 		Start: 0
 		Length: 6
@@ -125,9 +129,9 @@ adog:
 	die5: # todo
 		Start: 251
 		Length: 14
-	die6: electdog # todo
-		Start: 0
-		Length: *
+	die6: # todo: copy of die1; art is missing
+		Start: 87
+		Length: 14
 	die-crushed: corpse1 # todo
 		Start: 0
 		Length: 6
@@ -168,6 +172,10 @@ e1:
 	die2: gi
 		Start: 149
 		Length: 14
+	die6: electro
+		Start: 0
+		Length: *
+		Tick: 120
 	die-crushed: death_c
 		Start: 0
 		Length: 4
@@ -207,6 +215,10 @@ e2:
 	die2: cons
 		Start: 149
 		Length: 14
+	die6: electro
+		Start: 0
+		Length: *
+		Tick: 120
 	die-crushed: death_c
 		Start: 0
 		Length: 4

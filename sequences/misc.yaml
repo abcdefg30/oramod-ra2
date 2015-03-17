@@ -299,6 +299,14 @@ smoke_m:
 		Start: 0
 		Length: *
 
+litning:
+	bright:
+		Start: 0
+		Length: 4
+	dim:
+		Start: 4
+		Length: 4
+		
 moveflsh:
 	idle: ring
 		Start: 0
