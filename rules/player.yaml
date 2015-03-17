@@ -17,7 +17,7 @@ Player:
 		SpeedUp: true
 		RequireOwner: false
 	ClassicProductionQueue@Vehicle:
-		Type: Vehicles
+		Type: Vehicle
 		BuildSpeed: .4
 		LowPowerSlowdown: 3
 		SpeedUp: true

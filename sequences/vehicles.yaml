@@ -5,3 +5,7 @@ amcv:
 smcv:
 	icon: mcvicon
 		Start: 0
+
+dtruck:
+	icon: trkaicon
+	Start: 0

@@ -1032,9 +1032,11 @@ nasam:
 	idle: ngsam
 		Start: 0
 		ShadowStart: 3
+		ZOffset: -512
 	damaged-idle: ngsam
 		Start: 1
 		ShadowStart: 4
+		ZOffset: -512
 	critical-idle: ngsam
 		Start: 2
 		ShadowStart: 5

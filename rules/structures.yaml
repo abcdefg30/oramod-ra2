@@ -214,7 +214,7 @@ gaairc:
 		Sequence: idle-dish
 		PauseOnLowPower: true
 	TargetableBuilding:
-		TargetTypes: Ground, C4, SpyInfiltrate
+		TargetTypes: Ground, C4, SpyInfiltrate, DetonateAttack
 	Power:
 		Amount: -50
 	Reservable: # TODO: Support Multiple
@@ -276,7 +276,7 @@ gaweap:
 	Exit@1:
 		ExitCell: 5,1
 	Production:
-		Produces: Vehicles
+		Produces: Vehicle
 	PrimaryBuilding:
 	ProductionBar:
 	WithIdleOverlay@flag:
@@ -706,7 +706,7 @@ naradr:
 		Sequence: idle-dish
 		PauseOnLowPower: true
 	TargetableBuilding:
-		TargetTypes: Ground, C4, SpyInfiltrate
+		TargetTypes: Ground, C4, SpyInfiltrate, DetonateAttack
 	InfiltrateForExploration:
 	Power:
 		Amount: -50
@@ -741,7 +741,7 @@ naweap:
 	Exit@1:
 		ExitCell: 5,1
 	Production:
-		Produces: Vehicles
+		Produces: Vehicle
 	PrimaryBuilding:
 	ProductionBar:
 	WithIdleOverlay@lights:
@@ -1080,7 +1080,7 @@ gapill:
 		QuantizedFacings: 8
 
 nasam:
-	Inherits: ^Building
+	Inherits: ^Defense
 	Buildable:
 		Queue: Support
 		BuildPaletteOrder: 30
@@ -1100,14 +1100,19 @@ nasam:
 	RevealsShroud:
 		Range: 7c0
 	Selectable:
-		# TODO: Bounds:
+		Bounds: 46, 62, 0, -20
+	Turreted:
+		ROT: 10
+		InitialFacing: 220
+		Offset: 900,0,0
+	AttackTurreted:
 	Armament: # TODO: convert and use the correct weapon, uses sam.vxl
 		Weapon: M60
-	AttackTurreted:
-	Turreted:
-		ROT: 255
 	BodyOrientation:
 		QuantizedFacings: 8
+	RenderVoxels:
+	WithVoxelTurret:
+	AutoTarget:
 
 anypower:
 	Tooltip:

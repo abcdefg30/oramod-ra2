@@ -171,3 +171,12 @@ sonic:
 
 dpod:
 	idle:
+	
+nasam:
+	turret: sam
+	
+zep:
+	idle:
+	
+dtruck:
+	idle: trucka

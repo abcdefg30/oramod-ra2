@@ -250,7 +250,12 @@ explosion:
 	large_grey_explosion: xgrymed2
 		Start: 0
 		Length: *
-
+	nuke_explosion: nukeanim
+		Start: 0
+		Length: *
+	demotruck_explosion: demtexp
+		Start: 0
+		Length: *
 discus:
 	idle:
 		Start: 0

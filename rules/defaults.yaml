@@ -5,7 +5,7 @@
 	Selectable:
 		Priority: 3
 	TargetableBuilding:
-		TargetTypes: Ground, C4
+		TargetTypes: Ground, C4, DetonateAttack
 	Building:
 		Dimensions: 1,1
 		Footprint: x
@@ -97,7 +97,17 @@
 		Range: 4c0
 	Tooltip:
 		Description: Tech Building
-		
+
+#Use this ONLY of has voxel turret
+^Defense:
+	Inherits: ^Building
+	RenderVoxels:
+		Scale: 11.7
+		LightYaw: 800
+		LightPitch: 110
+		LightAmbientColor: 0.3,0.3,0.3 # -0.5,-0.5,-0.5
+		LightDiffuseColor: 1.0,1.0,1.0 # 1.5,1.5,1.5
+	
 ^Wall:
 	AppearsOnRadar:
 	Building:
@@ -115,7 +125,7 @@
 	LineBuildNode:
 		Types: wall
 	TargetableBuilding:
-		TargetTypes: Ground, Wall, C4
+		TargetTypes: Ground, Wall, C4, DetonateAttack
 	RenderBuildingWall:
 		Type: wall
 	GivesExperience:
@@ -154,7 +164,7 @@
 	Selectable:
 		Voice: Infantry
 	TargetableUnit:
-		TargetTypes: Ground, Infantry
+		TargetTypes: Ground, Infantry, DetonateAttack
 	RenderInfantry:
 	AutoTarget:
 	AttackMove:
@@ -244,7 +254,7 @@
 		Bounds: 32,32
 		Voice: Vehicle
 	TargetableUnit:
-		TargetTypes: Ground
+		TargetTypes: Ground, Repair, DetonateAttack
 	Repairable:
 		RepairBuildings: gadept
 	Passenger:
