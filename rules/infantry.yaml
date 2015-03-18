@@ -133,3 +133,40 @@ e2:
 	# TODO: Armament@elite
 	RenderInfantry:
 		IdleAnimation:
+
+tany:
+	Inherits: ^Infantry
+	Buildable:
+		Queue: Infantry
+		BuildAtProductionType: Infantry
+		BuildPaletteOrder: 120
+		Prerequisites: ~gatech, ~gapile
+		BuildLimit: 1
+	Valued:
+		Cost: 1000
+	Tooltip:
+		Name: Tanya
+		Description: Elite commando infantry, armed with \ndual pistols and C4.\n  Strong vs Infantry, Buildings\n  Weak vs Vehicles\n  Special Ability: Destroy Building with C4\n\nMaximum 1 can be trained
+	Selectable:
+		Voice: TanyaVoice
+		Bounds: 20, 30, 0, -11
+	Health:
+		HP: 125
+	Mobile:
+		Speed: 71
+	RevealsShroud:
+		Range: 6c0
+	C4Demolition:
+		C4Delay: 45
+		Voice: Attack
+	Armor:
+		Type: Flak
+	Passenger:
+		PipType: Red
+	Armament:
+		Weapon: DoublePistols
+	AttackFrontal:
+	TakeCover:
+	RenderInfantry:
+		IdleAnimations: idle1,idle2
+	AnnounceOnBuild:
