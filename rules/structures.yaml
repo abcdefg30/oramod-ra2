@@ -296,7 +296,7 @@ gadept:
 		BuildPaletteOrder: 60
 		Prerequisites: ~gaweap, ~structures.allies
 	Selectable:
-		Bounds: 140, 92, -20, -20
+		Bounds: 144, 88, -12, -16
 	Valued:
 		Cost: 800
 	Tooltip:
@@ -446,7 +446,7 @@ gaweat:
 		BuildPaletteOrder: 110
 		Prerequisites: ~gatech, ~structures.allies
 	Selectable:
-		Bounds: 96, 98, -4, -30
+		Bounds: 116, 106, -2, -26
 	Valued:
 		Cost: 5000
 	Tooltip:
@@ -473,7 +473,7 @@ gacsph:
 		BuildPaletteOrder: 120
 		Prerequisites: ~gatech, ~structures.allies
 	Selectable:
-		Bounds: 176, 150, 0, -20
+		Bounds: 176, 110, -5, -14
 	Valued:
 		Cost: 2500
 	Tooltip:
@@ -722,7 +722,7 @@ naweap:
 		BuildPaletteOrder: 50
 		Prerequisites: ~narefn, ~structures.soviets
 	Selectable:
-		Bounds: 212, 158, -7, -28
+		Bounds: 196, 178, -6, -48
 	Valued:
 		Cost: 2000
 	Tooltip:
@@ -762,7 +762,7 @@ nadept:
 		BuildPaletteOrder: 60
 		Prerequisites: ~naweap, ~structures.soviets
 	Selectable:
-		Bounds: 170, 150, -6, -30
+		Bounds: 156, 150, 0, -38
 	Valued:
 		Cost: 800
 	Tooltip:
@@ -837,7 +837,7 @@ natech:
 		Footprint: xxx xxx xxx
 		Dimensions: 3,3
 	Selectable:
-		Bounds: 148, 167, -2, -47
+		Bounds: 152, 164, 0, -50
 	Health:
 		HP: 500
 	Armor:
@@ -863,7 +863,7 @@ naclon:
 		Footprint: xx xx
 		Dimensions: 2, 2
 	Selectable:
-		Bounds: 95, 130, 0, -35
+		Bounds: 108, 134, 0, -48
 	Health:
 		HP: 1000
 	Armor:
@@ -956,7 +956,7 @@ nairon:
 		Footprint: xxx xxx xxx
 		Dimensions: 3, 3
 	Selectable:
-		Bounds: 148, 167, -2, -47
+		Bounds: 136, 100, 0, -20
 	Health:
 		HP: 750
 	Armor:
