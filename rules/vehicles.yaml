@@ -11,7 +11,6 @@ amcv:
 		Description: Deploys into a Construction Yard.
 	Selectable:
 		Voice: AlliedVehicleVoice
-		Priority: 3
 		Bounds: 68, 56, 0, -7
 	Health:
 		HP: 1000
@@ -49,7 +48,6 @@ smcv:
 		Description: Deploys into a Construction Yard.
 	Selectable:
 		Voice: SovietVehicleVoice
-		Priority: 3
 		Bounds: 64, 52, 0, -6
 	Health:
 		HP: 1000
