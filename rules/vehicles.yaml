@@ -108,6 +108,7 @@ dtruck:
 	RenderSprites:
 	RenderVoxels:
 	WithVoxelBody:
+	AnnounceOnBuild:
 
 cmin:
 	Inherits: ^Vehicle
