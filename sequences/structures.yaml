@@ -713,6 +713,7 @@ nadept:
 		Length: 10
 		ShadowStart: 20
 		Offset: -15, -53
+		Tick: 180
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-crane: ngdept_d
 		Start: 10
@@ -812,6 +813,7 @@ naclon:
 		Length: 11
 		ShadowStart: 22
 		Offset: 0, -30
+		Tick: 180
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: ngclon_a
 		Start: 11
