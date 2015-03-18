@@ -850,8 +850,8 @@ natech:
 naclon:
 	Inherits: ^Building
 	Buildable:
-		Queue: Support
-		BuildPaletteOrder:	40
+		Queue: Building
+		BuildPaletteOrder: 170
 		Prerequisites: ~natech, ~structures.soviets
 		BuildLimit: 1
 	Valued:
@@ -886,8 +886,8 @@ naclon:
 napsis:
 	Inherits: ^Building
 	Buildable:
-		Queue: Building
-		BuildPaletteOrder: 160
+		Queue: Support
+		BuildPaletteOrder: 40
 		Prerequisites: ~natech, ~structures.soviets
 	Valued:
 		Cost: 2000
