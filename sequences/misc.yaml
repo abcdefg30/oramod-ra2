@@ -263,6 +263,10 @@ explosion:
 	demotruck_explosion: demtexp
 		Start: 0
 		Length: *
+	elite_explosion: vtexplod
+		Start: 0
+		Length: *
+
 discus:
 	idle:
 		Start: 0

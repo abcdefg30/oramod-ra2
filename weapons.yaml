@@ -291,7 +291,7 @@ opcoilbolt: # when overcharged by 3 Tesla Troopers
 	Warhead@3EffWater: CreateEffect
 		Explosion: water_piffs
 		ValidImpactTypes: Water
-	
+
 DoublePistols:
 	ReloadDelay: 5
 	Range: 6c0
@@ -317,3 +317,67 @@ DoublePistols:
 	Warhead@3EffWater: CreateEffect
 		Explosion: water_piff
 		ValidImpactTypes: Water
+
+105mm:
+	ReloadDelay: 60
+	Range: 5c0
+	Report: vgriatta.wav, vgriattb.wav, vgriattc.wav
+	Palette: ra
+	Projectile: Bullet
+		Speed: 682
+		Image: 120mm
+		Shadow: true
+		Angle: 62
+	Warhead@1Dam: SpreadDamage
+		Spread: 128
+		Damage: 65
+		DeathType: 2
+		Versus:
+			None: 25
+			Wood: 65
+			Light: 100
+			Heavy: 100
+			Concrete: 60
+	Warhead@2Eff: CreateEffect
+		Explosion: medium_clsn
+		ImpactSound: expnew14.aud
+		InvalidImpactTypes: Water
+	Warhead@3EffWater: CreateEffect
+		Explosion: small_watersplash
+		ImpactSound: ssplash3.aud
+		ValidImpactTypes: Water
+#	Warhead@4Smu: LeaveSmudge
+#		SmudgeType: MediumCrater
+
+105mmE:
+	ReloadDelay: 75
+	Range: 5c0
+	Report: vgriatta.wav, vgriattb.wav, vgriattc.wav
+	Burst: 2
+	BurstDelay: 5
+	Palette: ra
+	Projectile: Bullet
+		Speed: 682
+		Image: 120mm
+		Shadow: true
+		Angle: 62
+	Warhead@1Dam: SpreadDamage
+		Spread: 128
+		Damage: 55
+		DeathType: 2
+		Versus:
+			None: 100
+			Wood: 65
+			Light: 100
+			Heavy: 100
+			Concrete: 60
+	Warhead@2Eff: CreateEffect
+		Explosion: elite_explosion
+		ImpactSound: expnew14.aud
+		InvalidImpactTypes: Water
+	Warhead@3EffWater: CreateEffect
+		Explosion: large_watersplash
+		ImpactSound: ssplash3.aud
+		ValidImpactTypes: Water
+#	Warhead@4Smu: LeaveSmudge
+#		SmudgeType: MediumCrater
