@@ -45,9 +45,14 @@ Background@WORLD_TOOLTIP:
 			Width: 32
 			Height: 16
 		Label@OWNER:
-			X: 45
+			X: 55
 			Y: 22
 			Height: 23
+			Font: Bold
+		Label@EXTRA:
+			X: 7
+			Y: 52
+			Height: 4
 			Font: Bold
 
 Background@SPAWN_TOOLTIP:
