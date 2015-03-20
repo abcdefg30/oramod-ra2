@@ -7,13 +7,11 @@ engineer:
 		Length: 6
 		Facings: 8
 		Tick: 100
-	# stand -> prone transition
-	liedown: # does this work?
+	liedown:
 		Start: 66
 		Length: 2
 		Facings: 8
-	# prone -> stand transition
-	standup: # does this work?
+	standup:
 		Start: 114
 		Length: 2
 		Facings: 8
@@ -46,6 +44,9 @@ engineer:
 		Start: 0
 		Length: *
 		Tick: 120
+	die-crushed: death_c
+		Start: 0
+		Length: 4
 	# Todo: add other die sequences
 	icon: engnicon
 		Start: 0
@@ -85,11 +86,9 @@ dog:
 	die6: # todo: copy of die1; art is missing
 		Start: 87
 		Length: 14
-	die-crushed: corpse1 # todo
+	die-crushed: death_c
 		Start: 0
-		Length: 6
-		Tick: 1600
-		ZOffset: -511
+		Length: 4
 	shoot: dogp
 		Start: 0
 		Length: 4
@@ -132,11 +131,9 @@ adog:
 	die6: # todo: copy of die1; art is missing
 		Start: 87
 		Length: 14
-	die-crushed: corpse1 # todo
+	die-crushed: death_c
 		Start: 0
-		Length: 6
-		Tick: 1600
-		ZOffset: -511
+		Length: 4
 	shoot: adogp
 		Start: 0
 		Length: 4
@@ -222,7 +219,6 @@ e2:
 	die-crushed: death_c
 		Start: 0
 		Length: 4
-		Tick: 80
 	shoot: cons
 		Start: 164
 		Length: 6
