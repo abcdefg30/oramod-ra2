@@ -22,6 +22,9 @@ MapFolders:
 	~^maps/ra2: User
 
 Packages:
+	~ra2.mix:CRC32
+	~language.mix:CRC32
+	~multi.mix:CRC32
 	audio.mix:CRC32
 	cache.mix:CRC32
 	cameo.mix:CRC32
