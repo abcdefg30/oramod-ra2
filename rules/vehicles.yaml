@@ -114,6 +114,7 @@ cmin:
 		Queue: Vehicle
 		BuildPaletteOrder: 10
 		Prerequisites: ~vehicles.allies
+		InitialActivity: FindResources
 	Valued:
 		Cost: 1400
 	Tooltip:
@@ -153,6 +154,7 @@ harv:
 		Queue: Vehicle
 		BuildPaletteOrder: 10
 		Prerequisites: ~vehicles.soviets
+		InitialActivity: FindResources
 	Valued:
 		Cost: 1400
 	Tooltip:

@@ -165,7 +165,7 @@ garefn:
 	FreeActor:
 		Actor: cmin
 	 	InitialActivity: FindResources
-	 	SpawnOffset: 3,1
+	 	SpawnOffset: 4, 1 #Should be 3, 1 but causes game to crash cause harvester wants to move.
 	 	Facing: 160
 	WithDockingOverlay:
 	WithIdleOverlay@BIB:
@@ -383,7 +383,7 @@ gaorep:
 gaspysat:
 	Inherits: ^Building
 	Buildable:
-		Queue: Building
+		Queue: Support
 		BuildPaletteOrder: 90
 		Prerequisites: ~gatech, ~structures.allies
 	Selectable:
@@ -654,7 +654,7 @@ narefn:
 	RevealsShroud:
 		Range: 6c0
 	TiberianSunRefinery:
-		DockOffset: 3,1
+		DockOffset: 3, 1
 		ShowTicks: True
 		TickLifetime: 30
 		TickVelocity: 1
@@ -669,7 +669,7 @@ narefn:
 	FreeActor:
 		Actor: harv
 	 	InitialActivity: FindResources
-	 	SpawnOffset: 3,1
+	 	SpawnOffset: 4, 1 #Should be 3, 1 but causes game to crash cause harvester wants to move.
 	 	Facing: 160
 	WithDockingOverlay:
 	WithIdleOverlay@BIB:

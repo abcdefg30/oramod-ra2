@@ -144,6 +144,7 @@ SealVoice:
 TanyaVoice:
 	DefaultVariant: .wav
 	Voices:
+		Build: itanatb
 		Select: itansea, itanseb, itansec, itansed, itansee
 		Move: itanmoa, itanmob, itanmoc, itanmod, itanmoe, itanmof
 		Attack: itanata, itanatb, itanatc, itanatd

@@ -2,21 +2,27 @@ overlay:
 	build-valid-temperat: place
 		Start: 0
 		Offset: 0, -15
+		BlendMode: Additive
 	build-valid-snow: place
 		Start: 0
 		Offset: 0, -15
+		BlendMode: Additive
 	build-valid-urban: place
 		Start: 0
 		Offset: 0, -15
+		BlendMode: Additive
 	build-invalid: place
 		Start: 1
 		Offset: 0, -15
+		BlendMode: Additive
 	target-select: place
 		Start: 1
 		Offset: 0, -15
+		BlendMode: Additive
 	target-invalid: place
 		Start: 1
 		Offset: 0, -15
+		BlendMode: Additive
 
 poweroff:
 	offline: poweroff
@@ -82,7 +88,7 @@ crate-effects:
 
 rank:
 	rank: pips
-		Start: 7
+		Start: 13
 		Length: 2
 
 mpspawn: # TODO: backfall to RA asset
@@ -96,9 +102,10 @@ waypoint: # TODO: backfall to RA asset
 		Length: *
 
 clock:
-	idle: ambttn
+	idle:
 		Start: 0
 		Length: *
+		BlendMode: Multiply
 
 pips:
 	medic:

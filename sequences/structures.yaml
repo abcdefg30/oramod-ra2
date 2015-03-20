@@ -136,11 +136,13 @@ garefn:
 		ShadowStart: 2
 		Offset: -12, -52
 		# UseTilsetCode: true # TODO: pchote/ts-snow
+		ZOffset: -512
 	damaged-idle-bib: ggrefnbb
 		Start: 1
 		ShadowStart: 3
 		Offset: -12, -52
 		# UseTilsetCode: true # TODO: pchote/ts-snow
+		ZOffset: -512
 	docking-overlay: ggrefnor
 		Start: 0
 		Length: 20
@@ -604,14 +606,16 @@ narefn:
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-bib: ngrefnbb
 		Start: 0
-		ShadowStart: 2
-		Offset: -13, -53
-		# UseTilsetCode: true # TODO: pchote/ts-snow
-	damaged-idle-bib: ngrefnbb
-		Start: 1
 		ShadowStart: 3
 		Offset: -13, -53
 		# UseTilsetCode: true # TODO: pchote/ts-snow
+		ZOffset: -512
+	damaged-idle-bib: ngrefnbb
+		Start: 1
+		ShadowStart: 4
+		Offset: -13, -53
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+		ZOffset: -512
 	docking-overlay: ngrefnor
 		Start: 0
 		Length: 20

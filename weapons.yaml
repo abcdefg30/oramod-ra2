@@ -291,3 +291,29 @@ opcoilbolt: # when overcharged by 3 Tesla Troopers
 	Warhead@3EffWater: CreateEffect
 		Explosion: water_piffs
 		ValidImpactTypes: Water
+	
+DoublePistols:
+	ReloadDelay: 5
+	Range: 6c0
+	Report: itanatta.wav, itanattb.wav
+	Projectile: Bullet
+		Speed: 1c682
+	Warhead@1Dam: SpreadDamage
+		Damage: 125
+		DeathType: 1
+		Versus:
+			None: 200
+			Flak: 100
+			Plate: 100
+			Light: 0
+			Medium: 0
+			Heavy: 0
+			Wood: 0
+			Steel: 0
+			Concrete: 0
+	Warhead@2Eff: CreateEffect
+		Explosion: piff
+		InvalidImpactTypes: Water
+	Warhead@3EffWater: CreateEffect
+		Explosion: water_piff
+		ValidImpactTypes: Water
