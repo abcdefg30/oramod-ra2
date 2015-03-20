@@ -1085,3 +1085,15 @@ tesla:
 		Length: 25
 		ShadowStart: 25
 		Offset: 0, -15
+
+naflak:
+	icon: flakicon
+		Start: 0
+
+nalasr:
+	icon: plticon
+		Start: 0
+
+caoutp:
+	icon: xxicon
+		Start: 0

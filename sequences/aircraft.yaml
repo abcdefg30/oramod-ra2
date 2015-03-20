@@ -1,0 +1,35 @@
+asw: 
+	icon: xxicon
+		Start: 0
+
+beag:
+	icon: beagicon
+		Start: 0
+
+cargoplane:
+	icon: xxicon
+		Start: 0
+
+orca:
+	icon: falcicon
+		Start: 0
+
+hind:
+	icon: hindicon
+		Start: 0
+
+hornet:
+	icon: xxicon
+		Start: 0
+
+pdplane:
+	icon: xxicon
+		Start: 0
+
+shad:
+	icon: shadicon
+		Start: 0
+
+zep:
+	icon: zepicon
+		Start: 0
