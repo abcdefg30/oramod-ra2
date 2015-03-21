@@ -1071,7 +1071,7 @@ gapill:
 	RevealsShroud:
 		Range: 7c0
 	Selectable:
-		# TODO: Bounds:
+		Bounds: 50, 30, 0, -4
 	Armament: # TODO: convert and use the correct weapon
 		Weapon: M60
 		LocalOffset: 768,85,512
