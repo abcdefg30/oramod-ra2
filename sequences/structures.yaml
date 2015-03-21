@@ -276,6 +276,7 @@ gadept:
 		Start: 0
 		ShadowStart: 3
 		Offset: 7, -40
+		ZOffset: -512
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gtdeptmk
 		Start: 0
@@ -729,6 +730,7 @@ nadept:
 		Start: 0
 		ShadowStart: 3
 		Offset: -15, -53
+		ZOffset: -512
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-bib: ngdeptbb
 		Start: 1
@@ -743,6 +745,7 @@ nadept:
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: rfixicon
 		Start: 0
+
 nanrct:
 	idle: ngnrct
 		Start: 0
