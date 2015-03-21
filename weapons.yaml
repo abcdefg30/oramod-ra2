@@ -32,7 +32,7 @@ M60:
 	Range: 4c0
 	Report: igiat1a.wav, igiat1b.wav, igiat1c.wav
 	Projectile: Bullet
-		Speed: 1c682
+		Speed: 100c0
 	Warhead@1Dam: SpreadDamage
 		Spread: 64
 		Damage: 20
@@ -60,7 +60,7 @@ M60E:
 	Range: 4c0
 	Report: igiat1a.wav, igiat1b.wav, igiat1c.wav
 	Projectile: Bullet
-		Speed: 1c682
+		Speed: 100c0
 	Warhead@1Dam: SpreadDamage
 		Spread: 64
 		Damage: 25
@@ -83,12 +83,66 @@ M60E:
 		Explosion: water_piffs
 		ValidImpactTypes: Water
 
+para:
+	Range: 5c0
+	ReloadDelay: 15
+	Report: igiat2a.wav, igiat2b.wav, igiat2c.wav, igiat2d.wav, igiat2c.wav, igiat2d.wav
+	Projectile: Bullet
+		Speed: 100c0
+	Warhead@1Dam: SpreadDamage
+		Spread: 64
+		Damage: 15
+		DeathType: 1
+		Versus:
+			None: 100
+			Flak: 100
+			Plate: 70
+			Light: 60
+			Medium: 40
+			Heavy: 40
+			Wood: 75
+			Steel: 50
+			Concrete: 25
+	Warhead@2Eff: CreateEffect
+		Explosion: piff
+		InvalidImpactTypes: Water
+	Warhead@3EffWater: CreateEffect
+		Explosion: water_piffs
+		ValidImpactTypes: Water
+
+paraE:
+	Range: 7c0
+	ReloadDelay: 15
+	Report: igiat2a.wav, igiat2b.wav, igiat2c.wav, igiat2d.wav, igiat2c.wav, igiat2d.wav
+	Projectile: Bullet
+		Speed: 100c0
+	Warhead@1Dam: SpreadDamage
+		Spread: 64
+		Damage: 25
+		DeathType: 1
+		Versus:
+			None: 100
+			Flak: 100
+			Plate: 70
+			Light: 60
+			Medium: 40
+			Heavy: 40
+			Wood: 75
+			Steel: 50
+			Concrete: 25
+	Warhead@2Eff: CreateEffect
+		Explosion: piff
+		InvalidImpactTypes: Water
+	Warhead@3EffWater: CreateEffect
+		Explosion: water_piffs
+		ValidImpactTypes: Water
+
 M1Carbine:
 	ReloadDelay: 25
 	Range: 4c0
 	Report: iconatta.wav, iconattb.wav, iconattc.wav, iconattd.wav, iconatte.wav
 	Projectile: Bullet
-		Speed: 1c682
+		Speed: 100c0
 	Warhead@1Dam: SpreadDamage
 		Spread: 64
 		Damage: 15
@@ -116,9 +170,9 @@ M1CarbineE:
 	Range: 5c0
 	Report: iconatta.wav, iconattb.wav, iconattc.wav, iconattd.wav, iconatte.wav
 	Projectile: Bullet
-		Speed: 1c682
+		Speed: 100c0
 	Warhead@1Dam: SpreadDamage
-		Spread: 128
+		Spread: 64
 		Damage: 20
 		DeathType: 1
 		ProneModifier: 70
@@ -166,7 +220,7 @@ RedEye2:
 	MinRange: 1c0
 	ValidTargets: Air
 	Projectile: Missile
-		Speed: 100
+		Speed: 100c0
 		Arm: 3
 		High: true
 		Shadow: true
@@ -288,6 +342,7 @@ coilbolt:
 	Range: 8c0
 	Report: btesat1a.wav
 	Projectile: TeslaZap
+		Speed: 100c0
 	Warhead@1Dam: SpreadDamage
 		Spread: 42
 		Damage: 200
@@ -309,6 +364,7 @@ opcoilbolt: # when overcharged by 3 Tesla Troopers
 	Range: 8c512
 	Report: btesat1a.wav
 	Projectile: TeslaZap
+		Speed: 100c0
 	Warhead@1Dam: SpreadDamage
 		Spread: 42
 		Damage: 300
@@ -327,10 +383,9 @@ opcoilbolt: # when overcharged by 3 Tesla Troopers
 20mmrapid:
 	ReloadDelay: 20
 	Range: 5c512
-	MinRange: 0c256 # defaulted
 	Report: vwaratta.wav, vwarattb.wav
 	Projectile: Bullet
-		Speed: 1c682
+		Speed: 100c0
 	Warhead@1Dam: SpreadDamage
 		Spread: 64
 		Damage: 30
@@ -353,12 +408,71 @@ opcoilbolt: # when overcharged by 3 Tesla Troopers
 		Explosion: water_piffs
 		ValidImpactTypes: Water
 
+20mmrapidE:
+	ReloadDelay: 50
+	Range: 5c512
+	Report: vrhiatta.wav, vrhiattb.wav, vrhiattc.wav, vrhiattd.wav
+	Projectile: Bullet
+		Speed: 40c0
+		Image: 120mm
+		Shadow: true
+		Angle: 62
+	Warhead@1Dam: SpreadDamage
+		Spread: 128
+		Damage: 50
+		DeathType: 3
+		ProneModifier: 70
+		Versus:
+			None: 100
+			Flak: 90
+			Plate: 80
+			Light: 60
+			Medium: 40
+			Heavy: 40
+			Wood: 50
+			Steel: 40
+			Concrete: 25
+	Warhead@2Eff: CreateEffect
+		Explosion: medium_clsn
+		ImpactSound: expnew14.aud
+		InvalidImpactTypes: Water
+	Warhead@3EffWater: CreateEffect
+		Explosion: small_watersplash
+		ImpactSound: ssplash3.aud
+		ValidImpactTypes: Water
+
 DoublePistols:
-	ReloadDelay: 5
+	ReloadDelay: 10
 	Range: 6c0
 	Report: itanatta.wav, itanattb.wav
 	Projectile: Bullet
-		Speed: 1c682
+		Speed: 100c0
+	Warhead@1Dam: SpreadDamage
+		Damage: 125
+		DeathType: 1
+		Versus:
+			None: 200
+			Flak: 100
+			Plate: 100
+			Light: 0
+			Medium: 0
+			Heavy: 0
+			Wood: 0
+			Steel: 0
+			Concrete: 0
+	Warhead@2Eff: CreateEffect
+		Explosion: piff
+		InvalidImpactTypes: Water
+	Warhead@3EffWater: CreateEffect
+		Explosion: water_piff
+		ValidImpactTypes: Water
+
+DoublePistolsE:
+	ReloadDelay: 10
+	Range: 8c0
+	Report: itanatta.wav, itanattb.wav
+	Projectile: Bullet
+		Speed: 100c0
 	Warhead@1Dam: SpreadDamage
 		Damage: 125
 		DeathType: 1
@@ -385,7 +499,7 @@ DoublePistols:
 	Report: vgriatta.wav, vgriattb.wav, vgriattc.wav
 	Palette: ra
 	Projectile: Bullet
-		Speed: 682
+		Speed: 40c0
 		Image: 120mm
 		Shadow: true
 		Angle: 62
@@ -422,7 +536,7 @@ DoublePistols:
 	BurstDelay: 5
 	Palette: ra
 	Projectile: Bullet
-		Speed: 682
+		Speed: 40c0
 		Image: 120mm
 		Shadow: true
 		Angle: 62
