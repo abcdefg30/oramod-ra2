@@ -25,7 +25,7 @@ UnitExplodeSmall:
 			Heavy: 25
 	Warhead@2Eff: CreateEffect
 		Explosion: medium_brnl
-		ImpactSound: expnew13.aud
+		ImpactSound: expnew13.wav
 
 M60:
 	ReloadDelay: 20
@@ -39,10 +39,15 @@ M60:
 		DeathType: 1
 		ProneModifier: 70
 		Versus:
-			Wood: 60
-			Light: 40
+			None: 100
+			Flak: 80
+			Plate: 70
+			Light: 50
+			Medium: 25
 			Heavy: 25
-			Concrete: 10
+			Wood: 75
+			Steel: 50
+			Concrete: 25
 	Warhead@2Eff: CreateEffect
 		Explosion: piff
 		InvalidImpactTypes: Water
@@ -62,10 +67,15 @@ M60E:
 		DeathType: 1
 		ProneModifier: 70
 		Versus:
-			Wood: 60
-			Light: 40
+			None: 100
+			Flak: 80
+			Plate: 70
+			Light: 50
+			Medium: 25
 			Heavy: 25
-			Concrete: 10
+			Wood: 75
+			Steel: 50
+			Concrete: 25
 	Warhead@2Eff: CreateEffect
 		Explosion: piff
 		InvalidImpactTypes: Water
@@ -85,10 +95,15 @@ M1Carbine:
 		DeathType: 1
 		ProneModifier: 70
 		Versus:
-			Wood: 60
-			Light: 40
+			None: 100
+			Flak: 80
+			Plate: 70
+			Light: 50
+			Medium: 25
 			Heavy: 25
-			Concrete: 10
+			Wood: 75
+			Steel: 50
+			Concrete: 25
 	Warhead@2Eff: CreateEffect
 		Explosion: piff
 		InvalidImpactTypes: Water
@@ -108,10 +123,15 @@ M1CarbineE:
 		DeathType: 1
 		ProneModifier: 70
 		Versus:
-			Wood: 60
-			Light: 40
+			None: 100
+			Flak: 80
+			Plate: 70
+			Light: 50
+			Medium: 25
 			Heavy: 25
-			Concrete: 10
+			Wood: 75
+			Steel: 50
+			Concrete: 25
 	Warhead@2Eff: CreateEffect
 		Explosion: piff
 		InvalidImpactTypes: Water
@@ -130,9 +150,14 @@ DogJaw:
 		DeathType: 1
 		ValidTargets: Infantry
 		Versus:
-			Wood: 0
+			None: 100
+			Flak: 100
+			Plate: 100
 			Light: 0
+			Medium: 0
 			Heavy: 0
+			Wood: 0
+			Steel: 0
 			Concrete: 0
 
 RedEye2:
@@ -155,11 +180,15 @@ RedEye2:
 		DeathType: 2
 		ValidTargets: Air
 		Versus:
-			None: 25
-			Wood: 65
-			Light: 75
+			None: 100
+			Flak: 100
+			Plate: 100
+			Light: 100
+			Medium: 100
 			Heavy: 100
-			Concrete: 60
+			Wood: 0
+			Steel: 0
+			Concrete: 0
 
 demobomb:
 	ValidTargets: Ground, Water, Air
@@ -170,7 +199,15 @@ demobomb:
 		DeathType: 5
 		ValidTargets: Ground, Water, Air
 		Versus:
-			Concrete: 25
+			None: 100
+			Flak: 100
+			Plate: 100
+			Light: 100
+			Medium: 50
+			Heavy: 50
+			Wood: 80
+			Steel: 150
+			Concrete: 10
 		AffectsParent: true
 	Warhead@2Res_impact: DestroyResource
 		Size: 1
@@ -185,7 +222,15 @@ demobomb:
 		Delay: 5
 		ValidTargets: Ground, Water, Air
 		Versus:
-			Concrete: 25
+			None: 100
+			Flak: 100
+			Plate: 100
+			Light: 100
+			Medium: 50
+			Heavy: 50
+			Wood: 80
+			Steel: 150
+			Concrete: 10
 	Warhead@5Res_areanuke1: DestroyResource
 		Size: 2
 		Delay: 5
@@ -200,7 +245,15 @@ demobomb:
 		Delay: 10
 		ValidTargets: Ground, Water, Air
 		Versus:
-			Concrete: 25
+			None: 100
+			Flak: 100
+			Plate: 100
+			Light: 100
+			Medium: 50
+			Heavy: 50
+			Wood: 80
+			Steel: 150
+			Concrete: 10
 	Warhead@8Res_areanuke2: DestroyResource
 		Size: 3
 		Delay: 10
@@ -212,7 +265,15 @@ demobomb:
 		Delay: 15
 		ValidTargets: Ground, Water, Air
 		Versus:
-			Concrete: 25
+			None: 100
+			Flak: 100
+			Plate: 100
+			Light: 100
+			Medium: 50
+			Heavy: 50
+			Wood: 80
+			Steel: 150
+			Concrete: 10
 	Warhead@10Res_areanuke3: DestroyResource
 		Size: 4
 		Delay: 15
@@ -334,9 +395,13 @@ DoublePistols:
 		DeathType: 2
 		Versus:
 			None: 25
-			Wood: 65
-			Light: 100
+			Flak: 25
+			Plate: 25
+			Light: 75
+			Medium: 100
 			Heavy: 100
+			Wood: 65
+			Steel: 45
 			Concrete: 60
 	Warhead@2Eff: CreateEffect
 		Explosion: medium_clsn
@@ -367,9 +432,13 @@ DoublePistols:
 		DeathType: 2
 		Versus:
 			None: 100
-			Wood: 65
+			Flak: 100
+			Plate: 100
 			Light: 100
+			Medium: 100
 			Heavy: 100
+			Wood: 65
+			Steel: 45
 			Concrete: 60
 	Warhead@2Eff: CreateEffect
 		Explosion: elite_explosion
