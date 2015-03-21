@@ -25,9 +25,9 @@ engineer:
 		CaptureTypes: building, husk
 	TakeCover:
 	-AutoTarget:
-	RenderInfantry:
-		IdleAnimations: idle1,idle2
-		StandAnimations: stand
+	WithInfantryBody:
+		IdleSequences: idle1,idle2
+		StandSequences: stand
 	RevealsShroud:
 		Range: 4c0
 # BombSight=4 ; detecting ivan's little friends
@@ -59,9 +59,9 @@ dog:
 	Armament:
 		Weapon: DogJaw
 	AttackLeap:
-	RenderInfantry:
+	WithInfantryBody:
 		Image: adog
-		IdleAnimations: idle1,idle2
+		IdleSequences: idle1,idle2
 		RaceImages:
 			soviet: dog
 			cuba: dog
@@ -102,8 +102,8 @@ e1:
 		Weapon: M60
 	# TODO: Armament@elite (M60E)
 	# TODO: Armament@deployed (para)
-	RenderInfantry:
-		IdleAnimations: idle1, idle2
+	WithInfantryBody:
+		IdleSequences: idle1, idle2
 
 e2:
 	Inherits: ^Infantry
@@ -131,7 +131,7 @@ e2:
 	Armament@primary:
 		Weapon: M1Carbine
 	# TODO: Armament@elite
-	RenderInfantry:
+	WithInfantryBody:
 		IdleAnimation:
 
 tany:
@@ -167,6 +167,6 @@ tany:
 		Weapon: DoublePistols
 	AttackFrontal:
 	TakeCover:
-	RenderInfantry:
-		IdleAnimations: idle1,idle2
+	WithInfantryBody:
+		IdleSequences: idle1,idle2
 	AnnounceOnBuild:
