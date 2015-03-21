@@ -34,16 +34,16 @@ Packages:
 	isosnow.mix:CRC32
 	isotemp.mix:CRC32
 	isourb.mix:CRC32
-	load.mix:CRC32
+	~load.mix:CRC32
 	local.mix:CRC32
-	neutral.mix:CRC32
+	~neutral.mix:CRC32
 	sidec01.mix:CRC32
 	sidec02.mix:CRC32
 	sno.mix:CRC32
 	snow.mix:CRC32
 	tem.mix:CRC32
 	temperat.mix:CRC32
-	theme.mix:CRC32
+	~theme.mix:CRC32
 	urb.mix:CRC32
 	urban.mix:CRC32
 	audio.bag:CRC32
