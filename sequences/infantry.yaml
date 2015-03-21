@@ -37,8 +37,12 @@ engineer:
 		Length: 8
 		Tick: 120
 	die1:
-		Start: 135
-		Length: 8
+		Start: 134
+		Length: 15
+		Tick: 80
+	die2:
+		Start: 149
+		Length: 15
 		Tick: 80
 	die6: electro
 		Start: 0
