@@ -167,7 +167,8 @@
 		Voice: Infantry
 	TargetableUnit:
 		TargetTypes: Ground, Infantry, DetonateAttack
-	RenderInfantry:
+	WithInfantryBody:
+	RenderSprites:
 	AutoTarget:
 	AttackMove:
 	Passenger:
@@ -235,7 +236,6 @@
 	AttackFrontal:
 	ProximityCaptor:
 		Types: CivilianInfantry
-	RenderInfantry:
 	ScaredyCat:
 	WithDeathAnimation:
 	MustBeDestroyed:
