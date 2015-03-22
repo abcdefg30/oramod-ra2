@@ -603,3 +603,75 @@ GrandCannonWeapon:
 	Warhead@2Eff: CreateEffect
 		Explosion: medium_explosion
 		ImpactSound: gexp14a.wav
+
+120mm:
+	ReloadDelay: 65
+	Range: 5c768
+	Report: vrhiatta.wav, vrhiattb.wav, vrhiattc.wav, vrhiattd.wav
+	Palette: ra
+	Projectile: Bullet
+		Speed: 40c0
+		Image: 120mm
+		Shadow: true
+		Angle: 62
+	Warhead@1Dam: SpreadDamage
+		Spread: 128
+		Damage: 90
+		DeathType: 2
+		Versus:
+			None: 25
+			Flak: 25
+			Plate: 25
+			Light: 75
+			Medium: 100
+			Heavy: 100
+			Wood: 65
+			Steel: 45
+			Concrete: 60
+	Warhead@2Eff: CreateEffect
+		Explosion: medium_clsn
+		ImpactSound: expnew14.aud
+		InvalidImpactTypes: Water
+	Warhead@3EffWater: CreateEffect
+		Explosion: small_watersplash
+		ImpactSound: ssplash3.aud
+		ValidImpactTypes: Water
+	Warhead@4Smu: LeaveSmudge
+		SmudgeType: Crater
+
+120mmE:
+	ReloadDelay: 80
+	Range: 5c768
+	Report: vrhiatta.wav, vrhiattb.wav, vrhiattc.wav, vrhiattd.wav
+	Burst: 2
+	BurstDelay: 5
+	Palette: ra
+	Projectile: Bullet
+		Speed: 40c0
+		Image: 120mm
+		Shadow: true
+		Angle: 62
+	Warhead@1Dam: SpreadDamage
+		Spread: 128
+		Damage: 85
+		DeathType: 2
+		Versus:
+			None: 100
+			Flak: 100
+			Plate: 100
+			Light: 100
+			Medium: 100
+			Heavy: 100
+			Wood: 50
+			Steel: 100
+			Concrete: 50
+	Warhead@2Eff: CreateEffect
+		Explosion: elite_explosion
+		ImpactSound: expnew14.aud
+		InvalidImpactTypes: Water
+	Warhead@3EffWater: CreateEffect
+		Explosion: large_watersplash
+		ImpactSound: ssplash3.aud
+		ValidImpactTypes: Water
+	Warhead@4Smu: LeaveSmudge
+		SmudgeType: Crater
