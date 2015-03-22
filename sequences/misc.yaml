@@ -297,13 +297,6 @@ torpedo:
 		Start: 0
 		Length: *
 
-flameall:
-	idle:
-		Start: 0
-		Length: 19
-		Facings: -8
-		Tick: 160
-
 #TODO: placeholder to fix crashes related to smoke
 smoke_m:
 	idle: fire3

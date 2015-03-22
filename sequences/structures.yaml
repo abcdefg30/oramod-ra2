@@ -262,26 +262,52 @@ gaweap:
 		Start: 0
 
 gadept:
-	idle: ggdept
+	idle: ggdept_d
+		Start: 0
+		ShadowStart: 2
+		Offset: 7, -40
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	damaged-idle: ggdept_d
+		Start: 1
+		ShadowStart: 3
+		Offset: 7, -40
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	idle-side: ggdept
 		Start: 0
 		ShadowStart: 3
 		Offset: 7, -40
 		# UseTilsetCode: true # TODO: pchote/ts-snow
-	idle-arm: ggdept_d
-		Start: 0
-		ShadowStart: 2
+	damaged-idle-side: ggdept
+		Start: 1
+		Length: 2
+		ShadowStart: 4
 		Offset: 7, -40
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	bib: ggdeptbb
 		Start: 0
 		ShadowStart: 3
 		Offset: 7, -40
+		ZOffset: -512
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gtdeptmk
 		Start: 0
 		Length: 25
 		ShadowStart: 25
 		Offset: 7, -40
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	repair: ggdept_c
+		Start: 0
+		Length: 10
+		ShadowStart: 20
+		Offset: 7, -40
+		Tick: 180
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	damaged-repair: ggdept_c
+		Start: 10
+		Length: 10
+		ShadowStart: 30
+		Offset: 7, -40
+		Tick: 180
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: fixicon
 		Start: 0
@@ -702,33 +728,34 @@ naweap:
 		Start: 0
 
 nadept:
-	idle: ngdept
-		Start: 0
-		ShadowStart: 3
-		Offset: -15, -53
-		# UseTilsetCode: true # TODO: pchote/ts-snow
-	damaged-idle: ngdept
-		Start: 2
-		ShadowStart: 4
-		Offset: -15, -53
-		# UseTilsetCode: true # TODO: pchote/ts-snow
-	idle-crane: ngdept_b
+	idle: ngdept_b
 		Start: 0
 		Length: 10
 		ShadowStart: 20
 		Offset: -15, -53
 		Tick: 180
 		# UseTilsetCode: true # TODO: pchote/ts-snow
-	damaged-idle-crane: ngdept_d
+	damaged-idle: ngdept_d
 		Start: 10
 		Length: 10
 		ShadowStart: 29
+		Offset: -15, -53
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	idle-normal: ngdept
+		Start: 0
+		ShadowStart: 3
+		Offset: -15, -53
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	damaged-idle-normal: ngdept
+		Start: 2
+		ShadowStart: 4
 		Offset: -15, -53
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	bib: ngdeptbb
 		Start: 0
 		ShadowStart: 3
 		Offset: -15, -53
+		ZOffset: -512
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-bib: ngdeptbb
 		Start: 1
@@ -741,8 +768,23 @@ nadept:
 		ShadowStart: 25
 		Offset: -15, -53
 		# UseTilsetCode: true # TODO: pchote/ts-snow
+	repair: ngdept_c
+		Start: 0
+		Length: 50
+		ShadowStart: 100
+		Offset: -15, -53
+		Tick: 120
+		# UseTilsetCode: true # TODO: pchote/ts-snow
+	damaged-repair: ngdept_c
+		Start: 50
+		Length: 50
+		ShadowStart: 150
+		Offset: -15, -53
+		Tick: 120
+		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: rfixicon
 		Start: 0
+
 nanrct:
 	idle: ngnrct
 		Start: 0

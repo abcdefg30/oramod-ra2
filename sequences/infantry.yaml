@@ -37,9 +37,18 @@ engineer:
 		Length: 8
 		Tick: 120
 	die1:
-		Start: 135
-		Length: 8
+		Start: 134
+		Length: 15
 		Tick: 80
+	die2:
+		Start: 149
+		Length: 15
+		Tick: 80
+	die5: flameguy
+		Start: 48
+		Length: 59
+		Tick: 80
+# TODO: This is just the death sequence; normally flameguy would run a bit around before dying
 	die6: electro
 		Start: 0
 		Length: *
@@ -77,11 +86,11 @@ dog:
 	die3:
 		Start: 117
 		Length: 14
-	die4: # todo
-		Start: 242
-		Length: 9
-	die5: # todo
-		Start: 251
+	die4: # todo: copy of die1
+		Start: 87
+		Length: 14
+	die5: # todo: copy of die1
+		Start: 87
 		Length: 14
 	die6: # todo: copy of die1; art is missing
 		Start: 87
@@ -122,11 +131,11 @@ adog:
 	die3:
 		Start: 117
 		Length: 14
-	die4: # todo
-		Start: 242
-		Length: 9
-	die5: # todo
-		Start: 251
+	die4: # todo: copy of die1
+		Start: 87
+		Length: 14
+	die5: # todo: copy of die1
+		Start: 87
 		Length: 14
 	die6: # todo: copy of die1; art is missing
 		Start: 87
@@ -169,6 +178,11 @@ e1:
 	die2: gi
 		Start: 149
 		Length: 14
+	die5: flameguy
+		Start: 48
+		Length: 59
+		Tick: 80
+# TODO: This is just the death sequence; normally flameguy would run a bit around before dying
 	die6: electro
 		Start: 0
 		Length: *
@@ -212,6 +226,11 @@ e2:
 	die2: cons
 		Start: 149
 		Length: 14
+	die5: flameguy
+		Start: 48
+		Length: 59
+		Tick: 80
+# TODO: This is just the death sequence; normally flameguy would run a bit around before dying
 	die6: electro
 		Start: 0
 		Length: *
@@ -260,6 +279,11 @@ tany:
 	die2:
 		Start: 149
 		Length: 14
+	die5: flameguy
+		Start: 48
+		Length: 59
+		Tick: 80
+# TODO: This is just the death sequence; normally flameguy would run a bit around before dying
 	die6: electro
 		Start: 0
 		Length: *

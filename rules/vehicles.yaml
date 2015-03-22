@@ -173,9 +173,17 @@ harv:
 		HP: 1000
 	Armor:
 		Type: Medium
-	Armament:
+	Armament@primary:
 		Weapon: 20mmrapid
 		LocalOffset: 0,50,384, 0,-50,384
+		UpgradeTypes: eliteweapon
+		UpgradeMaxEnabledLevel: 0
+		UpgradeMaxAcceptedLevel: 1
+	Armament@elite:
+		Weapon: 20mmrapidE
+		LocalOffset: 0,50,384, 0,-50,384
+		UpgradeTypes: eliteweapon
+		UpgradeMinEnabledLevel: 1
 	AttackTurreted:
 	AutoTarget:
 	Turreted:

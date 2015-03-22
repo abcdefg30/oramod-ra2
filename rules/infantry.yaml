@@ -100,8 +100,21 @@ e1:
 	AttackFrontal:
 	Armament@primary:
 		Weapon: M60
-	# TODO: Armament@elite (M60E)
-	# TODO: Armament@deployed (para)
+		UpgradeTypes: deployed
+		UpgradeMaxEnabledLevel: 0
+		UpgradeMaxAcceptedLevel: 1
+	Armament@elite:
+		Weapon: M60E
+		UpgradeTypes: eliteweapon
+		UpgradeMinEnabledLevel: 1
+	Armament@deployed:
+		Weapon: para
+		UpgradeTypes: paraweapon
+		UpgradeMinEnabledLevel: 1
+	Armament@elite-deployed:
+		Weapon: paraE
+		UpgradeTypes: eliteparaweapon
+		UpgradeMinEnabledLevel: 1
 	WithInfantryBody:
 		IdleSequences: idle1, idle2
 
@@ -130,7 +143,13 @@ e2:
 	AttackFrontal:
 	Armament@primary:
 		Weapon: M1Carbine
-	# TODO: Armament@elite
+		UpgradeTypes: eliteweapon
+		UpgradeMaxEnabledLevel: 0
+		UpgradeMaxAcceptedLevel: 1
+	Armament@elite:
+		Weapon: M1CarbineE
+		UpgradeTypes: eliteweapon
+		UpgradeMinEnabledLevel: 1
 	WithInfantryBody:
 		IdleAnimation:
 

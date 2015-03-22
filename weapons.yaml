@@ -25,24 +25,29 @@ UnitExplodeSmall:
 			Heavy: 25
 	Warhead@2Eff: CreateEffect
 		Explosion: medium_brnl
-		ImpactSound: expnew13.aud
+		ImpactSound: expnew13.wav
 
 M60:
 	ReloadDelay: 20
 	Range: 4c0
 	Report: igiat1a.wav, igiat1b.wav, igiat1c.wav
 	Projectile: Bullet
-		Speed: 1c682
+		Speed: 100c0
 	Warhead@1Dam: SpreadDamage
 		Spread: 64
 		Damage: 20
 		DeathType: 1
 		ProneModifier: 70
 		Versus:
-			Wood: 60
-			Light: 40
+			None: 100
+			Flak: 80
+			Plate: 70
+			Light: 50
+			Medium: 25
 			Heavy: 25
-			Concrete: 10
+			Wood: 75
+			Steel: 50
+			Concrete: 25
 	Warhead@2Eff: CreateEffect
 		Explosion: piff
 		InvalidImpactTypes: Water
@@ -55,17 +60,76 @@ M60E:
 	Range: 4c0
 	Report: igiat1a.wav, igiat1b.wav, igiat1c.wav
 	Projectile: Bullet
-		Speed: 1c682
+		Speed: 100c0
 	Warhead@1Dam: SpreadDamage
 		Spread: 64
 		Damage: 25
 		DeathType: 1
 		ProneModifier: 70
 		Versus:
-			Wood: 60
-			Light: 40
+			None: 100
+			Flak: 80
+			Plate: 70
+			Light: 50
+			Medium: 25
 			Heavy: 25
-			Concrete: 10
+			Wood: 75
+			Steel: 50
+			Concrete: 25
+	Warhead@2Eff: CreateEffect
+		Explosion: piff
+		InvalidImpactTypes: Water
+	Warhead@3EffWater: CreateEffect
+		Explosion: water_piffs
+		ValidImpactTypes: Water
+
+para:
+	Range: 5c0
+	ReloadDelay: 15
+	Report: igiat2a.wav, igiat2b.wav, igiat2c.wav, igiat2d.wav, igiat2c.wav, igiat2d.wav
+	Projectile: Bullet
+		Speed: 100c0
+	Warhead@1Dam: SpreadDamage
+		Spread: 64
+		Damage: 15
+		DeathType: 1
+		Versus:
+			None: 100
+			Flak: 100
+			Plate: 70
+			Light: 60
+			Medium: 40
+			Heavy: 40
+			Wood: 75
+			Steel: 50
+			Concrete: 25
+	Warhead@2Eff: CreateEffect
+		Explosion: piff
+		InvalidImpactTypes: Water
+	Warhead@3EffWater: CreateEffect
+		Explosion: water_piffs
+		ValidImpactTypes: Water
+
+paraE:
+	Range: 7c0
+	ReloadDelay: 15
+	Report: igiat2a.wav, igiat2b.wav, igiat2c.wav, igiat2d.wav, igiat2c.wav, igiat2d.wav
+	Projectile: Bullet
+		Speed: 100c0
+	Warhead@1Dam: SpreadDamage
+		Spread: 64
+		Damage: 25
+		DeathType: 1
+		Versus:
+			None: 100
+			Flak: 100
+			Plate: 70
+			Light: 60
+			Medium: 40
+			Heavy: 40
+			Wood: 75
+			Steel: 50
+			Concrete: 25
 	Warhead@2Eff: CreateEffect
 		Explosion: piff
 		InvalidImpactTypes: Water
@@ -78,17 +142,22 @@ M1Carbine:
 	Range: 4c0
 	Report: iconatta.wav, iconattb.wav, iconattc.wav, iconattd.wav, iconatte.wav
 	Projectile: Bullet
-		Speed: 1c682
+		Speed: 100c0
 	Warhead@1Dam: SpreadDamage
 		Spread: 64
 		Damage: 15
 		DeathType: 1
 		ProneModifier: 70
 		Versus:
-			Wood: 60
-			Light: 40
+			None: 100
+			Flak: 80
+			Plate: 70
+			Light: 50
+			Medium: 25
 			Heavy: 25
-			Concrete: 10
+			Wood: 75
+			Steel: 50
+			Concrete: 25
 	Warhead@2Eff: CreateEffect
 		Explosion: piff
 		InvalidImpactTypes: Water
@@ -101,17 +170,22 @@ M1CarbineE:
 	Range: 5c0
 	Report: iconatta.wav, iconattb.wav, iconattc.wav, iconattd.wav, iconatte.wav
 	Projectile: Bullet
-		Speed: 1c682
+		Speed: 100c0
 	Warhead@1Dam: SpreadDamage
-		Spread: 128
+		Spread: 64
 		Damage: 20
 		DeathType: 1
 		ProneModifier: 70
 		Versus:
-			Wood: 60
-			Light: 40
+			None: 100
+			Flak: 80
+			Plate: 70
+			Light: 50
+			Medium: 25
 			Heavy: 25
-			Concrete: 10
+			Wood: 75
+			Steel: 50
+			Concrete: 25
 	Warhead@2Eff: CreateEffect
 		Explosion: piff
 		InvalidImpactTypes: Water
@@ -130,9 +204,14 @@ DogJaw:
 		DeathType: 1
 		ValidTargets: Infantry
 		Versus:
-			Wood: 0
+			None: 100
+			Flak: 100
+			Plate: 100
 			Light: 0
+			Medium: 0
 			Heavy: 0
+			Wood: 0
+			Steel: 0
 			Concrete: 0
 
 RedEye2:
@@ -141,7 +220,7 @@ RedEye2:
 	MinRange: 1c0
 	ValidTargets: Air
 	Projectile: Missile
-		Speed: 100
+		Speed: 100c0
 		Arm: 3
 		High: true
 		Shadow: true
@@ -155,11 +234,15 @@ RedEye2:
 		DeathType: 2
 		ValidTargets: Air
 		Versus:
-			None: 25
-			Wood: 65
-			Light: 75
+			None: 100
+			Flak: 100
+			Plate: 100
+			Light: 100
+			Medium: 100
 			Heavy: 100
-			Concrete: 60
+			Wood: 0
+			Steel: 0
+			Concrete: 0
 
 demobomb:
 	ValidTargets: Ground, Water, Air
@@ -170,7 +253,15 @@ demobomb:
 		DeathType: 5
 		ValidTargets: Ground, Water, Air
 		Versus:
-			Concrete: 25
+			None: 100
+			Flak: 100
+			Plate: 100
+			Light: 100
+			Medium: 50
+			Heavy: 50
+			Wood: 80
+			Steel: 150
+			Concrete: 10
 		AffectsParent: true
 	Warhead@2Res_impact: DestroyResource
 		Size: 1
@@ -185,7 +276,15 @@ demobomb:
 		Delay: 5
 		ValidTargets: Ground, Water, Air
 		Versus:
-			Concrete: 25
+			None: 100
+			Flak: 100
+			Plate: 100
+			Light: 100
+			Medium: 50
+			Heavy: 50
+			Wood: 80
+			Steel: 150
+			Concrete: 10
 	Warhead@5Res_areanuke1: DestroyResource
 		Size: 2
 		Delay: 5
@@ -200,7 +299,15 @@ demobomb:
 		Delay: 10
 		ValidTargets: Ground, Water, Air
 		Versus:
-			Concrete: 25
+			None: 100
+			Flak: 100
+			Plate: 100
+			Light: 100
+			Medium: 50
+			Heavy: 50
+			Wood: 80
+			Steel: 150
+			Concrete: 10
 	Warhead@8Res_areanuke2: DestroyResource
 		Size: 3
 		Delay: 10
@@ -212,7 +319,15 @@ demobomb:
 		Delay: 15
 		ValidTargets: Ground, Water, Air
 		Versus:
-			Concrete: 25
+			None: 100
+			Flak: 100
+			Plate: 100
+			Light: 100
+			Medium: 50
+			Heavy: 50
+			Wood: 80
+			Steel: 150
+			Concrete: 10
 	Warhead@10Res_areanuke3: DestroyResource
 		Size: 4
 		Delay: 15
@@ -227,6 +342,7 @@ coilbolt:
 	Range: 8c0
 	Report: btesat1a.wav
 	Projectile: TeslaZap
+		Speed: 100c0
 	Warhead@1Dam: SpreadDamage
 		Spread: 42
 		Damage: 200
@@ -248,6 +364,7 @@ opcoilbolt: # when overcharged by 3 Tesla Troopers
 	Range: 8c512
 	Report: btesat1a.wav
 	Projectile: TeslaZap
+		Speed: 100c0
 	Warhead@1Dam: SpreadDamage
 		Spread: 42
 		Damage: 300
@@ -266,10 +383,9 @@ opcoilbolt: # when overcharged by 3 Tesla Troopers
 20mmrapid:
 	ReloadDelay: 20
 	Range: 5c512
-	MinRange: 0c256 # defaulted
 	Report: vwaratta.wav, vwarattb.wav
 	Projectile: Bullet
-		Speed: 1c682
+		Speed: 100c0
 	Warhead@1Dam: SpreadDamage
 		Spread: 64
 		Damage: 30
@@ -292,12 +408,71 @@ opcoilbolt: # when overcharged by 3 Tesla Troopers
 		Explosion: water_piffs
 		ValidImpactTypes: Water
 
+20mmrapidE:
+	ReloadDelay: 50
+	Range: 5c512
+	Report: vrhiatta.wav, vrhiattb.wav, vrhiattc.wav, vrhiattd.wav
+	Projectile: Bullet
+		Speed: 40c0
+		Image: 120mm
+		Shadow: true
+		Angle: 62
+	Warhead@1Dam: SpreadDamage
+		Spread: 128
+		Damage: 50
+		DeathType: 3
+		ProneModifier: 70
+		Versus:
+			None: 100
+			Flak: 90
+			Plate: 80
+			Light: 60
+			Medium: 40
+			Heavy: 40
+			Wood: 50
+			Steel: 40
+			Concrete: 25
+	Warhead@2Eff: CreateEffect
+		Explosion: medium_clsn
+		ImpactSound: expnew14.aud
+		InvalidImpactTypes: Water
+	Warhead@3EffWater: CreateEffect
+		Explosion: small_watersplash
+		ImpactSound: ssplash3.aud
+		ValidImpactTypes: Water
+
 DoublePistols:
-	ReloadDelay: 5
+	ReloadDelay: 10
 	Range: 6c0
 	Report: itanatta.wav, itanattb.wav
 	Projectile: Bullet
-		Speed: 1c682
+		Speed: 100c0
+	Warhead@1Dam: SpreadDamage
+		Damage: 125
+		DeathType: 1
+		Versus:
+			None: 200
+			Flak: 100
+			Plate: 100
+			Light: 0
+			Medium: 0
+			Heavy: 0
+			Wood: 0
+			Steel: 0
+			Concrete: 0
+	Warhead@2Eff: CreateEffect
+		Explosion: piff
+		InvalidImpactTypes: Water
+	Warhead@3EffWater: CreateEffect
+		Explosion: water_piff
+		ValidImpactTypes: Water
+
+DoublePistolsE:
+	ReloadDelay: 10
+	Range: 8c0
+	Report: itanatta.wav, itanattb.wav
+	Projectile: Bullet
+		Speed: 100c0
 	Warhead@1Dam: SpreadDamage
 		Damage: 125
 		DeathType: 1
@@ -324,7 +499,7 @@ DoublePistols:
 	Report: vgriatta.wav, vgriattb.wav, vgriattc.wav
 	Palette: ra
 	Projectile: Bullet
-		Speed: 682
+		Speed: 40c0
 		Image: 120mm
 		Shadow: true
 		Angle: 62
@@ -334,9 +509,13 @@ DoublePistols:
 		DeathType: 2
 		Versus:
 			None: 25
-			Wood: 65
-			Light: 100
+			Flak: 25
+			Plate: 25
+			Light: 75
+			Medium: 100
 			Heavy: 100
+			Wood: 65
+			Steel: 45
 			Concrete: 60
 	Warhead@2Eff: CreateEffect
 		Explosion: medium_clsn
@@ -357,7 +536,7 @@ DoublePistols:
 	BurstDelay: 5
 	Palette: ra
 	Projectile: Bullet
-		Speed: 682
+		Speed: 40c0
 		Image: 120mm
 		Shadow: true
 		Angle: 62
@@ -367,9 +546,13 @@ DoublePistols:
 		DeathType: 2
 		Versus:
 			None: 100
-			Wood: 65
+			Flak: 100
+			Plate: 100
 			Light: 100
+			Medium: 100
 			Heavy: 100
+			Wood: 65
+			Steel: 45
 			Concrete: 60
 	Warhead@2Eff: CreateEffect
 		Explosion: elite_explosion
