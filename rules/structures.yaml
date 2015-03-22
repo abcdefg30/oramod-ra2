@@ -314,13 +314,14 @@ gadept:
 	Reservable:
 	RallyPoint:
 	RepairsUnits:
-		Interval: 10
+		Interval: 50
 		FinishRepairingNotification: UnitRepaired
-	WithIdleOverlay@arm:
-		Sequence: idle-arm
+	WithIdleOverlay@side: # Hack: don't glitch while repairing
+		Sequence: idle-side
 	WithIdleOverlay@bib:
 		Sequence: bib
 	WithRepairAnimation:
+		Sequence: repair
 	Power:
 		Amount: -25
 
@@ -779,14 +780,16 @@ nadept:
 		Range: 5c0
 	Reservable:
 	RallyPoint:
-	RepairsUnits:
-		Interval: 10
+	RepairsUnits: # TODO: First play the animation and then increase HP
+		Interval: 148
+		HpPerStep: 20
 		FinishRepairingNotification: UnitRepaired
-	WithIdleOverlay@arm:
-		Sequence: idle-crane
+	WithIdleOverlay@normal: # Hack: don't glitch while repairing
+		Sequence: idle-normal
 	WithIdleOverlay@bib:
 		Sequence: bib
 	WithRepairAnimation:
+		Sequence: repair
 	Power:
 		Amount: -25
 
