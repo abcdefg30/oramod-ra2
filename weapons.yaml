@@ -525,8 +525,8 @@ DoublePistolsE:
 		Explosion: small_watersplash
 		ImpactSound: ssplash3.aud
 		ValidImpactTypes: Water
-#	Warhead@4Smu: LeaveSmudge
-#		SmudgeType: MediumCrater
+	Warhead@4Smu: LeaveSmudge
+		SmudgeType: Crater
 
 105mmE:
 	ReloadDelay: 75
@@ -562,5 +562,5 @@ DoublePistolsE:
 		Explosion: large_watersplash
 		ImpactSound: ssplash3.aud
 		ValidImpactTypes: Water
-#	Warhead@4Smu: LeaveSmudge
-#		SmudgeType: MediumCrater
+	Warhead@4Smu: LeaveSmudge
+		SmudgeType: Crater
