@@ -4,10 +4,10 @@ Player:
 		BuildingCommonNames:
 			ConstructionYard: gacnst, nacnst
 			Refinery: garefn, narefn
-			Power: gapowr, napowr
+			Power: gapowr, napowr, nanrct
 			Barracks: gapile, nahand
-			VehiclesFactory: gaweap #, naweap
-			Production: gapile, nahand, gaweap #, naweap
+			VehiclesFactory: gaweap, naweap
+			Production: gapile, nahand, gaweap, naweap, gaairc
 		UnitsCommonNames:
 			Mcv: amcv, smcv
 		BuildingLimits:
@@ -23,13 +23,20 @@ Player:
 			gapile: 1%
 			nahand: 1%
 			gaweap: 1%
+			naweap: 1%
 			garadr: 1%
 			amradr: 1%
 			naradr: 1%
 			gatech: 1%
+			natech: 1%
+			naclon: 1%
 		UnitsToBuild:
 			e1: 90%
 			e2: 90%
 			dog: 5%
 			engineer: 5%
+			terror: 1%
+			tany: 1%
+			mtnk: 1%
+			dtruck: 1%
 		SquadSize: 5

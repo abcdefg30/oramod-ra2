@@ -266,6 +266,9 @@ explosion:
 	elite_explosion: vtexplod
 		Start: 0
 		Length: *
+	terrorist_explosion: mininuke
+		Start: 0
+		Length: *		
 
 discus:
 	idle:

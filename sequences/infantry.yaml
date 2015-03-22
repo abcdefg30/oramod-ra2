@@ -304,3 +304,56 @@ tany:
 		Tick: 80
 	icon: tanyicon
 		Start: 0
+
+terror:
+	stand: trst
+		Start: 0
+		Facings: 8
+	run: trst
+		Start: 8
+		Length: 6
+		Facings: 8
+		Tick: 120
+	idle1: trst
+		Start: 56
+		Length: 15
+		Tick: 100
+	idle2: trst
+		Start: 71
+		Length: 15
+		Tick: 100
+	prone-run: trst
+		Start: 86
+		Length: 6
+		Facings: 8
+		Tick: 100
+	die1: trst
+		Start: 134
+		Length: 14
+	die2: trst
+		Start: 149
+		Length: 14
+	die5: flameguy
+		Start: 48
+		Length: 59
+		Tick: 80
+	die6: electro
+		Start: 0
+		Length: *
+		Tick: 120
+	die-crushed: death_c
+		Start: 0
+		Length: 4
+		Tick: 80
+	shoot: trst
+		Start: 164
+		Length: 6
+		Facings: 8
+		Tick: 80
+	prone-shoot: trst
+		Start: 212
+		Length: 6
+		Facings: 8
+		Tick: 80
+	icon: trsticon
+		Start: 0
