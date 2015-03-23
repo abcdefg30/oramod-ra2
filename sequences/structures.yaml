@@ -1139,3 +1139,29 @@ nalasr:
 caoutp:
 	icon: xxicon
 		Start: 0
+
+gtgcan:
+	idle: gggcan
+		Start: 0
+		ShadowStart: 3
+		ZOffset: -512
+		Offset: 0, -30
+	damaged-idle: gggcan
+		Start: 1
+		ShadowStart: 4
+		ZOffset: -512
+		Offset: 0, -30
+	critical-idle: gggcan
+		Start: 2
+		ShadowStart: 5
+		Offset: 0, -30
+	icon: gcanicon
+		Start: 0
+	make: gtgcanmk
+		Start: 0
+		Length: 12
+		ShadowStart: 12
+		Offset: 0, -30
+	muzzle: gcmuzzle
+		Start: 0
+		Length: *

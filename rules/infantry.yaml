@@ -60,6 +60,7 @@ dog:
 		Weapon: DogJaw
 	AttackLeap:
 	WithInfantryBody:
+	RenderSprites:
 		Image: adog
 		IdleSequences: idle1,idle2
 		RaceImages:
@@ -189,3 +190,38 @@ tany:
 	WithInfantryBody:
 		IdleSequences: idle1,idle2
 	AnnounceOnBuild:
+	
+terror:
+	Inherits: ^Infantry
+	Buildable:
+		Queue: Infantry
+		BuildAtProductionType: Infantry
+		BuildPaletteOrder: 120
+		Prerequisites: ~naradr, ~infantry.cuba
+	Valued:
+		Cost: 200
+	Tooltip:
+		Name: Terrorist
+		Description: The Terrorist carries C4 charges taped to his body and kamikazes enemies \nblowing them up quickly and efficiently.
+	Selectable:
+		Voice: TerroristVoice
+		Bounds: 20, 30, 0, -11
+	Health:
+		HP: 75
+	Mobile:
+		Speed: 71
+	RevealsShroud:
+		Range: 6c0
+	Armor:
+		Type: Flak
+	Passenger:
+		PipType: Red
+	Explodes:
+		Weapon: TerrorBomb
+		EmptyWeapon: TerrorBomb
+	DemoTruck:
+	AttackFrontal:
+	TakeCover:
+	WithInfantryBody:
+	RenderSprites:
+		IdleSequences: idle1,idle2

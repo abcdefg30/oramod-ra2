@@ -1,18 +1,3 @@
-UnitExplode:
-	Warhead@1Dam: SpreadDamage
-		Spread: 426
-		Damage: 50
-		Falloff: 1000, 368, 135, 50, 18, 7, 0
-		DeathType: 2
-		Versus:
-			None: 90
-			Wood: 75
-			Light: 60
-			Heavy: 25
-	Warhead@2Eff: CreateEffect
-		Explosion: large_twlt
-		ImpactSound: vgendiea.wav, vgendieb.wav, vgendiec.wav, vgendied.wav, vgendiee.wav, vgendief.wav
-
 UnitExplodeSmall:
 	Warhead@1Dam: SpreadDamage
 		Spread: 426
@@ -564,3 +549,57 @@ DoublePistolsE:
 		ValidImpactTypes: Water
 	Warhead@4Smu: LeaveSmudge
 		SmudgeType: Crater
+
+TerrorBomb:
+	ReloadDelay: 20
+	Range: 4c0
+	Report: gexpbara.wav, gexpbarb.wav, gexpbarc.wav
+	Projectile: Bullet
+		Speed: 1c682
+	Warhead@1Dam: SpreadDamage
+		Spread: 426
+		Damage: 400
+		DeathType: 5
+		Falloff: 1024, 1024, 512, 512, 256, 256, 0
+		ProneModifier: 70
+		Versus:
+			None: 150
+			Flak: 100
+			Plate: 100
+			Light: 90
+			Medium: 50
+			Heavy: 50
+			Wood: 100
+			Steel: 150
+			Concrete: 30
+	Warhead@2Eff: CreateEffect
+		Explosion: terrorist_explosion
+
+GrandCannonWeapon:
+	ReloadDelay: 75
+	Report: bgraatta.wav
+	Range: 15c0
+	MinRange: 3c0
+	Projectile: Bullet
+		High: true
+		Speed: 682
+		Image: 120mm
+		Shadow: true
+		Angle: 62
+	Warhead@1Dam: SpreadDamage
+		Spread: 128
+		Damage: 150
+		DeathType: 1
+		Versus:
+			None: 100
+			Flak: 100
+			Plate: 100
+			Light: 100
+			Medium: 100
+			Heavy: 100
+			Wood: 50
+			Steel: 100
+			Concrete: 50
+	Warhead@2Eff: CreateEffect
+		Explosion: medium_explosion
+		ImpactSound: gexp14a.wav

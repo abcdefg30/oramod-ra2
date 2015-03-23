@@ -288,6 +288,8 @@ gaweap:
 		Sequence: overlay-fan
 	WithIdleOverlay@ramp:
 		Sequence: idle-ramp
+	Power:
+		Amount: -25
 
 gadept:
 	Inherits: ^Building
@@ -606,6 +608,14 @@ nahand:
 		Description: Produces infantry.
 	ProvidesCustomPrerequisite:
 		Prerequisite: barracks
+	ProvidesCustomPrerequisite@soviets:
+		Prerequisite: infantry.soviets
+	ProvidesCustomPrerequisite@cuba:
+		Prerequisite: infantry.cuba
+		Race: cuba
+	ProvidesCustomPrerequisite@iraq:
+		Prerequisite: infantry.iraq
+		Race: iraq
 	Building:
 		Footprint: xx xx
 		Dimensions: 2,2
@@ -733,6 +743,12 @@ naweap:
 		Prerequisite: factory
 	ProvidesCustomPrerequisite@soviets:
 		Prerequisite: vehicles.soviets
+	ProvidesCustomPrerequisite@libya:
+		Prerequisite: vehicles.libya
+		Race: libya
+	ProvidesCustomPrerequisite@russia:
+		Prerequisite: vehicles.russia
+		Race: russia
 	Building:
 		Footprint: xxxxx xxxxx xxxxx
 		Dimensions: 5,3
@@ -1120,7 +1136,9 @@ nasam:
 	RenderVoxels:
 	WithVoxelTurret:
 	AutoTarget:
-
+	Power:
+		Amount: -50
+	
 tesla:
 	Inherits: ^Building
 	Buildable:
@@ -1158,6 +1176,49 @@ tesla:
 	DisabledOverlay:
 	Power:
 		Amount: -75
+
+gtgcan:
+	Inherits: ^Defense
+	Buildable:
+		Queue: Support
+		BuildPaletteOrder: 30
+		Prerequisites: ~radar, ~structures.france
+	Valued:
+		Cost: 2000
+	Tooltip:
+		Name: Grand Cannon
+		Description: Automated anti-tank defense.
+	Building:
+		Footprint: xx xx
+		Dimensions: 2, 2
+	Health:
+		HP: 900
+	Armor:
+		Type: Steel
+	RevealsShroud:
+		Range: 10c0
+	Selectable:
+		Bounds: 46, 62, 0, -20
+	Turreted:
+		ROT: 10
+		InitialFacing: 220
+		Offset: 500,0,0
+	AttackTurreted:
+		Recoils: true
+	Armament:
+		Weapon: GrandCannonWeapon
+		Recoil: 127
+		RecoilRecovery: 26
+		MuzzleSequence: muzzle
+	BodyOrientation:
+		QuantizedFacings: 16
+	RenderVoxels:
+	WithVoxelTurret:
+	WithVoxelBarrel:
+	AutoTarget:
+	WithMuzzleFlash:
+	Power:
+		Amount: -100
 
 anypower:
 	Tooltip:

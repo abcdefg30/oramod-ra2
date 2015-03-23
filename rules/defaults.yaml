@@ -11,7 +11,7 @@
 		Footprint: x
 		BuildSounds: uplace.wav
 		UndeploySounds: uselbuil.wav
-		Adjacent: 10
+		Adjacent: 4
 		TerrainTypes: Clear, Rough, Road, DirtRoad
 	GivesBuildableArea:
 	Capturable:
