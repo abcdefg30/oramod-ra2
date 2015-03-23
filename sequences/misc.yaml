@@ -299,7 +299,7 @@ torpedo:
 
 #TODO: placeholder to fix crashes related to smoke
 smoke_m:
-	idle: fire3
+	idle: fire03
 		Start: 0
 		Length: *
 
