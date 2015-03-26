@@ -410,6 +410,7 @@ gaspysat:
 		PauseOnLowPower: true
 	Power:
 		Amount: -100
+	ProvidesRadar:
 
 gagap:
 	Inherits: ^Building
