@@ -174,35 +174,41 @@ gaairc:
 		Start: 0
 		Length: 1
 		Offset: -14, -38
+		ZOffset: -512
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damage-idle-bottom: ggaircbb
 		Start: 1
 		Length: 1
 		Offset: -14, -38
+		ZOffset: -512
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-dish: ggairc_a
 		Start: 0
 		Length: 4
 		Tick: 120
 		Offset: -14, -38
+		ZOffset: -512
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-dish: ggairc_a
 		Start: 5
 		Length: 4
 		Tick: 120
 		Offset: -14, -38
+		ZOffset: -512
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-mid: ggairc_b
 		Start: 0
 		Length: 6
 		Tick: 120
 		Offset: -14, -38
+		ZOffset: -512
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damage-idle-mid: ggairc_b
 		Start: 7
 		Length: 6
 		Tick: 120
 		Offset: -14, -38
+		ZOffset: -512
 		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gtaircmk
 		Start: 0

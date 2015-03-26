@@ -229,7 +229,7 @@ gaairc:
 		SpawnOffset: 200,820,0
 		MoveIntoWorld: false
 	Exit@4:
-		SpawnOffset: 200,-300,0 # TODO: Unit is rendered below the structure
+		SpawnOffset: 200,-300,0
 		MoveIntoWorld: false
 	Production:
 		Produces: Aircraft
