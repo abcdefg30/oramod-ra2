@@ -149,7 +149,7 @@ Translations:
 
 LoadScreen: LogoStripeLoadScreen
 	Image: ./mods/ra2/uibits/loadscreen.png
-	Text: Carving wooden nickels..., Preparing paratroopers..., Welcoming you to Texas...
+	Text: Carving wooden nickels..., Preparing paratroopers..., Welcoming you to Texas..., Optimizing helium mix..., Receiving thoughts..., Igniting boosters...
 
 ContentInstaller:
 
