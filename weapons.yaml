@@ -675,3 +675,115 @@ GrandCannonWeapon:
 		ValidImpactTypes: Water
 	Warhead@4Smu: LeaveSmudge
 		SmudgeType: Crater
+120mmx:
+	ReloadDelay: 80
+	Range: 5c768
+	Report: vapoat1a.wav
+	Burst: 2
+	Palette: ra
+	Projectile: Bullet
+		Speed: 40c0
+		Image: 120mm
+		Shadow: true
+		Angle: 62
+	Warhead@1Dam: SpreadDamage
+		Spread: 128
+		Damage: 100
+		DeathType: 2
+		Versus:
+			None: 25
+			Flak: 25
+			Plate: 25
+			Light: 75
+			Medium: 100
+			Heavy: 100
+			Wood: 100
+			Steel: 100
+			Concrete: 70
+	Warhead@2Eff: CreateEffect
+		Explosion: apoc_explosion
+		ImpactSound: expnew14.aud
+		InvalidImpactTypes: Water
+	Warhead@3EffWater: CreateEffect
+		Explosion: small_watersplash
+		ImpactSound: ssplash3.aud
+		ValidImpactTypes: Water
+	Warhead@4Smu: LeaveSmudge
+		SmudgeType: Crater
+
+120mmxE:
+	ReloadDelay: 80
+	Range: 5c768
+	Report: vapoat1a.wav
+	Burst: 4
+	BurstDelay: 5
+	Palette: ra
+	Projectile: Bullet
+		Speed: 40c0
+		Image: 120mm
+		Shadow: true
+		Angle: 62
+	Warhead@1Dam: SpreadDamage
+		Spread: 128
+		Damage: 100
+		DeathType: 2
+		Versus:
+			None: 100
+			Flak: 100
+			Plate: 100
+			Light: 75
+			Medium: 100
+			Heavy: 100
+			Wood: 100
+			Steel: 100
+			Concrete: 70
+	Warhead@2Eff: CreateEffect
+		Explosion: elite_explosion
+		ImpactSound: expnew14.aud
+		InvalidImpactTypes: Water
+	Warhead@3EffWater: CreateEffect
+		Explosion: large_watersplash
+		ImpactSound: ssplash3.aud
+		ValidImpactTypes: Water
+	Warhead@4Smu: LeaveSmudge
+		SmudgeType: Crater
+
+MammothTusk:
+	ReloadDelay: 80
+	Range: 8c0
+	Report: vapoat2a.wav, vapoar2b.wav, vapoat2c.wav
+	ValidTargets: Air
+	Burst: 2
+	Palette: ra
+	Projectile: Missile
+		Arm: 0
+		High: yes
+		Shadow: true
+		Inaccuracy: 128
+		Image: DRAGON
+		ROT: 10
+		Speed: 170
+		RangeLimit: 35
+	Warhead@1Dam: SpreadDamage
+		Spread: 171
+		Damage: 80
+		DeathType: 3
+		ValidTargets: Air
+		Versus:
+			None: 100
+			Flak: 90
+			Plate: 80
+			Light: 70
+			Medium: 35
+			Heavy: 35
+			Wood: 75
+			Steel: 40
+			Concrete: 20
+	Warhead@2Eff: CreateEffect
+		Explosion: medium_bang
+		ImpactSound: expnew12.aud
+		InvalidImpactTypes: Water
+	Warhead@3EffWater: CreateEffect
+		Explosion: small_watersplash
+		ImpactSound: ssplash3.aud
+		ValidImpactTypes: Water
