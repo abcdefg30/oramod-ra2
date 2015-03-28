@@ -39,7 +39,6 @@ Reference links:
 
 ##OpenRA stuff to watch/review:
 * [Unit audio](https://github.com/OpenRA/OpenRA/pull/7573)
-* [ts-snow](https://github.com/pchote/openra/tree/ts-snow) (WIP branch by @pchote)
 
 ##Development Notes:
 * `mk` anims are in isotemp.mix (or isosno.. etc)
