@@ -83,6 +83,9 @@ World:
 	VoxelNormalsPalette@normals:
 		Name: normals
 		Type: RedAlert2
+	VoxelNormalsPalette@ts-normals:
+		Name: ts-normals
+		Type: TiberianSun
 	Country@random:
 		Name: Random
 		Race: Random
