@@ -200,10 +200,12 @@ SupportsMapsFrom: ra2
 
 SpriteFormats: ShpTS, TmpTS, ShpTD
 
-SpriteSequenceFormat: DefaultSpriteSequence
-
-# TODO: pchote/ts-snow
-#SpriteSequenceFormat: TSSpriteSequence
-#	TilesetCodes:
-#		SNOW: a
-#		TEMPERAT: t
+SpriteSequenceFormat: TilesetSpecificSpriteSequence
+	TilesetExtensions:
+		TEMPERAT: .tem
+		SNOW: .sno
+		URBAN: .urb
+	TilesetCodes:
+		SNOW: a
+		TEMPERAT: t
+		URBAN: u

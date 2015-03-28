@@ -207,7 +207,7 @@ RedEye2:
 	Projectile: Missile
 		Speed: 100c0
 		Arm: 3
-		High: true
+		Blockable: false
 		Shadow: true
 		Image: DRAGON
 		RangeLimit: 50
@@ -581,7 +581,7 @@ GrandCannonWeapon:
 	Range: 15c0
 	MinRange: 3c0
 	Projectile: Bullet
-		High: true
+		Blockable: false
 		Speed: 682
 		Image: 120mm
 		Shadow: true
