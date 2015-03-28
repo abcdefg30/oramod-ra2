@@ -1,16 +1,10 @@
 overlay:
+	Defaults:
+		Offset: 0, -15
+		BlendMode: Additive
 	build-valid-temperat: place
-		Start: 0
-		Offset: 0, -15
-		BlendMode: Additive
 	build-valid-snow: place
-		Start: 0
-		Offset: 0, -15
-		BlendMode: Additive
 	build-valid-urban: place
-		Start: 0
-		Offset: 0, -15
-		BlendMode: Additive
 	build-invalid: place
 		Start: 1
 		Offset: 0, -15
@@ -321,166 +315,67 @@ moveflsh:
 		Tick: 30
 
 resources:
+	Defaults:
+		UseTilesetExtension: true
+		Length: 12
+		ShadowStart: 12
+		Offset: 0, -15
 	tib01: tib01
-		Start: 0
-		Length: 12
-		ShadowStart: 12
-		Offset: 0, -15
 	tib02: tib02
-		Start: 0
-		Length: 12
-		ShadowStart: 12
-		Offset: 0, -15
 	tib03: tib03
-		Start: 0
-		Length: 12
-		ShadowStart: 12
-		Offset: 0, -15
 	tib04: tib04
-		Start: 0
-		Length: 12
-		ShadowStart: 12
-		Offset: 0, -15
 	tib05: tib05
-		Start: 0
-		Length: 12
-		ShadowStart: 12
-		Offset: 0, -15
 	tib06: tib06
-		Start: 0
-		Length: 12
-		ShadowStart: 12
-		Offset: 0, -15
 	tib07: tib07
-		Start: 0
-		Length: 12
-		ShadowStart: 12
-		Offset: 0, -15
 	tib08: tib08
-		Start: 0
-		Length: 12
-		ShadowStart: 12
-		Offset: 0, -15
 	tib09: tib09
-		Start: 0
-		Length: 12
-		ShadowStart: 12
-		Offset: 0, -15
 	tib10: tib10
-		Start: 0
-		Length: 12
-		ShadowStart: 12
-		Offset: 0, -15
 	tib11: tib11
-		Start: 0
-		Length: 12
-		ShadowStart: 12
-		Offset: 0, -15
 	tib12: tib12
-		Start: 0
-		Length: 12
-		ShadowStart: 12
-		Offset: 0, -15
 	tib13: tib13
-		Start: 0
-		Length: 12
-		ShadowStart: 12
-		Offset: 0, -15
 	tib14: tib14
-		Start: 0
-		Length: 12
-		ShadowStart: 12
-		Offset: 0, -15
 	tib15: tib15
-		Start: 0
-		Length: 12
-		ShadowStart: 12
-		Offset: 0, -15
 	tib16: tib16
-		Start: 0
-		Length: 12
-		ShadowStart: 12
-		Offset: 0, -15
 	tib17: tib17
-		Start: 0
-		Length: 12
-		ShadowStart: 12
-		Offset: 0, -15
 	tib18: tib18
-		Start: 0
-		Length: 12
-		ShadowStart: 12
-		Offset: 0, -15
 	tib19: tib19
-		Start: 0
-		Length: 12
-		ShadowStart: 12
-		Offset: 0, -15
 	tib20: tib20
-		Start: 0
-		Length: 12
-		ShadowStart: 12
-		Offset: 0, -15
 	gem01: gem01
-		Start: 0
 		Length: 5
 		ShadowStart: 0
-		Offset: 0, -15
 	gem02: gem02
-		Start: 0
 		Length: 5
 		ShadowStart: 0
-		Offset: 0, -15
 	gem03: gem03
-		Start: 0
 		Length: 5
 		ShadowStart: 0
-		Offset: 0, -15
 	gem04: gem04
-		Start: 0
 		Length: 5
 		ShadowStart: 0
-		Offset: 0, -15
 	gem05: gem05
-		Start: 0
 		Length: 5
 		ShadowStart: 0
-		Offset: 0, -15
 	gem06: gem06
-		Start: 0
 		Length: 5
 		ShadowStart: 0
-		Offset: 0, -15
 	gem07: gem07
-		Start: 0
 		Length: 5
 		ShadowStart: 0
-		Offset: 0, -15
 	gem08: gem08
-		Start: 0
 		Length: 5
 		ShadowStart: 0
-		Offset: 0, -15
 	gem09: gem09
-		Start: 0
 		Length: 5
 		ShadowStart: 0
-		Offset: 0, -15
 	gem10: gem10
-		Start: 0
 		Length: 5
 		ShadowStart: 0
-		Offset: 0, -15
 	gem11: gem11
-		Start: 0
 		Length: 5
 		ShadowStart: 0
-		Offset: 0, -15
 	gem12: gem12
-		Start: 0
 		Length: 5
 		ShadowStart: 0
-		Offset: 0, -15
 
 shroud:
 	shroud: shroud

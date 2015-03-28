@@ -1,177 +1,175 @@
 tibtre01:
-	idle:
-		Start: 0
-		Length: 1
-		ShadowStart: 11
+	Defaults:
+		UseTilesetExtension: true
 		Offset: -1, -16
+	idle:
+		ShadowStart: 11
 	active:
 		Start: 1
 		Length: 10
 		ShadowStart: 12
 		Tick: 160
-		Offset: -1, -16
 
 tibtre02:
-	idle:
-		Start: 0
-		Length: 1
-		ShadowStart: 11
+	Defaults:
+		UseTilesetExtension: true
 		Offset: -1, -16
+	idle:
+		ShadowStart: 11
 	active:
 		Start: 1
 		Length: 10
 		ShadowStart: 12
 		Tick: 160
-		Offset: -1, -16
 
 tibtre03:
-	idle:
-		Start: 0
-		Length: 1
-		ShadowStart: 11
+	Defaults:
+		UseTilesetExtension: true
 		Offset: -1, -16
+	idle:
+		ShadowStart: 11
 	active:
 		Start: 1
 		Length: 10
 		ShadowStart: 12
 		Tick: 160
-		Offset: -1, -16
 
 tree01:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree02:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree03:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree04:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree05:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree06:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree07:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree08:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree09:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree10:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree11:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree12:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree13:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree14:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree15:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree16:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree17:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree18:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree19:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree20:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
+
 tree21:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree22:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree23:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree24:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree25:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 		
 tree26:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree27:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true
 
 tree28:
 	idle:
-		Start: 0
 		ShadowStart: 1
+		UseTilesetExtension: true

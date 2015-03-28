@@ -118,7 +118,7 @@
 		TerrainTypes: Clear, Rough, Road, DirtRoad
 	Crushable:
 		CrushClasses: wall
-	BlocksBullets:
+	BlocksProjectiles:
 	LineBuild:
 		Range: 8
 		NodeTypes: wall
