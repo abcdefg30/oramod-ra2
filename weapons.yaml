@@ -482,12 +482,12 @@ DoublePistolsE:
 	ReloadDelay: 60
 	Range: 5c0
 	Report: vgriatta.wav, vgriattb.wav, vgriattc.wav
-	Palette: ra
 	Projectile: Bullet
 		Speed: 40c0
 		Image: 120mm
 		Shadow: true
 		Angle: 62
+		Palette: ra
 	Warhead@1Dam: SpreadDamage
 		Spread: 128
 		Damage: 65
@@ -519,12 +519,12 @@ DoublePistolsE:
 	Report: vgriatta.wav, vgriattb.wav, vgriattc.wav
 	Burst: 2
 	BurstDelay: 5
-	Palette: ra
 	Projectile: Bullet
 		Speed: 40c0
 		Image: 120mm
 		Shadow: true
 		Angle: 62
+		Palette: ra
 	Warhead@1Dam: SpreadDamage
 		Spread: 128
 		Damage: 55
@@ -608,12 +608,12 @@ GrandCannonWeapon:
 	ReloadDelay: 65
 	Range: 5c768
 	Report: vrhiatta.wav, vrhiattb.wav, vrhiattc.wav, vrhiattd.wav
-	Palette: ra
 	Projectile: Bullet
 		Speed: 40c0
 		Image: 120mm
 		Shadow: true
 		Angle: 62
+		Palette: ra
 	Warhead@1Dam: SpreadDamage
 		Spread: 128
 		Damage: 90
@@ -645,12 +645,12 @@ GrandCannonWeapon:
 	Report: vrhiatta.wav, vrhiattb.wav, vrhiattc.wav, vrhiattd.wav
 	Burst: 2
 	BurstDelay: 5
-	Palette: ra
 	Projectile: Bullet
 		Speed: 40c0
 		Image: 120mm
 		Shadow: true
 		Angle: 62
+		Palette: ra
 	Warhead@1Dam: SpreadDamage
 		Spread: 128
 		Damage: 85
