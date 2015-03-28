@@ -1135,6 +1135,7 @@ nasam:
 	BodyOrientation:
 		QuantizedFacings: 8
 	RenderVoxels:
+		NormalsPalette: ts-normals
 	WithVoxelTurret:
 	AutoTarget:
 	Power:
@@ -1214,6 +1215,7 @@ gtgcan:
 	BodyOrientation:
 		QuantizedFacings: 16
 	RenderVoxels:
+		NormalsPalette: ts-normals
 	WithVoxelTurret:
 	WithVoxelBarrel:
 	AutoTarget:
