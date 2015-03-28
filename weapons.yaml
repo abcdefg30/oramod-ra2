@@ -675,6 +675,7 @@ GrandCannonWeapon:
 		ValidImpactTypes: Water
 	Warhead@4Smu: LeaveSmudge
 		SmudgeType: Crater
+
 120mmx:
 	ReloadDelay: 80
 	Range: 5c768

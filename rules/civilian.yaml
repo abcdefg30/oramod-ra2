@@ -28,8 +28,7 @@ cawash03:
 		Type: Steel
 	RevealsShroud:
 		Range: 6c0
-		
-		
+
 cawash04:
 	Inherits: ^CivBuilding
 	Selectable:
@@ -57,7 +56,7 @@ cawash05:
 		Type: Steel
 	RevealsShroud:
 		Range: 6c0
-		
+
 cawash07:
 	Inherits: ^CivBuilding
 	Selectable:
@@ -71,7 +70,7 @@ cawash07:
 		Type: Steel
 	RevealsShroud:
 		Range: 6c0
-		
+
 cawash09:
 	Inherits: ^CivBuilding
 	Selectable:
@@ -85,7 +84,7 @@ cawash09:
 		Type: Steel
 	RevealsShroud:
 		Range: 6c0
-		
+
 cawash10:
 	Inherits: ^CivBuilding
 	Selectable:
@@ -99,7 +98,7 @@ cawash10:
 		Type: Steel
 	RevealsShroud:
 		Range: 6c0
-		
+
 cawash11:
 	Inherits: ^CivBuilding
 	Selectable:
@@ -113,7 +112,7 @@ cawash11:
 		Type: Steel
 	RevealsShroud:
 		Range: 6c0
-		
+
 cawash13:
 	Inherits: ^CivBuilding
 	Selectable:
@@ -127,7 +126,7 @@ cawash13:
 		Type: Steel
 	RevealsShroud:
 		Range: 6c0
-		
+
 cawash14:
 	Inherits: ^CivBuilding
 	Selectable:
@@ -141,7 +140,7 @@ cawash14:
 		HP: 1000
 	Armor:
 		Type: Concrete
-		
+
 canewy01:
 	Inherits: ^CivBuilding
 	Selectable:
@@ -155,7 +154,7 @@ canewy01:
 		Type: Steel
 	RevealsShroud:
 		Range: 4c0
-		
+
 cawsh12:
 	Inherits: ^CivBuilding
 	Selectable:
@@ -184,7 +183,7 @@ cawsh12:
 		PortOffsets: 384,0,128, 224,-341,128, -224,-341,128, -384,0,128, -224,341,128, 224,341,128
 		PortYaws: 0, 176, 341, 512, 682, 853
 		PortCones: 86, 86, 86, 86, 86, 86
-	
+
 caarmy01:
 	Inherits: ^CivBuilding
 	Selectable:
@@ -425,7 +424,7 @@ calit01e:
 	Tooltip:
 		Name: Light
 	Health:
-		HP: 50	
+		HP: 50
 	Armor:
 		Type: Steel
 
@@ -452,3 +451,4 @@ capol01w:
 		HP: 20
 	Armor:
 		Type: Concrete
+

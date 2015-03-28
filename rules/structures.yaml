@@ -595,7 +595,7 @@ napowr:
 	ScalePowerWithHealth:
 	SoundOnDamageTransition:
 		DestroyedSounds: bpowdiea.wav, bpowdieb.wav
-		
+
 nahand:
 	Inherits: ^Building
 	Buildable:
@@ -839,7 +839,7 @@ nanrct:
 	Power:
 		Amount: 2000
 	ScalePowerWithHealth:
-    SoundOnDamageTransition:
+	SoundOnDamageTransition:
 		DestroyedSounds: bpowdiea.wav, bpowdieb.wav
 
 natech:
@@ -1139,7 +1139,7 @@ nasam:
 	AutoTarget:
 	Power:
 		Amount: -50
-	
+
 tesla:
 	Inherits: ^Building
 	Buildable:
@@ -1245,3 +1245,4 @@ tech:
 	Tooltip:
 		Name: Tech Center
 		Description: Tech Center
+

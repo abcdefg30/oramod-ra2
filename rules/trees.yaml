@@ -6,7 +6,7 @@ TIBTRE02:
 
 TIBTRE03:
 	Inherits: ^OreDrill
-	
+
 TREE01:
 	Inherits: ^Tree
 
@@ -81,12 +81,13 @@ TREE24:
 
 TREE25:
 	Inherits: ^Tree
-	
+
 TREE26:
 	Inherits: ^Tree
-	
+
 TREE27:
 	Inherits: ^Tree
 
 TREE28:
 	Inherits: ^Tree
+
