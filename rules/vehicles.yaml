@@ -147,7 +147,7 @@ cmin:
 	RenderSprites:
 	RenderVoxels:
 	WithVoxelUnloadBody:
-	
+
 harv:
 	Inherits: ^Vehicle
 	Buildable:

@@ -190,7 +190,7 @@ tany:
 	WithInfantryBody:
 		IdleSequences: idle1,idle2
 	AnnounceOnBuild:
-	
+
 terror:
 	Inherits: ^Infantry
 	Buildable:
@@ -225,3 +225,4 @@ terror:
 	WithInfantryBody:
 	RenderSprites:
 		IdleSequences: idle1,idle2
+

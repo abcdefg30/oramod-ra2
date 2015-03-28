@@ -79,7 +79,7 @@
 		Range: 4c0
 	Tooltip:
 		Name: Civilian Building
-		
+
 ^TechBuilding:
 	Inherits: ^Building
 	-MustBeDestroyed:
