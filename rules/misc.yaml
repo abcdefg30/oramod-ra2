@@ -16,7 +16,7 @@ waypoint:
 		InitialFacing: 160
 	RenderSprites:
 		Image: amcv
-		StandAnimations: idle
+		StandSequences: idle
 		Palette: colorpicker
 	RenderVoxels:
 		Image: amcv
