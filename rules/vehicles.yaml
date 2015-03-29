@@ -291,6 +291,7 @@ htnk:
 		Bounds: 64, 52, 0, -6
 		Voice: SovietVehicleVoice
 	RenderVoxels:
+		NormalsPalette: ts-normals
 	WithVoxelBody:
 	WithVoxelTurret:
 	WithVoxelBarrel:
