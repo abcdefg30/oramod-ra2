@@ -1,931 +1,806 @@
 gacnst:
-	idle: ggcnst
-		Start: 0
-		ShadowStart: 3
+	Defaults:
 		Offset: 3, -60
-		# UseTilsetCode: true # TODO: pchote/ts-snow
-	make: gtcnstmk
-		Start: 0
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: ggcnst
+		ShadowStart: 3
+	make: ggcnstmk
 		Length: 29
 		ShadowStart: 29
-		Offset: 3, -60
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	damaged-idle: ggcnst
 		Start: 1
 		ShadowStart: 4
-		Offset: 3, -60
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-fans: ggcnst_a
-		Start: 0
 		Length: 6
 		Tick: 150
-		Offset: 3, -60
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-fans: ggcnst_a
 		Start: 5
 		Length: 6
 		Tick: 150
-		Offset: 3, -60
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	crane-overlay: ggcnst_b
-		Start: 0
 		Length: 20
 		Tick: 150
-		Offset: 3, -60
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-crane-overlay: ggcnst_b
 		Start: 20
 		Length: 20
 		Tick: 150
-		Offset: 3, -60
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: cnsticon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 gapowr:
-	idle: ggpowr
-		Start: 0
-		ShadowStart: 3
+	Defaults:
 		Offset: 0, -31
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: ggpowr
+		ShadowStart: 3
 	damaged-idle: gtpowr
 		Start: 1
 		ShadowStart: 4
-		Offset: 0, -31
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-glow: ggpowr_a
-		Start: 0
 		Length: 8
 		ShadowStart: 16
 		Tick: 150
-		Offset: 0, -31
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-glow: ggpowr_a
 		Start: 8
 		Length: 8
 		ShadowStart: 24
 		Tick: 150
-		Offset: 0, -31
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gtpowrmk
-		Start: 0
 		Length: 25
 		ShadowStart: 25
-		Offset: 0, -31
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	icon: powricon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 gapile:
-	idle: ggpile
-		Start: 0
-		ShadowStart: 3
+	Defaults:
 		Offset: -15, -38
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: ggpile
+		ShadowStart: 3
 	damaged-idle: ggpile
 		Start: 1
 		ShadowStart: 4
-		Offset: -15, -38
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-flag: ggpile_a
-		Start:0
 		Length: 16
 		ShadowStart: 32
-		Offset: -15, -38
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-flag: ggpile_a
 		Start:16
 		Length: 16
 		ShadowStart: 48
-		Offset: -15, -38
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gtpilemk
-		Start: 0
 		Length: 25
 		ShadowStart: 25
-		Offset: -15, -38
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	icon: brrkicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 garefn:
-	idle: ggrefn
-		Start: 0
-		ShadowStart: 3
+	Defaults:
 		Offset: -12, -52
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: ggrefn
+		ShadowStart: 3
 	damaged-idle: ggrefn
 		Start: 1
 		ShadowStart: 4
-		Offset: -12, -52
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gurefnmk
-		Start: 0
 		Length: 25
 		ShadowStart: 25
-		Offset: -12, -52
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	idle-drill: ggrefnl1
-		Start: 0
 		Length: 6
 		Tick: 1500
-		Offset: -12, -52
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-bib: ggrefnbb
-		Start: 0
 		ShadowStart: 2
-		Offset: -12, -52
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 		ZOffset: -512
 	damaged-idle-bib: ggrefnbb
 		Start: 1
 		ShadowStart: 3
-		Offset: -12, -52
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 		ZOffset: -512
 	docking-overlay: ggrefnor
-		Start: 0
 		Length: 20
 		ShadowStart: 20
-		Offset: -12, -52
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: reficon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 gaairc:
-	idle: ggairc
-		Start: 0
-		Length: 1
+	Defaults:
 		Offset: -14, -38
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: ggairc
+		Length: 1
 	damaged-idle: ggairc
 		Start: 1
 		Length: 2
-		Offset: -14, -38
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-top: gaairc_c
-		Start: 0
 		Length: 16
 		ShadowStart: 16
-		Offset: -14, -38
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 		Tick: 320
 	idle-bottom: ggaircbb
-		Start: 0
 		Length: 1
-		Offset: -14, -38
 		ZOffset: -512
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damage-idle-bottom: ggaircbb
 		Start: 1
 		Length: 1
-		Offset: -14, -38
 		ZOffset: -512
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-dish: ggairc_a
-		Start: 0
 		Length: 4
 		Tick: 120
-		Offset: -14, -38
 		ZOffset: -512
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-dish: ggairc_a
 		Start: 5
 		Length: 4
 		Tick: 120
-		Offset: -14, -38
 		ZOffset: -512
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-mid: ggairc_b
-		Start: 0
 		Length: 6
 		Tick: 120
-		Offset: -14, -38
 		ZOffset: -512
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damage-idle-mid: ggairc_b
 		Start: 7
 		Length: 6
 		Tick: 120
-		Offset: -14, -38
 		ZOffset: -512
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gtaircmk
-		Start: 0
 		Length: 24
 		ShadowStart: 25
-		Offset: -14, -38
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	icon: heliicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 gaweap:
+	Defaults:
+		Offset: -30, -60
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
 	idle: ggweap_2
-		Start: 0
 		ShadowStart: 2
-		Offset: -30, -60
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-door: ggweap_1
-		Start: 0
 		ShadowStart: 2
-		Offset: -30, -60
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-ramp: ggweapbb
-		Start: 0
 		ShadowStart: 2
-		Offset: -30, -60
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: ggweap
 		Start: 2
 		ShadowStart: 5
-		Offset: -30, -60
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-flag: ggweap_a
-		Start: 0
 		Length: 14
 		ShadowStart: 31
-		Offset: -30, -60
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-flag: ggweap_a
 		Start: 15
 		Length: 14
 		ShadowStart: 45
-		Offset: -30, -60
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	overlay-fan: ggweap_b
-		Start: 0
 		Length: 5
 		ShadowStart: 6
-		Offset: -30, -60
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gtweapmk
-		Start: 0
 		Length: 24
 		ShadowStart: 25
-		Offset: -30, -60
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	icon: gwepicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 gadept:
-	idle: ggdept_d
-		Start: 0
-		ShadowStart: 2
+	Defaults:
 		Offset: 7, -40
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: ggdept_d
+		ShadowStart: 2
 	damaged-idle: ggdept_d
 		Start: 1
 		ShadowStart: 3
-		Offset: 7, -40
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-side: ggdept
-		Start: 0
 		ShadowStart: 3
-		Offset: 7, -40
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-side: ggdept
 		Start: 1
 		Length: 2
 		ShadowStart: 4
-		Offset: 7, -40
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	bib: ggdeptbb
-		Start: 0
 		ShadowStart: 3
-		Offset: 7, -40
 		ZOffset: -512
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gtdeptmk
-		Start: 0
 		Length: 25
 		ShadowStart: 25
-		Offset: 7, -40
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	repair: ggdept_c
-		Start: 0
 		Length: 10
 		ShadowStart: 20
-		Offset: 7, -40
 		Tick: 180
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-repair: ggdept_c
 		Start: 10
 		Length: 10
 		ShadowStart: 30
-		Offset: 7, -40
 		Tick: 180
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: fixicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 gatech:
+	Defaults:
+		Offset: -15, -40
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
 	idle: ggtech
-		Start: 0
 		ShadowStart: 3
-		Offset: -15, -39
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: ggtech
 		Start: 1
 		ShadowStart: 4
-		Offset: -15, -39
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-lights: ggtech_a
-		Start: 0
 		Length: 12
 		ShadowStart: 24
-		Offset: -15, -39
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-ights: ggtech_a
 		Start: 12
 		Length: 12
 		ShadowStart: 36
-		Offset: -15, -39
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gttechmk
-		Start: 0
 		Length: 25
 		ShadowStart: 25
-		Offset: -15, -39
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	icon: techicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 gaorep:
-	idle: ggorep
-		Start: 0
-		ShadowStart: 3
+	Defaults:
 		Offset: 0, -45
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: ggorep
+		ShadowStart: 3
 	damaged-idle: ggorep
 		Start: 1
 		ShadowStart: 4
-		Offset: 0, -45
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-glow: ggorep_a
-		Start: 0
 		Length: 8
 		ShadowStart: 16
 		Tick: 180
-		Offset: 0, -45
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-glow: ggorep_a
 		Start: 8
 		Length: 8
 		ShadowStart: 24
 		Tick: 180
-		Offset: 0, -45
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gtorepmk
-		Start: 0
 		Length: 25
 		ShadowStart: 25
-		Offset: 0, -45
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	icon: gorep
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 gaspysat:
+	Defaults:
+		Offset: 0, -31
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
 	idle: ggspst
-		Start: 0
 		ShadowStart: 3
 		Tick: 180
-		Offset: 0, -31
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: ggspst
 		Start: 1
 		ShadowStart: 4
 		Tick: 180
-		Offset: 0, -31
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-dish: ggspst_a
 		Start: 0
 		Length: 16
 		Tick: 180
-		Offset: 0, -31
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-dish: ggspst_a
 		Start: 16
 		Length: 16
 		Tick: 180
-		Offset: 0, -31
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gtspstmk
-		Start: 0
 		Length: 25
 		ShadowStart: 25
 		Tick: 90
-		Offset: 0, -31
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	icon: asaticon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 gagap:
-	idle: gggap
-		Start: 0
-		Lenght: 1
-		ShadowStart: 3
+	Defaults:
 		Offset: -15, -7
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: gggap
+		Length: 1
+		ShadowStart: 3
 	damaged-idle: gggap
 		Start: 2
 		Length: 1
 		ShadowStart: 4
-		Offset: -15, -7
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: gtgapmk
-		Start: 0
 		Length: 9
 		ShadowStart: 9
-		Offset: -15, -7
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 		Tick: 90
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	icon: gapicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 gaweat:
-	idle: ggweth
-		Start: 0
-		ShadowStart: 3
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+	Defaults:
 		Offset: 0, -45
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: ggweth
+		ShadowStart: 3
 	damaged-idle: ggweth
 		Start: 1
 		ShadowStart: 4
-		# UseTilsetCode: true # TODO: pchote/ts-snow
-		Offset: 0, -45
 	make: guwethmk
-		Start: 0
 		Length: 25
 		ShadowStart: 25
-		# Don't use UseTilesetCode, the make anim only exist in isourb.mix
-		Offset: 0, -45
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	icon: wethicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 gacsph:
-	idle: ggcsph
-		Start: 0
-		ShadowStart: 3
+	Defaults:
 		Offset: -15, -50
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: ggcsph
+		ShadowStart: 3
 	damaged-idle: ggcsph
 		Start: 1
 		ShadowStart: 4
-		Offset: -15, -50
 	idle-dome: ggcsph_e
-		Start: 0
 		ShadowStart: 2
-		Offset: -15, -50
 	damaged-idle-dome: ggcsph_e
 		Start: 1
 		ShadowStart: 3
-		Offset: -15, -50
 	make: gtcsphmk
-		Start: 0
 		Length: 25
 		ShadowStart: 25
-		Offset: -15, -50
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	icon: csphicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 nacnst:
-	idle: ngcnst
-		Start: 0
-		ShadowStart: 3
+	Defaults:
 		Offset: 4, -58
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: ngcnst
+		ShadowStart: 3
 	damaged-idle: ngcnst
 		Start: 1
 		ShadowStart: 4
-		Offset: 4, -58
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: ntcnstmk
-		Start: 0
 		Length: 31
 		ShadowStart: 31
-		Offset: 4, -58
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	idle-top: ngcnst_a
-		Start: 0
 		Length: 11
 		Tick: 200
-		Offset: 4, -58
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-top: ngcnst_a
 		Start: 11
 		Length: 11
 		Tick: 150
-		Offset: 4, -58
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-side: ngcnst_c
-		Start: 0
 		Length: 1
 		ShadowStart: 4
 		Tick: 150
-		Offset: 4, -58
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-side: ngcnst_c
 		Start: 1
 		Length: 1
 		ShadowStart: 5
 		Tick: 150
-		Offset: 4, -58
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	build: ngcnst_b
-		Start: 0
 		Length: 21
 		Tick: 150
-		Offset: 4, -58
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-build: ngcnst_b
 		Start: 21
 		Length: 21
 		Tick: 150
-		Offset: 4, -58
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: facticon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 napowr:
-	idle: ngpowr
-		Start: 0
-		ShadowStart: 3
+	Defaults:
 		Offset: -15, -37
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: ngpowr
+		ShadowStart: 3
 	damaged-idle: ngpowr
 		Start: 1
 		ShadowStart: 4
-		Offset: -15, -37
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	critical-idle: ngpowr
 		Start: 2
 		ShadowStart: 5
-		Offset: -15, -37
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-lights: ngpowr_a
-		Start: 0
 		Length: 9
 		Tick: 150
-		Offset: -15, -37
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-lights: ngpowr_a
 		Start: 9
 		Length: 9
 		Tick: 150
-		Offset: -15, -37
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	critical-idle-lights: ngpowr_a
 		Start: 9
 		Length: 9
 		Tick: 150
-		Offset: -15, -37
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: ntpowrmk
-		Start: 0
 		Length: 26
 		ShadowStart: 26
-		Offset: -15, -37
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	icon: npwricon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 nahand:
-	idle: nghand
-		Start: 0
-		ShadowStart: 3
+	Defaults:
 		Offset: 1, -31
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: nghand
+		ShadowStart: 3
 	damaged-idle: nghand
 		Start: 1
 		ShadowStart: 4
-		Offset: 1, -31
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	critical-idle: nghand
 		Start: 2
 		ShadowStart: 5
-		Offset: 1, -31
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: nthandmk
-		Start: 0
 		Length: 24
 		ShadowStart: 24
-		Offset: 1, -31
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	icon: handicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 narefn:
-	idle: ngrefn
-		Start: 0
-		ShadowStart: 3
+	Defaults:
 		Offset: -13, -53
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: ngrefn
+		ShadowStart: 3
 	damaged-idle: ngrefn
 		Start: 1
 		ShadowStart: 4
-		Offset: -13, -53
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: ntrefnmk
-		Start: 0
 		Length: 26
 		ShadowStart: 26
-		Offset: -13, -53
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	idle-drill: ngrefnl1
-		Start: 0
 		Length: 3
 		Tick: 1500
-		Offset: -13, -53
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-bib: ngrefnbb
-		Start: 0
 		ShadowStart: 3
-		Offset: -13, -53
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 		ZOffset: -512
 	damaged-idle-bib: ngrefnbb
 		Start: 1
 		ShadowStart: 4
-		Offset: -13, -53
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 		ZOffset: -512
 	docking-overlay: ngrefnor
-		Start: 0
 		Length: 20
 		ShadowStart: 20
-		Offset: -13, -53
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: nreficon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 naradr:
-	idle: ngradr
-		Start: 0
-		ShadowStart: 3
+	Defaults:
 		Offset: 2, -31
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: ngradr
+		ShadowStart: 3
 	damaged-idle: ngradr
 		Start: 1
 		ShadowStart: 4
-		Offset: 2, -31
 	critical-idle: ngradr
 		Start: 2
 		ShadowStart: 5
-		Offset: 2, -31
 	idle-dish: ngradr_a
-		Start: 0
 		ShadowStart: 92
 		Length: 45
 		Tick: 150
-		Offset: 2, -31
 	damaged-idle-dish: ngradr_a
 		Start: 46
 		ShadowStart: 138
 		Length: 45
 		Tick: 150
-		Offset: 2, -31
 	make: ntradrmk
-		Start: 0
 		Length: 30
 		ShadowStart: 30
-		Offset: 2, -31
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	icon: nradicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 naweap:
-	idle: ngweap
-		Start: 0
-		ShadowStart: 3
+	Defaults:
 		Offset: -30, -60
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: ngweap
+		ShadowStart: 3
 	damaged-idle: ngweap
 		Start: 2
 		ShadowStart: 4
-		Offset: -30, -60
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-ramp: ngweapbb
-		Start: 0
 		ShadowStart: 3
-		Offset: -30, -60
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-ramp:
 		Start: 1
 		ShadowStart: 4
-		Offset: -30, -60
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-lights: ngweap_a
-		Start: 0
 		Length: 13
 		ShadowStart: 13
 		Tick: 150
-		Offset: -30, -60
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-lights: ngweap_a # doesn't have damage frames
-		Start: 0
 		Length: 13
 		ShadowStart: 13
 		Tick: 150
-		Offset: -30, -60
 	make: ntweapmk
-		Start: 0
 		Length: 24
 		ShadowStart: 25
-		Offset: -30, -60
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	icon: nwepicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 nadept:
+	Defaults:
+		Offset: -15, -53
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
 	idle: ngdept_b
-		Start: 0
 		Length: 10
 		ShadowStart: 20
-		Offset: -15, -53
 		Tick: 180
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: ngdept_d
 		Start: 10
 		Length: 10
 		ShadowStart: 29
-		Offset: -15, -53
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-normal: ngdept
-		Start: 0
 		ShadowStart: 3
-		Offset: -15, -53
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-normal: ngdept
 		Start: 2
 		ShadowStart: 4
-		Offset: -15, -53
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	bib: ngdeptbb
-		Start: 0
 		ShadowStart: 3
-		Offset: -15, -53
 		ZOffset: -512
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-bib: ngdeptbb
 		Start: 1
 		ShadowStart: 2
-		Offset: -15, -53
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: ntdeptmk
-		Start: 0
 		Length: 25
 		ShadowStart: 25
-		Offset: -15, -53
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	repair: ngdept_c
-		Start: 0
 		Length: 50
 		ShadowStart: 100
-		Offset: -15, -53
 		Tick: 120
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-repair: ngdept_c
 		Start: 50
 		Length: 50
 		ShadowStart: 150
-		Offset: -15, -53
 		Tick: 120
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	icon: rfixicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 nanrct:
-	idle: ngnrct
-		Start: 0
-		ShadowStart: 3
+	Defaults:
 		Offset: -12, -56
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: ngnrct
+		ShadowStart: 3
 	damaged-idle: ngnrct
 		Start: 1
 		ShadowStart: 4
-		Offset: -12, -56
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	critical-idle: ngnrct
 		Start: 2
 		ShadowStart: 5
-		Offset: -12, -56
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-lights: ngnrct_a
-		Start: 0
 		Length: 11
 		Tick: 150
-		Offset: -12, -56
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-lights: ngnrct_a
 		Start: 11
 		Length: 11
 		Tick: 150
-		Offset: -12, -56
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	critical-idle-lights: ngnrct_a
-		Start: 10
+		Start: 11
 		Length: 11
 		Tick: 150
-		Offset: -12, -56
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: ntnrctmk
-		Start: 0
 		Length: 25
 		ShadowStart: 25
-		Offset: -12, -56
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	icon: nrcticon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 natech:
-	idle: ngtech
-		Start: 0
-		ShadowStart: 3
+	Defaults:
 		Offset: 0, -45
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: ngtech
+		ShadowStart: 3
 	damaged-idle: ngtech
 		Start: 1
 		ShadowStart: 4
-		Offset: 0, -45
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	critical-idle: ngtech
 		Start: 2
 		ShadowStart: 5
-		Offset: 0, -45
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: nttechmk
-		Start: 0
 		Length: 25
 		ShadowStart: 25
-		Offset: 0, -45
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	icon: ntchicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 naclon:
+	Defaults:
+		Offset: 0, -30
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
 	idle: ngclon_a
-		Start: 0
 		Length: 11
 		ShadowStart: 22
-		Offset: 0, -30
 		Tick: 180
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle: ngclon_a
 		Start: 11
 		Length: 11
 		ShadowStart: 33
-		Offset: 0, -30
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	critical-idle: ngclon_a
 		Start: 11
 		Length: 11
 		ShadowStart: 33
-		Offset: 0, -30
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: ntclonmk
-		Start: 0
 		Length: 25
 		ShadowStart: 25
-		Offset: 0, -30
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	icon: clonicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 napsis:
-	idle: ngpsis
-		Start: 0
-		ShadowStart: 3
+	Defaults:
 		Offset: 1, -30
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: ngpsis
+		ShadowStart: 3
 	damaged-idle: ngpsis
 		Start: 1
 		ShadowStart: 4
-		Offset: 1, -30
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	critical-idle: ngpsis
 		Start: 2
 		ShadowStart: 5
-		Offset: 1, -30
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	idle-spin: ngpsis_a
-		Start: 0
 		Length: 40
 		Tick: 150
-		Offset: 1, -30
 		ShadowStart: 80
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	damaged-idle-spin: ngpsis_a
 		Start: 39
 		Length: 40
 		Tick: 150
-		Offset: 1, -30
 		ShadowStart: 120
-		# UseTilsetCode: true # TODO: pchote/ts-snow
 	make: ntpsismk
-		Start: 0
 		Length: 24
 		ShadowStart: 24
-		Offset: 1, -30
-		# UseTilsetCode: true # TODO: pchote/ts-snow
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	icon: psisicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 # TODO: ngmisl is not a valid shp
 # namisl:
@@ -941,233 +816,254 @@ napsis:
 # 		Start: 0
 
 nairon:
-	idle: ngiron
-		Start: 0
-		ShadowStart: 3
+	Defaults:
 		Offset: 0, -45
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: ngiron
+		ShadowStart: 3
 	damaged-idle: ngiron
 		Start: 1
 		ShadowStart: 4
-		Offset: 0, -45
 	critical-idle: ngiron
 		Start: 2
 		ShadowStart: 5
-		Offset: 0, -45
 	make: ntironmk
-		Start: 0
 		Length: 25
 		ShadowStart: 25
-		Offset: 0, -45
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	icon: ironicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 cafncb:
+	Defaults:
+		Offset: 0, -12
+		UseTilesetCode: true
 	idle: ctfncb
-		Start: 0
 		Length: 16
 		ShadowStart: 32
-		Offset: 0, -12
 	damaged-idle: ctfncb
 		Start: 16
 		Length: 16
 		ShadowStart: 48
-		Offset: 0, -12
 	icon: wallicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 cafncw:
+	Defaults:
+		Offset: 0, -12
+		UseTilesetCode: true
 	idle: ctfncw
-		Start: 0
 		Length: 16
 		ShadowStart: 32
-		Offset: 0, -12
 	damaged-idle: ctfncw
 		Start: 16
 		Length: 16
 		ShadowStart: 48
-		Offset: 0, -12
 	icon: wallicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 gasand:
+	Defaults:
+		Offset: 0, -12
+		UseTilesetCode: true
 	idle: gtsand
-		Start: 0
 		Length: 16
 		ShadowStart: 32
-		Offset: 0, -12
 	damaged-idle: gtsand
 		Start: 16
 		Length: 16
 		ShadowStart: 48
-		Offset: 0, -12
 	icon: wallicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 gawall:
+	Defaults:
+		Offset: 0, -12
+		UseTilesetCode: true
 	idle: gtwall
-		Start: 0
 		Length: 16
 		ShadowStart: 32
-		Offset: 0, -12
 	damaged-idle: gtwall
 		Start: 16
 		Length: 16
 		ShadowStart: 48
-		Offset: 0, -12
 	icon: wallicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 nawall:
+	Defaults:
+		Offset: 0, -12
+		UseTilesetCode: true
 	idle: ntwall
-		Start: 0
 		Length: 16
 		ShadowStart: 32
-		Offset: 0, -12
 	damaged-idle: ntwall
 		Start: 16
 		Length: 16
 		ShadowStart: 48
-		Offset: 0, -12
 	icon: nwalicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 gapill:
-	idle: ggpill
-		Start: 0
-		ShadowStart: 3
+	Defaults:
 		Offset: 0, -15
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: ggpill
+		ShadowStart: 3
 	damaged-idle: ggpill
 		Start: 1
 		ShadowStart: 4
-		Offset: 0, -15
 	critical-idle: ggpill
 		Start: 2
 		ShadowStart: 5
-		Offset: 0, -15
 	muzzle0: mgun-n
-		Start: 0
 		Length: *
-		Offset: 0, -15
+		UseTilesetCode: false
 	muzzle1: mgun-nw
-		Start: 0
 		Length: *
-		Offset: 0, -15
+		UseTilesetCode: false
 	muzzle2: mgun-w
-		Start: 0
 		Length: *
-		Offset: 0, -15
+		UseTilesetCode: false
 	muzzle3: mgun-sw
-		Start: 0
 		Length: *
-		Offset: 0, -15
+		UseTilesetCode: false
 	muzzle4: mgun-s
-		Start: 0
 		Length: *
-		Offset: 0, -15
+		UseTilesetCode: false
 	muzzle5: mgun-se
-		Start: 0
 		Length: *
-		Offset: 0, -15
+		UseTilesetCode: false
 	muzzle6: mgun-e
-		Start: 0
 		Length: *
-		Offset: 0, -15
+		UseTilesetCode: false
 	muzzle7: mgun-ne
-		Start: 0
 		Length: *
-		Offset: 0, -15
+		UseTilesetCode: false
 	make: gtpillmk
-		Start: 0
 		Length: 8
 		ShadowStart: 8
-		Offset: 0, -15
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	icon: pillicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 nasam:
+	Defaults:
+		Offset: 0, -15
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
 	idle: ngsam
-		Start: 0
 		ShadowStart: 3
 		ZOffset: -512
-		Offset: 0, -15
 	damaged-idle: ngsam
 		Start: 1
 		ShadowStart: 4
 		ZOffset: -512
-		Offset: 0, -15
 	critical-idle: ngsam
 		Start: 2
 		ShadowStart: 5
-		Offset: 0, -15
-	icon: samicon
-		Start: 0
 	make: ntsammk
-		Start: 0
 		Length: 8
 		ShadowStart: 8
-		Offset: 0, -15
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
+	icon: samicon
+		Offset: 0,0
+		UseTilesetCode: false
 
 tesla:
+	Defaults:
+		Offset: 0, -15
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
 	idle: ngtsla_a
-		Start: 0
 		Length: 10
-		Offset: 0, -15		
 	damaged-idle: ngtsla_a
 		Start: 10
 		Length: 10
-		Offset: 0, -15
 	active: ngtsla_b
-		Start: 0
 		Length: 10
 		Tick: 100
-		Offset: 0, -15
 	damaged-active: ngtsla_b
 		Start: 10
 		Length: 10
 		Tick: 100
-		Offset: 0, -15
-	icon: tslaicon
-		Start: 0
 	make: nttslamk
-		Start: 0
 		Length: 25
 		ShadowStart: 25
-		Offset: 0, -15
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
+	icon: tslaicon
+		Offset: 0,0
+		UseTilesetCode: false
 
 naflak:
 	icon: flakicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 nalasr:
 	icon: plticon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 caoutp:
 	icon: xxicon
-		Start: 0
+		Offset: 0,0
+		UseTilesetCode: false
 
 gtgcan:
+	Defaults:
+		Offset: 0, -30
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
 	idle: gggcan
-		Start: 0
 		ShadowStart: 3
 		ZOffset: -512
-		Offset: 0, -30
 	damaged-idle: gggcan
 		Start: 1
 		ShadowStart: 4
 		ZOffset: -512
-		Offset: 0, -30
 	critical-idle: gggcan
 		Start: 2
 		ShadowStart: 5
 		Offset: 0, -30
-	icon: gcanicon
-		Start: 0
 	make: gtgcanmk
-		Start: 0
 		Length: 12
 		ShadowStart: 12
-		Offset: 0, -30
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
 	muzzle: gcmuzzle
 		Start: 0
 		Length: *
+		Offset: 0,0
+		UseTilesetCode: false
+	icon: gcanicon
+		Offset: 0,0
+		UseTilesetCode: false

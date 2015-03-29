@@ -104,9 +104,9 @@
 	RenderVoxels:
 		Scale: 11.7
 		LightYaw: 800
-		LightPitch: 110
-		LightAmbientColor: 0.3,0.3,0.3 # -0.5,-0.5,-0.5
-		LightDiffuseColor: 1.0,1.0,1.0 # 1.5,1.5,1.5
+		LightPitch: 150
+		LightAmbientColor: -0.5,-0.5,-0.5
+		LightDiffuseColor: 1.4,1.4,1.4
 	
 ^Wall:
 	AppearsOnRadar:
@@ -294,10 +294,10 @@
 		EmptyWeapon: UnitExplodeSmall
 	RenderVoxels:
 		Scale: 11.7
-		LightPitch: 170
-		LightYaw: -150
-		LightAmbientColor: 0,0,0,0,0,0
-		LightDiffuseColor: 1,1,1
+		LightYaw: 800
+		LightPitch: 150
+		LightAmbientColor: -0.5,-0.5,-0.5
+		LightDiffuseColor: 1.4,1.4,1.4
 	GainsStatUpgrades:
 	UpgradeManager:
 	MustBeDestroyed:

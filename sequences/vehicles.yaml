@@ -1,194 +1,146 @@
 amcv:
 	icon: mcvicon
-		Start: 0
+
 aegis:
 	icon: agisicon
-		Start: 0
 
 bus:
 	icon: xxicon
-		Start: 0
 
 car:
 	icon: xxicon
-		Start: 0
 
 carrier:
 	icon: carricon
-		Start: 0
 
 cdest:
 	icon: xxicon
-		Start: 0
 
 cona:
 	icon: xxicon
-		Start: 0
 
 cop:
 	icon: xxicon
-		Start: 0
 
 cmin:
 	harvest: oregath
-		Start: 0
 		Length: 15
 		Facings: 8
 	icon: ahrvicon
-		Start: 0
 
 cruise:
 	icon: xxicon
-		Start: 0
 
 dest:
 	icon: desticon
-		Start: 0
 
 dred:
 	icon: dredicon
-		Start: 0
 
 euroc:
 	icon: xxicon
-		Start: 0
 
 flata:
 	icon: xxicon
-		Start: 0
 
 fv:
 	icon: fvicon
-		Start: 0
 
 gtgcan:
 	icon: gcanicon
-		Start: 0
 
 mtnk:
 	icon: gtnkicon
-		Start: 0
 
 harv:
 	harvest: oregath
-		Start: 0
 		Length: 15
 		Facings: 8
 	icon: harvicon
-		Start: 0
 
 htk:
 	icon: htkicon
-		Start: 0
 
 htnk:
 	icon: htnkicon
-		Start: 0
 
 howi:
 	icon: xxicon
-		Start: 0
 
 hyd:
 	icon: hovricon
-		Start: 0
 
 lcrf:
 	icon: landicon
-		Start: 0
 
 limo:
 	icon: xxicon
-		Start: 0
 
 ltnk:
 	icon: xxicon
-		Start: 0
 
 apoc:
 	icon: mtnkicon
-		Start: 0
 
 pick:
 	icon: xxicon
-		Start: 0
 
 propa:
 	icon: xxicon
-		Start: 0
 
 ptruck:
 	icon: xxicon
-		Start: 0
 
 rtnk:
 	icon: rtnkicon
-		Start: 0
 
 smcv:
 	icon: smcvicon
-		Start: 0
 
 sref:
 	icon: sreficon
-		Start: 0
 
 stang:
 	icon: xxicon
-		Start: 0
 
 sub:
 	icon: subicon
-		Start: 0
 
 suvb:
 	icon: xxicon
-		Start: 0
 
 suvbw:
 	icon: xxicon
-		Start: 0
 
 taxi:
 	icon: xxicon
-		Start: 0
 
 tnkd:
 	icon: tnkdicon
-		Start: 0
 
 tractor:
 	icon: xxicon
-		Start: 0
 
 sapc:
 	icon: sapcicon
-		Start: 0
 
 dtruck:
 	icon: trkaicon
-		Start: 0
 
 truckb:
 	icon: xxicon
-		Start: 0
 
 ttnk:
 	icon: ttnkicon
-		Start: 0
 
 tug:
 	icon: xxicon
-		Start: 0
 
 v3:
 	icon: v3icon
-		Start: 0
 
 vlad:
 	icon: xxicon
-		Start: 0
 
 wini:
 	icon: xxicon
-		Start: 0
