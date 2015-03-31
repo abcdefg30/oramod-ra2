@@ -11,8 +11,9 @@
 		Footprint: x
 		BuildSounds: uplace.wav
 		UndeploySounds: uselbuil.wav
+		TerrainTypes: Clear, Road, DirtRoad, Rough
 		Adjacent: 4
-		TerrainTypes: Clear, Rough, Road, DirtRoad
+	FrozenUnderFog:
 	GivesBuildableArea:
 	Capturable:
 	SoundOnDamageTransition:
@@ -167,19 +168,33 @@
 		Voice: Infantry
 	TargetableUnit:
 		TargetTypes: Ground, Infantry, DetonateAttack
-	WithInfantryBody:
 	RenderSprites:
+	WithInfantryBody:
+	WithDeathAnimation:
 	AutoTarget:
 	AttackMove:
+	TakeCover:
 	Passenger:
 		CargoType: Infantry
 	HiddenUnderFog:
 	GainsExperience:
 		ChevronPalette: ra
+		Upgrades:
+			500: firepower, damage, speed, reload
+			1000: firepower, damage, speed, reload, selfheal, eliteweapon
+	GainsStatUpgrades:
 		CostThreshold: 5, 10
-		FirepowerModifier: 1.2, 1.5
-		ArmorModifier: 1.2, 1.5
-		SpeedModifier: 1.2, 1.5
+		FirepowerModifier: 110, 130
+		DamageModifier: 83, 66
+		SpeedModifier: 120, 150
+		ReloadModifier: 90, 75
+	SelfHealing@ELITE:
+		Step: 2
+		Ticks: 100
+		HealIfBelow: 1
+		DamageCooldown: 125
+		UpgradeTypes: selfheal
+		UpgradeMinEnabledLevel: 1
 	GivesExperience:
 	DrawLineToTarget:
 	ActorLostNotification:
@@ -203,8 +218,6 @@
 	DeathSounds@ZAPPED:
 		DeathSound: Zapped
 		DeathTypes: 6
-	GainsStatUpgrades:
-	WithDeathAnimation:
 	UpgradeManager:
 	MustBeDestroyed:
 		RequiredForShortGame: true
@@ -237,7 +250,6 @@
 	ProximityCaptor:
 		Types: CivilianInfantry
 	ScaredyCat:
-	WithDeathAnimation:
 	MustBeDestroyed:
 		RequiredForShortGame: true
 
@@ -270,10 +282,21 @@
 	HiddenUnderFog:
 	GainsExperience:
 		ChevronPalette: ra
-		CostThreshold: 5, 10
-		FirepowerModifier: 1.2, 1.5
-		ArmorModifier: 1.2, 1.5
-		SpeedModifier: 1.2, 1.5
+		Upgrades:
+			500: firepower, damage, speed, reload
+			1000: firepower, damage, speed, reload, selfheal, eliteweapon
+	GainsStatUpgrades:
+		FirepowerModifier: 110, 130
+		DamageModifier: 83, 66
+		SpeedModifier: 120, 150
+		ReloadModifier: 90, 75
+	SelfHealing@ELITE:
+		Step: 2
+		Ticks: 100
+		HealIfBelow: 1
+		DamageCooldown: 125
+		UpgradeTypes: selfheal
+		UpgradeMinEnabledLevel: 1
 	GivesExperience:
 	DrawLineToTarget:
 	ActorLostNotification:
@@ -298,7 +321,6 @@
 		LightPitch: 150
 		LightAmbientColor: -0.5,-0.5,-0.5
 		LightDiffuseColor: 1.4,1.4,1.4
-	GainsStatUpgrades:
 	UpgradeManager:
 	MustBeDestroyed:
 		RequiredForShortGame: true
@@ -309,7 +331,7 @@
 		UseLocation: true
 	TargetableAircraft:
 		TargetTypes: Air
-		GroundedTargetTypes: Ground
+		GroundedTargetTypes: Ground, Repair
 	SelectionDecorations:
 		Palette: pips
 	Selectable:
@@ -324,10 +346,21 @@
 	AttackMove:
 	GainsExperience:
 		ChevronPalette: ra
-		CostThreshold: 5, 10
-		FirepowerModifier: 1.2, 1.5
-		ArmorModifier: 1.2, 1.5
-		SpeedModifier: 1.2, 1.5
+		Upgrades:
+			500: firepower, damage, speed, reload
+			1000: firepower, damage, speed, reload, selfheal, eliteweapon
+	GainsStatUpgrades:
+		FirepowerModifier: 110, 130
+		DamageModifier: 83, 66
+		SpeedModifier: 120, 150
+		ReloadModifier: 90, 75
+	SelfHealing@ELITE:
+		Step: 2
+		Ticks: 100
+		HealIfBelow: 1
+		DamageCooldown: 125
+		UpgradeTypes: selfheal
+		UpgradeMinEnabledLevel: 1
 	GivesExperience:
 	DrawLineToTarget:
 	ActorLostNotification:
@@ -336,10 +369,16 @@
 		CameraPitch: 90
 	Huntable:
 	ScriptTriggers:
-	GainsStatUpgrades:
+	Guard:
+	Guardable:
 	UpgradeManager:
 	MustBeDestroyed:
-		RequiredForShortGame: true
+	RenderVoxels:
+		Scale: 11.7
+		LightYaw: 800
+		LightPitch: 150
+		LightAmbientColor: -0.5,-0.5,-0.5
+		LightDiffuseColor: 1.4,1.4,1.4
 
 ^OreDrill:
 	Tooltip:
@@ -370,3 +409,14 @@
 	BodyOrientation:
 	Tooltip:
 		Name: Tree
+
+^Rock:
+	RenderBuilding:
+		Palette: terrain
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	AppearsOnRadar:
+	BodyOrientation:
+	Tooltip:
+		Name: Rock

@@ -23,7 +23,6 @@ engineer:
 	RepairsBridges:
 	Captures:
 		CaptureTypes: building, husk
-	TakeCover:
 	-AutoTarget:
 	WithInfantryBody:
 		IdleSequences: idle1,idle2
@@ -154,6 +153,50 @@ e2:
 	WithInfantryBody:
 		IdleAnimation:
 
+flakt:
+	Inherits: ^Infantry
+	Buildable:
+		Queue: Infantry
+		Prerequisites: ~naradr, ~nahand
+		BuildPaletteOrder: 20
+	Valued:
+		Cost: 100
+	Tooltip:
+		Name: Flak Trooper
+		Description: Anti-Air/Anti-Infantry unit. \n  Strong vs Aircraft, Infantry\n  Weak vs Vehicles
+	Selectable:
+		Voice: FlakTrooperVoice
+		Bounds: 20, 30, 0, -11
+	Health:
+		HP: 100
+	Mobile:
+		Speed: 34
+	Passenger:
+		PipType: Green
+	RevealsShroud:
+		Range: 5c0
+	AttackFrontal:
+	Armament@primary:
+		Weapon: FlakGuyGun
+		UpgradeTypes: eliteweapon
+		UpgradeMaxEnabledLevel: 0
+		UpgradeMaxAcceptedLevel: 1
+	Armament@secondary:
+		Weapon: FlakGuyAAGun
+		UpgradeTypes: eliteweapon
+		UpgradeMaxEnabledLevel: 0
+		UpgradeMaxAcceptedLevel: 1
+	Armament@primary-elite:
+		Weapon: FlakGuyGunE
+		UpgradeTypes: eliteweapon
+		UpgradeMinEnabledLevel: 1
+	Armament@secondary-elite:
+		Weapon: FlakGuyAAGunE
+		UpgradeTypes: eliteweapon
+		UpgradeMinEnabledLevel: 1
+	WithInfantryBody:
+		IdleAnimation:
+
 tany:
 	Inherits: ^Infantry
 	Buildable:
@@ -186,7 +229,6 @@ tany:
 	Armament:
 		Weapon: DoublePistols
 	AttackFrontal:
-	TakeCover:
 	WithInfantryBody:
 		IdleSequences: idle1,idle2
 	AnnounceOnBuild:
@@ -221,7 +263,6 @@ terror:
 		EmptyWeapon: TerrorBomb
 	DemoTruck:
 	AttackFrontal:
-	TakeCover:
 	WithInfantryBody:
 	RenderSprites:
 		IdleSequences: idle1,idle2

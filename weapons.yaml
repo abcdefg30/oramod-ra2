@@ -1,3 +1,18 @@
+UnitExplode:
+	Warhead@1Dam: SpreadDamage
+		Spread: 426
+		Damage: 50
+		Falloff: 1000, 368, 135, 50, 18, 7, 0
+		DeathType: 2
+		Versus:
+			None: 90
+			Wood: 75
+			Light: 60
+			Heavy: 25
+	Warhead@2Eff: CreateEffect
+		Explosion: large_twlt
+		ImpactSound: expnew09.wav
+
 UnitExplodeSmall:
 	Warhead@1Dam: SpreadDamage
 		Spread: 426
@@ -202,21 +217,22 @@ DogJaw:
 RedEye2:
 	ReloadDelay: 60
 	Range: 12c0
-	MinRange: 1c0
+	Report: bpatatta.wav
 	ValidTargets: Air
 	Projectile: Missile
-		Speed: 100c0
-		Arm: 3
+		Arm: 0
 		Blockable: false
 		Shadow: true
 		Image: DRAGON
-		RangeLimit: 50
-		CloseEnough: 256
+		Trail: smokey2
+		ContrailLength: 16
+		RateOfTurn: 55
+		Speed: 100
 		LockOnProbability: 80
 	Warhead@1Dam: SpreadDamage
-		Spread: 128
+		Spread: 120
 		Damage: 75
-		DeathType: 2
+		DeathType: 1
 		ValidTargets: Air
 		Versus:
 			None: 100
@@ -228,6 +244,14 @@ RedEye2:
 			Wood: 0
 			Steel: 0
 			Concrete: 0
+	Warhead@2Eff: CreateEffect
+		Explosion: small_bang
+		ImpactSound: gexp10a.wav #TODO Need to find right impact sound
+		InvalidImpactTypes: Water
+	Warhead@3EffWater: CreateEffect
+		Explosion: small_watersplash
+		ImpactSound: gexpwasa.wav
+		ValidImpactTypes: Water
 
 demobomb:
 	ValidTargets: Ground, Water, Air
@@ -486,7 +510,6 @@ DoublePistolsE:
 		Image: 120mm
 		Shadow: true
 		Angle: 62
-		Palette: ra
 	Warhead@1Dam: SpreadDamage
 		Spread: 128
 		Damage: 65
@@ -523,7 +546,6 @@ DoublePistolsE:
 		Image: 120mm
 		Shadow: true
 		Angle: 62
-		Palette: ra
 	Warhead@1Dam: SpreadDamage
 		Spread: 128
 		Damage: 55
@@ -613,7 +635,6 @@ GrandCannonWeapon:
 		Image: 120mm
 		Shadow: true
 		Angle: 62
-		Palette: ra
 	Warhead@1Dam: SpreadDamage
 		Spread: 128
 		Damage: 90
@@ -650,7 +671,6 @@ GrandCannonWeapon:
 		Image: 120mm
 		Shadow: true
 		Angle: 62
-		Palette: ra
 	Warhead@1Dam: SpreadDamage
 		Spread: 128
 		Damage: 85
@@ -681,7 +701,6 @@ GrandCannonWeapon:
 	Range: 5c768
 	Report: vapoat1a.wav
 	Burst: 2
-	Palette: ra
 	Projectile: Bullet
 		Speed: 40c0
 		Image: 120mm
@@ -718,7 +737,6 @@ GrandCannonWeapon:
 	Report: vapoat1a.wav
 	Burst: 4
 	BurstDelay: 5
-	Palette: ra
 	Projectile: Bullet
 		Speed: 40c0
 		Image: 120mm
@@ -755,14 +773,15 @@ MammothTusk:
 	Report: vapoat2a.wav, vapoar2b.wav, vapoat2c.wav
 	ValidTargets: Air
 	Burst: 2
-	Palette: ra
 	Projectile: Missile
 		Arm: 0
-		High: yes
+		Blockable: false
 		Shadow: true
 		Inaccuracy: 128
 		Image: DRAGON
-		ROT: 10
+		Trail: smokey2
+		ContrailLength: 8
+		RateOfTurn: 10
 		Speed: 170
 		RangeLimit: 35
 	Warhead@1Dam: SpreadDamage
@@ -788,3 +807,166 @@ MammothTusk:
 		Explosion: small_watersplash
 		ImpactSound: gexpwasa.wav
 		ValidImpactTypes: Water
+
+BlimpBomb:
+	ReloadDelay: 45
+	Range: 1c20
+	Report: vkiratta.wav
+	Projectile: GravityBomb
+		Velocity: 50
+		Acceleration: 10
+		Image: canister
+		Arm: 10
+	Warhead@1Dam: SpreadDamage
+		Spread: 400
+		Damage: 250
+		DeathType: 1
+		ValidTargets: Building, Ground, Water
+		ProneModifier: 70
+		Versus:
+			None: 100
+			Flak: 100
+			Plate: 100
+			Light: 70
+			Medium: 35
+			Heavy: 35
+			Wood: 85
+			Steel: 75
+			Concrete: 50
+	Warhead@2Eff: CreateEffect
+		Explosion: medium_clsn
+		ImpactSound: gexp14a.wav
+		InvalidImpactTypes: Water
+	Warhead@3EffWater: CreateEffect
+		Explosion: small_watersplash
+		ImpactSound: gexpwasa.wav
+		ValidImpactTypes: Water
+	Warhead@4Smu: LeaveSmudge
+		SmudgeType: MediumCrater, MediumScorch
+		
+FlakGuyGun:
+	ReloadDelay: 25
+	Range: 5c0
+	Report: vflaat1a.wav, vflaat1b.wav
+	Projectile: Bullet
+		Speed: 50c0
+	Warhead@1Dam: SpreadDamage
+		Spread: 64
+		Damage: 20
+		DeathType: 1
+		ProneModifier: 100
+		Versus:
+			None: 150
+			Flak: 100
+			Plate: 50
+			Light: 60
+			Medium: 10
+			Heavy: 10
+			Wood: 30
+			Steel: 20
+			Concrete: 10
+	Warhead@2Eff: CreateEffect
+		Explosion: flak_puff
+			
+FlakGuyGunE:
+	ReloadDelay: 25
+	Range: 5c0
+	Report: vflaat1a.wav, vflaat1b.wav
+	Projectile: Bullet
+		Speed: 50c0
+		Burst: 2
+	Warhead@1Dam: SpreadDamage
+		Spread: 64
+		Damage: 20
+		DeathType: 1
+		ProneModifier: 100
+		Versus:
+			None: 150
+			Flak: 100
+			Plate: 50
+			Light: 60
+			Medium: 10
+			Heavy: 10
+			Wood: 30
+			Steel: 20
+			Concrete: 10
+	Warhead@2Eff: CreateEffect
+		Explosion: flak_puff
+
+FlakGuyAAGun:
+	ReloadDelay: 25
+	Range: 8c0
+	Report: vflaat2a.wav, vflaat2b.wav, vflaat2c.wav, vflaat2d.wav
+	ValidTargets: Air
+	Projectile: Bullet
+		Inaccuracy: 128
+		Speed: 100c0
+	Warhead@1Dam: SpreadDamage
+		Spread: 120
+		Damage: 20
+		DeathType: 1
+		ValidTargets: Air
+		Versus:
+			None: 150
+			Flak: 100
+			Plate: 50
+			Light: 80
+			Medium: 20
+			Heavy: 20
+			Wood: 0
+			Steel: 0
+			Concrete: 0
+	Warhead@2Eff: CreateEffect
+		Explosion: flak_puff_AA
+			
+FlakGuyAAGunE:
+	ReloadDelay: 25
+	Range: 8c0
+	Report: vflaat2a.wav, vflaat2b.wav, vflaat2c.wav, vflaat2d.wav
+	ValidTargets: Air
+	Projectile: Bullet
+		Inaccuracy: 128
+		Speed: 50c0
+		Burst: 2
+	Warhead@1Dam: SpreadDamage
+		Spread: 120
+		Damage: 8
+		DeathType: 1
+		ValidTargets: Air
+		Versus:
+			None: 150
+			Flak: 100
+			Plate: 50
+			Light: 80
+			Medium: 20
+			Heavy: 20
+			Wood: 0
+			Steel: 0
+			Concrete: 0
+	Warhead@2Eff: CreateEffect
+		Explosion: flak_puff_AA
+		
+FlakWeapon:
+	ReloadDelay: 20
+	Range: 12c0
+	Report: bflaatta.wav, bflaattb.wav, bflaattc.wav, bflaattd.wav
+	ValidTargets: Air
+	Projectile: Bullet
+		Speed: 100c0
+	Warhead@1Dam: SpreadDamage
+		Spread: 120
+		Damage: 40
+		DeathType: 1
+		ValidTargets: Air
+		Versus:
+			None: 150
+			Flak: 80
+			Plate: 50
+			Light: 100
+			Medium: 20
+			Heavy: 20
+			Wood: 0
+			Steel: 0
+			Concrete: 0
+	Warhead@2Eff: CreateEffect
+		Explosion: flak_puff_AA

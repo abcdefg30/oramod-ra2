@@ -36,6 +36,12 @@ Player:
 			gatech: 1%
 			natech: 1%
 			naclon: 1%
+			gadept: 1%
+			nadept: 1%
+			nasam: 1%
+			naflak: 1%
+			tesla: 1%
+			gtgcan: 1%
 		UnitsToBuild:
 			e1: 90%
 			e2: 90%
@@ -43,7 +49,9 @@ Player:
 			engineer: 5%
 			terror: 1%
 			tany: 1%
+			htnk: 1%
 			mtnk: 1%
+			apoc: 1%
 			dtruck: 1%
 		SquadSize: 5
 

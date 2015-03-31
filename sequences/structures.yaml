@@ -612,9 +612,9 @@ naweap:
 		ShadowStart: 4
 	idle-ramp: ngweapbb
 		ShadowStart: 3
-	damaged-idle-ramp:
+	damaged-idle-ramp: ngweapbb
 		Start: 1
-		ShadowStart: 4
+		ShadowStart: 3
 	idle-lights: ngweap_a
 		Length: 13
 		ShadowStart: 13
@@ -967,17 +967,16 @@ gapill:
 nasam:
 	Defaults:
 		Offset: 0, -15
+		ZOffset: -512
 		UseTilesetCode: true
 		TilesetOverrides:
 			TEMPERAT: GENERIC
 			URBAN: GENERIC
 	idle: ngsam
 		ShadowStart: 3
-		ZOffset: -512
 	damaged-idle: ngsam
 		Start: 1
 		ShadowStart: 4
-		ZOffset: -512
 	critical-idle: ngsam
 		Start: 2
 		ShadowStart: 5
@@ -987,6 +986,7 @@ nasam:
 		TilesetOverrides:
 			TEMPERAT: TEMPERAT
 			URBAN: URBAN
+		ZOffset: 0
 	icon: samicon
 		Offset: 0,0
 		UseTilesetCode: false
@@ -1021,6 +1021,28 @@ tesla:
 		UseTilesetCode: false
 
 naflak:
+	Defaults:
+		Offset: 0, -15
+		ZOffset: -512
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: ngflak
+		ShadowStart: 3
+	damaged-idle: ngflak
+		Start: 1
+		ShadowStart: 4
+	critical-idle: ngflak
+		Start: 2
+		ShadowStart: 5
+	make: ntflakmk
+		Length: 9
+		ShadowStart: 9
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
+		ZOffset: 0
 	icon: flakicon
 		Offset: 0,0
 		UseTilesetCode: false
@@ -1038,17 +1060,16 @@ caoutp:
 gtgcan:
 	Defaults:
 		Offset: 0, -30
+		ZOffset: -512
 		UseTilesetCode: true
 		TilesetOverrides:
 			TEMPERAT: GENERIC
 			URBAN: GENERIC
 	idle: gggcan
 		ShadowStart: 3
-		ZOffset: -512
 	damaged-idle: gggcan
 		Start: 1
 		ShadowStart: 4
-		ZOffset: -512
 	critical-idle: gggcan
 		Start: 2
 		ShadowStart: 5
@@ -1059,6 +1080,7 @@ gtgcan:
 		TilesetOverrides:
 			TEMPERAT: TEMPERAT
 			URBAN: URBAN
+		ZOffset: 0
 	muzzle: gcmuzzle
 		Start: 0
 		Length: *

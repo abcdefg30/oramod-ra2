@@ -139,30 +139,31 @@ adog:
 	icon: adogicon
 
 e1:
-	stand: gi
+	Defaults: gi
+	stand:
 		Facings: 8
-	run: gi
+	run:
 		Start: 8
 		Length: 6
 		Facings: 8
 		Tick: 120
-	idle1: gi
+	idle1:
 		Start: 56
 		Length: 15
 		Tick: 100
-	idle2: gi
+	idle2:
 		Start: 71
 		Length: 15
 		Tick: 100
-	prone-run: gi
+	prone-run:
 		Start: 86
 		Length: 6
 		Facings: 8
 		Tick: 100
-	die1: gi
+	die1:
 		Start: 134
 		Length: 14
-	die2: gi
+	die2:
 		Start: 149
 		Length: 14
 	die5: flameguy
@@ -175,7 +176,7 @@ e1:
 		Tick: 120
 	die-crushed: death_c
 		Length: 4
-	shoot: gi
+	shoot:
 		Start: 164
 		Length: 6
 		Facings: 8
@@ -183,30 +184,31 @@ e1:
 	icon: giicon
 
 e2:
-	stand: cons
+	Defaults: cons
+	stand:
 		Facings: 8
-	run: cons
+	run:
 		Start: 8
 		Length: 6
 		Facings: 8
 		Tick: 120
-	idle1: cons
+	idle1:
 		Start: 56
 		Length: 15
 		Tick: 100
-	idle2: cons
+	idle2:
 		Start: 71
 		Length: 15
 		Tick: 100
-	prone-run: cons
+	prone-run:
 		Start: 86
 		Length: 6
 		Facings: 8
 		Tick: 100
-	die1: cons
+	die1:
 		Start: 134
 		Length: 14
-	die2: cons
+	die2:
 		Start: 149
 		Length: 14
 	die5: flameguy
@@ -219,17 +221,68 @@ e2:
 		Tick: 120
 	die-crushed: death_c
 		Length: 4
-	shoot: cons
+	shoot:
 		Start: 164
 		Length: 6
 		Facings: 8
 		Tick: 80
-	prone-shoot: cons
+	prone-shoot:
 		Start: 212
 		Length: 6
 		Facings: 8
 		Tick: 80
 	icon: e2icon
+
+flakt:
+	stand:
+		Facings: 8
+	run:
+		Start: 8
+		Length: 6
+		Facings: 8
+		Tick: 120
+	prone-run:
+		Start: 165
+		Length: 6
+		Facings: 8
+		Tick: 100
+	idle1:
+		Start: 56
+		Length: 15
+		Tick: 100
+	idle2:
+		Start: 71
+		Length: 15
+		Tick: 100
+	die1:
+		Start: 86
+		Length: 15
+		Facings: 8
+		Tick: 100
+	die2:
+		Start: 149
+		Length: 15
+	die5: flameguy
+		Start: 48
+		Length: 59
+		Tick: 80
+# TODO: This is just the death sequence; normally flameguy would run a bit around before dying
+	die6: electro
+		Length: *
+		Tick: 120
+	die-crushed: death_c
+		Length: 4
+	shoot:
+		Start: 116
+		Length: 6
+		Facings: 8
+		Tick: 80
+	prone-shoot:
+		Start: 245
+		Length: 6
+		Facings: 8
+		Tick: 80
+	icon: flkticon
 
 tany:
 	stand:
@@ -282,30 +335,31 @@ tany:
 	icon: tanyicon
 
 terror:
-	stand: trst
+	Defaults: trst
+	stand:
 		Facings: 8
-	run: trst
+	run:
 		Start: 8
 		Length: 6
 		Facings: 8
 		Tick: 120
-	idle1: trst
+	idle1:
 		Start: 56
 		Length: 15
 		Tick: 100
-	idle2: trst
+	idle2:
 		Start: 71
 		Length: 15
 		Tick: 100
-	prone-run: trst
+	prone-run:
 		Start: 86
 		Length: 6
 		Facings: 8
 		Tick: 100
-	die1: trst
+	die1:
 		Start: 134
 		Length: 14
-	die2: trst
+	die2:
 		Start: 149
 		Length: 14
 	die5: flameguy
@@ -318,12 +372,12 @@ terror:
 	die-crushed: death_c
 		Length: 4
 		Tick: 80
-	shoot: trst
+	shoot:
 		Start: 164
 		Length: 6
 		Facings: 8
 		Tick: 80
-	prone-shoot: trst
+	prone-shoot:
 		Start: 212
 		Length: 6
 		Facings: 8

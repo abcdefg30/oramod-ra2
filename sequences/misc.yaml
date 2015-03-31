@@ -1,22 +1,15 @@
 overlay:
-	Defaults:
+	Defaults: place
 		Offset: 0, -15
-		BlendMode: Additive
-	build-valid-temperat: place
-	build-valid-snow: place
-	build-valid-urban: place
-	build-invalid: place
+		BlendMode: Translucency25
+	build-valid-temperat:
+	build-valid-snow:
+	build-valid-urban:
+	build-invalid:
 		Start: 1
-		Offset: 0, -15
-		BlendMode: Additive
-	target-select: place
+	target-select:
+	target-invalid:
 		Start: 1
-		Offset: 0, -15
-		BlendMode: Additive
-	target-invalid: place
-		Start: 1
-		Offset: 0, -15
-		BlendMode: Additive
 
 poweroff:
 	offline: poweroff
@@ -159,6 +152,8 @@ explosion:
 	elite_explosion: vtexplod
 	terrorist_explosion: mininuke
 	apoc_explosion: apocexp
+	flak_puff: htrkpuff
+	flak_puff_AA: smkpuff
 
 discus:
 	idle:
@@ -172,6 +167,10 @@ dragon:
 	idle:
 		Facings: 32
 
+smokey2:
+	idle:
+		Length: *
+		
 crystal4:
 	idle:
 		Length: 15
@@ -280,7 +279,7 @@ resources:
 		ShadowStart: 0
 
 shroud:
-	shroud: shroud
+	shroud:
 		Length: *
 	fog: fog
 		Length: *
@@ -342,3 +341,62 @@ largecraters:
 icon:
 	gps: asaticon
 
+trock01:
+	idle:
+		ShadowStart: 1
+		Offset: 0, -15
+		UseTilesetExtension: true
+
+trock02:
+	idle:
+		ShadowStart: 1
+		Offset: 0, -15
+		UseTilesetExtension: true
+
+trock03:
+	idle:
+		ShadowStart: 1
+		Offset: 0, -15
+		UseTilesetExtension: true
+
+trock04:
+	idle:
+		ShadowStart: 1
+		Offset: 0, -15
+		UseTilesetExtension: true
+
+trock05:
+	idle:
+		ShadowStart: 1
+		Offset: 0, -15
+		UseTilesetExtension: true
+
+srock01:
+	idle:
+		ShadowStart: 1
+		Offset: 0, -15
+		UseTilesetExtension: true
+
+srock02:
+	idle:
+		ShadowStart: 1
+		Offset: 0, -15
+		UseTilesetExtension: true
+
+srock03:
+	idle:
+		ShadowStart: 1
+		Offset: 0, -15
+		UseTilesetExtension: true
+
+srock04:
+	idle:
+		ShadowStart: 1
+		Offset: 0, -15
+		UseTilesetExtension: true
+
+srock05:
+	idle:
+		ShadowStart: 1
+		Offset: 0, -15
+		UseTilesetExtension: true

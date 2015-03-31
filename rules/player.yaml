@@ -41,6 +41,7 @@ Player:
 		SpeedUp: true
 		RequireOwner: false
 	PlaceBuilding:
+		Palette: ra
 	SupportPowerManager:
 	ScriptTriggers:
 	MissionObjectives:
@@ -58,6 +59,7 @@ Player:
 	Shroud:
 	FrozenActorLayer:
 	BaseAttackNotifier:
+	HarvesterAttackNotifier:
 	PlayerStatistics:
 	PlaceBeacon:
 	ProvidesTechPrerequisite@infonly:
