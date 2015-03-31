@@ -15,6 +15,12 @@ Player:
 			narefn: 4
 			gapowr: 8
 			napowr: 8
+			nanrct: 1
+			gapile: 2
+			nahand: 2
+			gaweap: 2
+			naweap: 2
+			gaairc: 2
 		BuildingFractions:
 			garefn: 30%
 			narefn: 30%
@@ -24,7 +30,7 @@ Player:
 			nahand: 1%
 			gaweap: 1%
 			naweap: 1%
-			garadr: 1%
+			gaairc: 1%
 			amradr: 1%
 			naradr: 1%
 			gatech: 1%
