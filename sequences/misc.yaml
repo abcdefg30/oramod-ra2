@@ -20,25 +20,21 @@ overlay:
 
 poweroff:
 	offline: poweroff
-		Start: 0
 		Length: *
 		Tick: 160
 
 allyrepair:
 	repair: wrench
-		Start: 0
 		Length: 7
 		Tick: 160
 
 # TODO: fix/replace them, just placeholders
 rallypoint:
 	flag: ring
-		Start: 0
 		Length: 12
 		Offset: 5, -3
 		BlendMode: Additive
 	circles: ring
-		Start: 0
 		Length: 12
 		BlendMode: Additive
 
@@ -47,38 +43,21 @@ beacon:
 		Start: 6
 		Offset: 1, -12
 	circles: ring
-		Start: 0
 		Length: 12
 		BlendMode: Additive
 
 crate-effects:
+	Defaults:
+		Length: *
 	dollar:
-		Start: 0
-		Length: *
 	reveal-map: reveal
-		Start: 0
-		Length: *
 	hide-map: shroudx
-		Start: 0
-		Length: *
 	fpower: firepowr
-		Start: 0
-		Length: *
 	armor: armor
-		Start: 0
-		Length: *
 	stealth: cloak
-		Start: 0
-		Length: *
 	heal:
-		Start: 0
-		Length: *
 	nuke: mltimisl
-		Start: 0
-		Length: *
 	levelup: veteran
-		Start: 0
-		Length: *
 
 rank:
 	rank: pips
@@ -87,17 +66,14 @@ rank:
 
 mpspawn: # TODO: backfall to RA asset
 	idle:
-		Start: 0
 		Length: *
 
 waypoint: # TODO: backfall to RA asset
 	idle:
-		Start: 0
 		Length: *
 
 clock:
 	idle:
-		Start: 0
 		Length: *
 		BlendMode: Multiply
 
@@ -110,7 +86,6 @@ pips:
 	tag-primary: pipsra #TODO: backfall to RA asset
 		Start: 2
 	pip-empty: pips2
-		Start: 0
 	pip-green: pips2
 		Start: 1
 	pip-yellow: pips2
@@ -122,12 +97,10 @@ pips:
 	pip-blue: pips2
 		Start: 5
 	pip-ammo: ammopips
-		Start: 0
 	pip-ammoempty: ammopips
 		Start: 1
 # TODO:
 	pip-empty-building:
-		Start: 0
 	pip-green-building:
 		Start: 1
 	pip-yellow-building:
@@ -140,172 +113,99 @@ pips:
 		Start: 5
 
 explosion:
+	Defaults:
+		Length: *
 	building: twlt070
-		Start: 0
-		Length: *
 	ionring: ring1
-		Start: 0
-		Length: *
 		Tick: 160
 	pulse_explosion: pulsefx2
-		Start: 0
-		Length: *
-		Tick: 160
 		BlendMode: Additive
-	small_watersplash: h2o_exp2
-		Start: 0
-		Length: *
-	large_watersplash: h2o_exp1
-		Start: 0
-		Length: *
+	huge_watersplash: h2o_exp1
+	large_watersplash: h2o_exp2
+	small_watersplash: h2o_exp3
 	piff: piff
-		Start: 0
-		Length: *
 	piffpiff: piffpiff
-		Start: 0
-		Length: *
 	small_explosion: explosml
-		Start: 0
-		Length: *
 	medium_explosion: explomed
-		Start: 0
-		Length: *
 	large_explosion: explolrg
-		Start: 0
-		Length: *
 	tiny_bang: s_bang16
-		Start: 0
-		Length: *
 	small_bang: s_bang24
-		Start: 0
-		Length: *
 	medium_bang: s_bang34
-		Start: 0
-		Length: *
 	large_bang: s_bang48
-		Start: 0
-		Length: *
 	tiny_brnl: s_brnl20
-		Start: 0
-		Length: *
 	small_brnl: s_brnl30
-		Start: 0
-		Length: *
 	medium_brnl: s_brnl40
-		Start: 0
-		Length: *
 	large_brnl: s_brnl58
-		Start: 0
-		Length: *
 	tiny_tumu: s_tumu22
-		Start: 0
-		Length: *
 	small_tumu: s_tumu30
-		Start: 0
-		Length: *
 	medium_tumu: s_tumu42
-		Start: 0
-		Length: *
 	large_tumu: s_tumu60
-		Start: 0
-		Length: *
 	tiny_clsn: s_clsn16
-		Start: 0
-		Length: *
 	small_clsn: s_clsn22
-		Start: 0
-		Length: *
 	medium_clsn: s_clsn30
-		Start: 0
-		Length: *
 	large_clsn: s_clsn42
-		Start: 0
-		Length: *
 	verylarge_clsn: s_clsn58
-		Start: 0
-		Length: *
 	tiny_twlt: twlt026
-		Start: 0
-		Length: *
 	small_twlt: twlt036
-		Start: 0
-		Length: *
 	medium_twlt: twlt050
-		Start: 0
-		Length: *
 	large_twlt: twlt070
-		Start: 0
-		Length: *
 	verylarge_twlt: twlt100
-		Start: 0
-		Length: *
 	tiny_grey_explosion: xgrysml1
-		Start: 0
-		Length: *
 	small_grey_explosion: xgrysml2
-		Start: 0
-		Length: *
 	medium_grey_explosion: xgrymed1
-		Start: 0
-		Length: *
 	large_grey_explosion: xgrymed2
-		Start: 0
-		Length: *
 	nuke_explosion: nukeanim
-		Start: 0
-		Length: *
 	demotruck_explosion: demtexp
-		Start: 0
-		Length: *
 	elite_explosion: vtexplod
-		Start: 0
-		Length: *
 	terrorist_explosion: mininuke
-		Start: 0
-		Length: *
 	apoc_explosion: apocexp
-		Start: 0
-		Length: *
 
 discus:
 	idle:
-		Start: 0
 		Length: *
 
 canister:
 	idle:
-		Start: 0
 		Length: *
 
 dragon:
 	idle:
-		Start: 0
 		Facings: 32
 
 crystal4:
 	idle:
-		Start: 0
 		Length: 15
 		ShadowStart: 15
 
 120mm:
 	idle:
-		Start: 0
 
 torpedo:
 	idle:
-		Start: 0
 		Length: *
 
-#TODO: placeholder to fix crashes related to smoke
-smoke_m:
+largesmoke:
+	idle: lgrysmk1
+		Length: *
+
+smallsmoke:
+	idle: sgrysmk1
+		Length: *
+
+largefire:
+	idle: fire01
+		Length: *
+
+mediumfire:
+	idle: fire02
+		Length: *
+
+smallfire:
 	idle: fire03
-		Start: 0
 		Length: *
 
 litning:
 	bright:
-		Start: 0
 		Length: 4
 	dim:
 		Start: 4
@@ -313,7 +213,6 @@ litning:
 		
 moveflsh:
 	idle: ring
-		Start: 0
 		Length: *
 		Tick: 30
 
@@ -386,34 +285,60 @@ shroud:
 	fog: fog
 		Length: *
 
-scorches: #TODO: make use of 07-12 as well
+smallscorches:
+	Defaults:
+		UseTilesetExtension: true
+		Offset: 0, -15
 	sc1: burnt01
-		Length: *
 	sc2: burnt02
-		Length: *
 	sc3: burnt03
-		Length: *
 	sc4: burnt04
-		Length: *
 	sc5: burnt05
-		Length: *
 	sc6: burnt06
-		Length: *
 
-craters: #TODO: make use of 07-12 as well
+mediumscorches:
+	Defaults:
+		UseTilesetExtension: true
+		Offset: 0, -20
+	sc7: burnt07
+	sc8: burnt08
+	sc9: burnt09
+	sc10: burnt10
+
+largescorches:
+	Defaults:
+		UseTilesetExtension: true
+		Offset: 0, -30
+	sc11: burnt11
+	sc12: burnt12
+
+smallcraters:
+	Defaults:
+		UseTilesetExtension: true
+		Offset: 0, -15
 	cr1: crater01
-		Length: *
 	cr2: crater02
-		Length: *
 	cr3: crater03
-		Length: *
 	cr4: crater04
-		Length: *
 	cr5: crater05
-		Length: *
 	cr6: crater06
-		Length: *
+
+mediumcraters:
+	Defaults:
+		UseTilesetExtension: true
+		Offset: 0, -15
+	cr7: crater07
+	cr8: crater08
+	cr9: crater09
+	cr10: crater10
+
+largecraters:
+	Defaults:
+		UseTilesetExtension: true
+		Offset: 0, -30
+	cr11: crater11
+	cr12: crater12
 
 icon:
 	gps: asaticon
-		Start: 0
+

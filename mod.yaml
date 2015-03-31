@@ -206,6 +206,7 @@ SpriteSequenceFormat: TilesetSpecificSpriteSequence
 		SNOW: .sno
 		URBAN: .urb
 	TilesetCodes:
+		GENERIC: g
 		SNOW: a
 		TEMPERAT: t
 		URBAN: u

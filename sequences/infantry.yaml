@@ -1,6 +1,5 @@
 engineer:
 	stand:
-		Start: 0
 		Facings: 8
 	run:
 		Start: 8
@@ -50,19 +49,15 @@ engineer:
 		Tick: 80
 # TODO: This is just the death sequence; normally flameguy would run a bit around before dying
 	die6: electro
-		Start: 0
 		Length: *
 		Tick: 120
 	die-crushed: death_c
-		Start: 0
 		Length: 4
 	# Todo: add other die sequences
 	icon: engnicon
-		Start: 0
 
 dog:
 	stand:
-		Start: 0
 		Facings: 8
 	run:
 		Start: 8
@@ -96,18 +91,14 @@ dog:
 		Start: 87
 		Length: 14
 	die-crushed: death_c
-		Start: 0
 		Length: 4
 	shoot: dogp
-		Start: 0
-		Length: 4
-		Facings: 8
+		Length: 1
+		Facings: 64
 	icon: dogicon
-		Start: 0
 
 adog:
 	stand:
-		Start: 0
 		Facings: 8
 	run:
 		Start: 8
@@ -141,18 +132,14 @@ adog:
 		Start: 87
 		Length: 14
 	die-crushed: death_c
-		Start: 0
 		Length: 4
 	shoot: adogp
-		Start: 0
-		Length: 4
-		Facings: 8
+		Length: 1
+		Facings: 64
 	icon: adogicon
-		Start: 0
 
 e1:
 	stand: gi
-		Start: 0
 		Facings: 8
 	run: gi
 		Start: 8
@@ -184,11 +171,9 @@ e1:
 		Tick: 80
 # TODO: This is just the death sequence; normally flameguy would run a bit around before dying
 	die6: electro
-		Start: 0
 		Length: *
 		Tick: 120
 	die-crushed: death_c
-		Start: 0
 		Length: 4
 	shoot: gi
 		Start: 164
@@ -196,11 +181,9 @@ e1:
 		Facings: 8
 		Tick: 80
 	icon: giicon
-		Start: 0
 
 e2:
 	stand: cons
-		Start: 0
 		Facings: 8
 	run: cons
 		Start: 8
@@ -232,11 +215,9 @@ e2:
 		Tick: 80
 # TODO: This is just the death sequence; normally flameguy would run a bit around before dying
 	die6: electro
-		Start: 0
 		Length: *
 		Tick: 120
 	die-crushed: death_c
-		Start: 0
 		Length: 4
 	shoot: cons
 		Start: 164
@@ -249,11 +230,9 @@ e2:
 		Facings: 8
 		Tick: 80
 	icon: e2icon
-		Start: 0
 
 tany:
 	stand:
-		Start: 0
 		Facings: 8
 	run:
 		Start: 8
@@ -285,11 +264,9 @@ tany:
 		Tick: 80
 # TODO: This is just the death sequence; normally flameguy would run a bit around before dying
 	die6: electro
-		Start: 0
 		Length: *
 		Tick: 120
 	die-crushed: death_c
-		Start: 0
 		Length: 4
 		Tick: 80
 	shoot:
@@ -303,11 +280,9 @@ tany:
 		Facings: 8
 		Tick: 80
 	icon: tanyicon
-		Start: 0
 
 terror:
 	stand: trst
-		Start: 0
 		Facings: 8
 	run: trst
 		Start: 8
@@ -338,11 +313,9 @@ terror:
 		Length: 59
 		Tick: 80
 	die6: electro
-		Start: 0
 		Length: *
 		Tick: 120
 	die-crushed: death_c
-		Start: 0
 		Length: 4
 		Tick: 80
 	shoot: trst
@@ -356,4 +329,3 @@ terror:
 		Facings: 8
 		Tick: 80
 	icon: trsticon
-		Start: 0

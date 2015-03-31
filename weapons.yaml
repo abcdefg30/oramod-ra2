@@ -37,7 +37,7 @@ M60:
 		Explosion: piff
 		InvalidImpactTypes: Water
 	Warhead@3EffWater: CreateEffect
-		Explosion: water_piffs
+		Explosion: piff
 		ValidImpactTypes: Water
 
 M60E:
@@ -65,7 +65,7 @@ M60E:
 		Explosion: piff
 		InvalidImpactTypes: Water
 	Warhead@3EffWater: CreateEffect
-		Explosion: water_piffs
+		Explosion: piff
 		ValidImpactTypes: Water
 
 para:
@@ -92,7 +92,7 @@ para:
 		Explosion: piff
 		InvalidImpactTypes: Water
 	Warhead@3EffWater: CreateEffect
-		Explosion: water_piffs
+		Explosion: piff
 		ValidImpactTypes: Water
 
 paraE:
@@ -119,7 +119,7 @@ paraE:
 		Explosion: piff
 		InvalidImpactTypes: Water
 	Warhead@3EffWater: CreateEffect
-		Explosion: water_piffs
+		Explosion: piff
 		ValidImpactTypes: Water
 
 M1Carbine:
@@ -147,7 +147,7 @@ M1Carbine:
 		Explosion: piff
 		InvalidImpactTypes: Water
 	Warhead@3EffWater: CreateEffect
-		Explosion: water_piffs
+		Explosion: piff
 		ValidImpactTypes: Water
 
 M1CarbineE:
@@ -175,7 +175,7 @@ M1CarbineE:
 		Explosion: piff
 		InvalidImpactTypes: Water
 	Warhead@3EffWater: CreateEffect
-		Explosion: water_piffs
+		Explosion: piff
 		ValidImpactTypes: Water
 
 DogJaw:
@@ -274,7 +274,6 @@ demobomb:
 		Size: 2
 		Delay: 5
 	Warhead@6Eff_areanuke1: CreateEffect
-		ImpactSound: kaboom22.aud
 		Delay: 5
 	Warhead@7Dam_areanuke2: SpreadDamage
 		Spread: 3c0
@@ -317,8 +316,8 @@ demobomb:
 		Size: 4
 		Delay: 15
 	Warhead@11Smu_areanuke3: LeaveSmudge
-		SmudgeType: #Scorch
-		Size: 4
+		SmudgeType: LargeScorch
+		Size: 2
 		Delay: 15
 
 coilbolt:
@@ -390,7 +389,7 @@ opcoilbolt: # when overcharged by 3 Tesla Troopers
 		Explosion: piff
 		InvalidImpactTypes: Water
 	Warhead@3EffWater: CreateEffect
-		Explosion: water_piffs
+		Explosion: piff
 		ValidImpactTypes: Water
 
 20mmrapidE:
@@ -419,11 +418,11 @@ opcoilbolt: # when overcharged by 3 Tesla Troopers
 			Concrete: 25
 	Warhead@2Eff: CreateEffect
 		Explosion: medium_clsn
-		ImpactSound: expnew14.aud
+		ImpactSound: gexp14a.wav
 		InvalidImpactTypes: Water
 	Warhead@3EffWater: CreateEffect
 		Explosion: small_watersplash
-		ImpactSound: ssplash3.aud
+		ImpactSound: gexpwasa.wav
 		ValidImpactTypes: Water
 
 DoublePistols:
@@ -449,7 +448,7 @@ DoublePistols:
 		Explosion: piff
 		InvalidImpactTypes: Water
 	Warhead@3EffWater: CreateEffect
-		Explosion: water_piff
+		Explosion: piff
 		ValidImpactTypes: Water
 
 DoublePistolsE:
@@ -475,7 +474,7 @@ DoublePistolsE:
 		Explosion: piff
 		InvalidImpactTypes: Water
 	Warhead@3EffWater: CreateEffect
-		Explosion: water_piff
+		Explosion: piff
 		ValidImpactTypes: Water
 
 105mm:
@@ -504,14 +503,14 @@ DoublePistolsE:
 			Concrete: 60
 	Warhead@2Eff: CreateEffect
 		Explosion: medium_clsn
-		ImpactSound: expnew14.aud
+		ImpactSound: gexp14a.wav
 		InvalidImpactTypes: Water
 	Warhead@3EffWater: CreateEffect
 		Explosion: small_watersplash
-		ImpactSound: ssplash3.aud
+		ImpactSound: gexpwasa.wav
 		ValidImpactTypes: Water
 	Warhead@4Smu: LeaveSmudge
-		SmudgeType: Crater
+		SmudgeType: SmallCrater, SmallScorch
 
 105mmE:
 	ReloadDelay: 75
@@ -541,14 +540,14 @@ DoublePistolsE:
 			Concrete: 60
 	Warhead@2Eff: CreateEffect
 		Explosion: elite_explosion
-		ImpactSound: expnew14.aud
+		ImpactSound: gexpapoa.wav
 		InvalidImpactTypes: Water
 	Warhead@3EffWater: CreateEffect
 		Explosion: large_watersplash
-		ImpactSound: ssplash3.aud
+		ImpactSound: gexpwala.wav
 		ValidImpactTypes: Water
 	Warhead@4Smu: LeaveSmudge
-		SmudgeType: Crater
+		SmudgeType: SmallCrater, SmallScorch
 
 TerrorBomb:
 	ReloadDelay: 20
@@ -572,6 +571,7 @@ TerrorBomb:
 			Wood: 100
 			Steel: 150
 			Concrete: 30
+		AffectsParent: true
 	Warhead@2Eff: CreateEffect
 		Explosion: terrorist_explosion
 
@@ -630,14 +630,14 @@ GrandCannonWeapon:
 			Concrete: 60
 	Warhead@2Eff: CreateEffect
 		Explosion: medium_clsn
-		ImpactSound: expnew14.aud
+		ImpactSound: gexp14a.wav
 		InvalidImpactTypes: Water
 	Warhead@3EffWater: CreateEffect
 		Explosion: small_watersplash
-		ImpactSound: ssplash3.aud
+		ImpactSound: gexpwasa.wav
 		ValidImpactTypes: Water
 	Warhead@4Smu: LeaveSmudge
-		SmudgeType: Crater
+		SmudgeType: SmallCrater, SmallScorch
 
 120mmE:
 	ReloadDelay: 80
@@ -667,14 +667,14 @@ GrandCannonWeapon:
 			Concrete: 50
 	Warhead@2Eff: CreateEffect
 		Explosion: elite_explosion
-		ImpactSound: expnew14.aud
+		ImpactSound: gexpapoa.wav
 		InvalidImpactTypes: Water
 	Warhead@3EffWater: CreateEffect
 		Explosion: large_watersplash
-		ImpactSound: ssplash3.aud
+		ImpactSound: gexpwala.wav
 		ValidImpactTypes: Water
 	Warhead@4Smu: LeaveSmudge
-		SmudgeType: Crater
+		SmudgeType: SmallCrater, SmallScorch
 
 120mmx:
 	ReloadDelay: 80
@@ -703,14 +703,14 @@ GrandCannonWeapon:
 			Concrete: 70
 	Warhead@2Eff: CreateEffect
 		Explosion: apoc_explosion
-		ImpactSound: expnew14.aud
+		ImpactSound: gexpapoa.wav
 		InvalidImpactTypes: Water
 	Warhead@3EffWater: CreateEffect
 		Explosion: small_watersplash
-		ImpactSound: ssplash3.aud
+		ImpactSound: gexpwasa.wav
 		ValidImpactTypes: Water
 	Warhead@4Smu: LeaveSmudge
-		SmudgeType: Crater
+		SmudgeType: SmallCrater, SmallScorch
 
 120mmxE:
 	ReloadDelay: 80
@@ -740,14 +740,14 @@ GrandCannonWeapon:
 			Concrete: 70
 	Warhead@2Eff: CreateEffect
 		Explosion: elite_explosion
-		ImpactSound: expnew14.aud
+		ImpactSound: gexpapoa.wav
 		InvalidImpactTypes: Water
 	Warhead@3EffWater: CreateEffect
 		Explosion: large_watersplash
-		ImpactSound: ssplash3.aud
+		ImpactSound: gexpwala.wav
 		ValidImpactTypes: Water
 	Warhead@4Smu: LeaveSmudge
-		SmudgeType: Crater
+		SmudgeType: MediumCrater, MediumScorch
 
 MammothTusk:
 	ReloadDelay: 80
@@ -782,9 +782,9 @@ MammothTusk:
 			Concrete: 20
 	Warhead@2Eff: CreateEffect
 		Explosion: medium_bang
-		ImpactSound: expnew12.aud
+		ImpactSound: gexp10a.wav
 		InvalidImpactTypes: Water
 	Warhead@3EffWater: CreateEffect
 		Explosion: small_watersplash
-		ImpactSound: ssplash3.aud
+		ImpactSound: gexpwasa.wav
 		ValidImpactTypes: Water
