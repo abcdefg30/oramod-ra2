@@ -277,7 +277,7 @@ gaweap:
 	Exit@1:
 		ExitCell: 5,1
 	Production:
-		Produces: Vehicle
+		Produces: Vehicle, Aircraft
 	PrimaryBuilding:
 	ProductionBar:
 	WithIdleOverlay@flag:
@@ -763,7 +763,7 @@ naweap:
 	Exit@1:
 		ExitCell: 5,1
 	Production:
-		Produces: Vehicle
+		Produces: Vehicle, Aircraft
 	PrimaryBuilding:
 	ProductionBar:
 	WithIdleOverlay@lights:
@@ -1102,6 +1102,9 @@ gapill:
 		ROT: 255
 	BodyOrientation:
 		QuantizedFacings: 8
+	WithRangeCircle:
+		Range: 6c0
+		Type: pillbox
 
 nasam:
 	Inherits: ^Defense
@@ -1127,16 +1130,59 @@ nasam:
 		Bounds: 46, 62, 0, -20
 	Turreted:
 		ROT: 10
-		InitialFacing: 220
+		InitialFacing: 224
 		Offset: 900,0,0
 	AttackTurreted:
-	Armament: # TODO: convert and use the correct weapon, uses sam.vxl
-		Weapon: M60
+	Armament:
+		Weapon: RedEye2
 	BodyOrientation:
-		QuantizedFacings: 8
+		QuantizedFacings: 16
 	RenderVoxels:
 		NormalsPalette: ts-normals
 	WithVoxelTurret:
+	WithRangeCircle:
+		Range: 12c0
+		Type: patriot
+	AutoTarget:
+	Power:
+		Amount: -50
+
+naflak:
+	Inherits: ^Defense
+	Buildable:
+		Queue: Support
+		BuildPaletteOrder: 30
+		Prerequisites: ~barracks, ~structures.soviets
+	Valued:
+		Cost: 1000
+	Tooltip:
+		Name: Flak Cannon
+		Description: Automated anti-aircraft defense.
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Health:
+		HP: 900
+	Armor:
+		Type: Steel
+	RevealsShroud:
+		Range: 5c0
+	Selectable:
+		Bounds: 46, 62, 0, -20
+	Turreted:
+		ROT: 10
+		InitialFacing: 224
+		Offset: 450,0,0
+	AttackTurreted:
+	Armament:
+		Weapon: FlakWeapon
+	BodyOrientation:
+		QuantizedFacings: 16
+	RenderVoxels:
+	WithVoxelTurret:
+	WithRangeCircle:
+		Range: 12c0
+		Type: flakcannon
 	AutoTarget:
 	Power:
 		Amount: -50
@@ -1176,6 +1222,9 @@ tesla:
 	RequiresPower:
 	CanPowerDown:
 	DisabledOverlay:
+	WithRangeCircle:
+		Range: 8c0
+		Type: teslacoil
 	Power:
 		Amount: -75
 
@@ -1203,8 +1252,8 @@ gtgcan:
 		Bounds: 46, 62, 0, -20
 	Turreted:
 		ROT: 10
-		InitialFacing: 220
-		Offset: 500,0,0
+		InitialFacing: 224
+		Offset: 400,0,0
 	AttackTurreted:
 		Recoils: true
 	Armament:
@@ -1220,6 +1269,9 @@ gtgcan:
 	WithVoxelBarrel:
 	AutoTarget:
 	WithMuzzleFlash:
+	WithRangeCircle:
+		Range: 15c0
+		Type: grandcannon
 	Power:
 		Amount: -100
 
