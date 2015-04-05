@@ -37,9 +37,6 @@ Reference links:
 * [Soviet units](http://cnc.wikia.com/wiki/Soviet_Units_and_Structures_Summary#Great_World_War_III_.28Red_Alert_2.29)
 * [Icons](http://xhp.xwis.net/ra2_icons/)
 
-##OpenRA stuff to watch/review:
-* [Unit audio](https://github.com/OpenRA/OpenRA/pull/7573)
-
 ##Development Notes:
 * `mk` anims are in isotemp.mix (or isosno.. etc)
 * `gg`/`ng` anims are in generic.mix
