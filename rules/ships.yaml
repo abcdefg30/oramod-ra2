@@ -1,0 +1,49 @@
+sub:
+	Inherits: ^Ship
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 30
+		Prerequisites: ~nayard
+	Valued:
+		Cost: 1000
+	Tooltip:
+		Name: Typhoon Attack Sub
+		Description: Submerged anti-ship unit armed with\ntorpedoes.\nCan detect other submarines and Giant Squids.\n  Strong vs Ships\n  Weak vs Everything\n  Special Ability: Submerge
+	Health:
+		HP: 600
+	Armor:
+		Type: Heavy
+	Mobile:
+		ROT: 4
+		Speed: 71
+	RevealsShroud:
+		Range: 6c0
+	-TargetableUnit:
+	TargetableSubmarine:
+		TargetTypes: Ground, Water, Repair
+		CloakedTargetTypes: Underwater, Repair
+	Cloak:
+		CloakTypes: Underwater
+		InitialDelay: 50
+		CloakDelay: 75
+		CloakSound: vnavupa.wav
+		UncloakSound: vnavupa.wav
+	Armament:
+		Weapon: SubTorpedo
+		LocalOffset: 0,-171,0, 0,171,0
+		FireDelay: 2
+	AttackFrontal:
+	Chronoshiftable:
+	RepairableNear:
+	AutoTarget:
+		InitialStance: ReturnFire
+	DetectCloaked:
+		CloakTypes: Underwater
+		Range: 4
+	RenderDetectionCircle:
+	Explodes:
+		Weapon: UnitExplode
+		EmptyWeapon: UnitExplode
+	-MustBeDestroyed:
+	WithVoxelBody:
+	RenderSprites:

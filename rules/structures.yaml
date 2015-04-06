@@ -772,6 +772,58 @@ naweap:
 		Sequence: idle-ramp
 	Power:
 		Amount: -25
+nayard:
+	Inherits: ^Building
+	Valued:
+		Cost: 1000
+	Tooltip:
+		Name: Naval Yard
+		Description: Produces and repairs ships,\nsubmarines and transports.
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 50
+		Prerequisites: anypower, ~structures.soviets #needs any refinery too
+	TargetableBuilding:
+		TargetTypes: Ground, Water, C4
+	Building:
+		Footprint: xxxx xxxx xxxx xxxx
+		Dimensions: 4,4
+		Adjacent: 12
+		TerrainTypes: Water
+	-GivesBuildableArea:
+	Health:
+		HP: 1500
+	Armor:
+		Type: Concrete
+	RevealsShroud:
+		Range: 10c0
+	Exit@1:
+		SpawnOffset: 0,-113,0
+		Facing: 96
+		ExitCell: 5,4
+	Exit@2:
+		SpawnOffset: 0,-113,0
+		Facing: 160
+		ExitCell: 4,5
+	Production:
+		Produces: Ship
+	PrimaryBuilding:
+	RallyPoint:
+	RepairsUnits: # TODO: First play the animation first frames loop and then increase HP, play last when done
+		FinishRepairingNotification: UnitRepaired
+	ProductionBar:
+	Power:
+		Amount: -20
+	WithIdleOverlay@crane:
+		Sequence: idle-crane
+	WithIdleOverlay@waves:
+		Sequence: idle-waves
+	WithRepairOverlay:
+		Sequence: repair
+	WithProductionOverlay@LIGHTS:
+		Sequence: production-lights
+	-EmitInfantryOnSell@allies:
+	-EmitInfantryOnSell@soviets:
 
 nadept:
 	Inherits: ^Building

@@ -60,6 +60,7 @@ Rules:
 	./mods/ra2/rules/vehicles.yaml
 	./mods/ra2/rules/civilian.yaml
 	./mods/ra2/rules/trees.yaml
+	./mods/ra2/rules/ships.yaml
 
 Sequences:
 	./mods/ra2/sequences/aircraft.yaml

@@ -380,6 +380,72 @@
 		LightAmbientColor: -0.5,-0.5,-0.5
 		LightDiffuseColor: 1.4,1.4,1.4
 
+^Ship:
+	AppearsOnRadar:
+	Mobile:
+		Crushes: crate
+		TerrainSpeeds:
+			Water: 100
+		ROT: 5
+	SelectionDecorations:
+		Palette: pips
+	Selectable:
+		Bounds: 32,32
+		Voice: SovietNavalVoice
+	TargetableUnit:
+		TargetTypes: Ground, Water, Repair
+	Repairable:
+		RepairBuildings: gayard,nayard
+	AttackMove:
+	HiddenUnderFog:
+	GainsExperience:
+		ChevronPalette: ra
+		Upgrades:
+			500: firepower, damage, speed, reload
+			1000: firepower, damage, speed, reload, selfheal, eliteweapon
+	GainsStatUpgrades:
+		FirepowerModifier: 110, 130
+		DamageModifier: 83, 66
+		SpeedModifier: 120, 150
+		ReloadModifier: 90, 75
+	SelfHealing@ELITE:
+		Step: 2
+		Ticks: 100
+		HealIfBelow: 1
+		DamageCooldown: 125
+		UpgradeTypes: selfheal
+		UpgradeMinEnabledLevel: 1
+	GivesExperience:
+	DrawLineToTarget:
+	ActorLostNotification:
+		Notification: NavalUnitLost
+	ProximityCaptor:
+		Types: Ship
+	GivesBounty:
+	UpdatesPlayerStatistics:
+	CombatDebugOverlay:
+	Guard:
+	Guardable:
+	BodyOrientation:
+		QuantizedFacings: 32
+		CameraPitch: 90
+	Tooltip:
+		GenericName: Ship
+	Huntable:
+	ScriptTriggers:
+	Explodes:
+		Weapon: UnitExplodeSmall
+		EmptyWeapon: UnitExplodeSmall
+	RenderVoxels:
+		Scale: 11.7
+		LightYaw: 800
+		LightPitch: 150
+		LightAmbientColor: -0.5,-0.5,-0.5
+		LightDiffuseColor: 1.4,1.4,1.4
+	UpgradeManager:
+	MustBeDestroyed:
+		RequiredForShortGame: true
+
 ^OreDrill:
 	Tooltip:
 		Name: Ore Drill

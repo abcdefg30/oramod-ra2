@@ -633,6 +633,59 @@ naweap:
 		Offset: 0,0
 		UseTilesetCode: false
 
+nayard:
+	Defaults:
+		Offset: 0, -45
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: ngyard
+		ShadowStart: 4
+	damaged-idle: ngyard
+		Start: 2
+		ShadowStart: 5
+	idle-crane: ngyard_a
+		Start: 0
+		Length: 15
+		ShadowStart: 30
+	damaged-idle-crane: ngyard_a
+		Start: 15
+		Length: 15
+		ShadowStart: 45
+	idle-waves: ngyard_c
+		Start: 0
+		Length: 15
+		ShadowStart: 30
+	damaged-idle-waves: ngyard_c
+		Start: 30
+		Length: 15
+		ShadowStart: 30
+	production-lights: ngyard_b
+		Length: 15
+		ZOffset: 256
+	damaged-production-lights: ngyard_b
+		Start: 15
+		Length: 15
+		ZOffset: 256
+	make: ntyardmk
+		Start: 0
+		Length: 25
+		ShadowStart: 25
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
+	repair: ngyard_s
+		Length: 18
+		ShadowStart: 36
+	damaged-repair: ngyard_s
+		Start: 18
+		Length: 18
+		ShadowStart: 54
+	icon: yardicon
+		Offset: 0,0
+		UseTilesetCode: false
+
 nadept:
 	Defaults:
 		Offset: -15, -53
