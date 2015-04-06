@@ -970,3 +970,48 @@ FlakWeapon:
 			Concrete: 0
 	Warhead@2Eff: CreateEffect
 		Explosion: flak_puff_AA
+
+SubTorpedo:
+	ReloadDelay: 75
+	Range: 7c0
+	Report: vsubatta.wav
+	ValidTargets: Water, Underwater, Bridge
+	Burst: 1
+	BurstDelay: 20
+	Projectile: Missile
+		Image: missile # Needs voxel projectile SUBT
+		Speed: 102
+#		Trail: bubbles # Need to find right anim if there is any and its not a ddraw effect
+		RateOfTurn: 12
+		RangeLimit: 160
+		BoundToTerrainType: Water
+		Palette: shadow
+	Warhead@1Dam: SpreadDamage
+		Spread: 426
+		Damage: 100
+		DeathType: 4
+		ValidTargets: Water, Underwater, Bridge
+		Versus:
+			None: 25
+			Flak: 25
+			Plate: 25
+			Light: 75
+			Medium: 100
+			Heavy: 100
+			Wood: 65
+			Steel: 65
+			Concrete: 60
+	Warhead@2Smu: LeaveSmudge
+		SmudgeType: Crater
+	Warhead@3Eff: CreateEffect
+		Explosion: large_explosion
+		ImpactSound: kaboom15.aud
+		InvalidImpactTypes: Water, WaterHit
+	Warhead@4EffWaterHit: CreateEffect
+		Explosion: artillery_explosion
+		ImpactSound: kaboom15.aud
+		ValidImpactTypes: WaterHit
+	Warhead@5EffWater: CreateEffect
+		Explosion: large_splash
+		ImpactSound: splash9.aud
+		ValidImpactTypes: Water

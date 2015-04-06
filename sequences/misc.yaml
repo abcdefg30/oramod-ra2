@@ -179,9 +179,9 @@ crystal4:
 120mm:
 	idle:
 
-torpedo:
+missile:
 	idle:
-		Length: *
+		Facings: 32
 
 largesmoke:
 	idle: lgrysmk1
