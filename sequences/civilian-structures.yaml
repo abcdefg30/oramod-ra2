@@ -1,3 +1,48 @@
+cafncb:
+	Defaults:
+		Offset: 0, -12
+		UseTilesetCode: true
+	idle: ctfncb
+		Length: 16
+		ShadowStart: 32
+	damaged-idle: ctfncb
+		Start: 16
+		Length: 16
+		ShadowStart: 48
+	icon: wallicon
+		Offset: 0,0
+		UseTilesetCode: false
+
+cafncw:
+	Defaults:
+		Offset: 0, -12
+		UseTilesetCode: true
+	idle: ctfncw
+		Length: 16
+		ShadowStart: 32
+	damaged-idle: ctfncw
+		Start: 16
+		Length: 16
+		ShadowStart: 48
+	icon: wallicon
+		Offset: 0,0
+		UseTilesetCode: false
+
+gasand:
+	Defaults:
+		Offset: 0, -12
+		UseTilesetCode: true
+	idle: gtsand
+		Length: 16
+		ShadowStart: 32
+	damaged-idle: gtsand
+		Start: 16
+		Length: 16
+		ShadowStart: 48
+	icon: wallicon
+		Offset: 0,0
+		UseTilesetCode: false
+
 cawash01:
 	idle: cgwash01
 		Start: 0
@@ -127,26 +172,6 @@ caarmy01:
 		Start: 1
 		ShadowStart: 5
 		Offset: -15, -38
-
-caoild:
-	idle: cuoild
-		Start: 0
-		ShadowStart: 4
-		Offset: 0, -30
-	damaged-idle: cuoild
-		Start: 1
-		ShadowStart: 5
-		Offset: 0, -30
-	idle-pump: cuoild_a
-		Start: 0
-		Length: 32
-		ShadowStart: 64
-		Offset: 0, -30
-	damaged-idle-pump: cuoild_a
-		Start: 32
-		Length: 32
-		ShadowStart: 96
-		Offset: 0, -30
 
 cawa2a:
 	idle: cuwa2a

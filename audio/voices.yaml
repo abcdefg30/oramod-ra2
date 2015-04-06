@@ -377,3 +377,13 @@ CivilianTexanVoice:
 		Die: ictedia, ictedib, ictedic
 		Zapped: igenzapa
 		Burned: ienadia #gotta put something as temp else game crashes
+
+CowVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: gcowsela, gcowselb, gcowselc
+		Move: gcowmova, gcowmovb
+		Feedback: gcowsela, gcowselb, gcowselc
+		Die: gcowdiea
+		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes

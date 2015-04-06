@@ -170,6 +170,8 @@
 		TargetTypes: Ground, Infantry, DetonateAttack
 	RenderSprites:
 	WithInfantryBody:
+		IdleSequences: idle1,idle2
+		StandSequences: stand
 	WithDeathAnimation:
 	AutoTarget:
 	AttackMove:
@@ -229,29 +231,24 @@
 	Inherits: ^Infantry
 	Selectable:
 		Voice: Civilian
-		Bounds: 12,17,0,-9
+		Bounds: 100,170,0,0
 	Valued:
 		Cost: 10
 	Tooltip:
 		Name: Civilian
-	Buildable:
-		Queue: Infantry
-		BuildPaletteOrder: 1000
-		Owner: allies, soviets
 	Health:
 		HP: 50
 	Mobile:
 		Speed: 71
 	RevealsShroud:
 		Range: 2c0
-	Armament:
-		Weapon: Pistola
 	AttackFrontal:
 	ProximityCaptor:
 		Types: CivilianInfantry
 	ScaredyCat:
 	MustBeDestroyed:
 		RequiredForShortGame: true
+	-TakeCover:
 
 ^Vehicle:
 	AppearsOnRadar:
