@@ -1,9 +1,53 @@
+sapc:
+	Inherits: ^Ship
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 10
+		Prerequisites: nayard
+	Valued:
+		Cost: 900
+	Tooltip:
+		Name: Amphibious Transport
+		Description: General-purpose naval transport.\nCan carry infantry and vehicles.\n  Unarmed
+	Selectable:
+		Bounds: 60, 80, 0, -6
+	Health:
+		HP: 300
+	Armor:
+		Type: Heavy
+	Mobile:
+		ROT: 10
+		Speed: 75
+		TerrainSpeeds:
+			Clear: 80
+			Rough: 80
+			Rail: 50
+			Road: 100
+			DirtRoad: 100
+			Beach: 60
+			Tiberium: 50 #Used Track value from the inis
+			BlueTiberium: 50
+			Water: 100
+	RevealsShroud:
+		Range: 6c0
+	Cargo:
+		Types: Infantry, Vehicle
+		MaxWeight: 9
+		PipCount: 12
+		PassengerFacing: 96
+		UnloadTerrainTypes: Clear, Rough, Rail, Road, DirtRoad, Beach, Tiberium, BlueTiberium
+	Explodes:
+		Weapon: UnitExplode
+		EmptyWeapon: UnitExplode
+	WithVoxelBody:
+	RenderSprites:
+
 sub:
 	Inherits: ^Ship
 	Buildable:
 		Queue: Ship
 		BuildPaletteOrder: 30
-		Prerequisites: ~nayard
+		Prerequisites: nayard
 	Valued:
 		Cost: 1000
 	Tooltip:

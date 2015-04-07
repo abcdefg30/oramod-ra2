@@ -337,8 +337,6 @@
 		RepairBuildings:
 		RearmBuildings:
 		LandWhenIdle: false
-	Buildable:
-		Queue: Aircraft
 	HiddenUnderFog:
 	AttackMove:
 	GainsExperience:
@@ -392,7 +390,7 @@
 	TargetableUnit:
 		TargetTypes: Ground, Water, Repair
 	Repairable:
-		RepairBuildings: gayard,nayard
+		RepairBuildings: gayard, nayard
 	AttackMove:
 	HiddenUnderFog:
 	GainsExperience:

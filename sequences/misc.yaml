@@ -39,18 +39,19 @@ beacon:
 		Length: 12
 		BlendMode: Additive
 
-crate-effects:
-	Defaults:
+crate-effects: #Temp Null Some SHPs cannot be read by openra at this time, expect more
+	Defaults: null
 		Length: *
-	dollar:
-	reveal-map: reveal
-	hide-map: shroudx
-	fpower: firepowr
-	armor: armor
-	stealth: cloak
-	heal:
-	nuke: mltimisl
-	levelup: veteran
+	dollar: #money
+	reveal-map: #reveal
+	hide-map: #shroudx
+	fpower: #firepowr
+	armor: #armor
+	stealth: # RA2 Doesn't have it
+	heal: #healall
+	nuke: #mltimisl
+	levelup: #veteran
+	speed: #speed
 
 rank:
 	rank: pips
