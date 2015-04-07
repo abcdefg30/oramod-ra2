@@ -971,6 +971,41 @@ FlakWeapon:
 	Warhead@2Eff: CreateEffect
 		Explosion: flak_puff_AA
 
+sabot:
+	ValidTargets: Ground, Water
+	Range: 5c0
+	ReloadDelay: 25
+	Report: vtadatta.wav, vtadattb.wav, vtadattc.wav
+	Projectile: Bullet
+		Speed: 100c0
+		Image: 120mm
+		Shadow: true
+		Angle: 30
+	Warhead@1Dam: SpreadDamage
+		Spread: 190
+		Damage: 150
+		DeathType: 1
+		Versus:
+			None: 2
+			Flak: 2
+			Plate: 2
+			Light: 100
+			Medium: 40
+			Heavy: 100
+			Wood: 2
+			Steel: 2
+			Concrete: 2
+	Warhead@2Eff: CreateEffect
+		Explosion: medium_clsn
+		ImpactSound: gexp14a.wav
+		InvalidImpactTypes: Water
+	Warhead@3EffWater: CreateEffect
+		Explosion: small_watersplash
+		ImpactSound: gexpwasa.wav
+		ValidImpactTypes: Water
+	Warhead@4Smu: LeaveSmudge
+		SmudgeType: SmallCrater, SmallScorch
+
 SubTorpedo:
 	ReloadDelay: 75
 	Range: 7c0

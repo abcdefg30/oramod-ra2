@@ -3,7 +3,7 @@ smcv:
 	Buildable:
 		Queue: Vehicle
 		BuildPaletteOrder: 110
-		Prerequisites: ~vehicles.soviets
+		Prerequisites: ~naweap
 	Valued:
 		Cost: 3000
 	Tooltip:
@@ -41,7 +41,7 @@ harv:
 	Buildable:
 		Queue: Vehicle
 		BuildPaletteOrder: 10
-		Prerequisites: ~vehicles.soviets
+		Prerequisites: ~naweap
 		InitialActivity: FindResources
 	Valued:
 		Cost: 1400
