@@ -53,22 +53,34 @@ Rules:
 	./mods/ra2/rules/ai.yaml
 	./mods/ra2/rules/player.yaml
 	./mods/ra2/rules/world.yaml
-	./mods/ra2/rules/aircraft.yaml
 	./mods/ra2/rules/defaults.yaml
-	./mods/ra2/rules/infantry.yaml
-	./mods/ra2/rules/structures.yaml
-	./mods/ra2/rules/vehicles.yaml
-	./mods/ra2/rules/civilian.yaml
+	./mods/ra2/rules/allied-infantry.yaml
+	./mods/ra2/rules/soviet-infantry.yaml
+	./mods/ra2/rules/civilian-infantry.yaml
+	./mods/ra2/rules/allied-structures.yaml
+	./mods/ra2/rules/soviet-structures.yaml
+	./mods/ra2/rules/civilian-structures.yaml
+	./mods/ra2/rules/tech-structures.yaml
+	./mods/ra2/rules/allied-vehicles.yaml
+	./mods/ra2/rules/soviet-vehicles.yaml
+	./mods/ra2/rules/civilian-vehicles.yaml
+	./mods/ra2/rules/allied-naval.yaml
+	./mods/ra2/rules/soviet-naval.yaml
+	./mods/ra2/rules/aircraft.yaml
+	./mods/ra2/rules/civilian-props.yaml
 	./mods/ra2/rules/trees.yaml
-	./mods/ra2/rules/ships.yaml
 
 Sequences:
 	./mods/ra2/sequences/aircraft.yaml
-	./mods/ra2/sequences/infantry.yaml
+	./mods/ra2/sequences/allied-infantry.yaml
+	./mods/ra2/sequences/soviet-infantry.yaml
+	./mods/ra2/sequences/civilian-infantry.yaml
 	./mods/ra2/sequences/misc.yaml
-	./mods/ra2/sequences/structures.yaml
+	./mods/ra2/sequences/allied-structures.yaml
+	./mods/ra2/sequences/soviet-structures.yaml
+	./mods/ra2/sequences/civilian-structures.yaml
+	./mods/ra2/sequences/tech-structures.yaml
 	./mods/ra2/sequences/vehicles.yaml
-	./mods/ra2/sequences/civilian.yaml
 	./mods/ra2/sequences/trees.yaml
 
 VoxelSequences:
@@ -129,10 +141,10 @@ Weapons:
 	./mods/ra2/weapons.yaml
 
 Voices:
-	./mods/ra2/voices.yaml
+	./mods/ra2/audio/voices.yaml
 
 Notifications:
-	./mods/ra2/notifications.yaml
+	./mods/ra2/audio/notifications.yaml
 
 TileSets:
 	./mods/ra2/tilesets/temperat.yaml
@@ -146,7 +158,7 @@ SubCells:
 	DefaultIndex: 2
 
 Music:
-	./mods/ra2/music.yaml
+	./mods/ra2/audio/music.yaml
 
 Translations:
 	./mods/ra2/languages/english.yaml

@@ -1,3 +1,48 @@
+cafncb:
+	Inherits: ^Wall
+	Valued:
+		Cost: 25
+	Tooltip:
+		Name: Black Fence
+		Description: Fence.\nCrushable by vehicles.
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Health:
+		HP: 100
+	Armor:
+		Type: Wood
+
+cafncw:
+	Inherits: ^Wall
+	Valued:
+		Cost: 25
+	Tooltip:
+		Name: White Fence
+		Description: Fence.\nCrushable by vehicles.
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Health:
+		HP: 100
+	Armor:
+		Type: Wood
+
+gasand:
+	Inherits: ^Wall
+	Valued:
+		Cost: 25
+	Tooltip:
+		Name: Sandbags
+		Description: Fence.\nCrushable by vehicles.
+	Building:
+		Footprint: x
+		Dimensions: 1, 1
+	Health:
+		HP: 100
+	Armor:
+		Type: Wood
+
 cawash01:
 	Inherits: ^CivBuilding
 	Selectable:
@@ -200,31 +245,6 @@ caarmy01:
 	RevealsShroud:
 		Range: 6c0
 
-caoild:
-	Inherits: ^TechBuilding
-	Selectable:
-		#Bounds: TODO
-	Building:
-		Footprint: xx xx
-		Dimensions: 2, 2
-	ExternalCapturable:
-	ExternalCapturableBar:
-	EngineerRepairable:
-	CashTrickler:
-		Period: 100
-		Amount: 20
-		CaptureAmount: 1000
-	Tooltip:
-		Name: Tech Oil Derrick
-	Health:
-		HP: 1000
-	RevealsShroud:
-		Range: 4c0
-	Armor:
-		Type: Steel
-	WithIdleOverlay@pump:
-		Sequence: idle-pump
-
 # Pentagon A
 cawa2a:
 	Inherits: ^CivBuilding
@@ -338,117 +358,3 @@ causfgl:
 		Type: Steel
 	RevealsShroud:
 		Range: 6c0
-
-#Anything civilian that is not a building
-camisc01:
-	Inherits: ^CivBuilding
-	Selectable:
-		#Bounds: TODO
-	Building:
-		Footprint: x
-		Dimensions: 1, 1
-	Tooltip:
-		Name: Barrels
-	Health:
-		HP: 5
-	Armor:
-		Type: Concrete
-
-camisc02:
-	Inherits: ^CivBuilding
-	Selectable:
-		#Bounds: TODO
-	Building:
-		Footprint: x
-		Dimensions: 1, 1
-	Tooltip:
-		Name: Barrel
-	Health:
-		HP: 5
-	Armor:
-		Type: Concrete
-
-camisc03:
-	Inherits: ^CivBuilding
-	Building:
-		Footprint: x
-		Dimensions: 1, 1
-	Tooltip:
-		Name: Harvard's Office
-	Health:
-		HP: 100
-	Armor:
-		Type: Concrete
-
-camisc04:
-	Inherits: ^CivBuilding
-	Building:
-		Footprint: x
-		Dimensions: 1, 1
-	Tooltip:
-		Name: Mail Box
-	Health:
-		HP: 10
-	Armor:
-		Type: Concrete
-
-# casin01s: #MISSING FROM RA2 FILES
-	# Inherits: ^CivBuilding
-	# Building:
-		# Footprint: x
-		# Dimensions: 1, 1
-	# Tooltip:
-		# Name: Stop!
-	# Health:
-		# HP: 5
-	# Armor:
-		# Type: Concrete
-
-# casin01n: #MISSING FROM RA2 FILES
-	# Inherits: ^CivBuilding
-	# Building:
-		# Footprint: x
-		# Dimensions: 1, 1
-	# Tooltip:
-		# Name: Stop!
-	# Health:
-		# HP: 5
-	# Armor:
-		# Type: Concrete
-
-calit01e:
-	Inherits: ^CivBuilding
-	Building:
-		Footprint: x
-		Dimensions: 1, 1
-	Tooltip:
-		Name: Light
-	Health:
-		HP: 50
-	Armor:
-		Type: Steel
-
-calit01w:
-	Inherits: ^CivBuilding
-	Building:
-		Footprint: x
-		Dimensions: 1, 1
-	Tooltip:
-		Name: Light
-	Health:
-		HP: 50
-	Armor:
-		Type: Steel
-
-capol01w:
-	Inherits: ^CivBuilding
-	Building:
-		Footprint: x
-		Dimensions: 1, 1
-	Tooltip:
-		Name: Telephone Pole
-	Health:
-		HP: 20
-	Armor:
-		Type: Concrete
-
