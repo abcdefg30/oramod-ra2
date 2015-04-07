@@ -179,6 +179,10 @@ crystal4:
 120mm:
 	idle:
 
+bbblelrg:
+	idle:
+		Length: *
+
 missile:
 	idle:
 		Facings: 32

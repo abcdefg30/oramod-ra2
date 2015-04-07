@@ -981,7 +981,7 @@ SubTorpedo:
 	Projectile: Missile
 		Image: missile # Needs voxel projectile SUBT
 		Speed: 102
-#		Trail: bubbles # Need to find right anim if there is any and its not a ddraw effect
+		Trail: bbblelrg
 		RateOfTurn: 12
 		RangeLimit: 160
 		BoundToTerrainType: Water
@@ -1001,17 +1001,33 @@ SubTorpedo:
 			Wood: 65
 			Steel: 65
 			Concrete: 60
-	Warhead@2Smu: LeaveSmudge
-		SmudgeType: Crater
-	Warhead@3Eff: CreateEffect
-		Explosion: large_explosion
-		ImpactSound: kaboom15.aud
+	Warhead@2EffWater: CreateEffect
+		Explosion: large_watersplash
+		ImpactSound: gexpwasa.wav
+		ValidImpactTypes: Water, WaterHit
+	Warhead@3EffGround: CreateEffect
+		Explosion: medium_clsn
+		ImpactSound: gexpwasb.wav
 		InvalidImpactTypes: Water, WaterHit
-	Warhead@4EffWaterHit: CreateEffect
-		Explosion: artillery_explosion
-		ImpactSound: kaboom15.aud
-		ValidImpactTypes: WaterHit
-	Warhead@5EffWater: CreateEffect
-		Explosion: large_splash
-		ImpactSound: splash9.aud
-		ValidImpactTypes: Water
+
+awp:
+	ValidTargets: Infantry
+	ReloadDelay: 100
+	Range: 14c0
+	Report: isniatta.wav
+	Projectile: Bullet
+		Speed: 6c682
+	Warhead@1Dam: SpreadDamage
+		DeathType: 2
+		Spread: 42
+		Damage: 125
+		Versus:
+			None: 200
+			Flak: 100
+			Plate: 100
+			Light: 0
+			Medium: 0
+			Heavy: 0
+			Wood: 0
+			Steel: 0
+			Concrete: 0
