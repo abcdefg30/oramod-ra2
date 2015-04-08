@@ -311,6 +311,7 @@ CarVoice:
 	DefaultVariant: .wav
 	Voices:
 		Select: gcarsela
+		Move: gcarsela
 		Burned: ienadia #gotta put something as temp else game crashes
 
 ChimpanzeeVoice:
