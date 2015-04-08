@@ -114,6 +114,36 @@ e1:
 		UpgradeMinEnabledLevel: 1
 	WithInfantryBody:
 
+snipe:
+	Inherits: ^Infantry
+	Valued:
+		Cost: 600
+	Tooltip:
+		Name: Sniper
+		Description: Special anti-infantry unit.\n  Strong vs Infantry\n  Weak vs Vehicles
+	Buildable:
+		Queue: Infantry
+		BuildPaletteOrder: 80
+		Prerequisites: ~radar, ~infantry.england
+	Selectable:
+		Voice: SniperVoice
+		Bounds: 20, 30, 0, -11
+	Mobile:
+		Speed: 35
+	Health:
+		HP: 125
+	Passenger:
+		PipType: Red
+	RevealsShroud:
+		Range: 8c0
+	Armor:
+		Type: None
+	AutoTarget:
+		InitialStance: ReturnFire
+	Armament@PRIMARY:
+		Weapon: awp
+	AttackFrontal:
+
 tany:
 	Inherits: ^Infantry
 	Buildable:

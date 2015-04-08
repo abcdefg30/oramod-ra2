@@ -30,7 +30,7 @@ sub:
 		UncloakSound: vnavupa.wav
 	Armament:
 		Weapon: SubTorpedo
-		LocalOffset: 0,-171,0, 0,171,0
+		LocalOffset: 768,0,0
 		FireDelay: 2
 	AttackFrontal:
 	Chronoshiftable:
