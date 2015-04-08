@@ -11,18 +11,6 @@ nacnst:
 		Bounds: 220, 180, 0, -35
 	ProvidesCustomPrerequisite@soviets:
 		Prerequisite: structures.soviets
-	ProvidesCustomPrerequisite@cuba:
-		Prerequisite: structures.cuba
-		Race: cuba
-	ProvidesCustomPrerequisite@libya:
-		Prerequisite: structures.libya
-		Race: libya
-	ProvidesCustomPrerequisite@iraq:
-		Prerequisite: structures.iraq
-		Race: iraq
-	ProvidesCustomPrerequisite@russia:
-		Prerequisite: structures.russia
-		Race: russia
 	Health:
 		HP: 1000
 	Armor:
@@ -63,7 +51,7 @@ napowr:
 		Name: Tesla Reactor
 		Description: Provides power for other structures.
 	ProvidesCustomPrerequisite:
-		Prerequisite: anypower
+		Prerequisite: power
 	Building:
 		Footprint: xxx xxx
 		Dimensions: 3,2
@@ -88,7 +76,7 @@ nahand:
 	Buildable:
 		Queue: Building
 		BuildPaletteOrder: 20
-		Prerequisites: anypower, ~structures.soviets
+		Prerequisites: power, ~structures.soviets
 	Valued:
 		Cost: 500
 	Tooltip:
@@ -96,8 +84,6 @@ nahand:
 		Description: Produces infantry.
 	ProvidesCustomPrerequisite:
 		Prerequisite: barracks
-	ProvidesCustomPrerequisite@soviets:
-		Prerequisite: infantry.soviets
 	ProvidesCustomPrerequisite@cuba:
 		Prerequisite: infantry.cuba
 		Race: cuba
@@ -135,7 +121,7 @@ narefn:
 	Buildable:
 		Queue: Building
 		BuildPaletteOrder: 30
-		Prerequisites: anypower, ~structures.soviets
+		Prerequisites: power, ~structures.soviets
 	Selectable:
 		Bounds: 170, 150, -6, -30
 	Valued:
@@ -143,6 +129,8 @@ narefn:
 	Tooltip:
 		Name: Ore Refinery
 		Description: Processes ore into credits.
+	ProvidesCustomPrerequisite:
+		Prerequisite: refinery
 	Building:
 		Footprint: xxx= xxx= xxx=
 		Dimensions: 4,3
@@ -183,7 +171,7 @@ naradr:
 	Buildable:
 		Queue: Building
 		BuildPaletteOrder: 40
-		Prerequisites: anypower, ~narefn, ~structures.soviets
+		Prerequisites: power, ~narefn, ~structures.soviets
 	Valued:
 		Cost: 1000
 	Tooltip:
@@ -229,8 +217,6 @@ naweap:
 		Description: Produces vehicles.
 	ProvidesCustomPrerequisite:
 		Prerequisite: factory
-	ProvidesCustomPrerequisite@soviets:
-		Prerequisite: vehicles.soviets
 	ProvidesCustomPrerequisite@libya:
 		Prerequisite: vehicles.libya
 		Race: libya
@@ -266,11 +252,11 @@ nayard:
 		Cost: 1000
 	Tooltip:
 		Name: Naval Yard
-		Description: Produces and repairs ships,\nsubmarines and transports.
+		Description: Produces and repairs ships,\nsubmarines,transports, and other naval units.
 	Buildable:
 		Queue: Building
 		BuildPaletteOrder: 50
-		Prerequisites: anypower, ~structures.soviets #needs any refinery too
+		Prerequisites: power, refinery, ~structures.soviets
 	TargetableBuilding:
 		TargetTypes: Ground, Water, C4
 	Building:
@@ -362,7 +348,7 @@ nanrct:
 		Name: Nuclear Reactor
 		Description: Provides power for other structures.
 	ProvidesCustomPrerequisite:
-		Prerequisite: anypower
+		Prerequisite: power
 	Building:
 		Footprint: xxxx xxxx xxxx xxxx
 		Dimensions: 4,4

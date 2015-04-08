@@ -40,18 +40,9 @@ gacnst:
 	ProvidesCustomPrerequisite@america:
 		Prerequisite: structures.america
 		Race: america
-	ProvidesCustomPrerequisite@germany:
-		Prerequisite: structures.germany
-		Race: germany
-	ProvidesCustomPrerequisite@england:
-		Prerequisite: structures.england
-		Race: england
 	ProvidesCustomPrerequisite@france:
 		Prerequisite: structures.france
 		Race: france
-	ProvidesCustomPrerequisite@korea:
-		Prerequisite: structures.korea
-		Race: korea
 	Power:
 		Amount: 0
 
@@ -69,7 +60,7 @@ gapowr:
 		Name: Power Plant
 		Description: Provides power for other structures.
 	ProvidesCustomPrerequisite:
-		Prerequisite: anypower
+		Prerequisite: power
 	Building:
 		Footprint: xx xx
 		Dimensions: 2,2
@@ -92,7 +83,7 @@ gapile:
 	Buildable:
 		Queue: Building
 		BuildPaletteOrder: 20
-		Prerequisites: anypower, ~structures.allies
+		Prerequisites: power, ~structures.allies
 	Selectable:
 		Bounds: 134, 132, 0, -28
 	Valued:
@@ -102,6 +93,9 @@ gapile:
 		Description: Trains infantry.
 	ProvidesCustomPrerequisite:
 		Prerequisite: barracks
+	ProvidesCustomPrerequisite@england:
+		Prerequisite: infantry.england
+		Race: england
 	Building:
 		Footprint: xxx xxx
 		Dimensions: 3,2
@@ -132,7 +126,7 @@ garefn:
 	Buildable:
 		Queue: Building
 		BuildPaletteOrder: 30
-		Prerequisites: anypower, ~structures.allies
+		Prerequisites: power, ~structures.allies
 	Selectable:
 		Bounds: 176, 150, 0, -20
 	Valued:
@@ -140,6 +134,8 @@ garefn:
 	Tooltip:
 		Name: Ore Refinery
 		Description: Processes ore into credits.
+	ProvidesCustomPrerequisite:
+		Prerequisite: refinery
 	Building:
 		Footprint: xxx= xxx= xxx=
 		Dimensions: 4,3
@@ -188,6 +184,11 @@ gaairc:
 		Description: Provides radar\nSupports 4 aircraft.
 	ProvidesCustomPrerequisite:
 		Prerequisite: radar
+	ProvidesCustomPrerequisite@allies:
+		Prerequisite: aircraft.allies
+	ProvidesCustomPrerequisite@korea:
+		Prerequisite: aircraft.korea
+		Race: korea
 	Building:
 		Footprint: xxx xxx
 		Dimensions: 3,2
@@ -262,8 +263,9 @@ gaweap:
 		Description: Produces vehicles.
 	ProvidesCustomPrerequisite:
 		Prerequisite: factory
-	ProvidesCustomPrerequisite@allies:
-		Prerequisite: vehicles.allies
+	ProvidesCustomPrerequisite@germany:
+		Prerequisite: vehicles.germany
+		Race: germany
 	Building:
 		Footprint: xxxxx xxxxx xxxxx
 		Dimensions: 5,3
@@ -655,10 +657,15 @@ gacsph:
 		# TODO: Support rectangle selection, not radius-only: Range: 3x3
 
 
-anypower:
+power:
 	Tooltip:
 		Name: Power Plant
 		Description: Power Plant
+
+refinery:
+	Tooltip:
+		Name: Refinery
+		Description: Refinery
 
 barracks:
 	Tooltip:
