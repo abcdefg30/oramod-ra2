@@ -91,3 +91,36 @@ sub:
 	-MustBeDestroyed:
 	WithVoxelBody:
 	RenderSprites:
+	
+hyd:
+	Inherits: ^Ship
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 20
+		Prerequisites: naradr, nayard
+	Valued:
+		Cost: 900
+	Tooltip:
+		Name: Sea Scorpion
+		Description: Anti-Air/Anti-Infantry naval unit. \n  Strong vs Aircraft, Infantry\n  Weak vs Vehicles, Naval Units
+	Selectable:
+		Bounds: 50, 30, 0, -6
+	Health:
+		HP: 300
+	Armor:
+		Type: Heavy
+	Mobile:
+		ROT: 6
+		Speed: 75
+	RevealsShroud:
+		Range: 8c0
+	AttackFrontal:
+	Armament@primary:
+		Weapon: FlakTrackGun
+	Armament@secondary:
+		Weapon: FlakWeapon
+	Explodes:
+		Weapon: UnitExplode
+		EmptyWeapon: UnitExplode
+	WithVoxelBody:
+	RenderSprites:
