@@ -42,3 +42,43 @@ lcrf:
 		EmptyWeapon: UnitExplode
 	WithVoxelBody:
 	RenderSprites:
+
+dest:
+	Inherits: ^Ship
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 40
+		Prerequisites: gayard
+	Valued:
+		Cost: 1000
+	Tooltip:
+		Name: Destroyer
+		Description: Allied Main Battle Ship armed with cannons and\n an Osprey helicopter.\nCan detect submarines and sea animals.\n  Strong vs Ships\n  Weak vs Everything
+	Health:
+		HP: 600
+	Armor:
+		Type: Heavy
+	Mobile:
+		ROT: 5
+		Speed: 105
+	RevealsShroud:
+		Range: 7c0	
+	Selectable:
+		Bounds: 80, 80, 0, -6
+		Voice: AlliedNavalVoice
+	Armament:
+		Weapon: 155mm
+		LocalOffset: 768,0,0 # Not true, copy-pasted from SUB.
+		FireDelay: 2
+	AttackFrontal:
+	Chronoshiftable:
+	RepairableNear:
+	DetectCloaked:
+		CloakTypes: Underwater
+		Range: 4
+	RenderDetectionCircle:
+	Explodes:
+		Weapon: UnitExplode
+		EmptyWeapon: UnitExplode
+	WithVoxelBody:
+	RenderSprites:
