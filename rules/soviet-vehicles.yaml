@@ -93,6 +93,50 @@ harv:
 	WithVoxelTurret:
 	WithVoxelUnloadBody:
 
+htk:
+	Inherits: ^Vehicle
+	Valued:
+		Cost: 500
+	Tooltip:
+		Name: Flak Track
+		Description: Infantry Transport and Anti-Air/Anti-Infantry vehicle. \n  Strong vs Aircraft, Infantry\n  Weak vs Vehicles
+	Selectable:
+		Bounds: 50, 40, 0, -6
+		Voice: SovietVehicleVoice
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 20
+ 		Prerequisites: naweap
+	Mobile:
+		Speed: 75
+		ROT: 15
+		Crushes: crate, infantry
+	Health:
+		HP: 180
+	Armor:
+		Type: Heavy
+	RevealsShroud:
+		Range: 8c0
+	Cargo:
+		Types: Infantry
+		MaxWeight: 5
+		PipCount: 5
+		PassengerFacing: 0
+		UnloadTerrainTypes: Clear, Rough, Rail, Road, DirtRoad, Beach, Tiberium, BlueTiberium
+	AttackTurreted:
+	AutoTarget:
+	Armament@primary:
+		Weapon: FlakTrackGun
+	Armament@secondary:
+		Weapon: FlakTrackAAGun
+	Turreted:
+		ROT: 15
+		Offset: -280,-3,0
+	RenderSprites:
+	RenderVoxels:
+	WithVoxelTurret:
+	WithVoxelBody:
+
 htnk:
 	Inherits: ^Vehicle
 	Valued:

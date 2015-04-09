@@ -945,7 +945,57 @@ FlakGuyAAGunE:
 			Concrete: 0
 	Warhead@2Eff: CreateEffect
 		Explosion: flak_puff_AA
-		
+
+FlakTrackGun:
+	ValidTargets: Ground, Water
+	ReloadDelay: 25
+	Range: 5c0
+	Report: vflaat1a.wav, vflaat1b.wav
+	Projectile: Bullet
+		Speed: 50c0
+	Warhead@1Dam: SpreadDamage
+		Spread: 64
+		Damage: 25
+		DeathType: 1
+		ProneModifier: 100
+		Versus:
+			None: 150
+			Flak: 100
+			Plate: 50
+			Light: 60
+			Medium: 10
+			Heavy: 10
+			Wood: 30
+			Steel: 20
+			Concrete: 10
+	Warhead@2Eff: CreateEffect
+		Explosion: flak_puff
+
+FlakTrackAAGun:
+	ValidTargets: Air
+	ReloadDelay: 25
+	Range: 10c0
+	Report: vflaat2a.wav, vflaat2b.wav, vflaat2c.wav, vflaat2d.wav
+	Projectile: Bullet
+		Speed: 100c0
+	Warhead@1Dam: SpreadDamage
+		Spread: 120
+		Damage: 35
+		DeathType: 1
+		ValidTargets: Air
+		Versus:
+			None: 150
+			Flak: 80
+			Plate: 50
+			Light: 100
+			Medium: 20
+			Heavy: 20
+			Wood: 0
+			Steel: 0
+			Concrete: 0
+	Warhead@2Eff: CreateEffect
+		Explosion: flak_puff_AA
+
 FlakWeapon:
 	ReloadDelay: 20
 	Range: 12c0
