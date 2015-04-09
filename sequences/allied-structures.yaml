@@ -216,6 +216,52 @@ gaweap:
 		Offset: 0,0
 		UseTilesetCode: false
 
+gayard:
+	Defaults:
+		Offset: 0, -45
+		UseTilesetCode: true
+		TilesetOverrides:
+			TEMPERAT: GENERIC
+			URBAN: GENERIC
+	idle: ggyard
+		ShadowStart: 4
+	damaged-idle: ggyard
+		Start: 2
+		ShadowStart: 5
+	idle-crane: ggyard_a
+		Start: 0
+		Length: 15
+		ShadowStart: 30
+	damaged-idle-crane: ggyard_a
+		Start: 15
+		Length: 15
+		ShadowStart: 45
+	idle-waves: ggyard_c
+		Start: 0
+		Length: 15
+		ShadowStart: 30
+	damaged-idle-waves: ggyard_c
+		Start: 30
+		Length: 15
+		ShadowStart: 30
+	make: gtyardmk
+		Start: 0
+		Length: 25
+		ShadowStart: 25
+		TilesetOverrides:
+			TEMPERAT: TEMPERAT
+			URBAN: URBAN
+	repair: ggyard_s
+		Length: 18
+		ShadowStart: 36
+	damaged-repair: ggyard_s
+		Start: 18
+		Length: 18
+		ShadowStart: 54
+	icon: ayaricon
+		Offset: 0,0
+		UseTilesetCode: false
+
 gadept:
 	Defaults:
 		Offset: 7, -40
