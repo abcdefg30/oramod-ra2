@@ -1150,3 +1150,43 @@ awp:
 		ValidImpactTypes: Water
 	Warhead@4Smu: LeaveSmudge
 		SmudgeType: SmallCrater, SmallScorch
+
+Medusa:
+	ReloadDelay: 100
+	Damage: 100
+	Range: 12c0
+	Report: vaegatta.wav, vaegattb.wav
+	ValidTargets: Air
+	Burst: 3
+	BurstDelay: 13
+	Projectile: Missile
+		Blockable: false
+		Shadow: true
+		Image: DRAGON
+		ContrailLength: 35
+		RateOfTurn: 55
+		Speed: 100
+		LockOnProbability: 85
+	Warhead@1Dam: SpreadDamage
+		Spread: 60
+		Damage: 100
+		DeathType: 1
+		ValidTargets: Air
+		Versus:
+			None: 100
+			Flak: 100
+			Plate: 100
+			Light: 100
+			Medium: 100
+			Heavy: 100
+			Wood: 0
+			Steel: 0
+			Concrete: 0
+	Warhead@2Eff: CreateEffect
+		Explosion: small_bang
+		ImpactSound: gexp10a.wav #TODO Need to find right impact sound
+		InvalidImpactTypes: Water
+	Warhead@3EffWater: CreateEffect
+		Explosion: small_watersplash
+		ImpactSound: gexpwasa.wav
+		ValidImpactTypes: Water

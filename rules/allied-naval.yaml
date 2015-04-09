@@ -82,3 +82,36 @@ dest:
 		EmptyWeapon: UnitExplode
 	WithVoxelBody:
 	RenderSprites:
+
+aegis:
+	Inherits: ^Ship
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 30
+		Prerequisites: ~radar, gayard
+	Valued:
+		Cost: 1200
+	Tooltip:
+		Name: Aegis Cruiser
+		Description: Anti-Air naval unit. \n  Strong vs Aircraft
+	Selectable:
+		Bounds: 60, 80, 0, -6
+		Voice: AlliedNavalVoice
+	Health:
+		HP: 800
+	Armor:
+		Type: Light
+	Mobile:
+		ROT: 5
+		Speed: 45
+	RevealsShroud:
+		Range: 8c0
+	Armament:
+		Weapon: Medusa
+	AttackFrontal:
+	AutoTarget:
+	Explodes:
+		Weapon: UnitExplode
+		EmptyWeapon: UnitExplode
+	WithVoxelBody:
+	RenderSprites:
