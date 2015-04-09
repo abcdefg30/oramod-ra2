@@ -1,9 +1,5 @@
 cow:
 	Inherits: ^Infantry
-	Buildable:
-		Queue: Infantry
-		Prerequisites: ~disabled
-		BuildPaletteOrder: 20
 	Tooltip:
 		Name: Cow
 	Health:
@@ -21,8 +17,3 @@ cow:
 		Voice: CowVoice
 	TargetableUnit:
 		TargetTypes: Ground
-	AttackFrontal:
-	AttackWander:
-		WanderMoveRadius: 3
-		MinMoveDelayInTicks: 50
-		MaxMoveDelayInTicks: 300

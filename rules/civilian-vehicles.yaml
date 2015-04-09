@@ -4,10 +4,6 @@ bus:
 		Cost: 800
 	Tooltip:
 		Name: School Bus
-	Buildable:
-		Queue: Vehicle
-		BuildPaletteOrder: 300
-		Prerequisites: ~disabled
 	Mobile:
 		ROT: 5
 		Speed: 113
@@ -34,10 +30,6 @@ pick:
 		Cost: 800
 	Tooltip:
 		Name: Pickup Truck
-	Buildable:
-		Queue: Vehicle
-		BuildPaletteOrder: 300
-		Prerequisites: ~disabled
 	Mobile:
 		ROT: 5
 		Speed: 113
@@ -60,10 +52,6 @@ car:
 		Cost: 800
 	Tooltip:
 		Name: Automobile
-	Buildable:
-		Queue: Vehicle
-		BuildPaletteOrder: 300
-		Prerequisites: ~disabled
 	Mobile:
 		ROT: 5
 		Speed: 113
