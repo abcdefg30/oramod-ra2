@@ -8,11 +8,13 @@ Directory tree:
 
 Build/Play instructions:
 
-    1) build OpenRA 
+    1) `git clone --recursive https://github.com/Phrohdoh/oramod-ra2.git`
 
-    2) copy the ra2 directory into openra/mods/ (as openra/mods/ra2/)
+    2) build OpenRA (in the `openra` directory)
 
-    3) launch OpenRA and select the ra2 mod
+    3) copy the ra2 directory into openra/mods/ (as openra/mods/ra2/)
+
+    4) launch OpenRA and select the ra2 mod
 
 Reference links:
 * [Allied units](http://cnc.wikia.com/wiki/Allied_Units_and_Structures_Summary#Great_World_War_III_.28Red_Alert_2.29)
