@@ -60,6 +60,16 @@
 	# 	Upgrade: invulnerability
 	UpgradeManager:
 
+^SupportBuilding:
+	Inherits: ^Building
+	AutoTarget:
+		EnableStances: false
+	-Capturable:
+	-CaptureNotification:
+	-MustBeDestroyed:
+	-ShakeOnDeath:
+	-GivesBuildableArea:
+
 ^CivBuilding:
 	Inherits: ^Building
 	-GivesBuildableArea:
@@ -99,9 +109,9 @@
 	Tooltip:
 		Description: Tech Building
 
-#Use this ONLY of has voxel turret
-^Defense:
-	Inherits: ^Building
+# Use this ONLY if the actor has a voxel turret
+^VoxelLighting:
+	Inherits: ^SupportBuilding
 	RenderVoxels:
 		Scale: 11.7
 		LightYaw: 800

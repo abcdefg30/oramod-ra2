@@ -533,7 +533,7 @@ nawall:
 		Type: Concrete
 
 naflak:
-	Inherits: ^Defense
+	Inherits: ^VoxelLighting
 	Buildable:
 		Queue: Support
 		BuildPaletteOrder: 30

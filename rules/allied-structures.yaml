@@ -385,7 +385,7 @@ gatech:
 	Buildable:
 		Queue: Building
 		BuildPaletteOrder: 70
-		Prerequisites: ~gaairc, ~gaweap, ~structures.allies
+		Prerequisites: radar, gaweap, ~structures.allies
 	Selectable:
 		Bounds: 122, 216, 0, -75
 	Valued:
@@ -463,7 +463,7 @@ gapill:
 		Type: pillbox
 
 nasam:
-	Inherits: ^Defense
+	Inherits: ^VoxelLighting
 	Buildable:
 		Queue: Support
 		BuildPaletteOrder: 30
@@ -504,7 +504,7 @@ nasam:
 		Amount: -50
 
 gtgcan:
-	Inherits: ^Defense
+	Inherits: ^VoxelLighting
 	Buildable:
 		Queue: Support
 		BuildPaletteOrder: 30
