@@ -1,36 +1,18 @@
 ![screenshot](http://i.imgur.com/HxQWvXw.png)
 
-##Roadmap:
+Directory tree:
 
-1) Stay true to vanilla RA2 (for now)
+    ra2/    => the RA2 mod files
 
-2) Implement factions in order
+    openra/ => the OpenRA engine
 
-3) Implement actor types in order for each faction
+Build/Play instructions:
 
-Factions:
-* America
-* Korea
-* France
-* Germany
-* Great Britain
-* Libya
-* Cuba
-* Iraq
-* Russia
+    1) build OpenRA 
 
-Actors:
-* Structures (power plant → tech center)
-* Support structures (walls, defenses, etc)
-* Vehicles
-* Infantry
-* Aircraft
-* Naval
-* Special Units (including infiltration unlocks)
-* Civilian actors
-* Tech structures
+    2) copy the ra2 directory into openra/mods/ (as openra/mods/ra2/)
 
-After all actors are in the game we can focus on support powers / superweapons.
+    3) launch OpenRA and select the ra2 mod
 
 Reference links:
 * [Allied units](http://cnc.wikia.com/wiki/Allied_Units_and_Structures_Summary#Great_World_War_III_.28Red_Alert_2.29)
@@ -67,5 +49,5 @@ Wall, Tiberium, and Weeds are somewhere in this list,
   even though they are overlays and not tiletypes,
   because they affect actor movement speed.
 
-[Tutorial: Converting Westwood maps (TS/RA2) to OpenRA](https://gist.github.com/Phrohdoh/ab2524fe46b05b029d4b).
+[Tutorial: Converting Westwood maps (TS/RA2) to OpenRA](https://gist.github.com/Phrohdoh/ab2524fe46b05b029d4b) (outdated).
 
