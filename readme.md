@@ -6,15 +6,15 @@ Directory tree:
 
     openra/ => the OpenRA engine
 
-Build/Play instructions:
 
-    1) `git clone --recursive https://github.com/Phrohdoh/oramod-ra2.git`
+##Build/Play instructions:
 
-    2) build OpenRA (in the `openra` directory)
+1. `git clone --recursive https://github.com/Phrohdoh/oramod-ra2.git`
+2.  Build OpenRA (in the `openra` directory)
+3.  Copy the ra2 directory into openra/mods/ (as openra/mods/ra2/)
+4.  Launch OpenRA and select the ra2 mod
 
-    3) copy the ra2 directory into openra/mods/ (as openra/mods/ra2/)
-
-    4) launch OpenRA and select the ra2 mod
+Note: `theme.mix`, `language.mix`, and `ra2.mix` files are required in the OpenRA content directory for RA2.
 
 Reference links:
 * [Allied units](http://cnc.wikia.com/wiki/Allied_Units_and_Structures_Summary#Great_World_War_III_.28Red_Alert_2.29)
@@ -52,4 +52,3 @@ Wall, Tiberium, and Weeds are somewhere in this list,
   because they affect actor movement speed.
 
 [Tutorial: Converting Westwood maps (TS/RA2) to OpenRA](https://gist.github.com/Phrohdoh/ab2524fe46b05b029d4b) (outdated).
-
