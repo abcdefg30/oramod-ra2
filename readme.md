@@ -12,9 +12,8 @@ Directory tree:
 1. `git clone --recursive https://github.com/Phrohdoh/oramod-ra2.git`
 2.  Build OpenRA (in the `openra` directory)
 3.  Copy the ra2 directory into openra/mods/ (as openra/mods/ra2/)
-4.  Launch OpenRA and select the ra2 mod
-
-Note: `theme.mix`, `language.mix`, and `ra2.mix` files are required in the OpenRA content directory for RA2.
+4.  Copy all required .mix files into your content directory. See [Content installation](https://github.com/Phrohdoh/oramod-ra2/wiki/Content-installation).
+5.  Launch OpenRA and select the ra2 mod
 
 Reference links:
 * [Allied units](http://cnc.wikia.com/wiki/Allied_Units_and_Structures_Summary#Great_World_War_III_.28Red_Alert_2.29)
