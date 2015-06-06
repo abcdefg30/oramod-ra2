@@ -1854,9 +1854,6 @@ v3cluster:
 
 makeupkit:
 	Damage: 1
-<<<<<<< HEAD
-	Range: -2c0
-=======
 	Range: 2c0
 	MinRange: 0c256 # defaulted
 	# TODO: Rate of fire
@@ -1875,9 +1872,6 @@ makeupkit:
 
 tankmakeupkit:
 	Damage: 1
-<<<<<<< HEAD
-	Range: -2c0
-=======
 	Range: 2c0
 	MinRange: 0c256 # defaulted
 	# TODO: Rate of fire
@@ -2148,9 +2142,6 @@ crmp5:
 
 crmakeupkit:
 	Damage: 1
-<<<<<<< HEAD
-	Range: -2c0
-=======
 	Range: 2c0
 	MinRange: 0c256 # defaulted
 	# TODO: Rate of fire
