@@ -94,6 +94,8 @@ harv:
 	WithVoxelUnloadBody:
 	Voiced:
 		VoiceSet: SovietVehicleVoice
+	ProduceableWithLevel:
+		Prerequisites: vehicles.upgraded
 
 htk:
 	Inherits: ^Vehicle
@@ -139,6 +141,8 @@ htk:
 	WithVoxelBody:
 	Voiced:
 		VoiceSet: SovietVehicleVoice
+	ProduceableWithLevel:
+		Prerequisites: vehicles.upgraded
 
 htnk:
 	Inherits: ^Vehicle
@@ -186,6 +190,8 @@ htnk:
 	WithVoxelBarrel:
 	Voiced:
 		VoiceSet: SovietVehicleVoice
+	ProduceableWithLevel:
+		Prerequisites: vehicles.upgraded
 
 apoc:
 	Inherits: ^Vehicle
@@ -235,6 +241,8 @@ apoc:
 	WithVoxelBarrel:
 	Voiced:
 		VoiceSet: SovietVehicleVoice
+	ProduceableWithLevel:
+		Prerequisites: vehicles.upgraded
 
 dtruck:
 	Inherits: ^Vehicle

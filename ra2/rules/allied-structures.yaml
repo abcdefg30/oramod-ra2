@@ -121,6 +121,10 @@ gapile:
 		Sequence: idle-flag
 	Power:
 		Amount: -10
+	InfiltrateForSupportPower:
+		Proxy: barracks.upgraded
+	TargetableBuilding:
+		TargetTypes: Ground, C4, DetonateAttack, Structure, SpyInfiltrate
 
 garefn:
 	Inherits: ^Building
@@ -296,6 +300,10 @@ gaweap:
 		Sequence: build-ramp
 	Power:
 		Amount: -25
+	InfiltrateForSupportPower:
+		Proxy: vehicles.upgraded
+	TargetableBuilding:
+		TargetTypes: Ground, C4, DetonateAttack, Structure, SpyInfiltrate
 
 gayard:
 	Inherits: ^Building

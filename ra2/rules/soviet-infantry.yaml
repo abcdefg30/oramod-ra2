@@ -32,6 +32,8 @@ e2:
 	WithInfantryBody:
 	Voiced:
 		VoiceSet: ConscriptVoice
+	ProduceableWithLevel:
+		Prerequisites: barracks.upgraded
 
 flakt:
 	Inherits: ^Infantry
@@ -77,6 +79,8 @@ flakt:
 		IdleAnimation:
 	Voiced:
 		VoiceSet: FlakTrooperVoice
+	ProduceableWithLevel:
+		Prerequisites: barracks.upgraded
 
 shk:
 	Inherits: ^Infantry
@@ -117,6 +121,8 @@ shk:
 		Range: 1c256
 	Voiced:
 		VoiceSet: TeslaTrooperVoice
+	ProduceableWithLevel:
+		Prerequisites: barracks.upgraded
 
 terror:
 	Inherits: ^Infantry
@@ -197,6 +203,8 @@ deso:
 	WithInfantryBody:
 	Voiced:
 		VoiceSet: DesolatorVoice
+	ProduceableWithLevel:
+		Prerequisites: barracks.upgraded
 
 ivan:
 	Inherits: ^Infantry

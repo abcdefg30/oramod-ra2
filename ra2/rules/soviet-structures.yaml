@@ -116,6 +116,10 @@ nahand:
 	Power:
 		Amount: -10
 	UpgradeManager:
+	InfiltrateForSupportPower:
+		Proxy: barracks.upgraded
+	TargetableBuilding:
+		TargetTypes: Ground, C4, DetonateAttack, Structure, SpyInfiltrate
 
 narefn:
 	Inherits: ^Building
@@ -251,6 +255,10 @@ naweap:
 	#	Sequence: build-door
 	Power:
 		Amount: -25
+	InfiltrateForSupportPower:
+		Proxy: vehicles.upgraded
+	TargetableBuilding:
+		TargetTypes: Ground, C4, DetonateAttack, Structure, SpyInfiltrate
 
 nayard:
 	Inherits: ^Building

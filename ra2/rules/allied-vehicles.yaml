@@ -122,6 +122,8 @@ mtnk:
 	WithVoxelBarrel:
 	Voiced:
 		VoiceSet: AlliedVehicleVoice
+	ProduceableWithLevel:
+		Prerequisites: vehicles.upgraded
 
 tnkd:
 	Inherits: ^Vehicle
@@ -157,6 +159,8 @@ tnkd:
 	WithVoxelBody:
 	Voiced:
 		VoiceSet: AlliedVehicleVoice
+	ProduceableWithLevel:
+		Prerequisites: vehicles.upgraded
 
 fv:
 	Inherits: ^Vehicle
@@ -205,6 +209,8 @@ fv:
 	WithVoxelTurret:
 	Voiced:
 		VoiceSet: AlliedVehicleVoice
+	ProduceableWithLevel:
+		Prerequisites: vehicles.upgraded
 
 sref:
 	Inherits: ^Vehicle
@@ -253,6 +259,8 @@ sref:
 	WithVoxelBody:
 	Voiced:
 		VoiceSet: AlliedVehicleVoice
+	ProduceableWithLevel:
+		Prerequisites: vehicles.upgraded
 
 mgtk:
 	Inherits: ^Vehicle
@@ -298,6 +306,8 @@ mgtk:
 	WithVoxelBody:
 	Voiced:
 		VoiceSet: AlliedVehicleVoice
+	ProduceableWithLevel:
+		Prerequisites: vehicles.upgraded
 	#Disguised
 	#CrateGoodie=yes
 	#IsTilter=yes

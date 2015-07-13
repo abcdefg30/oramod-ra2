@@ -22,6 +22,14 @@ waypoint:
 		Image: amcv
 		Palette: colorpicker
 
+barracks.upgraded:
+	AlwaysVisible:
+	ProvidesPrerequisite:
+
+vehicles.upgraded:
+	AlwaysVisible:
+	ProvidesPrerequisite:
+
 SROCK01:
 	Inherits: ^Rock
 

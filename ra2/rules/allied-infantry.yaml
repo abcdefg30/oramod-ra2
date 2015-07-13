@@ -68,6 +68,8 @@ dog:
 		Range: 5
 	Voiced:
 		VoiceSet: DogVoice
+	ProduceableWithLevel:
+		Prerequisites: barracks.upgraded
 # ImmuneToRadiation=no
 # ImmuneToPsionics=yes
 # IFVMode=0
@@ -114,6 +116,8 @@ e1:
 	WithInfantryBody:
 	Voiced:
 		VoiceSet: GIVoice
+	ProduceableWithLevel:
+		Prerequisites: barracks.upgraded
 
 snipe:
 	Inherits: ^Infantry
@@ -145,6 +149,8 @@ snipe:
 	AttackFrontal:
 	Voiced:
 		VoiceSet: SniperVoice
+	ProduceableWithLevel:
+		Prerequisites: barracks.upgraded
 
 spy:
 	Inherits: ^Infantry
@@ -223,6 +229,8 @@ tany:
 	AnnounceOnBuild:
 	Voiced:
 		VoiceSet: TanyaVoice
+	ProduceableWithLevel:
+		Prerequisites: barracks.upgraded
 
 jumpjet:
 	Inherits: ^Infantry
@@ -276,4 +284,5 @@ jumpjet:
 	WithShadow:
 	Voiced:
 		VoiceSet: RocketeerVoice
-
+	ProduceableWithLevel:
+		Prerequisites: barracks.upgraded
